@@ -10,38 +10,15 @@ cldmt/
 ├── 📄 CNAME               # 自定义域名配置 (www.cldmt.com)
 ├── 📁 blog/               # 博客文章主目录
 │   ├── 📄 Anlogic.md      # Anlogic专栏主页
-│   ├── 📄 Anlogic.html    # Anlogic专栏主页(HTML)
 │   ├── 📄 Xilinx.md       # Xilinx专栏主页
-│   ├── 📄 Xilinx.html     # Xilinx专栏主页(HTML)
 │   ├── 📁 Anlogic/        # Anlogic技术文章目录
-│   │   ├── 📄 page1.md    # Anlogic文章1 (Markdown)
-│   │   ├── 📄 page1.html  # Anlogic文章1 (HTML)
+│   │   ├── 📄 硬件设计指导.md    # Anlogic文章1 (Markdown)
 │   │   ├── 📄 page2.md    # Anlogic文章2 (Markdown)
-│   │   └── 📄 page2.html  # Anlogic文章2 (HTML)
 │   └── 📁 Xilinx/         # Xilinx技术文章目录
 │       ├── 📄 page3.md    # Xilinx文章1 (Markdown)
-│       └── 📄 page3.html  # Xilinx文章1 (HTML)
 └── 📁 pic/                # 图片资源目录 (如果存在)
 ```
 
-## 🌐 访问路径映射
-
-### 主站点入口
-- `https://www.cldmt.com/` → `index.html`
-- `https://www.cldmt.com/index.md` → 渲染为HTML
-- `https://www.cldmt.com/README.md` → 渲染为HTML
-
-### 技术专栏主页
-- `https://www.cldmt.com/blog/Anlogic` → `blog/Anlogic.html`
-- `https://www.cldmt.com/blog/Anlogic.html` → 直接访问
-- `https://www.cldmt.com/blog/Xilinx` → `blog/Xilinx.html`
-- `https://www.cldmt.com/blog/Xilinx.html` → 直接访问
-
-### 具体文章页面
-- `https://www.cldmt.com/blog/Anlogic/page1` → `blog/Anlogic/page1.html`
-- `https://www.cldmt.com/blog/Anlogic/page1.html` → 直接访问
-- `https://www.cldmt.com/blog/Anlogic/page2` → `blog/Anlogic/page2.html`
-- `https://www.cldmt.com/blog/Xilinx/page3` → `blog/Xilinx/page3.html`
 
 ## 🔗 链接使用规范
 
