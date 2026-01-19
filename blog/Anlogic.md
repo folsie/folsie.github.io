@@ -1,7 +1,10 @@
 ---
-title: " 广告位待租 "
-subtitle:  "2026.01.01"
+title: "Anlogic 技术专栏"
+subtitle: "2026.01.16"
 embed-resources: true
+toc: true
+toc-depth: 6
+toc-location: left
 ---
 
 
@@ -23,10 +26,17 @@ embed-resources: true
 - 设计流程介绍
 - 仿真验证方法
 - 
-### [ 硬件设计指导]
+### [硬件设计指导]
 
+
+- [DR1系列硬件设计指导]
+- [PH1A系列硬件设计指导]
+- [PH1P系列硬件设计指导]
+- [EG4系列硬件设计指导]
 - [EF2系列硬件设计指导](./Anlogic/EF2系列硬件设计指导.html)  
 - [EF3系列硬件设计指导](./Anlogic/EF3系列硬件设计指导.html)
+- [EF4系列硬件设计指导] 
+- [SF1系列硬件设计指导] 
 
 
 ### [⚡ 高级应用]

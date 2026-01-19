@@ -1,7 +1,10 @@
 ---
-title: " 广告位待租 "
-subtitle:  "2026.01.01"
+title: "CLDMT 技术博客"
+subtitle: "2026.01.16"
 embed-resources: true
+toc: true
+toc-depth: 6
+toc-location: left
 ---
 
 
