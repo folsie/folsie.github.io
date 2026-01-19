@@ -1103,7 +1103,6 @@ Imax = D × 0.08 (mA)
 
 [🏠 返回首页](https://www.cldmt.com) | [🔙 返回上级](../Anlogic.md)
 
----
 
 **文档版本:**
 
