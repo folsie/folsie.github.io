@@ -1,8 +1,0 @@
-# _config.yml
-include: ["*.html", "*.md"]
-markdown: kramdown
-kramdown:
-  input: GFM
-  hard_wrap: false
-  auto_ids: true
-  toc_levels: 1..6

@@ -15,10 +15,11 @@ embed-resources: true
 [返回首页](https://www.cldmt.com)
 
 ## 品牌技术专区
-### 🚀 [Anlogic 技术专栏](blog/Anlogic.html)
+
+### 🚀 [Anlogic 技术专栏](./blog/Anlogic.md)
 
 
-### ⚡ [Xilinx 技术专栏](blog/Xilinx.html)
+### ⚡ [Xilinx 技术专栏](./blog/Xilinx.md)
 
 
 
