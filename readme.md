@@ -25,8 +25,8 @@ cldmt/
 ### 1. 站内链接推荐格式
 ```markdown
 <!-- 相对路径链接 -->
-[Anlogic专栏](../blog/Anlogic.html)
-[Xilinx文章](./Xilinx/page3.html)
+[Anlogic专栏](./blog/Anlogic.md)
+[Xilinx文章](./blog/Xilinx.md)
 
 <!-- 绝对路径链接 -->
 [首页](/)
@@ -80,16 +80,19 @@ category: "教程"
 
 正文内容...
 
-[返回专栏](../Anlogic.html)
+[返回专栏](../Anlogic.md)
 ```
 
 ### 导航菜单示例 (在专栏主页):
 ```markdown
+
+
 ## 📖 文章列表
 
-- [文章1](./Anlogic/page1.html)
-- [文章2](./Anlogic/page2.html)
-- [返回首页](../../index.html)
+- [文章1](./blog/Anlogic/EF2系列硬件设计指导.md)
+- [文章2](./blog/Anlogic/EF3系列硬件设计指导.md)
+
+- [返回首页](index.md)
 ```
 
 ## ⚠️ 注意事项
