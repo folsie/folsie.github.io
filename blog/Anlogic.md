@@ -19,13 +19,13 @@ embed-resources: true
 - 常见问题解决
 
 ### [� 基础教程]
-- HDL语言基础
+- HDL语言基础 
 - 设计流程介绍
 - 仿真验证方法
 - 
 ### [ 硬件设计指导]
 
-- [EF2系列硬件设计指导](./Anlogic/EF2系列硬件设计指导.html)
+- [EF2系列硬件设计指导](./Anlogic/EF2系列硬件设计指导.html)  
 - [EF3系列硬件设计指导](./Anlogic/EF3系列硬件设计指导.html)
 
 
