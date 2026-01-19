@@ -113,7 +113,7 @@ EF3系列FPGA硬件设计涉及多个数据手册和设计指南，为了方便�
 
 - 根据不同封装型号,对应的引脚映射文件请查阅:
   - [EF3L15CG256B_PINLIST](../../pdf/EF3/EF3L15CG256B_PINLIST.xlsx)
-  - 
+  
   - [EF3L40CG324B_PINLIST ](../../pdf/EF3/EF3L40CG324_PINLIST.xlsx)
   - [EF3L40CG332B_PINLIST](../../pdf/EF3/EF3L40CG332B_PINLIST.xlsx)
 
@@ -123,10 +123,10 @@ EF3系列FPGA硬件设计涉及多个数据手册和设计指南，为了方便�
   - [EF3L50CG256BH_PINLIST](../../pdf/EF3/EF3L50CG256BH_PINLIST.xlsx)
   - [EF3L50CG256B_PINLIST](../../pdf/EF3/EF3L50CG256B_PINLIST.xlsx)
   - [EF3L70CG256B_PINLIST](../../pdf/EF3/EF3L70CG256B_PINLIST.xlsx)
-- 
+  
   - [EF3L90CG324B_PINLIST](../../pdf/EF3/EF3L90CG324B_PINLIST.xlsx)
   - [EF3L90CG400B_PINLIST](../../pdf/EF3/EF3L90CG400B_PINLIST.xlsx)
-- 
+  
   - [EF3LA0CG484B_PINLIST](../../pdf/EF3/EF3LA0CG484B_PINLIST.xlsx)
   - [EF3LA0CG642B_PINLIST](../../pdf/EF3/EF3LA0CG642B_PINLIST.xlsx)
 
@@ -1445,7 +1445,7 @@ Imax = D × 0.08 (mA)
 
 
 
-## 十.快速导航
+## 十.快速导航 
 
 [🏠 返回首页](https://www.cldmt.com) | [🔙 返回上级](../Anlogic.md)
 
