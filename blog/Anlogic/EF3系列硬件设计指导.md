@@ -8,7 +8,7 @@ toc-location: left
 ---
 
 
----
+
 <!-- TOC -->
 
 - [SALELF3硬件设计指导](#salelf3%E7%A1%AC%E4%BB%B6%E8%AE%BE%E8%AE%A1%E6%8C%87%E5%AF%BC)
@@ -1446,7 +1446,7 @@ Imax = D × 0.08 (mA)
 - [ ] 电源平面换层是否合理
 - [ ] BGA下方走线是否满足neck要求
 
----
+
 
 
 ## 十.快速导航 
