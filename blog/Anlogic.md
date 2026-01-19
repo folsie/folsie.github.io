@@ -25,8 +25,8 @@ embed-resources: true
 - 
 ### [ 硬件设计指导]
 
-- [EF2系列硬件设计指导](./Anlogic/EF2系列硬件设计指导.md)
-- [EF3系列硬件设计指导](./Anlogic/EF3系列硬件设计指导.md)
+- [EF2系列硬件设计指导](./Anlogic/EF2系列硬件设计指导.html)
+- [EF3系列硬件设计指导](./Anlogic/EF3系列硬件设计指导.html)
 
 
 ### [⚡ 高级应用]
