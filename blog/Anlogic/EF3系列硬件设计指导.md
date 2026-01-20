@@ -1129,7 +1129,6 @@ EF3器件IO支持在3.3V或者2.5V VCCIO BANK输入1.0V/1.8V电平。
 | P10 | IO_R11P_2,DPCLKIO | 专用时钟I/O |
 | L1 | IO_BE2P_3,DPCLKIO | 专用时钟I/O |
 | J5 | IO_BE7P_4,DPCLKIO | 专用时钟I/O |
-| R12 | IO_R15P_2,SCLK | 配置时钟 |
 
 **EF3L50CG256B时钟相关引脚**:
 

@@ -35,7 +35,7 @@ toc-location: left
 - [EG4系列硬件设计指导]
 - [EF2系列硬件设计指导](./Anlogic/EF2系列硬件设计指导.html)  
 - [EF3系列硬件设计指导](./Anlogic/EF3系列硬件设计指导.html)
-- [EF4系列硬件设计指导] 
+- [EF4系列硬件设计指导](./Anlogic/EF4系列硬件设计指导.html) 
 - [SF1系列硬件设计指导] 
 
 
