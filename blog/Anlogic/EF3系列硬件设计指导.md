@@ -116,7 +116,7 @@ EF3系列FPGA硬件设计涉及多个数据手册和设计指南，为了方便�
 
 - 根据不同封装型号,对应的引脚映射文件请查阅:
   - [EF3L15CG256B_PINLIST](../../pdf/EF3/EF3L15CG256B_PINLIST.xlsx)
-  
+
   - [EF3L40CG324B_PINLIST ](../../pdf/EF3/EF3L40CG324_PINLIST.xlsx)
   - [EF3L40CG332B_PINLIST](../../pdf/EF3/EF3L40CG332B_PINLIST.xlsx)
 
@@ -133,7 +133,9 @@ EF3系列FPGA硬件设计涉及多个数据手册和设计指南，为了方便�
   - [EF3LA0CG484B_PINLIST](../../pdf/EF3/EF3LA0CG484B_PINLIST.xlsx)
   - [EF3LA0CG642B_PINLIST](../../pdf/EF3/EF3LA0CG642B_PINLIST.xlsx)
 
-
+  - EF3L15 和 EF3L45 CG256B引脚映射相同
+  - EF3L40 和 EF3L90 CG324B引脚映射相同
+  - EF3L50 和 EF3L70 CG256B引脚映射相同
  
 ## 三.EF3系列器件分类
 
@@ -366,11 +368,9 @@ JTAG接口用于芯片配置、边界扫描和调试。
    - TCK通过4.7K欧姆电阻下拉到GND
    - TDI、TDO、TMS、JTAGEN通过4.7K欧姆电阻上拉到VCCIO
 
-2. **TDO处理**: TDO可以悬空或上拉到VCCIO
+2. **IO复用**: JTAG引脚可作为普通IO使用时,只能做输出,且必须保留4.7K上下拉电阻
 
-3. **IO复用**: JTAG引脚可作为普通IO使用时,只能做输出,且必须保留4.7K上下拉电阻
-
-4. **电压匹配**: JTAG下载时,VCCIO0需要和下载器供电电压保持一致
+3. **电压匹配**: JTAG下载时,VCCIO0需要和下载器供电电压保持一致
 
 ### 配置相关IO--Flash配置
 
@@ -565,25 +565,41 @@ StateHold功能用于维持在线升级时IO状态保持不变。
 
 ![StateHold IO示意图](../../pic/ScreenShot_2026-01-13_190811_309.png)
 
+
+###  EF3系列配置模式对比表
+
+| 器件型号 | SS（从动串行） | SP（从动并行） | MP（主动并行） | MSPI（内部 Flash） | JTAG | SSPI（硬 SPI） | I²C（硬 I²C） | 备注 |
+|----------|:--------------:|:--------------:|:--------------:|:------------------:|:----:|:--------------:|:-------------:|------|
+| EF3L15   | ✓              | ✓              | ✓              | ✓                  | ✓    |                |               ||
+| EF3L45   | ✓              | ✓              | ✓              | ✓                  | ✓    |                |               ||
+| EF3L40   | ✓              | ✓              | ✓              | ✓                  | ✓    |                |               ||
+| EF3L50   |                |                |                | ✓                  | ✓    | ✓              | ✓             ||
+| EF3L70   |                |                |                | ✓                  | ✓    | ✓              | ✓             ||
+| EF3L90   | ✓              | ✓              | ✓              | ✓                  | ✓    |                |               ||
+| EF3LA0   |                |                |                | ✓                  | ✓    | ✓              | ✓             ||
+
+
+
+
 ### 单端IO电气特性
 
 **直流电气特性:**
 
 | Symbol | 参数 | 条件 | 最小 | 典型 | 最大 | 单位 |
 |--------|------|------|------|------|------|------|
-| I_IL, I_IH | 输入漏电电流 | 0 ≤ VI ≤ VCCIO - 0.5V | -15 | — | 15 | uA |
-| I_IH | 输入漏电电流 | VCCIO - 0.5V ≤ VI ≤ VIH_MAX | — | — | 150 | uA |
-| V_HYST | 施密特触发器输入迟滞电压 | VCCIO = 3.3V | — | 350 | — | mV |
-| | | VCCIO = 2.5V | — | 260 | — | mV |
-| | | VCCIO = 1.8V | — | 130 | — | mV |
-| | | VCCIO = 1.5V | — | 70 | — | mV |
-| I_PU | I/O 弱上拉电流 | — | 35 | — | 250 | uA |
-| I_PD | I/O 弱下拉电流 | — | 35 | — | 250 | uA |
-| I_BHLS | 总线保持 0 维持电流 | — | 40 | — | — | uA |
-| I_BHHS | 总线保持 1 维持电流 | — | 40 | — | — | uA |
-| I_BHLO | 总线保持 0 改写电流 | 0 ≤ Vi ≤ VCCIO | — | — | 350 | uA |
-| I_BHHO | 总线保持 1 改写电流 | 0 ≤ Vi ≤ VCCIO | — | — | 350 | uA |
-| V_BHT | 总线保持触发电平 | — | VIL_max | — | VIH_min | V |
+| I_IL, I_IH 	| 输入漏电电流 				| 0 ≤ VI ≤ VCCIO - 0.5V | -15 	| — 		| 15 	| 		uA |
+| I_IH 			| 输入漏电电流 				| VCCIO - 0.5V ≤ VI ≤ VIH_MAX 	| — 		| — 	| 150 	| uA |
+| V_HYST 		| 施密特触发器输入迟滞电压 	| VCCIO = 3.3V 					| — 		| 350 	| — 	| mV |
+| 				| 							| VCCIO = 2.5V 					| — 		| 260 	| — 	| mV |
+| 				| 							| VCCIO = 1.8V 					| — 		| 130 	| — 	| mV |
+| 				| 							| VCCIO = 1.5V 					| — 		| 70 	| — 	| mV |
+| I_PU 			| I/O 弱上拉电流 			| — 							| 35 		| — 	| 250 	| uA |
+| I_PD 			| I/O 弱下拉电流 			| — 							| 35 		| — 	| 250 	| uA |
+| I_BHLS 		| 总线保持 0 维持电流 		| — 							| 40 		| — 	| — 	| uA |
+| I_BHHS 		| 总线保持 1 维持电流 		| — 							| 40 		| — 	| — 	| uA |
+| I_BHLO 		| 总线保持 0 改写电流 		| 0 ≤ Vi ≤ VCCIO 				| — 		| — 	| 350 	| uA |
+| I_BHHO 		| 总线保持 1 改写电流 		| 0 ≤ Vi ≤ VCCIO 				| — 		| — 	| 350 	| uA |
+| V_BHT 		| 总线保持触发电平 			| — 							| VIL_max 	| — 	| VIH_min | V |
 
 ### 单端IO电压标准
 
@@ -723,7 +739,7 @@ StateHold功能用于维持在线升级时IO状态保持不变。
 2. **周期限制**: UI的周期(T)不超过20us
 3. **阻抗匹配**: 通过阻抗匹配和端接来减少信号反射
 
-### V电平输入配置
+### 1.0V电平输入配置
 
 **应用场景:**
 
@@ -967,7 +983,6 @@ EF3器件IO支持在3.3V或者2.5V VCCIO BANK输入1.0V/1.8V电平。
 | A12 | IO_M28_6,GCLKIOM_1 | 全局时钟输入 |
 | A14 | IO_M3_7,GCLKIOM_2 | 全局时钟输入 |
 | B14 | IO_M4_7,GCLKIOM_3 | 全局时钟输入 |
-| F14 | IO_LE42N_0,USRCLK | 用户时钟 |
 
 **CG484B时钟相关引脚** (EF3LA0CG484B):
 
@@ -1007,7 +1022,6 @@ EF3器件IO支持在3.3V或者2.5V VCCIO BANK输入1.0V/1.8V电平。
 | G1 | IO_BE11N_5,GCLKIOB_5 | 全局时钟输入 |
 | U2 | IO_BE18P_3,GCLKIOB_0 | 全局时钟输入 |
 | V1 | IO_BE18N_3,GCLKIOB_1 | 全局时钟输入 |
-| F13 | IO_LE26N_0,USRCLK | 用户时钟 |
 
 **CG400B时钟相关引脚** (EF3L90CG400B):
 
@@ -1043,7 +1057,6 @@ EF3器件IO支持在3.3V或者2.5V VCCIO BANK输入1.0V/1.8V电平。
 | U2 | IO_BE8N_3,GCLKIOB_1 | 全局时钟输入 |
 | L1 | IO_BE4P_4,GCLKIOB_2 | 全局时钟输入 |
 | L2 | IO_BE4N_4,GCLKIOB_3 | 全局时钟输入 |
-| N17 | IO_TE30N_1,USRCLK | 用户时钟 |
 
 **CG332B时钟相关引脚** (EF3L40CG332B):
 
@@ -1081,7 +1094,6 @@ EF3器件IO支持在3.3V或者2.5V VCCIO BANK输入1.0V/1.8V电平。
 | F3 | IO_BE11N_5,GPLL0IN_REF | PLL参考输入 |
 | D20 | IO_TE3P_1,GPLL1IP_REF | PLL参考输入 |
 | E18 | IO_TE3N_1,GPLL1IN_REF | PLL参考输入 |
-| N17 | IO_TE24N_1,USRCLK | 用户时钟 |
 
 **EF3L15CG256B时钟相关引脚**:
 
@@ -1113,7 +1125,6 @@ EF3器件IO支持在3.3V或者2.5V VCCIO BANK输入1.0V/1.8V电平。
 | E6 | IO_L11P_0,DPCLKIO | 专用时钟I/O |
 | J12 | IO_TE9N_1,DPCLKIO,#NHP | 专用时钟I/O |
 | F14 | IO_TE14P_1,DPCLKIO,#NHP | 专用时钟I/O |
-| H13 | IO_TE9P_1,USRCLK,#NHP | 用户时钟 |
 | M11 | IO_R9N_2,DPCLKIO | 专用时钟I/O |
 | P10 | IO_R11P_2,DPCLKIO | 专用时钟I/O |
 | L1 | IO_BE2P_3,DPCLKIO | 专用时钟I/O |
