@@ -6,7 +6,42 @@ toc: true
 toc-depth: 6
 toc-location: left
 ---
+<!-- TOC -->
 
+- [SALELF4硬件设计指导](#salelf4%E7%A1%AC%E4%BB%B6%E8%AE%BE%E8%AE%A1%E6%8C%87%E5%AF%BC)
+    - [一.序言](#%E4%B8%80%E5%BA%8F%E8%A8%80)
+    - [二.文档参考](#%E4%BA%8C%E6%96%87%E6%A1%A3%E5%8F%82%E8%80%83)
+    - [三.EF4系列器件分类](#%E4%B8%89ef4%E7%B3%BB%E5%88%97%E5%99%A8%E4%BB%B6%E5%88%86%E7%B1%BB)
+        - [EF4L90CG324A](#ef4l90cg324a)
+    - [电源设计](#%E7%94%B5%E6%BA%90%E8%AE%BE%E8%AE%A1)
+        - [四.VCCIO电源设计](#%E5%9B%9Bvccio%E7%94%B5%E6%BA%90%E8%AE%BE%E8%AE%A1)
+        - [VCCAUX电源设计](#vccaux%E7%94%B5%E6%BA%90%E8%AE%BE%E8%AE%A1)
+        - [GND设计](#gnd%E8%AE%BE%E8%AE%A1)
+        - [电源电压范围要求](#%E7%94%B5%E6%BA%90%E7%94%B5%E5%8E%8B%E8%8C%83%E5%9B%B4%E8%A6%81%E6%B1%82)
+        - [电源上电时序要求](#%E7%94%B5%E6%BA%90%E4%B8%8A%E7%94%B5%E6%97%B6%E5%BA%8F%E8%A6%81%E6%B1%82)
+        - [电源退耦电容配置](#%E7%94%B5%E6%BA%90%E9%80%80%E8%80%A6%E7%94%B5%E5%AE%B9%E9%85%8D%E7%BD%AE)
+    - [六.IO设计](#%E5%85%ADio%E8%AE%BE%E8%AE%A1)
+        - [配置相关IO--JTAG](#%E9%85%8D%E7%BD%AE%E7%9B%B8%E5%85%B3io--jtag)
+        - [配置相关IO--Flash配置](#%E9%85%8D%E7%BD%AE%E7%9B%B8%E5%85%B3io--flash%E9%85%8D%E7%BD%AE)
+        - [时钟IO设计](#%E6%97%B6%E9%92%9Fio%E8%AE%BE%E8%AE%A1)
+        - [单端IO设计](#%E5%8D%95%E7%AB%AFio%E8%AE%BE%E8%AE%A1)
+        - [差分IO设计指导](#%E5%B7%AE%E5%88%86io%E8%AE%BE%E8%AE%A1%E6%8C%87%E5%AF%BC)
+        - [SSO同时开关输出限制](#sso%E5%90%8C%E6%97%B6%E5%BC%80%E5%85%B3%E8%BE%93%E5%87%BA%E9%99%90%E5%88%B6)
+    - [七.封装热参数](#%E4%B8%83%E5%B0%81%E8%A3%85%E7%83%AD%E5%8F%82%E6%95%B0)
+    - [八.PCB设计指导](#%E5%85%ABpcb%E8%AE%BE%E8%AE%A1%E6%8C%87%E5%AF%BC)
+        - [去耦电容布局](#%E5%8E%BB%E8%80%A6%E7%94%B5%E5%AE%B9%E5%B8%83%E5%B1%80)
+        - [电源平面设计](#%E7%94%B5%E6%BA%90%E5%B9%B3%E9%9D%A2%E8%AE%BE%E8%AE%A1)
+        - [走线处理方式](#%E8%B5%B0%E7%BA%BF%E5%A4%84%E7%90%86%E6%96%B9%E5%BC%8F)
+        - [过孔设计](#%E8%BF%87%E5%AD%94%E8%AE%BE%E8%AE%A1)
+    - [九.设计检查清单](#%E4%B9%9D%E8%AE%BE%E8%AE%A1%E6%A3%80%E6%9F%A5%E6%B8%85%E5%8D%95)
+        - [电源设计检查](#%E7%94%B5%E6%BA%90%E8%AE%BE%E8%AE%A1%E6%A3%80%E6%9F%A5)
+        - [IO设计检查](#io%E8%AE%BE%E8%AE%A1%E6%A3%80%E6%9F%A5)
+        - [PCB设计检查](#pcb%E8%AE%BE%E8%AE%A1%E6%A3%80%E6%9F%A5)
+    - [十.快速导航](#%E5%8D%81%E5%BF%AB%E9%80%9F%E5%AF%BC%E8%88%AA)
+        - [器件信息](#%E5%99%A8%E4%BB%B6%E4%BF%A1%E6%81%AF)
+        - [技术支持](#%E6%8A%80%E6%9C%AF%E6%94%AF%E6%8C%81)
+
+<!-- /TOC -->
 # SALELF4硬件设计指导
 
 ## 一.序言
