@@ -28,16 +28,16 @@ toc-location: left
 - 
 ### [硬件设计指导]
 
-
+ 
 - [安路器件完整料号选型表](./Anlogic/安路器件完整料号选型表.html) 
-- [DR1系列硬件设计指导]
-- [PH1A系列硬件设计指导]
-- [PH1P系列硬件设计指导]
-- [EG4系列硬件设计指导]
+- [DR1系列硬件设计指导](./Anlogic/DR1系列硬件设计指导.html) 
+	- [PH1A系列硬件设计指导](./Anlogic/PH1A系列硬件设计指导.html) 
+	- [PH1P系列硬件设计指导](./Anlogic/PH1P系列硬件设计指导.html) 
+	- [EG4系列硬件设计指导](./Anlogic/EG4系列硬件设计指导.html) 
 - [EF2系列硬件设计指导](./Anlogic/EF2系列硬件设计指导.html)  
 - [EF3系列硬件设计指导](./Anlogic/EF3系列硬件设计指导.html)
 - [EF4系列硬件设计指导](./Anlogic/EF4系列硬件设计指导.html) 
-- [SF1系列硬件设计指导] 
+	- [SF1系列硬件设计指导](./Anlogic/SF1系列硬件设计指导.html)  
 
 
 ### [⚡ 高级应用]
