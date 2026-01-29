@@ -1,5 +1,5 @@
 ---
-title: "安路器件完整料号选型表"
+title: "Anlogic_Complete_PartNumber_Selection_Table"
 subtitle: "2026.01.20"
 embed-resources: true
 toc: true
