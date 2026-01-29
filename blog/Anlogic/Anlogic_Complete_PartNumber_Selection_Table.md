@@ -56,38 +56,38 @@ toc-location: left
 
 
 
-| Family     | Sub-Family         | Device                | 温度等级|备注                                         |
-|------------|--------------------|-----------------------|---------|---------------------------------------------|
-| EF2        |L15		| EF2L15LG100B    			| industry		|                                             |
-| EF2        |L15		| EF2L15LG144B    			| industry		|                                             |
-| EF2        |L15		| EF2L15BG256B    			| industry		|                                             |                                                                                                                               |
-| EF2        |L15		| EF2L15BG256     			| industry		|                                             |                                                                                                                               |
-| EF2        |L25		| EF2L25BG256B    			| industry		|                                             |                                                                                                                               |
-| EF2        |L25		| EF2L25AG42P     			| Commercial	|    EF2L25AG42P 温度等级为商业级（C），支持的温度范围为：-10～85℃。                                          |                                                                                                                               |
-| EF2        |L45		| EF2L45LG144B     			| industry		|                                             |                                                                                                                               |
-| EF2        |L45		| EF2L45LG144I7    			| industry		|                                             |                                                                                                                               |
-| EF2        |L45		| EF2L45BG256B     			| industry		|                                             |                                                                                                                               |
-| EF2        |L45		| EF2L45UG132B        		| industry		|                                             |                                                                                                                               |
-| EF2        |L45		| EF2L45VG81P        		| Commercial	|                                             |                                                                                                                               |
-| EF2        |M45		| EF2M45LG48B	        	| industry		|                                             |                                                                                                                               |
-| EF2        |M45		| EF2M45LG100B	 			| industry		|                                             |                                                                                                                               |
-| EF2        |M45		| EF2M45LG144B	 			| industry		|                                             |                                                                                                                               |
-| EF2        |M45		| EF2M45VG81C	 			| Commercial	|                                             |                                                                                                                               |
-| EF2        |S45		| EF2S45VG81C	 			| Commercial	|                                             |                                                                                                                               |
-| EF2        |S45		| EF2S45VG81F	 			| Commercial	|                                             |                                                                                                                               |
-| EF3        |L15		| EF3L15CG256B  			| industry		|                                             |
-| EF3        |L25		| EF3L25CG256B  			| industry		|                                             |
-| EF3        |L45		| EF3L45CG256B  			| industry		|                                             |
-| EF3        |L45		| EF3L45CG256BH 			| industry		|                                             |
-| EF3        |L40		| EF3L40CG324B  			| industry		|                                             |
-| EF3        |L40		| EF3L40CG332B  			| industry		|                                             |
-| EF3        |L50		| EF3L50CG256B  			| industry		|                                             |
-| EF3        |L70		| EF3L70CG256B  			| industry		|                                             |
-| EF3        |L90		| EF3L90CG400B  			| industry		|                                             |
-| EF3        |L90		| EF3L90CG324B  			| industry		|                                             |
-| EF3        |LA0		| EF3LA0CG484B  			| industry		|                                             |
-| EF3        |LA0		| EF3LA0CG642B  			| industry		|                                             |
-| EF4        |L90		| EF4L90CG324A     			| Automotive	|	                                          |
+| Family     | Sub-Family         | Device                | 温度等级|备注                                         						| 					
+|------------|--------------------|-----------------------|---------|---------------------------------------------						|                     
+| EF2        |L15		| EF2L15LG100B    			| industry		|                                             						|                     
+| EF2        |L15		| EF2L15LG144B    			| industry		|                                             						|                     
+| EF2        |L15		| EF2L15BG256B    			| industry		|                                             						|                     
+| EF2        |L15		| EF2L15BG256     			| industry		|                                             						|                     
+| EF2        |L25		| EF2L25BG256B    			| industry		|                                             						|                     
+| EF2        |L25		| EF2L25AG42P     			| Commercial	|    EF2L25AG42P 温度等级为商业级（C），支持的温度范围为：-10～85℃。|                                                       |
+| EF2        |L45		| EF2L45LG144B     			| industry		|                                           		                  |
+| EF2        |L45		| EF2L45LG144I7    			| industry		|                                           		                  |
+| EF2        |L45		| EF2L45BG256B     			| industry		|                                           		                  |
+| EF2        |L45		| EF2L45UG132B        		| industry		|                                           		                  |
+| EF2        |L45		| EF2L45VG81P        		| Commercial	|                                           		                  |
+| EF2        |M45		| EF2M45LG48B	        	| industry		|                                           		                  |
+| EF2        |M45		| EF2M45LG100B	 			| industry		|                                           		                  |
+| EF2        |M45		| EF2M45LG144B	 			| industry		|                                           		                  |
+| EF2        |M45		| EF2M45VG81C	 			| Commercial	|                                           		                  |
+| EF2        |S45		| EF2S45VG81C	 			| Commercial	|                                           		                  |
+| EF2        |S45		| EF2S45VG81F	 			| Commercial	|                                           		                  |
+| EF3        |L15		| EF3L15CG256B  			| industry		|                                           		                  |
+| EF3        |L25		| EF3L25CG256B  			| industry		|                                           		                  |
+| EF3        |L45		| EF3L45CG256B  			| industry		|                                           		                  |
+| EF3        |L45		| EF3L45CG256BH 			| industry		|                                           		                  |
+| EF3        |L40		| EF3L40CG324B  			| industry		|                                           		                  |
+| EF3        |L40		| EF3L40CG332B  			| industry		|                                           		                  |
+| EF3        |L50		| EF3L50CG256B  			| industry		|                                           		                  |
+| EF3        |L70		| EF3L70CG256B  			| industry		|                                           		                  |
+| EF3        |L90		| EF3L90CG400B  			| industry		|                                           		                  |
+| EF3        |L90		| EF3L90CG324B  			| industry		|                                           		                  |
+| EF3        |LA0		| EF3LA0CG484B  			| industry		|                                           		                  |
+| EF3        |LA0		| EF3LA0CG642B  			| industry		|                                           		                  |
+| EF4        |L90		| EF4L90CG324A     			| Automotive	|	                                        		                  |
 
 
 ### SF1 系列 55nm
@@ -150,7 +150,7 @@ toc-location: left
 | PH1P       | PH1P35             | PH1P35MDG324I3       | industry| 800*48bit_DDR2/3/4 内置1066*16bit_512MDDR	 无PCIE 无HXT			  |
 | PH1P       | PH1P35             | PH1P35MHG324I3       | industry| 800*48bit_DDR2/3/4 内置1066*16bit_1024MDDR 无PCIE 无HXT				  |
 | PH1P       | PH1P35             | PH1P35MEG324I3       | industry| 800*16bit_DDR				  |
-| PH1P       | PH1P35             | PH1P35MEG324A      	 | Automotive 800*16bit_DDR	 无PCIE 无HXT	| 				  |
+| PH1P       | PH1P35             | PH1P35MEG324A      	 | Automotive | 800*16bit_DDR	 无PCIE 无HXT	| 			 
 | PH1P       | PH1P50             | PH1P50SBG484I3       | industry| 	800*72bit_DDR3/4	 PCIE*GEN3*4  10.3125G*4 		  |
 | PH1P       | PH1P50             | PH1P50MEG324A        | Automotive 		| 	800*32bit_DDR3/4	无PCIE 无HXT			  |
 | PH1P       | PH1P50             | PH1P50GEG324I3       | industry| 		800*48bit_DDR3/4		无PCIE 无HXT	  |
