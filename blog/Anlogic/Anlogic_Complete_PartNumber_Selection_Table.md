@@ -22,8 +22,8 @@ toc-location: left
 - 均支持 12 位 ADC（1MSPS、8 通道）
 - EG4A - 纯逻辑 有88pinQFN封装 有级联功能
 - EG4X - 纯逻辑 有144pinLQFN封装
-- EG4S - 带2M*32Mbit的64Mb的 SDR SDRAM 
-- EG4D - 带1个8*16bit的128Mb DDR SDRAM
+- EG4S - 带2Mx32Mbit的64Mb的 SDR SDRAM 
+- EG4D - 带1个8x16bit的128Mb DDR SDRAM
 
 | Family     | Sub-Family         | Device                |温度等级| 备注 |
 |------------|--------------------|-----------------------|--------|------|			 
@@ -142,18 +142,18 @@ toc-location: left
 
 | Family     | Sub-Family         | Device             | 温度等级| 备注        |
 |------------|--------------------|--------------------|---------|-------------|
-| PH1P       | PH1P100            | PH1P100SBG676I3      | industry| 800*72bit_DDR3/4	 PCIE*GEN2*4  HXT*8	 和 PH1A100SFG676 兼容 		  |
-| PH1P       | PH1P100            | PH1P100SBG677I3      | industry| 800*72bit_DDR3/4	 PCIE*GEN2*4  HXT*8	 和 XC7A100TFFG676 兼容	  		  |
-| PH1P       | PH1P100            | PH1P100SBG484I3      | industry| 800*72bit_DDR3/4	 PCIE*GEN2*4  HXT*8				  |
-| PH1P       | PH1P100            | PH1P100GEG324I3      | industry| 800*48bit_DDR3/4	无PCIE 无HXT				  |
-| PH1P       | PH1P35             | PH1P35MBG484I3       | industry| 800*48bit_DDR3/4	无PCIE 无HXT				  |
-| PH1P       | PH1P35             | PH1P35MDG324I3       | industry| 800*48bit_DDR2/3/4 内置1066*16bit_512MDDR	 无PCIE 无HXT			  |
-| PH1P       | PH1P35             | PH1P35MHG324I3       | industry| 800*48bit_DDR2/3/4 内置1066*16bit_1024MDDR 无PCIE 无HXT				  |
-| PH1P       | PH1P35             | PH1P35MEG324I3       | industry| 800*16bit_DDR				  |
-| PH1P       | PH1P35             | PH1P35MEG324A      	 | Automotive | 800*16bit_DDR	 无PCIE 无HXT	| 			 
-| PH1P       | PH1P50             | PH1P50SBG484I3       | industry| 	800*72bit_DDR3/4	 PCIE*GEN3*4  10.3125G*4 		  |
-| PH1P       | PH1P50             | PH1P50MEG324A        | Automotive 		| 	800*32bit_DDR3/4	无PCIE 无HXT			  |
-| PH1P       | PH1P50             | PH1P50GEG324I3       | industry| 		800*48bit_DDR3/4		无PCIE 无HXT	  |
+| PH1P       | PH1P100            | PH1P100SBG676I3      | industry| 800x72bit_DDR3/4	 PCIExGEN2x4  HXTx8	 和 PH1A100SFG676 兼容 		  |
+| PH1P       | PH1P100            | PH1P100SBG677I3      | industry| 800x72bit_DDR3/4	 PCIExGEN2x4  HXTx8	 和 XC7A100TFFG676 兼容	  		  |
+| PH1P       | PH1P100            | PH1P100SBG484I3      | industry| 800x72bit_DDR3/4	 PCIExGEN2x4  HXTx8				  |
+| PH1P       | PH1P100            | PH1P100GEG324I3      | industry| 800x48bit_DDR3/4	无PCIE 无HXT				  |
+| PH1P       | PH1P35             | PH1P35MBG484I3       | industry| 800x48bit_DDR3/4	无PCIE 无HXT				  |
+| PH1P       | PH1P35             | PH1P35MDG324I3       | industry| 800x48bit_DDR2/3/4 内置1066x16bit_512MDDR	 无PCIE 无HXT			  |
+| PH1P       | PH1P35             | PH1P35MHG324I3       | industry| 800x48bit_DDR2/3/4 内置1066x16bit_1024MDDR 无PCIE 无HXT				  |
+| PH1P       | PH1P35             | PH1P35MEG324I3       | industry| 800x16bit_DDR				  |
+| PH1P       | PH1P35             | PH1P35MEG324A      	 | Automotive | 800x16bit_DDR	 无PCIE 无HXT	| 			 
+| PH1P       | PH1P50             | PH1P50SBG484I3       | industry| 	800x72bit_DDR3/4	 PCIExGEN3x4  10.3125Gx4 		  |
+| PH1P       | PH1P50             | PH1P50MEG324A        | Automotive 		| 	800x32bit_DDR3/4	无PCIE 无HXT			  |
+| PH1P       | PH1P50             | PH1P50GEG324I3       | industry| 		800x48bit_DDR3/4		无PCIE 无HXT	  |
 
 
 
@@ -172,32 +172,32 @@ toc-location: left
 | Family     | Sub-Family         | Device            | 温度等级| 备注                         |
 |------------|--------------------|-------------------|---------|------------------------------|
 | PH1A60     |    1A60     			| PH1A60GEG324I3      | industry	    |   无DDR 无MIPI 无Serdes                           |
-| PH1A90     |    1A90     			| PH1A90SEG324I2      |	industry		|	1066*16bit_DDR3/4 	  无MIPI_RX硬核    10.3125G*8lane     |
-| PH1A90     |    1A90     			| PH1A90SEG324I3      |	industry		|	1066*16bit_DDR3/4 	  无MIPI_RX硬核    10.3125G*8lane    |
-| PH1A90     |    1A90     			| PH1A90SEG325I2      |	industry		|	1066*40bit_DDR3/4 	  2组MIPI_RX硬核    10.3125G*4lane     |
-| PH1A90     |    1A90     			| PH1A90SEG325I3      |	industry		|	1066*40bit_DDR3/4	  2组MIPI_RX硬核    10.3125G*4lane    |
-| PH1A90     |    1A90     			| PH1A90SBG484I2      |	industry		|	1066*40bit_DDR3/4	  2组MIPI_RX硬核	12.5G*4lane          |
-| PH1A90     |    1A90     			| PH1A90SBG484I3      |	industry		|	1066*40bit_DDR3/4	  2组MIPI_RX硬核	12.5G*4lane          |
+| PH1A90     |    1A90     			| PH1A90SEG324I2      |	industry		|	1066x16bit_DDR3/4 	  无MIPI_RX硬核    10.3125Gx8lane     |
+| PH1A90     |    1A90     			| PH1A90SEG324I3      |	industry		|	1066x16bit_DDR3/4 	  无MIPI_RX硬核    10.3125Gx8lane    |
+| PH1A90     |    1A90     			| PH1A90SEG325I2      |	industry		|	1066x40bit_DDR3/4 	  2组MIPI_RX硬核    10.3125Gx4lane     |
+| PH1A90     |    1A90     			| PH1A90SEG325I3      |	industry		|	1066x40bit_DDR3/4	  2组MIPI_RX硬核    10.3125Gx4lane    |
+| PH1A90     |    1A90     			| PH1A90SBG484I2      |	industry		|	1066x40bit_DDR3/4	  2组MIPI_RX硬核	12.5Gx4lane          |
+| PH1A90     |    1A90     			| PH1A90SBG484I3      |	industry		|	1066x40bit_DDR3/4	  2组MIPI_RX硬核	12.5Gx4lane          |
 | PH1A100    |    1A100        		| PH1A100GCG324     |	industry	  |      无DDR 无MIPI 无Serdes 					 |
 | PH1A100    |    1A100        		| PH1A100GSG324     |   industry      |      无DDR 无MIPI 无Serdes                         |
 | PH1A100    |    1A100        		| PH1A100GSG324A    |  Automotive     |      无DDR 无MIPI 无Serdes                         |
-| PH1A100    |    1A100        		| PH1A100SFG676X    |  industry       |     无DDR 无MIPI           10.3125G*8lane                             |
-| PH1A100    |    1A100        		| PH1A100SFG676     |  industry       |      无DDR 无MIPI          6.25G*8lane     和 XC7A100TFGG676 兼容       |
-| PH1A180    |    1A180     		| PH1A180SFG676I2     |	industry		|	1866*72bit_DDR3/4	  2组MIPI_RX硬核	12.5G*8lane           |
-| PH1A180    |    1A180     		| PH1A180SFG676I3     |	industry		|	1866*72bit_DDR3/4	  2组MIPI_RX硬核	12.5G*8lane          |
-| PH1A400    |    1A400     		| PH1A400SFG676I2     |	industry		|	1866*72bit_DDR3/4	  无MIPI_RX硬核     12.5G*8lane    |
-| PH1A400    |    1A400     		| PH1A400SFG676I3     |	industry		|	1866*72bit_DDR3/4	  无MIPI_RX硬核     12.5G*8lane    |
-| PH1A400    |    1A400     		| PH1A400SFG900I2     |	industry		|	1866*72bit_DDR3/4	  无MIPI_RX硬核     12.5G*8lane     |
-| PH1A400    |    1A400     		| PH1A400SFG900I3     |	industry		|	1866*72bit_DDR3/4	  无MIPI_RX硬核     12.5G*8lane    |
-| PH1A400    |    1A400     		| PH1A400SFX900     |	industry		|	1866*72bit_DDR3/4    无MIPI_RX硬核	 12.5G*8lane  **含铅封装**     |
+| PH1A100    |    1A100        		| PH1A100SFG676X    |  industry       |     无DDR 无MIPI           10.3125Gx8lane                             |
+| PH1A100    |    1A100        		| PH1A100SFG676     |  industry       |      无DDR 无MIPI          6.25Gx8lane     和 XC7A100TFGG676 兼容       |
+| PH1A180    |    1A180     		| PH1A180SFG676I2     |	industry		|	1866x72bit_DDR3/4	  2组MIPI_RX硬核	12.5Gx8lane           |
+| PH1A180    |    1A180     		| PH1A180SFG676I3     |	industry		|	1866x72bit_DDR3/4	  2组MIPI_RX硬核	12.5Gx8lane          |
+| PH1A400    |    1A400     		| PH1A400SFG676I2     |	industry		|	1866x72bit_DDR3/4	  无MIPI_RX硬核     12.5Gx8lane    |
+| PH1A400    |    1A400     		| PH1A400SFG676I3     |	industry		|	1866x72bit_DDR3/4	  无MIPI_RX硬核     12.5Gx8lane    |
+| PH1A400    |    1A400     		| PH1A400SFG900I2     |	industry		|	1866x72bit_DDR3/4	  无MIPI_RX硬核     12.5Gx8lane     |
+| PH1A400    |    1A400     		| PH1A400SFG900I3     |	industry		|	1866x72bit_DDR3/4	  无MIPI_RX硬核     12.5Gx8lane    |
+| PH1A400    |    1A400     		| PH1A400SFX900     |	industry		|	1866x72bit_DDR3/4    无MIPI_RX硬核	 12.5Gx8lane  **含铅封装**     |
                                                                                
 
 ### PH2A 系列 
 
 | Family     | Sub-Family         | Device              | 温度等级| 备注        |
 |------------|--------------------|-------------------- |---------|-------------|
-| PH2A106    |         			  | PH2A106FLG676I3       | industry	|	2800*72bit_DDR4  PCIEGEN4  26.6G*16lane |
-| PH2A106    |         			  | PH2A106FLG900I3       | industry	|	2800*72bit_DDR4  PCIEGEN4  26.6G*20lane   |
+| PH2A106    |         			  | PH2A106FLG676I3       | industry	|	2800x72bit_DDR4  PCIEGEN4  26.6Gx16lane |
+| PH2A106    |         			  | PH2A106FLG900I3       | industry	|	2800x72bit_DDR4  PCIEGEN4  26.6Gx20lane   |
 
 
 
