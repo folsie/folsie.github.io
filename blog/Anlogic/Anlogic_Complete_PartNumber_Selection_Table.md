@@ -14,6 +14,7 @@ toc-location: left
 -  Commercial ：TJ = 0 ～ 85℃ 
 -  industry ：	TJ = -40 ～ 100℃ 
 -  Automotive ：TJ = -40～ 125℃  
+-  注意是Tj不是环境温度
 
 ### EG4 系列 55nm
 
@@ -56,14 +57,14 @@ toc-location: left
 
 
 
-| Family     | Sub-Family         | Device                | 温度等级|备注                                         						| 					
-|------------|--------------------|-----------------------|---------|---------------------------------------------						|                     
+| Family     | Sub-Family         | Device                | 温度等级|备注	| 					
+|------------|--------------------|-----------------------|---------|---------------------------------------------|                     
 | EF2        |L15		| EF2L15LG100B    			| industry		|                                             						|                     
 | EF2        |L15		| EF2L15LG144B    			| industry		|                                             						|                     
 | EF2        |L15		| EF2L15BG256B    			| industry		|                                             						|                     
 | EF2        |L15		| EF2L15BG256     			| industry		|                                             						|                     
 | EF2        |L25		| EF2L25BG256B    			| industry		|                                             						|                     
-| EF2        |L25		| EF2L25AG42P     			| Commercial	|    EF2L25AG42P 温度等级为商业级（C），支持的温度范围为：-10～85℃。|                                                       |
+| EF2        |L25		| EF2L25AG42P     			| Commercial	|温度等级为商业级（C）<br>支持的温度范围为：-10～85℃。				|                                                       
 | EF2        |L45		| EF2L45LG144B     			| industry		|                                           		                  |
 | EF2        |L45		| EF2L45LG144I7    			| industry		|                                           		                  |
 | EF2        |L45		| EF2L45BG256B     			| industry		|                                           		                  |
@@ -97,11 +98,11 @@ toc-location: left
 
 | Family     | Sub-Family         | Device           | 温度等级	|备注   |
 |------------|--------------------|------------------|---------	|-------|
-| SF1        |                    | SF1S60CG121I     |industry	|       |
-| SF1        |                    | SF1S60VG81C      |Commercial|       |
-| SF1        |                    | SF1N60VG81C      |Commercial|       |
-| SF1        |                    | SF1S60VG81E      |Commercial|      |
-| SF1        |                    | SF1L60VG81C      |Commercial|       |
+| SF1        |    1S                | SF1S60CG121I     |industry	| 2xDSI@2.2Gbps 2x8Mx8bitPSRAM@200M   1xRISC-V@160M  DSCx1     |
+| SF1        |    1S                | SF1S60VG81C      |Commercial|   2xDSI@2.2Gbps 2x4Mx8bitPSRAM@200M   1xRISC-V@160M  DSCx1     |
+| SF1        |    1S                | SF1S60VG81E      |Commercial|   2xDSI@2.2Gbps 2x4Mx8bitPSRAM@200M   1xRISC-V@160M  DSCx1     |
+| SF1        |    1N                | SF1N60VG81C      |Commercial|   2xDSI@2.2Gbps 2x4Mx8bitPSRAM@200M     |
+
 
 
 
@@ -110,14 +111,14 @@ toc-location: left
 
 | Family     | Sub-Family         | Device                | 温度等级| 备注         |
 |------------|--------------------|-----------------------|---------|--------------|
-| SF2        | 		               | SF2S50VG90C           | Commercial| 	  |
+| SF2        | 		               | SF2S50VG90C           | Commercial| 	       |
                                                             
                                                             
 
 
 ### DR1 系列 28nm
 
-- I2 比 I3 速度能快20%
+- I2 比 I3 速度能快10%
 - M90 是 双ARM-A53核
 - V90 是 单Risc-V核
 
