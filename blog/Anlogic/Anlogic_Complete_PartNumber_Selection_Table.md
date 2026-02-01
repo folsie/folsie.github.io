@@ -15,36 +15,51 @@ toc-location: left
 -  industry ：	TJ = -40 ～ 100℃ 
 -  Automotive ：TJ = -40～ 125℃  
 -  注意是Tj不是环境温度
+-  器件内箱标签 GRADE 栏中的“I7”、“I8”和“I”均为 I 等级
+-  器件内箱标签 GRADE 栏中的“C7”和“C”均为 C 等级。
+-  keyword: TN016
+
+
+<!-- TOC -->
+
+- [安路产品资源分布表](#安路产品资源分布表)
+  - [EG4 系列 55nm](#eg4-系列-55nm)
+  - [EF 系列 55nm](#ef-系列-55nm)
+  - [SF1 系列 55nm](#sf1-系列-55nm)
+  - [SF2 系列 28nm](#sf2-系列-28nm)
+  - [DR1 系列 28nm](#dr1-系列-28nm)
+  - [PH1P 系列 28nm](#ph1p-系列-28nm)
+  - [PH1A 系列 28nm](#ph1a-系列-28nm)
+  - [PH2A 系列](#ph2a-系列)
+  - [其他说明](#其他说明)
+  - [技术支持](#技术支持)
+
+<!-- /TOC -->
+
 
 ### EG4 系列 55nm
 
-
-- 器件内箱标签 GRADE 栏中的“I7”、“I8”和“I”均为 I 等级
-- 均支持 12 位 ADC（1MSPS、8 通道）
-- EG4A - 纯逻辑 有88pinQFN封装 有级联功能
-- EG4X - 纯逻辑 有144pinLQFN封装
-- EG4S - 带2Mx32Mbit的64Mb的 SDR SDRAM 
-- EG4D - 带1个8x16bit的128Mb DDR SDRAM
+- 均支持 12 位 ADC（1MSPS、8 通道）, 实际以8bit去选型
 
 | Family     | Sub-Family         | Device                |温度等级| 备注 |
 |------------|--------------------|-----------------------|--------|------|			 
-| EG4        |  EG4A        | EG4A15BG256           |industry	|    |
-| EG4        |  EG4A        | EG4A20BG256           |industry	|   |
-| EG4        |  EG4A        | EG4A20BG256I8         |industry	|   |
-| EG4        |  EG4A        | EG4A20NG88I8          |industry	|   |			 
-| EG4        |  EG4A        | EG4A20NG88         	|Commercial	|	|
-| EG4        |  EG4X        | EG4X15BG256           |industry	|   |
-| EG4        |  EG4X        | EG4X20BG256           |industry	|   |
-| EG4        |  EG4X        | EG4X20BG256I8         |industry	|   |
-| EG4        |  EG4X        | EG4X20LG144           |industry	|   |
-| EG4        |  EG4S        | EG4S20NG88         	|Commercial  |	|			    
-| EG4        |  EG4S        | EG4S20CG324        	|Commercial  |	|
-| EG4        |  EG4S        | EG4S20BG256        	|Commercial  |	|
-| EG4        |  EG4S        | EG4S20BG256B       	|Commercial  |	“B” 代表无 SDRAM 版本|
-| EG4        |  EG4S        | EG4S20BG256I8      	|industry|   |
-| EG4        |  EG4S        | EG4S20NG88I8       	|industry|   |			    
-| EG4        |  EG4D        | EG4D20EG176        	|Commercial	|	|
-| EG4        |  EG4D        | EG4D20EG176B       	|Commercial  |	|
+| EG4        |  EG4A        | EG4A15BG256           |industry	| 纯逻辑    |
+| EG4        |  EG4A        | EG4A20BG256           |industry	| 纯逻辑   |
+| EG4        |  EG4A        | EG4A20BG256I8         |industry	| 纯逻辑   |
+| EG4        |  EG4A        | EG4A20NG88I8          |industry	| 纯逻辑  有级联功能 |			 
+| EG4        |  EG4A        | EG4A20NG88         	|Commercial	| 纯逻辑  有级联功能	|
+| EG4        |  EG4X        | EG4X15BG256           |industry	| 纯逻辑  |
+| EG4        |  EG4X        | EG4X20BG256           |industry	| 纯逻辑  |
+| EG4        |  EG4X        | EG4X20BG256I8         |industry	| 纯逻辑  |
+| EG4        |  EG4X        | EG4X20LG144           |industry	| 纯逻辑  |
+| EG4        |  EG4S        | EG4S20NG88         	|Commercial  |  带 2Mx32Mbit的64Mb的 SDR SDRAM 	|			    
+| EG4        |  EG4S        | EG4S20CG324        	|Commercial  |	带 2Mx32Mbit的64Mb的 SDR SDRAM|
+| EG4        |  EG4S        | EG4S20BG256        	|Commercial  |	带 2Mx32Mbit的64Mb的 SDR SDRAM|
+| EG4        |  EG4S        | EG4S20BG256B       	|Commercial  |	纯逻辑	|
+| EG4        |  EG4S        | EG4S20BG256I8      	|industry	 |  带 2Mx32Mbit的64Mb的 SDR SDRAM  |
+| EG4        |  EG4S        | EG4S20NG88I8       	|industry	 |  带 2Mx32Mbit的64Mb的 SDR SDRAM |			    
+| EG4        |  EG4D        | EG4D20EG176        	|Commercial  |	带1个8Mx16bit的128Mb DDR SDRAM |
+| EG4        |  EG4D        | EG4D20EG176B       	|Commercial  |	带1个8Mx16bit的128Mb DDR SDRAM |
 
 
 
@@ -59,36 +74,36 @@ toc-location: left
 
 | Family     | Sub-Family         | Device                | 温度等级|备注	| 					
 |------------|--------------------|-----------------------|---------|---------------------------------------------|                     
-| EF2        |L15		| EF2L15LG100B    			| industry		|                                             						|                     
-| EF2        |L15		| EF2L15LG144B    			| industry		|                                             						|                     
-| EF2        |L15		| EF2L15BG256B    			| industry		|                                             						|                     
-| EF2        |L15		| EF2L15BG256     			| industry		|                                             						|                     
-| EF2        |L25		| EF2L25BG256B    			| industry		|                                             						|                     
-| EF2        |L25		| EF2L25AG42P     			| Commercial	|温度等级为商业级（C）<br>支持的温度范围为：-10～85℃。				|                                                       
-| EF2        |L45		| EF2L45LG144B     			| industry		|                                           		                  |
-| EF2        |L45		| EF2L45LG144I7    			| industry		|                                           		                  |
-| EF2        |L45		| EF2L45BG256B     			| industry		|                                           		                  |
-| EF2        |L45		| EF2L45UG132B        		| industry		|                                           		                  |
-| EF2        |L45		| EF2L45VG81P        		| Commercial	|                                           		                  |
-| EF2        |M45		| EF2M45LG48B	        	| industry		|                                           		                  |
-| EF2        |M45		| EF2M45LG100B	 			| industry		|                                           		                  |
-| EF2        |M45		| EF2M45LG144B	 			| industry		|                                           		                  |
-| EF2        |M45		| EF2M45VG81C	 			| Commercial	|                                           		                  |
-| EF2        |S45		| EF2S45VG81C	 			| Commercial	|                                           		                  |
-| EF2        |S45		| EF2S45VG81F	 			| Commercial	|                                           		                  |
-| EF3        |L15		| EF3L15CG256B  			| industry		|                                           		                  |
-| EF3        |L25		| EF3L25CG256B  			| industry		|                                           		                  |
-| EF3        |L45		| EF3L45CG256B  			| industry		|                                           		                  |
-| EF3        |L45		| EF3L45CG256BH 			| industry		|                                           		                  |
-| EF3        |L40		| EF3L40CG324B  			| industry		|                                           		                  |
-| EF3        |L40		| EF3L40CG332B  			| industry		|                                           		                  |
-| EF3        |L50		| EF3L50CG256B  			| industry		|                                           		                  |
-| EF3        |L70		| EF3L70CG256B  			| industry		|                                           		                  |
-| EF3        |L90		| EF3L90CG400B  			| industry		|                                           		                  |
-| EF3        |L90		| EF3L90CG324B  			| industry		|                                           		                  |
-| EF3        |LA0		| EF3LA0CG484B  			| industry		|                                           		                  |
-| EF3        |LA0		| EF3LA0CG642B  			| industry		|                                           		                  |
-| EF4        |L90		| EF4L90CG324A     			| Automotive	|	                                        		                  |
+| EF2        |L15		| EF2L15LG100B    			| industry		|    带4Mb_Flash                                     |
+| EF2        |L15		| EF2L15LG144B    			| industry		|    带4Mb_Flash                                     |          
+| EF2        |L15		| EF2L15BG256B    			| industry		|    带4Mb_Flash                                     |          
+| EF2        |L15		| EF2L15BG256     			| industry		|    带4Mb_Flash                                     |     
+| EF2        |L25		| EF2L25BG256B    			| industry		|    带4Mb_Flash                                     |          
+| EF2        |L25		| EF2L25AG42P     			| Commercial	|	 带4Mb_Flash<br>支持的温度范围为：-10～85℃。	 |
+| EF2        |L45		| EF2L45LG144B     			| industry		|    带4Mb_Flash                                     |
+| EF2        |L45		| EF2L45LG144I7    			| industry		|    带4Mb_Flash                                     |
+| EF2        |L45		| EF2L45BG256B     			| industry		|    带4Mb_Flash                                     |
+| EF2        |L45		| EF2L45UG132B        		| industry		|    带4Mb_Flash                                     |
+| EF2        |L45		| EF2L45VG81P        		| Commercial	|    带4Mb_Flash                                     |
+| EF2        |M45		| EF2M45LG48B	        	| industry		|    带4Mb_Flash  ,  M3_MCU , 2x4Mx8bit_PSRAM                       |
+| EF2        |M45		| EF2M45LG100B	 			| industry		|    带4Mb_Flash  ,  M3_MCU , 2x4Mx8bit_PSRAM                       |
+| EF2        |M45		| EF2M45LG144B	 			| industry		|    带4Mb_Flash  ,  M3_MCU , 2x4Mx8bit_PSRAM                       |
+| EF2        |M45		| EF2M45VG81C	 			| Commercial	|    带4Mb_Flash  ,  M3_MCU , 2x4Mx8bit_PSRAM                                          		 |
+| EF2        |S45		| EF2S45VG81C	 			| Commercial	|    带4Mb_Flash  ,   2x4Mx8bit_PSRAM                                          		 |
+| EF2        |S45		| EF2S45VG81F	 			| Commercial	|    带4Mb_Flash  ,   2x4Mx8bit_PSRAM                                         		 |
+| EF3        |L15		| EF3L15CG256B  			| industry		|    带4Mb_Flash                                       		 |
+| EF3        |L25		| EF3L25CG256B  			| industry		|    带4Mb_Flash                                      		     |                             
+| EF3        |L45		| EF3L45CG256B  			| industry		|    带4Mb_Flash                              		             |
+| EF3        |L45		| EF3L45CG256BH 			| industry		|    带4Mb_Flash                              		             |
+| EF3        |L40		| EF3L40CG324B  			| industry		|    带8Mb_Flash                                       		 |
+| EF3        |L40		| EF3L40CG332B  			| industry		|    带8Mb_Flash                                       		 |
+| EF3        |L50		| EF3L50CG256B  			| industry		|    带8Mb_Flash  ,    无DSP                                 		 |
+| EF3        |L70		| EF3L70CG256B  			| industry		|    带8Mb_Flash  ,    无DSP                                 		 |
+| EF3        |L90		| EF3L90CG400B  			| industry		|    带8Mb_Flash                                        		 |
+| EF3        |L90		| EF3L90CG324B  			| industry		|    带8Mb_Flash                                        		 |
+| EF3        |LA0		| EF3LA0CG484B  			| industry		|    带8Mb_Flash  ,    无DSP                                 		 |
+| EF3        |LA0		| EF3LA0CG642B  			| industry		|    带8Mb_Flash  ,    无DSP                                 		 |
+| EF4        |L90		| EF4L90CG324A     			| Automotive	|	 带8Mb_Flash                                       		 |
 
 
 ### SF1 系列 55nm
@@ -111,7 +126,7 @@ toc-location: left
 
 | Family     | Sub-Family         | Device                | 温度等级| 备注         |
 |------------|--------------------|-----------------------|---------|--------------|
-| SF2        | 		               | SF2S50VG90C           | Commercial| 	       |
+| SF2        | 	S50	               | SF2S50VG90C           | Commercial|  带edp/mipi_rx , 带 mipi_tx	, 2x4Mx8bit_PSRAM ,   SCALERx1 , DSCx1     |
                                                             
                                                             
 
@@ -124,18 +139,18 @@ toc-location: left
 
 | Family     | Sub-Family         | Device              |温度等级| 备注          |
 |------------|--------------------|---------------------|--------|---------------------|
-| DR1        | DR1M90             | DR1M90GEG484I2      |industry|					   |
-| DR1        | DR1M90             | DR1M90GEG400I2      |industry|					   |
-| DR1        | DR1M90             | DR1M90MEG484I2      |industry|					   |
-| DR1        | DR1V90             | DR1V90GEG484I2      |industry|					   |
-| DR1        | DR1V90             | DR1V90GEG400I2      |industry|					   |
-| DR1        | DR1V90             | DR1V90MEG484I2      |industry|					   |
-| DR1        | DR1M90             | DR1M90GEG484I3      |industry|					   |
-| DR1        | DR1M90             | DR1M90GEG400I3      |industry|					   |
-| DR1        | DR1M90             | DR1M90MEG484I3      |industry|					   |
-| DR1        | DR1V90             | DR1V90GEG484I3      |industry|					   |
-| DR1        | DR1V90             | DR1V90GEG400I3      |industry|					   |
-| DR1        | DR1V90             | DR1V90MEG484I3      |industry|					   |                                                     
+| DR1        | M90             | DR1M90GEG484I2      |industry|					   |
+| DR1        | M90             | DR1M90GEG400I2      |industry|					   |
+| DR1        | M90             | DR1M90MEG484I2      |industry|					   |
+| DR1        | V90             | DR1V90GEG484I2      |industry|					   |
+| DR1        | V90             | DR1V90GEG400I2      |industry|					   |
+| DR1        | V90             | DR1V90MEG484I2      |industry|					   |
+| DR1        | M90             | DR1M90GEG484I3      |industry|					   |
+| DR1        | M90             | DR1M90GEG400I3      |industry|					   |
+| DR1        | M90             | DR1M90MEG484I3      |industry|					   |
+| DR1        | V90             | DR1V90GEG484I3      |industry|					   |
+| DR1        | V90             | DR1V90GEG400I3      |industry|					   |
+| DR1        | V90             | DR1V90MEG484I3      |industry|					   |                                                     
                                                          
 ### PH1P 系列 28nm
 
@@ -165,6 +180,7 @@ toc-location: left
 
 - PH1A60 纯逻辑，无高速接口
 - PH1A90 带serdes ，带DDR控制器 ，部分带MIPI_RX硬核
+- PH1A100 部分带serdes,无其他硬核控制器
 - PH1A180 带serdes ，带DDR控制器 ，带MIPI_RX硬核
 - PH1A400 带serdes ，带DDR控制器 ，不带MIPI_RX硬核
 
