@@ -67,7 +67,7 @@ toc-location: left
 - 实用脚本工具
 
 ### [📃 文档资料]
-- 数据手册
+- [TCL下载脚本使用指南](./Anlogic/TCL_DOWNLOAD_UG.html)  
 - 应用笔记
 - 参考设计
 
