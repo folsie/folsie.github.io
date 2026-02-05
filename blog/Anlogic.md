@@ -68,6 +68,7 @@ toc-location: left
 
 ### [📃 文档资料]
 - [TCL下载脚本使用指南](./Anlogic/TCL_DOWNLOAD_UG.html)  
+- [Flash选型指南](./Anlogic/Flash_Selection_UG.html)  
 - 应用笔记
 - 参考设计
 
