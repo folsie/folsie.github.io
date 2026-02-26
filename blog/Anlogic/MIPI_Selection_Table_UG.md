@@ -235,7 +235,7 @@ toc-location: left
 ### TX：    HS：SSTL12  &&  LP：LVCMOS151825
 
 
-   - ![](../../pic/MIPI/tx_hs_sstl12_lp_lvcmos151812.png)
+   - ![](../../pic/MIPI/tx_hs_sstl12_lp_lvcmos151825.png)
 
 
 
