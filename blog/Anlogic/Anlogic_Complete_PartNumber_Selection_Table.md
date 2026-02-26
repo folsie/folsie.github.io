@@ -53,8 +53,8 @@ toc-location: left
 | EG4        |  EG4X        | EG4X20BG256I8         |industry	| 纯逻辑  |
 | EG4        |  EG4X        | EG4X20LG144           |industry	| 纯逻辑  |
 | EG4        |  EG4S        | EG4S20NG88         	|Commercial  |  带 2Mx32Mbit的64Mb的 SDR SDRAM 	|			    
-| EG4        |  EG4S        | EG4S20CG324        	|Commercial  |	带 2Mx32Mbit的64Mb的 SDR SDRAM|
-| EG4        |  EG4S        | EG4S20BG256        	|Commercial  |	带 2Mx32Mbit的64Mb的 SDR SDRAM|
+| EG4        |  EG4S        | EG4S20CG324        	|Commercial  |	带 2Mx32Mbit的64Mb的 SDR SDRAM  |
+| EG4        |  EG4S        | EG4S20BG256        	|Commercial  |	带 2Mx32Mbit的64Mb的 SDR SDRAM  |
 | EG4        |  EG4S        | EG4S20BG256B       	|Commercial  |	纯逻辑	|
 | EG4        |  EG4S        | EG4S20BG256I8      	|industry	 |  带 2Mx32Mbit的64Mb的 SDR SDRAM  |
 | EG4        |  EG4S        | EG4S20NG88I8       	|industry	 |  带 2Mx32Mbit的64Mb的 SDR SDRAM |			    
@@ -231,7 +231,7 @@ toc-location: left
 
 ### 技术支持
 - 安路科技官网: https://www.anlogic.com
-- 技术支持邮箱: support@anlogic.com
+- 技术支持邮箱: folsie.zhao@wtmec.com
 
 ---
 
