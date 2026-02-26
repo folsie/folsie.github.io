@@ -9,6 +9,26 @@ toc-location: left
 
 # 基于Anlogic的MIPI使用教程
 
+
+<!-- TOC -->
+
+- [基于Anlogic的MIPI使用教程](#基于anlogic的mipi使用教程)
+  - [1. 概述总览](#1-概述总览)
+  - [TX\_CSI](#tx_csi)
+  - [TX\_DSI](#tx_dsi)
+  - [RX\_CSI](#rx_csi)
+  - [RX\_DSI](#rx_dsi)
+  - [电阻网络硬件设计](#电阻网络硬件设计)
+    - [TX  ：  HS：LVDS18/25  \&\&  LP：LVCMOS12](#tx----hslvds1825----lplvcmos12)
+    - [TX：    HS：LVDS18/25  \&\&  LP：LVCMOS15/18/25](#tx----hslvds1825----lplvcmos151825)
+    - [TX：    HS：SSTL12  \&\&  LP：LVCMOS12](#tx----hssstl12----lplvcmos12)
+    - [TX：    HS：SSTL12  \&\&  LP：LVCMOS151825](#tx----hssstl12----lplvcmos151825)
+    - [RX：    HS：LVDS18/25  \&\&  LP：LVCMOS12/15](#rx----hslvds1825----lplvcmos1215)
+- [技术支持](#技术支持)
+
+<!-- /TOC -->
+
+
 ## 1. 概述总览
 
 
@@ -57,54 +77,7 @@ toc-location: left
 
 
 
-## 2. 分类
-   
 
-```mermaid
-
-graph TD
-    root[Anlogic器件MIPI支持情况]
-
-    %% 主分支
-    root --> TX_CSI(TX_CSI)
-    root --> TX_DSI(TX_DSI)
-    root --> RX_CSI(RX_CSI)
-    root --> RX_DSI(RX_DSI)
-
-
-
-```
-
-## 3. 分类
-
-```mermaid
-
-graph TD
-
-    root[Anlogic器件MIPI支持情况]
-
-    root --> TX_CSI
-    root --> TX_DSI
-    root --> RX_CSI
-    root --> RX_DSI
-
-    TX_CSI --> EF5
-    TX_CSI --> EF2
-    TX_CSI --> PH2A
-    TX_CSI --> PH1
-    TX_CSI --> EG4
-
-    TX_DSI --> EF5
-    TX_DSI --> EF2
-    TX_DSI --> PH1_Limited
-
-    RX_CSI --> AllSeries[几乎全系列]
-
-    RX_DSI --> EF5
-    RX_DSI --> EF2
-	
-```
-	
 	
 
 
@@ -276,7 +249,7 @@ graph TD
 
 
 
-### 技术支持
+# 技术支持
 
 - 安路科技官网: https://www.anlogic.com
 - 技术支持邮箱: folsie.zhao@wtmec.com
