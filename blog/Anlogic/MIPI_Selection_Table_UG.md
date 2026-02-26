@@ -19,11 +19,11 @@ toc-location: left
   - [RX\_CSI](#rx_csi)
   - [RX\_DSI](#rx_dsi)
   - [电阻网络硬件设计](#电阻网络硬件设计)
-    - [TX  ：  HS：LVDS18/25  \&\&  LP：LVCMOS12](#tx----hslvds1825----lplvcmos12)
-    - [TX：    HS：LVDS18/25  \&\&  LP：LVCMOS15/18/25](#tx----hslvds1825----lplvcmos151825)
-    - [TX：    HS：SSTL12  \&\&  LP：LVCMOS12](#tx----hssstl12----lplvcmos12)
-    - [TX：    HS：SSTL12  \&\&  LP：LVCMOS151825](#tx----hssstl12----lplvcmos151825)
-    - [RX：    HS：LVDS18/25  \&\&  LP：LVCMOS12/15](#rx----hslvds1825----lplvcmos1215)
+    - [TX：    HS：LVDS18/25--LP：LVCMOS12](#tx----hslvds1825--lplvcmos12)
+    - [TX：    HS：LVDS18/25--LP：LVCMOS15/18/25](#tx----hslvds1825--lplvcmos151825)
+    - [TX：    HS：SSTL12--LP：LVCMOS12](#tx----hssstl12--lplvcmos12)
+    - [TX：    HS：SSTL12-- LP：LVCMOS151825](#tx----hssstl12---lplvcmos151825)
+    - [RX：    HS：LVDS18/25--LP：LVCMOS12/15](#rx----hslvds1825--lplvcmos1215)
 - [技术支持](#技术支持)
 
 <!-- /TOC -->
@@ -210,13 +210,13 @@ toc-location: left
 
 ## 电阻网络硬件设计
 
-### TX  ：  HS：LVDS18/25  &&  LP：LVCMOS12
+### TX：    HS：LVDS18/25--LP：LVCMOS12
 
 
    - ![](../../pic/MIPI/tx_hs_lvds1825_lp_lvcmos12.png)
    
    
-### TX：    HS：LVDS18/25  &&  LP：LVCMOS15/18/25
+### TX：    HS：LVDS18/25--LP：LVCMOS15/18/25
 
 
    - ![](../../pic/MIPI/tx_hs_lvds1825_lp_lvcmos151825.png)
@@ -224,7 +224,7 @@ toc-location: left
    
 
 
-### TX：    HS：SSTL12  &&  LP：LVCMOS12
+### TX：    HS：SSTL12--LP：LVCMOS12
 
 
    - ![](../../pic/MIPI/tx_hs_sstl12_lp_lvcmos12.png)
@@ -232,14 +232,14 @@ toc-location: left
    
 
 
-### TX：    HS：SSTL12  &&  LP：LVCMOS151825
+### TX：    HS：SSTL12-- LP：LVCMOS151825
 
 
    - ![](../../pic/MIPI/tx_hs_sstl12_lp_lvcmos151825.png)
 
 
 
-### RX：    HS：LVDS18/25  &&  LP：LVCMOS12/15
+### RX：    HS：LVDS18/25--LP：LVCMOS12/15
 
 
    - ![](../../pic/MIPI/rx_hs_lvds1825_lp_lvcmos1215.png)
