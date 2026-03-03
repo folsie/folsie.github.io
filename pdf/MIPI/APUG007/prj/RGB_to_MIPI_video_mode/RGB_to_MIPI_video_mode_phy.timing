@@ -1,0 +1,1540 @@
+=========================================================================================================
+Auto created by the td v5.0.20734
+@Copy Right: Shanghai Anlogic Infotech, 2011 - 2021.
+Tue Aug  4 17:59:44 2020
+=========================================================================================================
+
+
+Top Model:                mipi_driver_tp                                                  
+Device:                   ef2_4                                                           
+Timing Constraint File:   ../../adc_sdc/RGB_to_MIPI_video_mode.sdc                        
+STA Level:                Detail                                                          
+Process parameter::       TT  1.10v  85C                                                  
+
+=========================================================================================================
+Timing constraint:        clock: byte_clk                                                 
+Clock = byte_clk, period 8.9ns, rising at 0ns, falling at 4.45ns
+
+226 endpoints analyzed totally, and 2180 paths analyzed
+0 errors detected : 0 setup errors (TNS = 0.000), 0 hold errors (TNS = 0.000)
+Minimum period is 5.389ns
+---------------------------------------------------------------------------------------------------------
+
+Paths for end point mipi_driver_gen_u/_al_u87|mipi_driver_gen_u/reg7_b25 (2 paths)
+---------------------------------------------------------------------------------------------------------
+ Slack (setup check):     3.511 ns                                                        
+ Start Point:             video_buf_u/inst_2048x32_sub_000000_024.clkb (rising edge triggered by clock byte_clk)
+ End Point:               mipi_driver_gen_u/_al_u87|mipi_driver_gen_u/reg7_b25.a[0] (rising edge triggered by clock byte_clk)
+ Clock group:             byte_clk                                                        
+ Data Path Delay:         5.191ns  (logic 4.254ns, net 0.937ns, 81% logic)                
+ Logic Levels:            2                                                               
+
+ Point                                                       Type                     Incr        Path      Info          
+---------------------------------------------------------------------------------------------------------
+ source latency                                                                      0.000       0.000                    
+ byte_clk                                                                            0.000       0.000                    
+ byte_clk_vio|ctrl_clk_vio.d[1]                              hier                    0.000       0.000                    
+ byte_clk_vio|ctrl_clk_vio.f[1]                              cell                    0.274       0.274                    
+ byte_clk_pad_gclk_inst.clki (byte_clk_pad)                  net                     0.000       0.274      ../../source_code/rtl/mipi_driver_tp.v(5)
+ byte_clk_pad_gclk_inst.clko                                 cell (GCLK)             0.000       0.274                    
+ video_buf_u/inst_2048x32_sub_000000_024.clkb (byte_clk_pad_gclk_net) net                     2.414       2.688                    
+ launch clock edge                                                                   0.000       2.688
+---------------------------------------------------------------------------------------------------------
+ video_buf_u/inst_2048x32_sub_000000_024.dob[1]              clk2q                   3.245 r     5.933
+ mipi_driver_gen_u/_al_u87|mipi_driver_gen_u/reg7_b25.a[1] (buf_out_data[25]) net  (fanout = 1)       0.771 r     6.704      ../../source_code/rtl/mipi_driver_tp.v(172)
+ mipi_driver_gen_u/_al_u87|mipi_driver_gen_u/reg7_b25.f[1]   cell                    0.443 r     7.147
+ mipi_driver_gen_u/_al_u87|mipi_driver_gen_u/reg7_b25.a[0] (mipi_driver_gen_u/_al_u87_o) net  (fanout = 1)       0.166 r     7.313      ../../source_code/rtl/mipi_driver_gen.enc.v(24)
+ mipi_driver_gen_u/_al_u87|mipi_driver_gen_u/reg7_b25        path2reg0               0.566       7.879
+ Arrival time                                                                        7.879                  (2 lvl)       
+
+ source latency                                                                      0.000       0.000                    
+ byte_clk                                                                            0.000       0.000                    
+ byte_clk_vio|ctrl_clk_vio.d[1]                              hier                    0.000       0.000                    
+ byte_clk_vio|ctrl_clk_vio.f[1]                              cell                    0.262       0.262                    
+ byte_clk_pad_gclk_inst.clki (byte_clk_pad)                  net                     0.000       0.262      ../../source_code/rtl/mipi_driver_tp.v(5)
+ byte_clk_pad_gclk_inst.clko                                 cell (GCLK)             0.000       0.262                    
+ mipi_driver_gen_u/_al_u87|mipi_driver_gen_u/reg7_b25.clk (byte_clk_pad_gclk_net) net                     2.157       2.419                    
+ capture clock edge                                                                  8.900      11.319
+---------------------------------------------------------------------------------------------------------
+ cell setup                                                                         -0.116      11.203
+ clock uncertainty                                                                  -0.000      11.203
+ clock recovergence pessimism                                                        0.187      11.390
+ Required time                                                                      11.390            
+---------------------------------------------------------------------------------------------------------
+ Slack                                                                               3.511ns          
+
+---------------------------------------------------------------------------------------------------------
+
+ Slack (setup check):     7.657 ns                                                        
+ Start Point:             mipi_driver_gen_u/_al_u87|mipi_driver_gen_u/reg7_b25.clk (rising edge triggered by clock byte_clk)
+ End Point:               mipi_driver_gen_u/_al_u87|mipi_driver_gen_u/reg7_b25.c[0] (rising edge triggered by clock byte_clk)
+ Clock group:             byte_clk                                                        
+ Data Path Delay:         1.127ns  (logic 0.632ns, net 0.495ns, 56% logic)                
+ Logic Levels:            1                                                               
+
+ Point                                                       Type                     Incr        Path      Info          
+---------------------------------------------------------------------------------------------------------
+ source latency                                                                      0.000       0.000                    
+ byte_clk                                                                            0.000       0.000                    
+ byte_clk_vio|ctrl_clk_vio.d[1]                              hier                    0.000       0.000                    
+ byte_clk_vio|ctrl_clk_vio.f[1]                              cell                    0.274       0.274                    
+ byte_clk_pad_gclk_inst.clki (byte_clk_pad)                  net                     0.000       0.274      ../../source_code/rtl/mipi_driver_tp.v(5)
+ byte_clk_pad_gclk_inst.clko                                 cell (GCLK)             0.000       0.274                    
+ mipi_driver_gen_u/_al_u87|mipi_driver_gen_u/reg7_b25.clk (byte_clk_pad_gclk_net) net                     2.414       2.688                    
+ launch clock edge                                                                   0.000       2.688
+---------------------------------------------------------------------------------------------------------
+ mipi_driver_gen_u/_al_u87|mipi_driver_gen_u/reg7_b25.q[0]   clk2q                   0.146 r     2.834
+ mipi_driver_gen_u/_al_u87|mipi_driver_gen_u/reg7_b25.c[0] (mipi_driver_gen_u/byte_data_out_o_pad[25]) net  (fanout = 2)       0.495 r     3.329      ../../source_code/rtl/mipi_driver_gen.enc.v(24)
+ mipi_driver_gen_u/_al_u87|mipi_driver_gen_u/reg7_b25        path2reg0               0.486       3.815
+ Arrival time                                                                        3.815                  (1 lvl)       
+
+ source latency                                                                      0.000       0.000                    
+ byte_clk                                                                            0.000       0.000                    
+ byte_clk_vio|ctrl_clk_vio.d[1]                              hier                    0.000       0.000                    
+ byte_clk_vio|ctrl_clk_vio.f[1]                              cell                    0.262       0.262                    
+ byte_clk_pad_gclk_inst.clki (byte_clk_pad)                  net                     0.000       0.262      ../../source_code/rtl/mipi_driver_tp.v(5)
+ byte_clk_pad_gclk_inst.clko                                 cell (GCLK)             0.000       0.262                    
+ mipi_driver_gen_u/_al_u87|mipi_driver_gen_u/reg7_b25.clk (byte_clk_pad_gclk_net) net                     2.157       2.419                    
+ capture clock edge                                                                  8.900      11.319
+---------------------------------------------------------------------------------------------------------
+ cell setup                                                                         -0.116      11.203
+ clock uncertainty                                                                  -0.000      11.203
+ clock recovergence pessimism                                                        0.269      11.472
+ Required time                                                                      11.472            
+---------------------------------------------------------------------------------------------------------
+ Slack                                                                               7.657ns          
+
+---------------------------------------------------------------------------------------------------------
+
+Paths for end point mipi_driver_gen_u/_al_u124|mipi_driver_gen_u/reg7_b10 (2 paths)
+---------------------------------------------------------------------------------------------------------
+ Slack (setup check):     3.734 ns                                                        
+ Start Point:             video_buf_u/inst_2048x32_sub_000000_008.clkb (rising edge triggered by clock byte_clk)
+ End Point:               mipi_driver_gen_u/_al_u124|mipi_driver_gen_u/reg7_b10.a[0] (rising edge triggered by clock byte_clk)
+ Clock group:             byte_clk                                                        
+ Data Path Delay:         4.968ns  (logic 4.254ns, net 0.714ns, 85% logic)                
+ Logic Levels:            2                                                               
+
+ Point                                                       Type                     Incr        Path      Info          
+---------------------------------------------------------------------------------------------------------
+ source latency                                                                      0.000       0.000                    
+ byte_clk                                                                            0.000       0.000                    
+ byte_clk_vio|ctrl_clk_vio.d[1]                              hier                    0.000       0.000                    
+ byte_clk_vio|ctrl_clk_vio.f[1]                              cell                    0.274       0.274                    
+ byte_clk_pad_gclk_inst.clki (byte_clk_pad)                  net                     0.000       0.274      ../../source_code/rtl/mipi_driver_tp.v(5)
+ byte_clk_pad_gclk_inst.clko                                 cell (GCLK)             0.000       0.274                    
+ video_buf_u/inst_2048x32_sub_000000_008.clkb (byte_clk_pad_gclk_net) net                     2.414       2.688                    
+ launch clock edge                                                                   0.000       2.688
+---------------------------------------------------------------------------------------------------------
+ video_buf_u/inst_2048x32_sub_000000_008.dob[2]              clk2q                   3.245 r     5.933
+ mipi_driver_gen_u/_al_u124|mipi_driver_gen_u/reg7_b10.a[1] (buf_out_data[10]) net  (fanout = 1)       0.548 r     6.481      ../../source_code/rtl/mipi_driver_tp.v(172)
+ mipi_driver_gen_u/_al_u124|mipi_driver_gen_u/reg7_b10.f[1]  cell                    0.443 r     6.924
+ mipi_driver_gen_u/_al_u124|mipi_driver_gen_u/reg7_b10.a[0] (mipi_driver_gen_u/_al_u124_o) net  (fanout = 1)       0.166 r     7.090      ../../source_code/rtl/mipi_driver_gen.enc.v(24)
+ mipi_driver_gen_u/_al_u124|mipi_driver_gen_u/reg7_b10       path2reg0               0.566       7.656
+ Arrival time                                                                        7.656                  (2 lvl)       
+
+ source latency                                                                      0.000       0.000                    
+ byte_clk                                                                            0.000       0.000                    
+ byte_clk_vio|ctrl_clk_vio.d[1]                              hier                    0.000       0.000                    
+ byte_clk_vio|ctrl_clk_vio.f[1]                              cell                    0.262       0.262                    
+ byte_clk_pad_gclk_inst.clki (byte_clk_pad)                  net                     0.000       0.262      ../../source_code/rtl/mipi_driver_tp.v(5)
+ byte_clk_pad_gclk_inst.clko                                 cell (GCLK)             0.000       0.262                    
+ mipi_driver_gen_u/_al_u124|mipi_driver_gen_u/reg7_b10.clk (byte_clk_pad_gclk_net) net                     2.157       2.419                    
+ capture clock edge                                                                  8.900      11.319
+---------------------------------------------------------------------------------------------------------
+ cell setup                                                                         -0.116      11.203
+ clock uncertainty                                                                  -0.000      11.203
+ clock recovergence pessimism                                                        0.187      11.390
+ Required time                                                                      11.390            
+---------------------------------------------------------------------------------------------------------
+ Slack                                                                               3.734ns          
+
+---------------------------------------------------------------------------------------------------------
+
+ Slack (setup check):     7.657 ns                                                        
+ Start Point:             mipi_driver_gen_u/_al_u124|mipi_driver_gen_u/reg7_b10.clk (rising edge triggered by clock byte_clk)
+ End Point:               mipi_driver_gen_u/_al_u124|mipi_driver_gen_u/reg7_b10.c[0] (rising edge triggered by clock byte_clk)
+ Clock group:             byte_clk                                                        
+ Data Path Delay:         1.127ns  (logic 0.632ns, net 0.495ns, 56% logic)                
+ Logic Levels:            1                                                               
+
+ Point                                                       Type                     Incr        Path      Info          
+---------------------------------------------------------------------------------------------------------
+ source latency                                                                      0.000       0.000                    
+ byte_clk                                                                            0.000       0.000                    
+ byte_clk_vio|ctrl_clk_vio.d[1]                              hier                    0.000       0.000                    
+ byte_clk_vio|ctrl_clk_vio.f[1]                              cell                    0.274       0.274                    
+ byte_clk_pad_gclk_inst.clki (byte_clk_pad)                  net                     0.000       0.274      ../../source_code/rtl/mipi_driver_tp.v(5)
+ byte_clk_pad_gclk_inst.clko                                 cell (GCLK)             0.000       0.274                    
+ mipi_driver_gen_u/_al_u124|mipi_driver_gen_u/reg7_b10.clk (byte_clk_pad_gclk_net) net                     2.414       2.688                    
+ launch clock edge                                                                   0.000       2.688
+---------------------------------------------------------------------------------------------------------
+ mipi_driver_gen_u/_al_u124|mipi_driver_gen_u/reg7_b10.q[0]  clk2q                   0.146 r     2.834
+ mipi_driver_gen_u/_al_u124|mipi_driver_gen_u/reg7_b10.c[0] (mipi_driver_gen_u/byte_data_out_o_pad[10]) net  (fanout = 2)       0.495 r     3.329      ../../source_code/rtl/mipi_driver_gen.enc.v(24)
+ mipi_driver_gen_u/_al_u124|mipi_driver_gen_u/reg7_b10       path2reg0               0.486       3.815
+ Arrival time                                                                        3.815                  (1 lvl)       
+
+ source latency                                                                      0.000       0.000                    
+ byte_clk                                                                            0.000       0.000                    
+ byte_clk_vio|ctrl_clk_vio.d[1]                              hier                    0.000       0.000                    
+ byte_clk_vio|ctrl_clk_vio.f[1]                              cell                    0.262       0.262                    
+ byte_clk_pad_gclk_inst.clki (byte_clk_pad)                  net                     0.000       0.262      ../../source_code/rtl/mipi_driver_tp.v(5)
+ byte_clk_pad_gclk_inst.clko                                 cell (GCLK)             0.000       0.262                    
+ mipi_driver_gen_u/_al_u124|mipi_driver_gen_u/reg7_b10.clk (byte_clk_pad_gclk_net) net                     2.157       2.419                    
+ capture clock edge                                                                  8.900      11.319
+---------------------------------------------------------------------------------------------------------
+ cell setup                                                                         -0.116      11.203
+ clock uncertainty                                                                  -0.000      11.203
+ clock recovergence pessimism                                                        0.269      11.472
+ Required time                                                                      11.472            
+---------------------------------------------------------------------------------------------------------
+ Slack                                                                               7.657ns          
+
+---------------------------------------------------------------------------------------------------------
+
+Paths for end point mipi_driver_gen_u/byte_data_out_o[8]_vio|mipi_driver_gen_u/reg7_b28 (14 paths)
+---------------------------------------------------------------------------------------------------------
+ Slack (setup check):     3.753 ns                                                        
+ Start Point:             mipi_driver_gen_u/sync_hs_reg|mipi_driver_gen_u/reg4_b0.clk (rising edge triggered by clock byte_clk)
+ End Point:               mipi_driver_gen_u/byte_data_out_o[8]_vio|mipi_driver_gen_u/reg7_b28.a[0] (rising edge triggered by clock byte_clk)
+ Clock group:             byte_clk                                                        
+ Data Path Delay:         4.949ns  (logic 2.315ns, net 2.634ns, 46% logic)                
+ Logic Levels:            5                                                               
+
+ Point                                                       Type                     Incr        Path      Info          
+---------------------------------------------------------------------------------------------------------
+ source latency                                                                      0.000       0.000                    
+ byte_clk                                                                            0.000       0.000                    
+ byte_clk_vio|ctrl_clk_vio.d[1]                              hier                    0.000       0.000                    
+ byte_clk_vio|ctrl_clk_vio.f[1]                              cell                    0.274       0.274                    
+ byte_clk_pad_gclk_inst.clki (byte_clk_pad)                  net                     0.000       0.274      ../../source_code/rtl/mipi_driver_tp.v(5)
+ byte_clk_pad_gclk_inst.clko                                 cell (GCLK)             0.000       0.274                    
+ mipi_driver_gen_u/sync_hs_reg|mipi_driver_gen_u/reg4_b0.clk (byte_clk_pad_gclk_net) net                     2.414       2.688                    
+ launch clock edge                                                                   0.000       2.688
+---------------------------------------------------------------------------------------------------------
+ mipi_driver_gen_u/sync_hs_reg|mipi_driver_gen_u/reg4_b0.q[0] clk2q                   0.146 r     2.834
+ mipi_driver_gen_u/vs_ff_reg|mipi_driver_gen_u/_al_u195.d[0] (mipi_driver_gen_u/hs_cnt[0]) net  (fanout = 7)       0.711 r     3.545                    
+ mipi_driver_gen_u/vs_ff_reg|mipi_driver_gen_u/_al_u195.f[0] cell                    0.274 r     3.819
+ mipi_driver_gen_u/img_buf_ept_ff1_reg|mipi_driver_gen_u/img_buf_ept_ff2_reg.a[0] (mipi_driver_gen_u/_al_u195_o) net  (fanout = 1)       0.323 r     4.142                    
+ mipi_driver_gen_u/img_buf_ept_ff1_reg|mipi_driver_gen_u/img_buf_ept_ff2_reg.f[0] cell                    0.443 r     4.585
+ mipi_driver_gen_u/_al_u112|mipi_driver_gen_u/_al_u198.a[0] (mipi_driver_gen_u/_al_u196_o) net  (fanout = 1)       0.323 r     4.908                    
+ mipi_driver_gen_u/_al_u112|mipi_driver_gen_u/_al_u198.f[0]  cell                    0.443 r     5.351
+ mipi_driver_gen_u/_al_u199|mipi_driver_gen_u/_al_u128.a[1] (mipi_driver_gen_u/mux11_b24/B0_1) net  (fanout = 2)       0.643 r     5.994                    
+ mipi_driver_gen_u/_al_u199|mipi_driver_gen_u/_al_u128.f[1]  cell                    0.443 r     6.437
+ mipi_driver_gen_u/byte_data_out_o[8]_vio|mipi_driver_gen_u/reg7_b28.a[0] (mipi_driver_gen_u/_al_u199_o) net  (fanout = 2)       0.634 r     7.071      ../../source_code/rtl/mipi_driver_gen.enc.v(24)
+ mipi_driver_gen_u/byte_data_out_o[8]_vio|mipi_driver_gen_u/reg7_b28 path2reg0               0.566       7.637
+ Arrival time                                                                        7.637                  (5 lvl)       
+
+ source latency                                                                      0.000       0.000                    
+ byte_clk                                                                            0.000       0.000                    
+ byte_clk_vio|ctrl_clk_vio.d[1]                              hier                    0.000       0.000                    
+ byte_clk_vio|ctrl_clk_vio.f[1]                              cell                    0.262       0.262                    
+ byte_clk_pad_gclk_inst.clki (byte_clk_pad)                  net                     0.000       0.262      ../../source_code/rtl/mipi_driver_tp.v(5)
+ byte_clk_pad_gclk_inst.clko                                 cell (GCLK)             0.000       0.262                    
+ mipi_driver_gen_u/byte_data_out_o[8]_vio|mipi_driver_gen_u/reg7_b28.clk (byte_clk_pad_gclk_net) net                     2.157       2.419                    
+ capture clock edge                                                                  8.900      11.319
+---------------------------------------------------------------------------------------------------------
+ cell setup                                                                         -0.116      11.203
+ clock uncertainty                                                                  -0.000      11.203
+ clock recovergence pessimism                                                        0.187      11.390
+ Required time                                                                      11.390            
+---------------------------------------------------------------------------------------------------------
+ Slack                                                                               3.753ns          
+
+---------------------------------------------------------------------------------------------------------
+
+ Slack (setup check):     4.053 ns                                                        
+ Start Point:             mipi_driver_gen_u/reg4_b3|mipi_driver_gen_u/reg4_b4.clk (rising edge triggered by clock byte_clk)
+ End Point:               mipi_driver_gen_u/byte_data_out_o[8]_vio|mipi_driver_gen_u/reg7_b28.a[0] (rising edge triggered by clock byte_clk)
+ Clock group:             byte_clk                                                        
+ Data Path Delay:         4.649ns  (logic 2.049ns, net 2.600ns, 44% logic)                
+ Logic Levels:            4                                                               
+
+ Point                                                       Type                     Incr        Path      Info          
+---------------------------------------------------------------------------------------------------------
+ source latency                                                                      0.000       0.000                    
+ byte_clk                                                                            0.000       0.000                    
+ byte_clk_vio|ctrl_clk_vio.d[1]                              hier                    0.000       0.000                    
+ byte_clk_vio|ctrl_clk_vio.f[1]                              cell                    0.274       0.274                    
+ byte_clk_pad_gclk_inst.clki (byte_clk_pad)                  net                     0.000       0.274      ../../source_code/rtl/mipi_driver_tp.v(5)
+ byte_clk_pad_gclk_inst.clko                                 cell (GCLK)             0.000       0.274                    
+ mipi_driver_gen_u/reg4_b3|mipi_driver_gen_u/reg4_b4.clk (byte_clk_pad_gclk_net) net                     2.414       2.688                    
+ launch clock edge                                                                   0.000       2.688
+---------------------------------------------------------------------------------------------------------
+ mipi_driver_gen_u/reg4_b3|mipi_driver_gen_u/reg4_b4.q[1]    clk2q                   0.146 r     2.834
+ mipi_driver_gen_u/img_buf_ept_ff1_reg|mipi_driver_gen_u/img_buf_ept_ff2_reg.a[1] (mipi_driver_gen_u/hs_cnt[3]) net  (fanout = 7)       0.703 r     3.537                    
+ mipi_driver_gen_u/img_buf_ept_ff1_reg|mipi_driver_gen_u/img_buf_ept_ff2_reg.f[1] cell                    0.443 r     3.980
+ mipi_driver_gen_u/_al_u112|mipi_driver_gen_u/_al_u198.b[0] (mipi_driver_gen_u/_al_u197_o) net  (fanout = 1)       0.620 r     4.600                    
+ mipi_driver_gen_u/_al_u112|mipi_driver_gen_u/_al_u198.f[0]  cell                    0.451 r     5.051
+ mipi_driver_gen_u/_al_u199|mipi_driver_gen_u/_al_u128.a[1] (mipi_driver_gen_u/mux11_b24/B0_1) net  (fanout = 2)       0.643 r     5.694                    
+ mipi_driver_gen_u/_al_u199|mipi_driver_gen_u/_al_u128.f[1]  cell                    0.443 r     6.137
+ mipi_driver_gen_u/byte_data_out_o[8]_vio|mipi_driver_gen_u/reg7_b28.a[0] (mipi_driver_gen_u/_al_u199_o) net  (fanout = 2)       0.634 r     6.771      ../../source_code/rtl/mipi_driver_gen.enc.v(24)
+ mipi_driver_gen_u/byte_data_out_o[8]_vio|mipi_driver_gen_u/reg7_b28 path2reg0               0.566       7.337
+ Arrival time                                                                        7.337                  (4 lvl)       
+
+ source latency                                                                      0.000       0.000                    
+ byte_clk                                                                            0.000       0.000                    
+ byte_clk_vio|ctrl_clk_vio.d[1]                              hier                    0.000       0.000                    
+ byte_clk_vio|ctrl_clk_vio.f[1]                              cell                    0.262       0.262                    
+ byte_clk_pad_gclk_inst.clki (byte_clk_pad)                  net                     0.000       0.262      ../../source_code/rtl/mipi_driver_tp.v(5)
+ byte_clk_pad_gclk_inst.clko                                 cell (GCLK)             0.000       0.262                    
+ mipi_driver_gen_u/byte_data_out_o[8]_vio|mipi_driver_gen_u/reg7_b28.clk (byte_clk_pad_gclk_net) net                     2.157       2.419                    
+ capture clock edge                                                                  8.900      11.319
+---------------------------------------------------------------------------------------------------------
+ cell setup                                                                         -0.116      11.203
+ clock uncertainty                                                                  -0.000      11.203
+ clock recovergence pessimism                                                        0.187      11.390
+ Required time                                                                      11.390            
+---------------------------------------------------------------------------------------------------------
+ Slack                                                                               4.053ns          
+
+---------------------------------------------------------------------------------------------------------
+
+ Slack (setup check):     4.194 ns                                                        
+ Start Point:             mipi_driver_gen_u/reg4_b3|mipi_driver_gen_u/reg4_b4.clk (rising edge triggered by clock byte_clk)
+ End Point:               mipi_driver_gen_u/byte_data_out_o[8]_vio|mipi_driver_gen_u/reg7_b28.a[0] (rising edge triggered by clock byte_clk)
+ Clock group:             byte_clk                                                        
+ Data Path Delay:         4.508ns  (logic 2.057ns, net 2.451ns, 45% logic)                
+ Logic Levels:            4                                                               
+
+ Point                                                       Type                     Incr        Path      Info          
+---------------------------------------------------------------------------------------------------------
+ source latency                                                                      0.000       0.000                    
+ byte_clk                                                                            0.000       0.000                    
+ byte_clk_vio|ctrl_clk_vio.d[1]                              hier                    0.000       0.000                    
+ byte_clk_vio|ctrl_clk_vio.f[1]                              cell                    0.274       0.274                    
+ byte_clk_pad_gclk_inst.clki (byte_clk_pad)                  net                     0.000       0.274      ../../source_code/rtl/mipi_driver_tp.v(5)
+ byte_clk_pad_gclk_inst.clko                                 cell (GCLK)             0.000       0.274                    
+ mipi_driver_gen_u/reg4_b3|mipi_driver_gen_u/reg4_b4.clk (byte_clk_pad_gclk_net) net                     2.414       2.688                    
+ launch clock edge                                                                   0.000       2.688
+---------------------------------------------------------------------------------------------------------
+ mipi_driver_gen_u/reg4_b3|mipi_driver_gen_u/reg4_b4.q[0]    clk2q                   0.146 r     2.834
+ mipi_driver_gen_u/img_buf_ept_ff1_reg|mipi_driver_gen_u/img_buf_ept_ff2_reg.b[1] (mipi_driver_gen_u/hs_cnt[4]) net  (fanout = 7)       0.554 r     3.388                    
+ mipi_driver_gen_u/img_buf_ept_ff1_reg|mipi_driver_gen_u/img_buf_ept_ff2_reg.f[1] cell                    0.451 r     3.839
+ mipi_driver_gen_u/_al_u112|mipi_driver_gen_u/_al_u198.b[0] (mipi_driver_gen_u/_al_u197_o) net  (fanout = 1)       0.620 r     4.459                    
+ mipi_driver_gen_u/_al_u112|mipi_driver_gen_u/_al_u198.f[0]  cell                    0.451 r     4.910
+ mipi_driver_gen_u/_al_u199|mipi_driver_gen_u/_al_u128.a[1] (mipi_driver_gen_u/mux11_b24/B0_1) net  (fanout = 2)       0.643 r     5.553                    
+ mipi_driver_gen_u/_al_u199|mipi_driver_gen_u/_al_u128.f[1]  cell                    0.443 r     5.996
+ mipi_driver_gen_u/byte_data_out_o[8]_vio|mipi_driver_gen_u/reg7_b28.a[0] (mipi_driver_gen_u/_al_u199_o) net  (fanout = 2)       0.634 r     6.630      ../../source_code/rtl/mipi_driver_gen.enc.v(24)
+ mipi_driver_gen_u/byte_data_out_o[8]_vio|mipi_driver_gen_u/reg7_b28 path2reg0               0.566       7.196
+ Arrival time                                                                        7.196                  (4 lvl)       
+
+ source latency                                                                      0.000       0.000                    
+ byte_clk                                                                            0.000       0.000                    
+ byte_clk_vio|ctrl_clk_vio.d[1]                              hier                    0.000       0.000                    
+ byte_clk_vio|ctrl_clk_vio.f[1]                              cell                    0.262       0.262                    
+ byte_clk_pad_gclk_inst.clki (byte_clk_pad)                  net                     0.000       0.262      ../../source_code/rtl/mipi_driver_tp.v(5)
+ byte_clk_pad_gclk_inst.clko                                 cell (GCLK)             0.000       0.262                    
+ mipi_driver_gen_u/byte_data_out_o[8]_vio|mipi_driver_gen_u/reg7_b28.clk (byte_clk_pad_gclk_net) net                     2.157       2.419                    
+ capture clock edge                                                                  8.900      11.319
+---------------------------------------------------------------------------------------------------------
+ cell setup                                                                         -0.116      11.203
+ clock uncertainty                                                                  -0.000      11.203
+ clock recovergence pessimism                                                        0.187      11.390
+ Required time                                                                      11.390            
+---------------------------------------------------------------------------------------------------------
+ Slack                                                                               4.194ns          
+
+---------------------------------------------------------------------------------------------------------
+
+Hold checks:
+---------------------------------------------------------------------------------------------------------
+Paths for end point video_buf_u/inst_2048x32_sub_000000_024 (11 paths)
+---------------------------------------------------------------------------------------------------------
+ Slack (hold check):      0.169 ns                                                        
+ Start Point:             mipi_driver_gen_u/reg6_b3|mipi_driver_gen_u/reg6_b2.clk (rising edge triggered by clock byte_clk)
+ End Point:               video_buf_u/inst_2048x32_sub_000000_024.addrb[4] (rising edge triggered by clock byte_clk)
+ Clock group:             byte_clk                                                        
+ Data Path Delay:         0.451ns  (logic 0.137ns, net 0.314ns, 30% logic)                
+ Logic Levels:            0                                                               
+
+ Point                                                       Type                     Incr        Path      Info          
+---------------------------------------------------------------------------------------------------------
+ source latency                                                                      0.000       0.000                    
+ byte_clk                                                                            0.000       0.000                    
+ byte_clk_vio|ctrl_clk_vio.d[1]                              hier                    0.000       0.000                    
+ byte_clk_vio|ctrl_clk_vio.f[1]                              cell                    0.262       0.262                    
+ byte_clk_pad_gclk_inst.clki (byte_clk_pad)                  net                     0.000       0.262      ../../source_code/rtl/mipi_driver_tp.v(5)
+ byte_clk_pad_gclk_inst.clko                                 cell (GCLK)             0.000       0.262                    
+ mipi_driver_gen_u/reg6_b3|mipi_driver_gen_u/reg6_b2.clk (byte_clk_pad_gclk_net) net                     2.157       2.419                    
+ launch clock edge                                                                   0.000       2.419
+---------------------------------------------------------------------------------------------------------
+ mipi_driver_gen_u/reg6_b3|mipi_driver_gen_u/reg6_b2.q[0]    clk2q                   0.137 r     2.556
+ video_buf_u/inst_2048x32_sub_000000_024.addrb[4] (addrb[2]) net  (fanout = 10)      0.314 r     2.870      ../../source_code/rtl/mipi_driver_tp.v(174)
+ video_buf_u/inst_2048x32_sub_000000_024                      (EMB)                  0.000       2.870
+ Arrival time                                                                        2.870                  (0 lvl)       
+
+ source latency                                                                      0.000       0.000                    
+ byte_clk                                                                            0.000       0.000                    
+ byte_clk_vio|ctrl_clk_vio.d[1]                              hier                    0.000       0.000                    
+ byte_clk_vio|ctrl_clk_vio.f[1]                              cell                    0.274       0.274                    
+ byte_clk_pad_gclk_inst.clki (byte_clk_pad)                  net                     0.000       0.274      ../../source_code/rtl/mipi_driver_tp.v(5)
+ byte_clk_pad_gclk_inst.clko                                 cell (GCLK)             0.000       0.274                    
+ video_buf_u/inst_2048x32_sub_000000_024.clkb (byte_clk_pad_gclk_net) net                     2.414       2.688                    
+ capture clock edge                                                                  0.000       2.688
+---------------------------------------------------------------------------------------------------------
+ cell hold                                                                           0.200       2.888
+ clock uncertainty                                                                   0.000       2.888
+ clock recovergence pessimism                                                       -0.187       2.701
+ Required time                                                                       2.701            
+---------------------------------------------------------------------------------------------------------
+ Slack                                                                               0.169ns          
+
+---------------------------------------------------------------------------------------------------------
+
+ Slack (hold check):      0.321 ns                                                        
+ Start Point:             mipi_driver_gen_u/add5/ucin_al_u262.clk (rising edge triggered by clock byte_clk)
+ End Point:               video_buf_u/inst_2048x32_sub_000000_024.addrb[8] (rising edge triggered by clock byte_clk)
+ Clock group:             byte_clk                                                        
+ Data Path Delay:         0.603ns  (logic 0.137ns, net 0.466ns, 22% logic)                
+ Logic Levels:            0                                                               
+
+ Point                                                       Type                     Incr        Path      Info          
+---------------------------------------------------------------------------------------------------------
+ source latency                                                                      0.000       0.000                    
+ byte_clk                                                                            0.000       0.000                    
+ byte_clk_vio|ctrl_clk_vio.d[1]                              hier                    0.000       0.000                    
+ byte_clk_vio|ctrl_clk_vio.f[1]                              cell                    0.262       0.262                    
+ byte_clk_pad_gclk_inst.clki (byte_clk_pad)                  net                     0.000       0.262      ../../source_code/rtl/mipi_driver_tp.v(5)
+ byte_clk_pad_gclk_inst.clko                                 cell (GCLK)             0.000       0.262                    
+ mipi_driver_gen_u/add5/ucin_al_u262.clk (byte_clk_pad_gclk_net) net                     2.157       2.419                    
+ launch clock edge                                                                   0.000       2.419
+---------------------------------------------------------------------------------------------------------
+ mipi_driver_gen_u/add5/ucin_al_u262.q[1]                    clk2q                   0.137 r     2.556
+ video_buf_u/inst_2048x32_sub_000000_024.addrb[8] (addrb[6]) net  (fanout = 10)      0.466 r     3.022      ../../source_code/rtl/mipi_driver_tp.v(174)
+ video_buf_u/inst_2048x32_sub_000000_024                      (EMB)                  0.000       3.022
+ Arrival time                                                                        3.022                  (0 lvl)       
+
+ source latency                                                                      0.000       0.000                    
+ byte_clk                                                                            0.000       0.000                    
+ byte_clk_vio|ctrl_clk_vio.d[1]                              hier                    0.000       0.000                    
+ byte_clk_vio|ctrl_clk_vio.f[1]                              cell                    0.274       0.274                    
+ byte_clk_pad_gclk_inst.clki (byte_clk_pad)                  net                     0.000       0.274      ../../source_code/rtl/mipi_driver_tp.v(5)
+ byte_clk_pad_gclk_inst.clko                                 cell (GCLK)             0.000       0.274                    
+ video_buf_u/inst_2048x32_sub_000000_024.clkb (byte_clk_pad_gclk_net) net                     2.414       2.688                    
+ capture clock edge                                                                  0.000       2.688
+---------------------------------------------------------------------------------------------------------
+ cell hold                                                                           0.200       2.888
+ clock uncertainty                                                                   0.000       2.888
+ clock recovergence pessimism                                                       -0.187       2.701
+ Required time                                                                       2.701            
+---------------------------------------------------------------------------------------------------------
+ Slack                                                                               0.321ns          
+
+---------------------------------------------------------------------------------------------------------
+
+ Slack (hold check):      0.321 ns                                                        
+ Start Point:             mipi_driver_gen_u/reg6_b4|mipi_driver_gen_u/reg6_b7.clk (rising edge triggered by clock byte_clk)
+ End Point:               video_buf_u/inst_2048x32_sub_000000_024.addrb[9] (rising edge triggered by clock byte_clk)
+ Clock group:             byte_clk                                                        
+ Data Path Delay:         0.603ns  (logic 0.137ns, net 0.466ns, 22% logic)                
+ Logic Levels:            0                                                               
+
+ Point                                                       Type                     Incr        Path      Info          
+---------------------------------------------------------------------------------------------------------
+ source latency                                                                      0.000       0.000                    
+ byte_clk                                                                            0.000       0.000                    
+ byte_clk_vio|ctrl_clk_vio.d[1]                              hier                    0.000       0.000                    
+ byte_clk_vio|ctrl_clk_vio.f[1]                              cell                    0.262       0.262                    
+ byte_clk_pad_gclk_inst.clki (byte_clk_pad)                  net                     0.000       0.262      ../../source_code/rtl/mipi_driver_tp.v(5)
+ byte_clk_pad_gclk_inst.clko                                 cell (GCLK)             0.000       0.262                    
+ mipi_driver_gen_u/reg6_b4|mipi_driver_gen_u/reg6_b7.clk (byte_clk_pad_gclk_net) net                     2.157       2.419                    
+ launch clock edge                                                                   0.000       2.419
+---------------------------------------------------------------------------------------------------------
+ mipi_driver_gen_u/reg6_b4|mipi_driver_gen_u/reg6_b7.q[0]    clk2q                   0.137 r     2.556
+ video_buf_u/inst_2048x32_sub_000000_024.addrb[9] (addrb[7]) net  (fanout = 10)      0.466 r     3.022      ../../source_code/rtl/mipi_driver_tp.v(174)
+ video_buf_u/inst_2048x32_sub_000000_024                      (EMB)                  0.000       3.022
+ Arrival time                                                                        3.022                  (0 lvl)       
+
+ source latency                                                                      0.000       0.000                    
+ byte_clk                                                                            0.000       0.000                    
+ byte_clk_vio|ctrl_clk_vio.d[1]                              hier                    0.000       0.000                    
+ byte_clk_vio|ctrl_clk_vio.f[1]                              cell                    0.274       0.274                    
+ byte_clk_pad_gclk_inst.clki (byte_clk_pad)                  net                     0.000       0.274      ../../source_code/rtl/mipi_driver_tp.v(5)
+ byte_clk_pad_gclk_inst.clko                                 cell (GCLK)             0.000       0.274                    
+ video_buf_u/inst_2048x32_sub_000000_024.clkb (byte_clk_pad_gclk_net) net                     2.414       2.688                    
+ capture clock edge                                                                  0.000       2.688
+---------------------------------------------------------------------------------------------------------
+ cell hold                                                                           0.200       2.888
+ clock uncertainty                                                                   0.000       2.888
+ clock recovergence pessimism                                                       -0.187       2.701
+ Required time                                                                       2.701            
+---------------------------------------------------------------------------------------------------------
+ Slack                                                                               0.321ns          
+
+---------------------------------------------------------------------------------------------------------
+
+Paths for end point video_buf_u/inst_2048x32_sub_000000_004 (11 paths)
+---------------------------------------------------------------------------------------------------------
+ Slack (hold check):      0.334 ns                                                        
+ Start Point:             mipi_driver_gen_u/reg6_b0|mipi_driver_gen_u/reg6_b1.clk (rising edge triggered by clock byte_clk)
+ End Point:               video_buf_u/inst_2048x32_sub_000000_004.addrb[3] (rising edge triggered by clock byte_clk)
+ Clock group:             byte_clk                                                        
+ Data Path Delay:         0.616ns  (logic 0.137ns, net 0.479ns, 22% logic)                
+ Logic Levels:            0                                                               
+
+ Point                                                       Type                     Incr        Path      Info          
+---------------------------------------------------------------------------------------------------------
+ source latency                                                                      0.000       0.000                    
+ byte_clk                                                                            0.000       0.000                    
+ byte_clk_vio|ctrl_clk_vio.d[1]                              hier                    0.000       0.000                    
+ byte_clk_vio|ctrl_clk_vio.f[1]                              cell                    0.262       0.262                    
+ byte_clk_pad_gclk_inst.clki (byte_clk_pad)                  net                     0.000       0.262      ../../source_code/rtl/mipi_driver_tp.v(5)
+ byte_clk_pad_gclk_inst.clko                                 cell (GCLK)             0.000       0.262                    
+ mipi_driver_gen_u/reg6_b0|mipi_driver_gen_u/reg6_b1.clk (byte_clk_pad_gclk_net) net                     2.157       2.419                    
+ launch clock edge                                                                   0.000       2.419
+---------------------------------------------------------------------------------------------------------
+ mipi_driver_gen_u/reg6_b0|mipi_driver_gen_u/reg6_b1.q[0]    clk2q                   0.137 r     2.556
+ video_buf_u/inst_2048x32_sub_000000_004.addrb[3] (addrb[1]) net  (fanout = 10)      0.479 r     3.035      ../../source_code/rtl/mipi_driver_tp.v(174)
+ video_buf_u/inst_2048x32_sub_000000_004                      (EMB)                  0.000       3.035
+ Arrival time                                                                        3.035                  (0 lvl)       
+
+ source latency                                                                      0.000       0.000                    
+ byte_clk                                                                            0.000       0.000                    
+ byte_clk_vio|ctrl_clk_vio.d[1]                              hier                    0.000       0.000                    
+ byte_clk_vio|ctrl_clk_vio.f[1]                              cell                    0.274       0.274                    
+ byte_clk_pad_gclk_inst.clki (byte_clk_pad)                  net                     0.000       0.274      ../../source_code/rtl/mipi_driver_tp.v(5)
+ byte_clk_pad_gclk_inst.clko                                 cell (GCLK)             0.000       0.274                    
+ video_buf_u/inst_2048x32_sub_000000_004.clkb (byte_clk_pad_gclk_net) net                     2.414       2.688                    
+ capture clock edge                                                                  0.000       2.688
+---------------------------------------------------------------------------------------------------------
+ cell hold                                                                           0.200       2.888
+ clock uncertainty                                                                   0.000       2.888
+ clock recovergence pessimism                                                       -0.187       2.701
+ Required time                                                                       2.701            
+---------------------------------------------------------------------------------------------------------
+ Slack                                                                               0.334ns          
+
+---------------------------------------------------------------------------------------------------------
+
+ Slack (hold check):      0.334 ns                                                        
+ Start Point:             mipi_driver_gen_u/reg6_b4|mipi_driver_gen_u/reg6_b7.clk (rising edge triggered by clock byte_clk)
+ End Point:               video_buf_u/inst_2048x32_sub_000000_004.addrb[9] (rising edge triggered by clock byte_clk)
+ Clock group:             byte_clk                                                        
+ Data Path Delay:         0.616ns  (logic 0.137ns, net 0.479ns, 22% logic)                
+ Logic Levels:            0                                                               
+
+ Point                                                       Type                     Incr        Path      Info          
+---------------------------------------------------------------------------------------------------------
+ source latency                                                                      0.000       0.000                    
+ byte_clk                                                                            0.000       0.000                    
+ byte_clk_vio|ctrl_clk_vio.d[1]                              hier                    0.000       0.000                    
+ byte_clk_vio|ctrl_clk_vio.f[1]                              cell                    0.262       0.262                    
+ byte_clk_pad_gclk_inst.clki (byte_clk_pad)                  net                     0.000       0.262      ../../source_code/rtl/mipi_driver_tp.v(5)
+ byte_clk_pad_gclk_inst.clko                                 cell (GCLK)             0.000       0.262                    
+ mipi_driver_gen_u/reg6_b4|mipi_driver_gen_u/reg6_b7.clk (byte_clk_pad_gclk_net) net                     2.157       2.419                    
+ launch clock edge                                                                   0.000       2.419
+---------------------------------------------------------------------------------------------------------
+ mipi_driver_gen_u/reg6_b4|mipi_driver_gen_u/reg6_b7.q[0]    clk2q                   0.137 r     2.556
+ video_buf_u/inst_2048x32_sub_000000_004.addrb[9] (addrb[7]) net  (fanout = 10)      0.479 r     3.035      ../../source_code/rtl/mipi_driver_tp.v(174)
+ video_buf_u/inst_2048x32_sub_000000_004                      (EMB)                  0.000       3.035
+ Arrival time                                                                        3.035                  (0 lvl)       
+
+ source latency                                                                      0.000       0.000                    
+ byte_clk                                                                            0.000       0.000                    
+ byte_clk_vio|ctrl_clk_vio.d[1]                              hier                    0.000       0.000                    
+ byte_clk_vio|ctrl_clk_vio.f[1]                              cell                    0.274       0.274                    
+ byte_clk_pad_gclk_inst.clki (byte_clk_pad)                  net                     0.000       0.274      ../../source_code/rtl/mipi_driver_tp.v(5)
+ byte_clk_pad_gclk_inst.clko                                 cell (GCLK)             0.000       0.274                    
+ video_buf_u/inst_2048x32_sub_000000_004.clkb (byte_clk_pad_gclk_net) net                     2.414       2.688                    
+ capture clock edge                                                                  0.000       2.688
+---------------------------------------------------------------------------------------------------------
+ cell hold                                                                           0.200       2.888
+ clock uncertainty                                                                   0.000       2.888
+ clock recovergence pessimism                                                       -0.187       2.701
+ Required time                                                                       2.701            
+---------------------------------------------------------------------------------------------------------
+ Slack                                                                               0.334ns          
+
+---------------------------------------------------------------------------------------------------------
+
+ Slack (hold check):      0.334 ns                                                        
+ Start Point:             mipi_driver_gen_u/reg6_b9|mipi_driver_gen_u/reg6_b8.clk (rising edge triggered by clock byte_clk)
+ End Point:               video_buf_u/inst_2048x32_sub_000000_004.addrb[10] (rising edge triggered by clock byte_clk)
+ Clock group:             byte_clk                                                        
+ Data Path Delay:         0.616ns  (logic 0.137ns, net 0.479ns, 22% logic)                
+ Logic Levels:            0                                                               
+
+ Point                                                       Type                     Incr        Path      Info          
+---------------------------------------------------------------------------------------------------------
+ source latency                                                                      0.000       0.000                    
+ byte_clk                                                                            0.000       0.000                    
+ byte_clk_vio|ctrl_clk_vio.d[1]                              hier                    0.000       0.000                    
+ byte_clk_vio|ctrl_clk_vio.f[1]                              cell                    0.262       0.262                    
+ byte_clk_pad_gclk_inst.clki (byte_clk_pad)                  net                     0.000       0.262      ../../source_code/rtl/mipi_driver_tp.v(5)
+ byte_clk_pad_gclk_inst.clko                                 cell (GCLK)             0.000       0.262                    
+ mipi_driver_gen_u/reg6_b9|mipi_driver_gen_u/reg6_b8.clk (byte_clk_pad_gclk_net) net                     2.157       2.419                    
+ launch clock edge                                                                   0.000       2.419
+---------------------------------------------------------------------------------------------------------
+ mipi_driver_gen_u/reg6_b9|mipi_driver_gen_u/reg6_b8.q[0]    clk2q                   0.137 r     2.556
+ video_buf_u/inst_2048x32_sub_000000_004.addrb[10] (addrb[8]) net  (fanout = 10)      0.479 r     3.035      ../../source_code/rtl/mipi_driver_tp.v(174)
+ video_buf_u/inst_2048x32_sub_000000_004                      (EMB)                  0.000       3.035
+ Arrival time                                                                        3.035                  (0 lvl)       
+
+ source latency                                                                      0.000       0.000                    
+ byte_clk                                                                            0.000       0.000                    
+ byte_clk_vio|ctrl_clk_vio.d[1]                              hier                    0.000       0.000                    
+ byte_clk_vio|ctrl_clk_vio.f[1]                              cell                    0.274       0.274                    
+ byte_clk_pad_gclk_inst.clki (byte_clk_pad)                  net                     0.000       0.274      ../../source_code/rtl/mipi_driver_tp.v(5)
+ byte_clk_pad_gclk_inst.clko                                 cell (GCLK)             0.000       0.274                    
+ video_buf_u/inst_2048x32_sub_000000_004.clkb (byte_clk_pad_gclk_net) net                     2.414       2.688                    
+ capture clock edge                                                                  0.000       2.688
+---------------------------------------------------------------------------------------------------------
+ cell hold                                                                           0.200       2.888
+ clock uncertainty                                                                   0.000       2.888
+ clock recovergence pessimism                                                       -0.187       2.701
+ Required time                                                                       2.701            
+---------------------------------------------------------------------------------------------------------
+ Slack                                                                               0.334ns          
+
+---------------------------------------------------------------------------------------------------------
+
+Paths for end point video_buf_u/inst_2048x32_sub_000000_016 (11 paths)
+---------------------------------------------------------------------------------------------------------
+ Slack (hold check):      0.372 ns                                                        
+ Start Point:             mipi_driver_gen_u/reg6_b4|mipi_driver_gen_u/reg6_b7.clk (rising edge triggered by clock byte_clk)
+ End Point:               video_buf_u/inst_2048x32_sub_000000_016.addrb[9] (rising edge triggered by clock byte_clk)
+ Clock group:             byte_clk                                                        
+ Data Path Delay:         0.654ns  (logic 0.137ns, net 0.517ns, 20% logic)                
+ Logic Levels:            0                                                               
+
+ Point                                                       Type                     Incr        Path      Info          
+---------------------------------------------------------------------------------------------------------
+ source latency                                                                      0.000       0.000                    
+ byte_clk                                                                            0.000       0.000                    
+ byte_clk_vio|ctrl_clk_vio.d[1]                              hier                    0.000       0.000                    
+ byte_clk_vio|ctrl_clk_vio.f[1]                              cell                    0.262       0.262                    
+ byte_clk_pad_gclk_inst.clki (byte_clk_pad)                  net                     0.000       0.262      ../../source_code/rtl/mipi_driver_tp.v(5)
+ byte_clk_pad_gclk_inst.clko                                 cell (GCLK)             0.000       0.262                    
+ mipi_driver_gen_u/reg6_b4|mipi_driver_gen_u/reg6_b7.clk (byte_clk_pad_gclk_net) net                     2.157       2.419                    
+ launch clock edge                                                                   0.000       2.419
+---------------------------------------------------------------------------------------------------------
+ mipi_driver_gen_u/reg6_b4|mipi_driver_gen_u/reg6_b7.q[0]    clk2q                   0.137 r     2.556
+ video_buf_u/inst_2048x32_sub_000000_016.addrb[9] (addrb[7]) net  (fanout = 10)      0.517 r     3.073      ../../source_code/rtl/mipi_driver_tp.v(174)
+ video_buf_u/inst_2048x32_sub_000000_016                      (EMB)                  0.000       3.073
+ Arrival time                                                                        3.073                  (0 lvl)       
+
+ source latency                                                                      0.000       0.000                    
+ byte_clk                                                                            0.000       0.000                    
+ byte_clk_vio|ctrl_clk_vio.d[1]                              hier                    0.000       0.000                    
+ byte_clk_vio|ctrl_clk_vio.f[1]                              cell                    0.274       0.274                    
+ byte_clk_pad_gclk_inst.clki (byte_clk_pad)                  net                     0.000       0.274      ../../source_code/rtl/mipi_driver_tp.v(5)
+ byte_clk_pad_gclk_inst.clko                                 cell (GCLK)             0.000       0.274                    
+ video_buf_u/inst_2048x32_sub_000000_016.clkb (byte_clk_pad_gclk_net) net                     2.414       2.688                    
+ capture clock edge                                                                  0.000       2.688
+---------------------------------------------------------------------------------------------------------
+ cell hold                                                                           0.200       2.888
+ clock uncertainty                                                                   0.000       2.888
+ clock recovergence pessimism                                                       -0.187       2.701
+ Required time                                                                       2.701            
+---------------------------------------------------------------------------------------------------------
+ Slack                                                                               0.372ns          
+
+---------------------------------------------------------------------------------------------------------
+
+ Slack (hold check):      0.372 ns                                                        
+ Start Point:             mipi_driver_gen_u/reg6_b9|mipi_driver_gen_u/reg6_b8.clk (rising edge triggered by clock byte_clk)
+ End Point:               video_buf_u/inst_2048x32_sub_000000_016.addrb[10] (rising edge triggered by clock byte_clk)
+ Clock group:             byte_clk                                                        
+ Data Path Delay:         0.654ns  (logic 0.137ns, net 0.517ns, 20% logic)                
+ Logic Levels:            0                                                               
+
+ Point                                                       Type                     Incr        Path      Info          
+---------------------------------------------------------------------------------------------------------
+ source latency                                                                      0.000       0.000                    
+ byte_clk                                                                            0.000       0.000                    
+ byte_clk_vio|ctrl_clk_vio.d[1]                              hier                    0.000       0.000                    
+ byte_clk_vio|ctrl_clk_vio.f[1]                              cell                    0.262       0.262                    
+ byte_clk_pad_gclk_inst.clki (byte_clk_pad)                  net                     0.000       0.262      ../../source_code/rtl/mipi_driver_tp.v(5)
+ byte_clk_pad_gclk_inst.clko                                 cell (GCLK)             0.000       0.262                    
+ mipi_driver_gen_u/reg6_b9|mipi_driver_gen_u/reg6_b8.clk (byte_clk_pad_gclk_net) net                     2.157       2.419                    
+ launch clock edge                                                                   0.000       2.419
+---------------------------------------------------------------------------------------------------------
+ mipi_driver_gen_u/reg6_b9|mipi_driver_gen_u/reg6_b8.q[0]    clk2q                   0.137 r     2.556
+ video_buf_u/inst_2048x32_sub_000000_016.addrb[10] (addrb[8]) net  (fanout = 10)      0.517 r     3.073      ../../source_code/rtl/mipi_driver_tp.v(174)
+ video_buf_u/inst_2048x32_sub_000000_016                      (EMB)                  0.000       3.073
+ Arrival time                                                                        3.073                  (0 lvl)       
+
+ source latency                                                                      0.000       0.000                    
+ byte_clk                                                                            0.000       0.000                    
+ byte_clk_vio|ctrl_clk_vio.d[1]                              hier                    0.000       0.000                    
+ byte_clk_vio|ctrl_clk_vio.f[1]                              cell                    0.274       0.274                    
+ byte_clk_pad_gclk_inst.clki (byte_clk_pad)                  net                     0.000       0.274      ../../source_code/rtl/mipi_driver_tp.v(5)
+ byte_clk_pad_gclk_inst.clko                                 cell (GCLK)             0.000       0.274                    
+ video_buf_u/inst_2048x32_sub_000000_016.clkb (byte_clk_pad_gclk_net) net                     2.414       2.688                    
+ capture clock edge                                                                  0.000       2.688
+---------------------------------------------------------------------------------------------------------
+ cell hold                                                                           0.200       2.888
+ clock uncertainty                                                                   0.000       2.888
+ clock recovergence pessimism                                                       -0.187       2.701
+ Required time                                                                       2.701            
+---------------------------------------------------------------------------------------------------------
+ Slack                                                                               0.372ns          
+
+---------------------------------------------------------------------------------------------------------
+
+ Slack (hold check):      0.524 ns                                                        
+ Start Point:             mipi_driver_gen_u/reg6_b0|mipi_driver_gen_u/reg6_b1.clk (rising edge triggered by clock byte_clk)
+ End Point:               video_buf_u/inst_2048x32_sub_000000_016.addrb[3] (rising edge triggered by clock byte_clk)
+ Clock group:             byte_clk                                                        
+ Data Path Delay:         0.806ns  (logic 0.137ns, net 0.669ns, 16% logic)                
+ Logic Levels:            0                                                               
+
+ Point                                                       Type                     Incr        Path      Info          
+---------------------------------------------------------------------------------------------------------
+ source latency                                                                      0.000       0.000                    
+ byte_clk                                                                            0.000       0.000                    
+ byte_clk_vio|ctrl_clk_vio.d[1]                              hier                    0.000       0.000                    
+ byte_clk_vio|ctrl_clk_vio.f[1]                              cell                    0.262       0.262                    
+ byte_clk_pad_gclk_inst.clki (byte_clk_pad)                  net                     0.000       0.262      ../../source_code/rtl/mipi_driver_tp.v(5)
+ byte_clk_pad_gclk_inst.clko                                 cell (GCLK)             0.000       0.262                    
+ mipi_driver_gen_u/reg6_b0|mipi_driver_gen_u/reg6_b1.clk (byte_clk_pad_gclk_net) net                     2.157       2.419                    
+ launch clock edge                                                                   0.000       2.419
+---------------------------------------------------------------------------------------------------------
+ mipi_driver_gen_u/reg6_b0|mipi_driver_gen_u/reg6_b1.q[0]    clk2q                   0.137 r     2.556
+ video_buf_u/inst_2048x32_sub_000000_016.addrb[3] (addrb[1]) net  (fanout = 10)      0.669 r     3.225      ../../source_code/rtl/mipi_driver_tp.v(174)
+ video_buf_u/inst_2048x32_sub_000000_016                      (EMB)                  0.000       3.225
+ Arrival time                                                                        3.225                  (0 lvl)       
+
+ source latency                                                                      0.000       0.000                    
+ byte_clk                                                                            0.000       0.000                    
+ byte_clk_vio|ctrl_clk_vio.d[1]                              hier                    0.000       0.000                    
+ byte_clk_vio|ctrl_clk_vio.f[1]                              cell                    0.274       0.274                    
+ byte_clk_pad_gclk_inst.clki (byte_clk_pad)                  net                     0.000       0.274      ../../source_code/rtl/mipi_driver_tp.v(5)
+ byte_clk_pad_gclk_inst.clko                                 cell (GCLK)             0.000       0.274                    
+ video_buf_u/inst_2048x32_sub_000000_016.clkb (byte_clk_pad_gclk_net) net                     2.414       2.688                    
+ capture clock edge                                                                  0.000       2.688
+---------------------------------------------------------------------------------------------------------
+ cell hold                                                                           0.200       2.888
+ clock uncertainty                                                                   0.000       2.888
+ clock recovergence pessimism                                                       -0.187       2.701
+ Required time                                                                       2.701            
+---------------------------------------------------------------------------------------------------------
+ Slack                                                                               0.524ns          
+
+---------------------------------------------------------------------------------------------------------
+
+
+=========================================================================================================
+Timing constraint:        clock: ctrl_clk                                                 
+Clock = ctrl_clk, period 6.7ns, rising at 0ns, falling at 3.35ns
+
+64 endpoints analyzed totally, and 368 paths analyzed
+0 errors detected : 0 setup errors (TNS = 0.000), 0 hold errors (TNS = 0.000)
+Minimum period is 3.274ns
+---------------------------------------------------------------------------------------------------------
+
+Paths for end point Sdr_rd_pixel_dat[27]_vio|mipi_driver_gen_u/reg5_b8 (9 paths)
+---------------------------------------------------------------------------------------------------------
+ Slack (setup check):     3.426 ns                                                        
+ Start Point:             mipi_driver_gen_u/add4/ucin_al_u259.clk (rising edge triggered by clock ctrl_clk)
+ End Point:               Sdr_rd_pixel_dat[27]_vio|mipi_driver_gen_u/reg5_b8.mi[0] (rising edge triggered by clock ctrl_clk)
+ Clock group:             ctrl_clk                                                        
+ Data Path Delay:         3.076ns  (logic 1.621ns, net 1.455ns, 52% logic)                
+ Logic Levels:            2                                                               
+
+ Point                                                       Type                     Incr        Path      Info          
+---------------------------------------------------------------------------------------------------------
+ source latency                                                                      0.000       0.000                    
+ ctrl_clk                                                                            0.000       0.000                    
+ byte_clk_vio|ctrl_clk_vio.d[0]                              hier                    0.000       0.000                    
+ byte_clk_vio|ctrl_clk_vio.f[0]                              cell                    0.274       0.274                    
+ ctrl_clk_pad_gclk_inst.clki (ctrl_clk_pad)                  net                     0.000       0.274      ../../source_code/rtl/mipi_driver_tp.v(4)
+ ctrl_clk_pad_gclk_inst.clko                                 cell (GCLK)             0.000       0.274                    
+ mipi_driver_gen_u/add4/ucin_al_u259.clk (ctrl_clk_pad_gclk_net) net                     2.414       2.688                    
+ launch clock edge                                                                   0.000       2.688
+---------------------------------------------------------------------------------------------------------
+ mipi_driver_gen_u/add4/ucin_al_u259.q[0]                    clk2q                   0.146 r     2.834
+ mipi_driver_gen_u/add4/u3_al_u260.a[1] (addra[5])           net  (fanout = 9)       0.838 r     3.672      ../../source_code/rtl/mipi_driver_tp.v(173)
+ mipi_driver_gen_u/add4/u3_al_u260.fco                       cell (ADDER)            0.921 r     4.593
+ mipi_driver_gen_u/add4/u7_al_u261.fci (mipi_driver_gen_u/add4/c7) net  (fanout = 1)       0.000 f     4.593                    
+ mipi_driver_gen_u/add4/u7_al_u261.fx[0]                     cell                    0.405 r     4.998
+ Sdr_rd_pixel_dat[27]_vio|mipi_driver_gen_u/reg5_b8.mi[0] (mipi_driver_gen_u/n41[8]) net  (fanout = 1)       0.617 r     5.615      ../../source_code/rtl/mipi_driver_tp.v(173)
+ Sdr_rd_pixel_dat[27]_vio|mipi_driver_gen_u/reg5_b8          path2reg0               0.149       5.764
+ Arrival time                                                                        5.764                  (2 lvl)       
+
+ source latency                                                                      0.000       0.000                    
+ ctrl_clk                                                                            0.000       0.000                    
+ byte_clk_vio|ctrl_clk_vio.d[0]                              hier                    0.000       0.000                    
+ byte_clk_vio|ctrl_clk_vio.f[0]                              cell                    0.262       0.262                    
+ ctrl_clk_pad_gclk_inst.clki (ctrl_clk_pad)                  net                     0.000       0.262      ../../source_code/rtl/mipi_driver_tp.v(4)
+ ctrl_clk_pad_gclk_inst.clko                                 cell (GCLK)             0.000       0.262                    
+ Sdr_rd_pixel_dat[27]_vio|mipi_driver_gen_u/reg5_b8.clk (ctrl_clk_pad_gclk_net) net                     2.157       2.419                    
+ capture clock edge                                                                  6.700       9.119
+---------------------------------------------------------------------------------------------------------
+ cell setup                                                                         -0.116       9.003
+ clock uncertainty                                                                  -0.000       9.003
+ clock recovergence pessimism                                                        0.187       9.190
+ Required time                                                                       9.190            
+---------------------------------------------------------------------------------------------------------
+ Slack                                                                               3.426ns          
+
+---------------------------------------------------------------------------------------------------------
+
+ Slack (setup check):     3.499 ns                                                        
+ Start Point:             mipi_driver_gen_u/_al_u103|mipi_driver_gen_u/reg5_b0.clk (rising edge triggered by clock ctrl_clk)
+ End Point:               Sdr_rd_pixel_dat[27]_vio|mipi_driver_gen_u/reg5_b8.mi[0] (rising edge triggered by clock ctrl_clk)
+ Clock group:             ctrl_clk                                                        
+ Data Path Delay:         3.003ns  (logic 1.712ns, net 1.291ns, 57% logic)                
+ Logic Levels:            2                                                               
+
+ Point                                                       Type                     Incr        Path      Info          
+---------------------------------------------------------------------------------------------------------
+ source latency                                                                      0.000       0.000                    
+ ctrl_clk                                                                            0.000       0.000                    
+ byte_clk_vio|ctrl_clk_vio.d[0]                              hier                    0.000       0.000                    
+ byte_clk_vio|ctrl_clk_vio.f[0]                              cell                    0.274       0.274                    
+ ctrl_clk_pad_gclk_inst.clki (ctrl_clk_pad)                  net                     0.000       0.274      ../../source_code/rtl/mipi_driver_tp.v(4)
+ ctrl_clk_pad_gclk_inst.clko                                 cell (GCLK)             0.000       0.274                    
+ mipi_driver_gen_u/_al_u103|mipi_driver_gen_u/reg5_b0.clk (ctrl_clk_pad_gclk_net) net                     2.414       2.688                    
+ launch clock edge                                                                   0.000       2.688
+---------------------------------------------------------------------------------------------------------
+ mipi_driver_gen_u/_al_u103|mipi_driver_gen_u/reg5_b0.q[0]   clk2q                   0.146 r     2.834
+ mipi_driver_gen_u/add4/ucin_al_u259.b[0] (addra[0])         net  (fanout = 9)       0.674 r     3.508      ../../source_code/rtl/mipi_driver_tp.v(173)
+ mipi_driver_gen_u/add4/ucin_al_u259.fco                     cell (ADDER)            0.874 r     4.382
+ mipi_driver_gen_u/add4/u3_al_u260.fci (mipi_driver_gen_u/add4/c3) net  (fanout = 1)       0.000 f     4.382                    
+ mipi_driver_gen_u/add4/u3_al_u260.fco                       cell (ADDER)            0.138 r     4.520
+ mipi_driver_gen_u/add4/u7_al_u261.fci (mipi_driver_gen_u/add4/c7) net  (fanout = 1)       0.000 f     4.520                    
+ mipi_driver_gen_u/add4/u7_al_u261.fx[0]                     cell                    0.405 r     4.925
+ Sdr_rd_pixel_dat[27]_vio|mipi_driver_gen_u/reg5_b8.mi[0] (mipi_driver_gen_u/n41[8]) net  (fanout = 1)       0.617 r     5.542      ../../source_code/rtl/mipi_driver_tp.v(173)
+ Sdr_rd_pixel_dat[27]_vio|mipi_driver_gen_u/reg5_b8          path2reg0               0.149       5.691
+ Arrival time                                                                        5.691                  (2 lvl)       
+
+ source latency                                                                      0.000       0.000                    
+ ctrl_clk                                                                            0.000       0.000                    
+ byte_clk_vio|ctrl_clk_vio.d[0]                              hier                    0.000       0.000                    
+ byte_clk_vio|ctrl_clk_vio.f[0]                              cell                    0.262       0.262                    
+ ctrl_clk_pad_gclk_inst.clki (ctrl_clk_pad)                  net                     0.000       0.262      ../../source_code/rtl/mipi_driver_tp.v(4)
+ ctrl_clk_pad_gclk_inst.clko                                 cell (GCLK)             0.000       0.262                    
+ Sdr_rd_pixel_dat[27]_vio|mipi_driver_gen_u/reg5_b8.clk (ctrl_clk_pad_gclk_net) net                     2.157       2.419                    
+ capture clock edge                                                                  6.700       9.119
+---------------------------------------------------------------------------------------------------------
+ cell setup                                                                         -0.116       9.003
+ clock uncertainty                                                                  -0.000       9.003
+ clock recovergence pessimism                                                        0.187       9.190
+ Required time                                                                       9.190            
+---------------------------------------------------------------------------------------------------------
+ Slack                                                                               3.499ns          
+
+---------------------------------------------------------------------------------------------------------
+
+ Slack (setup check):     3.580 ns                                                        
+ Start Point:             mipi_driver_gen_u/reg5_b2|mipi_driver_gen_u/reg5_b3.clk (rising edge triggered by clock ctrl_clk)
+ End Point:               Sdr_rd_pixel_dat[27]_vio|mipi_driver_gen_u/reg5_b8.mi[0] (rising edge triggered by clock ctrl_clk)
+ Clock group:             ctrl_clk                                                        
+ Data Path Delay:         2.922ns  (logic 1.643ns, net 1.279ns, 56% logic)                
+ Logic Levels:            2                                                               
+
+ Point                                                       Type                     Incr        Path      Info          
+---------------------------------------------------------------------------------------------------------
+ source latency                                                                      0.000       0.000                    
+ ctrl_clk                                                                            0.000       0.000                    
+ byte_clk_vio|ctrl_clk_vio.d[0]                              hier                    0.000       0.000                    
+ byte_clk_vio|ctrl_clk_vio.f[0]                              cell                    0.274       0.274                    
+ ctrl_clk_pad_gclk_inst.clki (ctrl_clk_pad)                  net                     0.000       0.274      ../../source_code/rtl/mipi_driver_tp.v(4)
+ ctrl_clk_pad_gclk_inst.clko                                 cell (GCLK)             0.000       0.274                    
+ mipi_driver_gen_u/reg5_b2|mipi_driver_gen_u/reg5_b3.clk (ctrl_clk_pad_gclk_net) net                     2.414       2.688                    
+ launch clock edge                                                                   0.000       2.688
+---------------------------------------------------------------------------------------------------------
+ mipi_driver_gen_u/reg5_b2|mipi_driver_gen_u/reg5_b3.q[1]    clk2q                   0.146 r     2.834
+ mipi_driver_gen_u/add4/ucin_al_u259.b[1] (addra[2])         net  (fanout = 9)       0.662 r     3.496      ../../source_code/rtl/mipi_driver_tp.v(173)
+ mipi_driver_gen_u/add4/ucin_al_u259.fco                     cell (ADDER)            0.805 r     4.301
+ mipi_driver_gen_u/add4/u3_al_u260.fci (mipi_driver_gen_u/add4/c3) net  (fanout = 1)       0.000 f     4.301                    
+ mipi_driver_gen_u/add4/u3_al_u260.fco                       cell (ADDER)            0.138 r     4.439
+ mipi_driver_gen_u/add4/u7_al_u261.fci (mipi_driver_gen_u/add4/c7) net  (fanout = 1)       0.000 f     4.439                    
+ mipi_driver_gen_u/add4/u7_al_u261.fx[0]                     cell                    0.405 r     4.844
+ Sdr_rd_pixel_dat[27]_vio|mipi_driver_gen_u/reg5_b8.mi[0] (mipi_driver_gen_u/n41[8]) net  (fanout = 1)       0.617 r     5.461      ../../source_code/rtl/mipi_driver_tp.v(173)
+ Sdr_rd_pixel_dat[27]_vio|mipi_driver_gen_u/reg5_b8          path2reg0               0.149       5.610
+ Arrival time                                                                        5.610                  (2 lvl)       
+
+ source latency                                                                      0.000       0.000                    
+ ctrl_clk                                                                            0.000       0.000                    
+ byte_clk_vio|ctrl_clk_vio.d[0]                              hier                    0.000       0.000                    
+ byte_clk_vio|ctrl_clk_vio.f[0]                              cell                    0.262       0.262                    
+ ctrl_clk_pad_gclk_inst.clki (ctrl_clk_pad)                  net                     0.000       0.262      ../../source_code/rtl/mipi_driver_tp.v(4)
+ ctrl_clk_pad_gclk_inst.clko                                 cell (GCLK)             0.000       0.262                    
+ Sdr_rd_pixel_dat[27]_vio|mipi_driver_gen_u/reg5_b8.clk (ctrl_clk_pad_gclk_net) net                     2.157       2.419                    
+ capture clock edge                                                                  6.700       9.119
+---------------------------------------------------------------------------------------------------------
+ cell setup                                                                         -0.116       9.003
+ clock uncertainty                                                                  -0.000       9.003
+ clock recovergence pessimism                                                        0.187       9.190
+ Required time                                                                       9.190            
+---------------------------------------------------------------------------------------------------------
+ Slack                                                                               3.580ns          
+
+---------------------------------------------------------------------------------------------------------
+
+Paths for end point mipi_driver_gen_u/_al_u71|mipi_driver_gen_u/reg5_b4 (5 paths)
+---------------------------------------------------------------------------------------------------------
+ Slack (setup check):     3.465 ns                                                        
+ Start Point:             mipi_driver_gen_u/_al_u103|mipi_driver_gen_u/reg5_b0.clk (rising edge triggered by clock ctrl_clk)
+ End Point:               mipi_driver_gen_u/_al_u71|mipi_driver_gen_u/reg5_b4.mi[0] (rising edge triggered by clock ctrl_clk)
+ Clock group:             ctrl_clk                                                        
+ Data Path Delay:         3.037ns  (logic 1.574ns, net 1.463ns, 51% logic)                
+ Logic Levels:            2                                                               
+
+ Point                                                       Type                     Incr        Path      Info          
+---------------------------------------------------------------------------------------------------------
+ source latency                                                                      0.000       0.000                    
+ ctrl_clk                                                                            0.000       0.000                    
+ byte_clk_vio|ctrl_clk_vio.d[0]                              hier                    0.000       0.000                    
+ byte_clk_vio|ctrl_clk_vio.f[0]                              cell                    0.274       0.274                    
+ ctrl_clk_pad_gclk_inst.clki (ctrl_clk_pad)                  net                     0.000       0.274      ../../source_code/rtl/mipi_driver_tp.v(4)
+ ctrl_clk_pad_gclk_inst.clko                                 cell (GCLK)             0.000       0.274                    
+ mipi_driver_gen_u/_al_u103|mipi_driver_gen_u/reg5_b0.clk (ctrl_clk_pad_gclk_net) net                     2.414       2.688                    
+ launch clock edge                                                                   0.000       2.688
+---------------------------------------------------------------------------------------------------------
+ mipi_driver_gen_u/_al_u103|mipi_driver_gen_u/reg5_b0.q[0]   clk2q                   0.146 r     2.834
+ mipi_driver_gen_u/add4/ucin_al_u259.b[0] (addra[0])         net  (fanout = 9)       0.674 r     3.508      ../../source_code/rtl/mipi_driver_tp.v(173)
+ mipi_driver_gen_u/add4/ucin_al_u259.fco                     cell (ADDER)            0.874 r     4.382
+ mipi_driver_gen_u/add4/u3_al_u260.fci (mipi_driver_gen_u/add4/c3) net  (fanout = 1)       0.000 f     4.382                    
+ mipi_driver_gen_u/add4/u3_al_u260.fx[0]                     cell                    0.405 r     4.787
+ mipi_driver_gen_u/_al_u71|mipi_driver_gen_u/reg5_b4.mi[0] (mipi_driver_gen_u/n41[4]) net  (fanout = 1)       0.789 r     5.576      ../../source_code/rtl/mipi_driver_tp.v(173)
+ mipi_driver_gen_u/_al_u71|mipi_driver_gen_u/reg5_b4         path2reg0               0.149       5.725
+ Arrival time                                                                        5.725                  (2 lvl)       
+
+ source latency                                                                      0.000       0.000                    
+ ctrl_clk                                                                            0.000       0.000                    
+ byte_clk_vio|ctrl_clk_vio.d[0]                              hier                    0.000       0.000                    
+ byte_clk_vio|ctrl_clk_vio.f[0]                              cell                    0.262       0.262                    
+ ctrl_clk_pad_gclk_inst.clki (ctrl_clk_pad)                  net                     0.000       0.262      ../../source_code/rtl/mipi_driver_tp.v(4)
+ ctrl_clk_pad_gclk_inst.clko                                 cell (GCLK)             0.000       0.262                    
+ mipi_driver_gen_u/_al_u71|mipi_driver_gen_u/reg5_b4.clk (ctrl_clk_pad_gclk_net) net                     2.157       2.419                    
+ capture clock edge                                                                  6.700       9.119
+---------------------------------------------------------------------------------------------------------
+ cell setup                                                                         -0.116       9.003
+ clock uncertainty                                                                  -0.000       9.003
+ clock recovergence pessimism                                                        0.187       9.190
+ Required time                                                                       9.190            
+---------------------------------------------------------------------------------------------------------
+ Slack                                                                               3.465ns          
+
+---------------------------------------------------------------------------------------------------------
+
+ Slack (setup check):     3.546 ns                                                        
+ Start Point:             mipi_driver_gen_u/reg5_b2|mipi_driver_gen_u/reg5_b3.clk (rising edge triggered by clock ctrl_clk)
+ End Point:               mipi_driver_gen_u/_al_u71|mipi_driver_gen_u/reg5_b4.mi[0] (rising edge triggered by clock ctrl_clk)
+ Clock group:             ctrl_clk                                                        
+ Data Path Delay:         2.956ns  (logic 1.505ns, net 1.451ns, 50% logic)                
+ Logic Levels:            2                                                               
+
+ Point                                                       Type                     Incr        Path      Info          
+---------------------------------------------------------------------------------------------------------
+ source latency                                                                      0.000       0.000                    
+ ctrl_clk                                                                            0.000       0.000                    
+ byte_clk_vio|ctrl_clk_vio.d[0]                              hier                    0.000       0.000                    
+ byte_clk_vio|ctrl_clk_vio.f[0]                              cell                    0.274       0.274                    
+ ctrl_clk_pad_gclk_inst.clki (ctrl_clk_pad)                  net                     0.000       0.274      ../../source_code/rtl/mipi_driver_tp.v(4)
+ ctrl_clk_pad_gclk_inst.clko                                 cell (GCLK)             0.000       0.274                    
+ mipi_driver_gen_u/reg5_b2|mipi_driver_gen_u/reg5_b3.clk (ctrl_clk_pad_gclk_net) net                     2.414       2.688                    
+ launch clock edge                                                                   0.000       2.688
+---------------------------------------------------------------------------------------------------------
+ mipi_driver_gen_u/reg5_b2|mipi_driver_gen_u/reg5_b3.q[1]    clk2q                   0.146 r     2.834
+ mipi_driver_gen_u/add4/ucin_al_u259.b[1] (addra[2])         net  (fanout = 9)       0.662 r     3.496      ../../source_code/rtl/mipi_driver_tp.v(173)
+ mipi_driver_gen_u/add4/ucin_al_u259.fco                     cell (ADDER)            0.805 r     4.301
+ mipi_driver_gen_u/add4/u3_al_u260.fci (mipi_driver_gen_u/add4/c3) net  (fanout = 1)       0.000 f     4.301                    
+ mipi_driver_gen_u/add4/u3_al_u260.fx[0]                     cell                    0.405 r     4.706
+ mipi_driver_gen_u/_al_u71|mipi_driver_gen_u/reg5_b4.mi[0] (mipi_driver_gen_u/n41[4]) net  (fanout = 1)       0.789 r     5.495      ../../source_code/rtl/mipi_driver_tp.v(173)
+ mipi_driver_gen_u/_al_u71|mipi_driver_gen_u/reg5_b4         path2reg0               0.149       5.644
+ Arrival time                                                                        5.644                  (2 lvl)       
+
+ source latency                                                                      0.000       0.000                    
+ ctrl_clk                                                                            0.000       0.000                    
+ byte_clk_vio|ctrl_clk_vio.d[0]                              hier                    0.000       0.000                    
+ byte_clk_vio|ctrl_clk_vio.f[0]                              cell                    0.262       0.262                    
+ ctrl_clk_pad_gclk_inst.clki (ctrl_clk_pad)                  net                     0.000       0.262      ../../source_code/rtl/mipi_driver_tp.v(4)
+ ctrl_clk_pad_gclk_inst.clko                                 cell (GCLK)             0.000       0.262                    
+ mipi_driver_gen_u/_al_u71|mipi_driver_gen_u/reg5_b4.clk (ctrl_clk_pad_gclk_net) net                     2.157       2.419                    
+ capture clock edge                                                                  6.700       9.119
+---------------------------------------------------------------------------------------------------------
+ cell setup                                                                         -0.116       9.003
+ clock uncertainty                                                                  -0.000       9.003
+ clock recovergence pessimism                                                        0.187       9.190
+ Required time                                                                       9.190            
+---------------------------------------------------------------------------------------------------------
+ Slack                                                                               3.546ns          
+
+---------------------------------------------------------------------------------------------------------
+
+ Slack (setup check):     3.697 ns                                                        
+ Start Point:             Sdr_rd_pixel_dat[0]_vio|mipi_driver_gen_u/reg5_b1.clk (rising edge triggered by clock ctrl_clk)
+ End Point:               mipi_driver_gen_u/_al_u71|mipi_driver_gen_u/reg5_b4.mi[0] (rising edge triggered by clock ctrl_clk)
+ Clock group:             ctrl_clk                                                        
+ Data Path Delay:         2.805ns  (logic 1.621ns, net 1.184ns, 57% logic)                
+ Logic Levels:            2                                                               
+
+ Point                                                       Type                     Incr        Path      Info          
+---------------------------------------------------------------------------------------------------------
+ source latency                                                                      0.000       0.000                    
+ ctrl_clk                                                                            0.000       0.000                    
+ byte_clk_vio|ctrl_clk_vio.d[0]                              hier                    0.000       0.000                    
+ byte_clk_vio|ctrl_clk_vio.f[0]                              cell                    0.274       0.274                    
+ ctrl_clk_pad_gclk_inst.clki (ctrl_clk_pad)                  net                     0.000       0.274      ../../source_code/rtl/mipi_driver_tp.v(4)
+ ctrl_clk_pad_gclk_inst.clko                                 cell (GCLK)             0.000       0.274                    
+ Sdr_rd_pixel_dat[0]_vio|mipi_driver_gen_u/reg5_b1.clk (ctrl_clk_pad_gclk_net) net                     2.414       2.688                    
+ launch clock edge                                                                   0.000       2.688
+---------------------------------------------------------------------------------------------------------
+ Sdr_rd_pixel_dat[0]_vio|mipi_driver_gen_u/reg5_b1.q[0]      clk2q                   0.146 r     2.834
+ mipi_driver_gen_u/add4/ucin_al_u259.a[1] (addra[1])         net  (fanout = 9)       0.395 r     3.229      ../../source_code/rtl/mipi_driver_tp.v(173)
+ mipi_driver_gen_u/add4/ucin_al_u259.fco                     cell (ADDER)            0.921 r     4.150
+ mipi_driver_gen_u/add4/u3_al_u260.fci (mipi_driver_gen_u/add4/c3) net  (fanout = 1)       0.000 f     4.150                    
+ mipi_driver_gen_u/add4/u3_al_u260.fx[0]                     cell                    0.405 r     4.555
+ mipi_driver_gen_u/_al_u71|mipi_driver_gen_u/reg5_b4.mi[0] (mipi_driver_gen_u/n41[4]) net  (fanout = 1)       0.789 r     5.344      ../../source_code/rtl/mipi_driver_tp.v(173)
+ mipi_driver_gen_u/_al_u71|mipi_driver_gen_u/reg5_b4         path2reg0               0.149       5.493
+ Arrival time                                                                        5.493                  (2 lvl)       
+
+ source latency                                                                      0.000       0.000                    
+ ctrl_clk                                                                            0.000       0.000                    
+ byte_clk_vio|ctrl_clk_vio.d[0]                              hier                    0.000       0.000                    
+ byte_clk_vio|ctrl_clk_vio.f[0]                              cell                    0.262       0.262                    
+ ctrl_clk_pad_gclk_inst.clki (ctrl_clk_pad)                  net                     0.000       0.262      ../../source_code/rtl/mipi_driver_tp.v(4)
+ ctrl_clk_pad_gclk_inst.clko                                 cell (GCLK)             0.000       0.262                    
+ mipi_driver_gen_u/_al_u71|mipi_driver_gen_u/reg5_b4.clk (ctrl_clk_pad_gclk_net) net                     2.157       2.419                    
+ capture clock edge                                                                  6.700       9.119
+---------------------------------------------------------------------------------------------------------
+ cell setup                                                                         -0.116       9.003
+ clock uncertainty                                                                  -0.000       9.003
+ clock recovergence pessimism                                                        0.187       9.190
+ Required time                                                                       9.190            
+---------------------------------------------------------------------------------------------------------
+ Slack                                                                               3.697ns          
+
+---------------------------------------------------------------------------------------------------------
+
+Paths for end point mipi_driver_gen_u/add4/ucin_al_u259 (4 paths)
+---------------------------------------------------------------------------------------------------------
+ Slack (setup check):     3.671 ns                                                        
+ Start Point:             mipi_driver_gen_u/img_buf_ept_ff3_reg|mipi_driver_gen_u/_al_u109.clk (rising edge triggered by clock ctrl_clk)
+ End Point:               mipi_driver_gen_u/add4/ucin_al_u259.sr (rising edge triggered by clock ctrl_clk)
+ Clock group:             ctrl_clk                                                        
+ Data Path Delay:         2.821ns  (logic 0.914ns, net 1.907ns, 32% logic)                
+ Logic Levels:            2                                                               
+
+ Point                                                       Type                     Incr        Path      Info          
+---------------------------------------------------------------------------------------------------------
+ source latency                                                                      0.000       0.000                    
+ ctrl_clk                                                                            0.000       0.000                    
+ byte_clk_vio|ctrl_clk_vio.d[0]                              hier                    0.000       0.000                    
+ byte_clk_vio|ctrl_clk_vio.f[0]                              cell                    0.274       0.274                    
+ ctrl_clk_pad_gclk_inst.clki (ctrl_clk_pad)                  net                     0.000       0.274      ../../source_code/rtl/mipi_driver_tp.v(4)
+ ctrl_clk_pad_gclk_inst.clko                                 cell (GCLK)             0.000       0.274                    
+ mipi_driver_gen_u/img_buf_ept_ff3_reg|mipi_driver_gen_u/_al_u109.clk (ctrl_clk_pad_gclk_net) net                     2.414       2.688                    
+ launch clock edge                                                                   0.000       2.688
+---------------------------------------------------------------------------------------------------------
+ mipi_driver_gen_u/img_buf_ept_ff3_reg|mipi_driver_gen_u/_al_u109.q[1] clk2q                   0.146 r     2.834
+ mipi_driver_gen_u/vs_ff_reg|mipi_driver_gen_u/_al_u195.c[1] (mipi_driver_gen_u/img_buf_ept_ff3) net  (fanout = 1)       0.407 r     3.241                    
+ mipi_driver_gen_u/vs_ff_reg|mipi_driver_gen_u/_al_u195.f[1] cell                    0.363 r     3.604
+ mipi_driver_gen_u/vs_fff_reg|mipi_driver_gen_u/vs_f_reg.c[0] (mipi_driver_gen_u/Row_rd_req_pad) net  (fanout = 3)       0.702 r     4.306      ../../source_code/rtl/mipi_driver_gen.enc.v(13)
+ mipi_driver_gen_u/vs_fff_reg|mipi_driver_gen_u/vs_f_reg.f[0] cell                    0.262 r     4.568
+ mipi_driver_gen_u/add4/ucin_al_u259.sr (mipi_driver_gen_u/mux9_b0_sel_is_0_o) net  (fanout = 7)       0.798 r     5.366                    
+ mipi_driver_gen_u/add4/ucin_al_u259                         path2reg                0.143       5.509
+ Arrival time                                                                        5.509                  (2 lvl)       
+
+ source latency                                                                      0.000       0.000                    
+ ctrl_clk                                                                            0.000       0.000                    
+ byte_clk_vio|ctrl_clk_vio.d[0]                              hier                    0.000       0.000                    
+ byte_clk_vio|ctrl_clk_vio.f[0]                              cell                    0.262       0.262                    
+ ctrl_clk_pad_gclk_inst.clki (ctrl_clk_pad)                  net                     0.000       0.262      ../../source_code/rtl/mipi_driver_tp.v(4)
+ ctrl_clk_pad_gclk_inst.clko                                 cell (GCLK)             0.000       0.262                    
+ mipi_driver_gen_u/add4/ucin_al_u259.clk (ctrl_clk_pad_gclk_net) net                     2.157       2.419                    
+ capture clock edge                                                                  6.700       9.119
+---------------------------------------------------------------------------------------------------------
+ cell setup                                                                         -0.187       8.932
+ clock uncertainty                                                                  -0.000       8.932
+ clock recovergence pessimism                                                        0.248       9.180
+ Required time                                                                       9.180            
+---------------------------------------------------------------------------------------------------------
+ Slack                                                                               3.671ns          
+
+---------------------------------------------------------------------------------------------------------
+
+ Slack (setup check):     3.761 ns                                                        
+ Start Point:             mipi_driver_gen_u/img_buf_ept_ff1_reg|mipi_driver_gen_u/img_buf_ept_ff2_reg.clk (rising edge triggered by clock ctrl_clk)
+ End Point:               mipi_driver_gen_u/add4/ucin_al_u259.sr (rising edge triggered by clock ctrl_clk)
+ Clock group:             ctrl_clk                                                        
+ Data Path Delay:         2.670ns  (logic 0.825ns, net 1.845ns, 30% logic)                
+ Logic Levels:            2                                                               
+
+ Point                                                       Type                     Incr        Path      Info          
+---------------------------------------------------------------------------------------------------------
+ source latency                                                                      0.000       0.000                    
+ ctrl_clk                                                                            0.000       0.000                    
+ byte_clk_vio|ctrl_clk_vio.d[0]                              hier                    0.000       0.000                    
+ byte_clk_vio|ctrl_clk_vio.f[0]                              cell                    0.274       0.274                    
+ ctrl_clk_pad_gclk_inst.clki (ctrl_clk_pad)                  net                     0.000       0.274      ../../source_code/rtl/mipi_driver_tp.v(4)
+ ctrl_clk_pad_gclk_inst.clko                                 cell (GCLK)             0.000       0.274                    
+ mipi_driver_gen_u/img_buf_ept_ff1_reg|mipi_driver_gen_u/img_buf_ept_ff2_reg.clk (ctrl_clk_pad_gclk_net) net                     2.414       2.688                    
+ launch clock edge                                                                   0.000       2.688
+---------------------------------------------------------------------------------------------------------
+ mipi_driver_gen_u/img_buf_ept_ff1_reg|mipi_driver_gen_u/img_buf_ept_ff2_reg.q[0] clk2q                   0.146 r     2.834
+ mipi_driver_gen_u/vs_ff_reg|mipi_driver_gen_u/_al_u195.d[1] (mipi_driver_gen_u/img_buf_ept_ff2) net  (fanout = 2)       0.345 r     3.179                    
+ mipi_driver_gen_u/vs_ff_reg|mipi_driver_gen_u/_al_u195.f[1] cell                    0.274 r     3.453
+ mipi_driver_gen_u/vs_fff_reg|mipi_driver_gen_u/vs_f_reg.c[0] (mipi_driver_gen_u/Row_rd_req_pad) net  (fanout = 3)       0.702 r     4.155      ../../source_code/rtl/mipi_driver_gen.enc.v(13)
+ mipi_driver_gen_u/vs_fff_reg|mipi_driver_gen_u/vs_f_reg.f[0] cell                    0.262 r     4.417
+ mipi_driver_gen_u/add4/ucin_al_u259.sr (mipi_driver_gen_u/mux9_b0_sel_is_0_o) net  (fanout = 7)       0.798 r     5.215                    
+ mipi_driver_gen_u/add4/ucin_al_u259                         path2reg                0.143       5.358
+ Arrival time                                                                        5.358                  (2 lvl)       
+
+ source latency                                                                      0.000       0.000                    
+ ctrl_clk                                                                            0.000       0.000                    
+ byte_clk_vio|ctrl_clk_vio.d[0]                              hier                    0.000       0.000                    
+ byte_clk_vio|ctrl_clk_vio.f[0]                              cell                    0.262       0.262                    
+ ctrl_clk_pad_gclk_inst.clki (ctrl_clk_pad)                  net                     0.000       0.262      ../../source_code/rtl/mipi_driver_tp.v(4)
+ ctrl_clk_pad_gclk_inst.clko                                 cell (GCLK)             0.000       0.262                    
+ mipi_driver_gen_u/add4/ucin_al_u259.clk (ctrl_clk_pad_gclk_net) net                     2.157       2.419                    
+ capture clock edge                                                                  6.700       9.119
+---------------------------------------------------------------------------------------------------------
+ cell setup                                                                         -0.187       8.932
+ clock uncertainty                                                                  -0.000       8.932
+ clock recovergence pessimism                                                        0.187       9.119
+ Required time                                                                       9.119            
+---------------------------------------------------------------------------------------------------------
+ Slack                                                                               3.761ns          
+
+---------------------------------------------------------------------------------------------------------
+
+ Slack (setup check):     4.187 ns                                                        
+ Start Point:             mipi_driver_gen_u/vs_ff_reg|mipi_driver_gen_u/_al_u195.clk (rising edge triggered by clock ctrl_clk)
+ End Point:               mipi_driver_gen_u/add4/ucin_al_u259.sr (rising edge triggered by clock ctrl_clk)
+ Clock group:             ctrl_clk                                                        
+ Data Path Delay:         2.244ns  (logic 0.717ns, net 1.527ns, 31% logic)                
+ Logic Levels:            2                                                               
+
+ Point                                                       Type                     Incr        Path      Info          
+---------------------------------------------------------------------------------------------------------
+ source latency                                                                      0.000       0.000                    
+ ctrl_clk                                                                            0.000       0.000                    
+ byte_clk_vio|ctrl_clk_vio.d[0]                              hier                    0.000       0.000                    
+ byte_clk_vio|ctrl_clk_vio.f[0]                              cell                    0.274       0.274                    
+ ctrl_clk_pad_gclk_inst.clki (ctrl_clk_pad)                  net                     0.000       0.274      ../../source_code/rtl/mipi_driver_tp.v(4)
+ ctrl_clk_pad_gclk_inst.clko                                 cell (GCLK)             0.000       0.274                    
+ mipi_driver_gen_u/vs_ff_reg|mipi_driver_gen_u/_al_u195.clk (ctrl_clk_pad_gclk_net) net                     2.414       2.688                    
+ launch clock edge                                                                   0.000       2.688
+---------------------------------------------------------------------------------------------------------
+ mipi_driver_gen_u/vs_ff_reg|mipi_driver_gen_u/_al_u195.q[1] clk2q                   0.146 r     2.834
+ mipi_driver_gen_u/vs_fff_reg|mipi_driver_gen_u/vs_f_reg.d[1] (mipi_driver_gen_u/vs_ff) net  (fanout = 2)       0.563 r     3.397                    
+ mipi_driver_gen_u/vs_fff_reg|mipi_driver_gen_u/vs_f_reg.f[1] cell                    0.214 r     3.611
+ mipi_driver_gen_u/vs_fff_reg|mipi_driver_gen_u/vs_f_reg.d[0] (mipi_driver_gen_u/vs_rising) net  (fanout = 2)       0.166 r     3.777                    
+ mipi_driver_gen_u/vs_fff_reg|mipi_driver_gen_u/vs_f_reg.f[0] cell                    0.214 r     3.991
+ mipi_driver_gen_u/add4/ucin_al_u259.sr (mipi_driver_gen_u/mux9_b0_sel_is_0_o) net  (fanout = 7)       0.798 r     4.789                    
+ mipi_driver_gen_u/add4/ucin_al_u259                         path2reg                0.143       4.932
+ Arrival time                                                                        4.932                  (2 lvl)       
+
+ source latency                                                                      0.000       0.000                    
+ ctrl_clk                                                                            0.000       0.000                    
+ byte_clk_vio|ctrl_clk_vio.d[0]                              hier                    0.000       0.000                    
+ byte_clk_vio|ctrl_clk_vio.f[0]                              cell                    0.262       0.262                    
+ ctrl_clk_pad_gclk_inst.clki (ctrl_clk_pad)                  net                     0.000       0.262      ../../source_code/rtl/mipi_driver_tp.v(4)
+ ctrl_clk_pad_gclk_inst.clko                                 cell (GCLK)             0.000       0.262                    
+ mipi_driver_gen_u/add4/ucin_al_u259.clk (ctrl_clk_pad_gclk_net) net                     2.157       2.419                    
+ capture clock edge                                                                  6.700       9.119
+---------------------------------------------------------------------------------------------------------
+ cell setup                                                                         -0.187       8.932
+ clock uncertainty                                                                  -0.000       8.932
+ clock recovergence pessimism                                                        0.187       9.119
+ Required time                                                                       9.119            
+---------------------------------------------------------------------------------------------------------
+ Slack                                                                               4.187ns          
+
+---------------------------------------------------------------------------------------------------------
+
+Hold checks:
+---------------------------------------------------------------------------------------------------------
+Paths for end point video_buf_u/inst_2048x32_sub_000000_024 (11 paths)
+---------------------------------------------------------------------------------------------------------
+ Slack (hold check):      0.181 ns                                                        
+ Start Point:             mipi_driver_gen_u/reg5_b7|mipi_driver_gen_u/reg5_b9.clk (rising edge triggered by clock ctrl_clk)
+ End Point:               video_buf_u/inst_2048x32_sub_000000_024.addra[9] (rising edge triggered by clock ctrl_clk)
+ Clock group:             ctrl_clk                                                        
+ Data Path Delay:         0.463ns  (logic 0.137ns, net 0.326ns, 29% logic)                
+ Logic Levels:            0                                                               
+
+ Point                                                       Type                     Incr        Path      Info          
+---------------------------------------------------------------------------------------------------------
+ source latency                                                                      0.000       0.000                    
+ ctrl_clk                                                                            0.000       0.000                    
+ byte_clk_vio|ctrl_clk_vio.d[0]                              hier                    0.000       0.000                    
+ byte_clk_vio|ctrl_clk_vio.f[0]                              cell                    0.262       0.262                    
+ ctrl_clk_pad_gclk_inst.clki (ctrl_clk_pad)                  net                     0.000       0.262      ../../source_code/rtl/mipi_driver_tp.v(4)
+ ctrl_clk_pad_gclk_inst.clko                                 cell (GCLK)             0.000       0.262                    
+ mipi_driver_gen_u/reg5_b7|mipi_driver_gen_u/reg5_b9.clk (ctrl_clk_pad_gclk_net) net                     2.157       2.419                    
+ launch clock edge                                                                   0.000       2.419
+---------------------------------------------------------------------------------------------------------
+ mipi_driver_gen_u/reg5_b7|mipi_driver_gen_u/reg5_b9.q[1]    clk2q                   0.137 r     2.556
+ video_buf_u/inst_2048x32_sub_000000_024.addra[9] (addra[7]) net  (fanout = 9)       0.326 r     2.882      ../../source_code/rtl/mipi_driver_tp.v(173)
+ video_buf_u/inst_2048x32_sub_000000_024                      (EMB)                  0.000       2.882
+ Arrival time                                                                        2.882                  (0 lvl)       
+
+ source latency                                                                      0.000       0.000                    
+ ctrl_clk                                                                            0.000       0.000                    
+ byte_clk_vio|ctrl_clk_vio.d[0]                              hier                    0.000       0.000                    
+ byte_clk_vio|ctrl_clk_vio.f[0]                              cell                    0.274       0.274                    
+ ctrl_clk_pad_gclk_inst.clki (ctrl_clk_pad)                  net                     0.000       0.274      ../../source_code/rtl/mipi_driver_tp.v(4)
+ ctrl_clk_pad_gclk_inst.clko                                 cell (GCLK)             0.000       0.274                    
+ video_buf_u/inst_2048x32_sub_000000_024.clka (ctrl_clk_pad_gclk_net) net                     2.414       2.688                    
+ capture clock edge                                                                  0.000       2.688
+---------------------------------------------------------------------------------------------------------
+ cell hold                                                                           0.200       2.888
+ clock uncertainty                                                                   0.000       2.888
+ clock recovergence pessimism                                                       -0.187       2.701
+ Required time                                                                       2.701            
+---------------------------------------------------------------------------------------------------------
+ Slack                                                                               0.181ns          
+
+---------------------------------------------------------------------------------------------------------
+
+ Slack (hold check):      0.321 ns                                                        
+ Start Point:             mipi_driver_gen_u/reg5_b7|mipi_driver_gen_u/reg5_b9.clk (rising edge triggered by clock ctrl_clk)
+ End Point:               video_buf_u/inst_2048x32_sub_000000_024.addra[11] (rising edge triggered by clock ctrl_clk)
+ Clock group:             ctrl_clk                                                        
+ Data Path Delay:         0.603ns  (logic 0.137ns, net 0.466ns, 22% logic)                
+ Logic Levels:            0                                                               
+
+ Point                                                       Type                     Incr        Path      Info          
+---------------------------------------------------------------------------------------------------------
+ source latency                                                                      0.000       0.000                    
+ ctrl_clk                                                                            0.000       0.000                    
+ byte_clk_vio|ctrl_clk_vio.d[0]                              hier                    0.000       0.000                    
+ byte_clk_vio|ctrl_clk_vio.f[0]                              cell                    0.262       0.262                    
+ ctrl_clk_pad_gclk_inst.clki (ctrl_clk_pad)                  net                     0.000       0.262      ../../source_code/rtl/mipi_driver_tp.v(4)
+ ctrl_clk_pad_gclk_inst.clko                                 cell (GCLK)             0.000       0.262                    
+ mipi_driver_gen_u/reg5_b7|mipi_driver_gen_u/reg5_b9.clk (ctrl_clk_pad_gclk_net) net                     2.157       2.419                    
+ launch clock edge                                                                   0.000       2.419
+---------------------------------------------------------------------------------------------------------
+ mipi_driver_gen_u/reg5_b7|mipi_driver_gen_u/reg5_b9.q[0]    clk2q                   0.137 r     2.556
+ video_buf_u/inst_2048x32_sub_000000_024.addra[11] (addra[9]) net  (fanout = 9)       0.466 r     3.022      ../../source_code/rtl/mipi_driver_tp.v(173)
+ video_buf_u/inst_2048x32_sub_000000_024                      (EMB)                  0.000       3.022
+ Arrival time                                                                        3.022                  (0 lvl)       
+
+ source latency                                                                      0.000       0.000                    
+ ctrl_clk                                                                            0.000       0.000                    
+ byte_clk_vio|ctrl_clk_vio.d[0]                              hier                    0.000       0.000                    
+ byte_clk_vio|ctrl_clk_vio.f[0]                              cell                    0.274       0.274                    
+ ctrl_clk_pad_gclk_inst.clki (ctrl_clk_pad)                  net                     0.000       0.274      ../../source_code/rtl/mipi_driver_tp.v(4)
+ ctrl_clk_pad_gclk_inst.clko                                 cell (GCLK)             0.000       0.274                    
+ video_buf_u/inst_2048x32_sub_000000_024.clka (ctrl_clk_pad_gclk_net) net                     2.414       2.688                    
+ capture clock edge                                                                  0.000       2.688
+---------------------------------------------------------------------------------------------------------
+ cell hold                                                                           0.200       2.888
+ clock uncertainty                                                                   0.000       2.888
+ clock recovergence pessimism                                                       -0.187       2.701
+ Required time                                                                       2.701            
+---------------------------------------------------------------------------------------------------------
+ Slack                                                                               0.321ns          
+
+---------------------------------------------------------------------------------------------------------
+
+ Slack (hold check):      0.372 ns                                                        
+ Start Point:             Sdr_rd_pixel_dat[0]_vio|mipi_driver_gen_u/reg5_b1.clk (rising edge triggered by clock ctrl_clk)
+ End Point:               video_buf_u/inst_2048x32_sub_000000_024.addra[3] (rising edge triggered by clock ctrl_clk)
+ Clock group:             ctrl_clk                                                        
+ Data Path Delay:         0.654ns  (logic 0.137ns, net 0.517ns, 20% logic)                
+ Logic Levels:            0                                                               
+
+ Point                                                       Type                     Incr        Path      Info          
+---------------------------------------------------------------------------------------------------------
+ source latency                                                                      0.000       0.000                    
+ ctrl_clk                                                                            0.000       0.000                    
+ byte_clk_vio|ctrl_clk_vio.d[0]                              hier                    0.000       0.000                    
+ byte_clk_vio|ctrl_clk_vio.f[0]                              cell                    0.262       0.262                    
+ ctrl_clk_pad_gclk_inst.clki (ctrl_clk_pad)                  net                     0.000       0.262      ../../source_code/rtl/mipi_driver_tp.v(4)
+ ctrl_clk_pad_gclk_inst.clko                                 cell (GCLK)             0.000       0.262                    
+ Sdr_rd_pixel_dat[0]_vio|mipi_driver_gen_u/reg5_b1.clk (ctrl_clk_pad_gclk_net) net                     2.157       2.419                    
+ launch clock edge                                                                   0.000       2.419
+---------------------------------------------------------------------------------------------------------
+ Sdr_rd_pixel_dat[0]_vio|mipi_driver_gen_u/reg5_b1.q[0]      clk2q                   0.137 r     2.556
+ video_buf_u/inst_2048x32_sub_000000_024.addra[3] (addra[1]) net  (fanout = 9)       0.517 r     3.073      ../../source_code/rtl/mipi_driver_tp.v(173)
+ video_buf_u/inst_2048x32_sub_000000_024                      (EMB)                  0.000       3.073
+ Arrival time                                                                        3.073                  (0 lvl)       
+
+ source latency                                                                      0.000       0.000                    
+ ctrl_clk                                                                            0.000       0.000                    
+ byte_clk_vio|ctrl_clk_vio.d[0]                              hier                    0.000       0.000                    
+ byte_clk_vio|ctrl_clk_vio.f[0]                              cell                    0.274       0.274                    
+ ctrl_clk_pad_gclk_inst.clki (ctrl_clk_pad)                  net                     0.000       0.274      ../../source_code/rtl/mipi_driver_tp.v(4)
+ ctrl_clk_pad_gclk_inst.clko                                 cell (GCLK)             0.000       0.274                    
+ video_buf_u/inst_2048x32_sub_000000_024.clka (ctrl_clk_pad_gclk_net) net                     2.414       2.688                    
+ capture clock edge                                                                  0.000       2.688
+---------------------------------------------------------------------------------------------------------
+ cell hold                                                                           0.200       2.888
+ clock uncertainty                                                                   0.000       2.888
+ clock recovergence pessimism                                                       -0.187       2.701
+ Required time                                                                       2.701            
+---------------------------------------------------------------------------------------------------------
+ Slack                                                                               0.372ns          
+
+---------------------------------------------------------------------------------------------------------
+
+Paths for end point video_buf_u/inst_2048x32_sub_000000_016 (11 paths)
+---------------------------------------------------------------------------------------------------------
+ Slack (hold check):      0.308 ns                                                        
+ Start Point:             Sdr_rd_pixel_dat[0]_vio|mipi_driver_gen_u/reg5_b1.clk (rising edge triggered by clock ctrl_clk)
+ End Point:               video_buf_u/inst_2048x32_sub_000000_016.addra[3] (rising edge triggered by clock ctrl_clk)
+ Clock group:             ctrl_clk                                                        
+ Data Path Delay:         0.590ns  (logic 0.137ns, net 0.453ns, 23% logic)                
+ Logic Levels:            0                                                               
+
+ Point                                                       Type                     Incr        Path      Info          
+---------------------------------------------------------------------------------------------------------
+ source latency                                                                      0.000       0.000                    
+ ctrl_clk                                                                            0.000       0.000                    
+ byte_clk_vio|ctrl_clk_vio.d[0]                              hier                    0.000       0.000                    
+ byte_clk_vio|ctrl_clk_vio.f[0]                              cell                    0.262       0.262                    
+ ctrl_clk_pad_gclk_inst.clki (ctrl_clk_pad)                  net                     0.000       0.262      ../../source_code/rtl/mipi_driver_tp.v(4)
+ ctrl_clk_pad_gclk_inst.clko                                 cell (GCLK)             0.000       0.262                    
+ Sdr_rd_pixel_dat[0]_vio|mipi_driver_gen_u/reg5_b1.clk (ctrl_clk_pad_gclk_net) net                     2.157       2.419                    
+ launch clock edge                                                                   0.000       2.419
+---------------------------------------------------------------------------------------------------------
+ Sdr_rd_pixel_dat[0]_vio|mipi_driver_gen_u/reg5_b1.q[0]      clk2q                   0.137 r     2.556
+ video_buf_u/inst_2048x32_sub_000000_016.addra[3] (addra[1]) net  (fanout = 9)       0.453 r     3.009      ../../source_code/rtl/mipi_driver_tp.v(173)
+ video_buf_u/inst_2048x32_sub_000000_016                      (EMB)                  0.000       3.009
+ Arrival time                                                                        3.009                  (0 lvl)       
+
+ source latency                                                                      0.000       0.000                    
+ ctrl_clk                                                                            0.000       0.000                    
+ byte_clk_vio|ctrl_clk_vio.d[0]                              hier                    0.000       0.000                    
+ byte_clk_vio|ctrl_clk_vio.f[0]                              cell                    0.274       0.274                    
+ ctrl_clk_pad_gclk_inst.clki (ctrl_clk_pad)                  net                     0.000       0.274      ../../source_code/rtl/mipi_driver_tp.v(4)
+ ctrl_clk_pad_gclk_inst.clko                                 cell (GCLK)             0.000       0.274                    
+ video_buf_u/inst_2048x32_sub_000000_016.clka (ctrl_clk_pad_gclk_net) net                     2.414       2.688                    
+ capture clock edge                                                                  0.000       2.688
+---------------------------------------------------------------------------------------------------------
+ cell hold                                                                           0.200       2.888
+ clock uncertainty                                                                   0.000       2.888
+ clock recovergence pessimism                                                       -0.187       2.701
+ Required time                                                                       2.701            
+---------------------------------------------------------------------------------------------------------
+ Slack                                                                               0.308ns          
+
+---------------------------------------------------------------------------------------------------------
+
+ Slack (hold check):      0.334 ns                                                        
+ Start Point:             mipi_driver_gen_u/_al_u103|mipi_driver_gen_u/reg5_b0.clk (rising edge triggered by clock ctrl_clk)
+ End Point:               video_buf_u/inst_2048x32_sub_000000_016.addra[2] (rising edge triggered by clock ctrl_clk)
+ Clock group:             ctrl_clk                                                        
+ Data Path Delay:         0.616ns  (logic 0.137ns, net 0.479ns, 22% logic)                
+ Logic Levels:            0                                                               
+
+ Point                                                       Type                     Incr        Path      Info          
+---------------------------------------------------------------------------------------------------------
+ source latency                                                                      0.000       0.000                    
+ ctrl_clk                                                                            0.000       0.000                    
+ byte_clk_vio|ctrl_clk_vio.d[0]                              hier                    0.000       0.000                    
+ byte_clk_vio|ctrl_clk_vio.f[0]                              cell                    0.262       0.262                    
+ ctrl_clk_pad_gclk_inst.clki (ctrl_clk_pad)                  net                     0.000       0.262      ../../source_code/rtl/mipi_driver_tp.v(4)
+ ctrl_clk_pad_gclk_inst.clko                                 cell (GCLK)             0.000       0.262                    
+ mipi_driver_gen_u/_al_u103|mipi_driver_gen_u/reg5_b0.clk (ctrl_clk_pad_gclk_net) net                     2.157       2.419                    
+ launch clock edge                                                                   0.000       2.419
+---------------------------------------------------------------------------------------------------------
+ mipi_driver_gen_u/_al_u103|mipi_driver_gen_u/reg5_b0.q[0]   clk2q                   0.137 r     2.556
+ video_buf_u/inst_2048x32_sub_000000_016.addra[2] (addra[0]) net  (fanout = 9)       0.479 r     3.035      ../../source_code/rtl/mipi_driver_tp.v(173)
+ video_buf_u/inst_2048x32_sub_000000_016                      (EMB)                  0.000       3.035
+ Arrival time                                                                        3.035                  (0 lvl)       
+
+ source latency                                                                      0.000       0.000                    
+ ctrl_clk                                                                            0.000       0.000                    
+ byte_clk_vio|ctrl_clk_vio.d[0]                              hier                    0.000       0.000                    
+ byte_clk_vio|ctrl_clk_vio.f[0]                              cell                    0.274       0.274                    
+ ctrl_clk_pad_gclk_inst.clki (ctrl_clk_pad)                  net                     0.000       0.274      ../../source_code/rtl/mipi_driver_tp.v(4)
+ ctrl_clk_pad_gclk_inst.clko                                 cell (GCLK)             0.000       0.274                    
+ video_buf_u/inst_2048x32_sub_000000_016.clka (ctrl_clk_pad_gclk_net) net                     2.414       2.688                    
+ capture clock edge                                                                  0.000       2.688
+---------------------------------------------------------------------------------------------------------
+ cell hold                                                                           0.200       2.888
+ clock uncertainty                                                                   0.000       2.888
+ clock recovergence pessimism                                                       -0.187       2.701
+ Required time                                                                       2.701            
+---------------------------------------------------------------------------------------------------------
+ Slack                                                                               0.334ns          
+
+---------------------------------------------------------------------------------------------------------
+
+ Slack (hold check):      0.334 ns                                                        
+ Start Point:             mipi_driver_gen_u/reg5_b2|mipi_driver_gen_u/reg5_b3.clk (rising edge triggered by clock ctrl_clk)
+ End Point:               video_buf_u/inst_2048x32_sub_000000_016.addra[4] (rising edge triggered by clock ctrl_clk)
+ Clock group:             ctrl_clk                                                        
+ Data Path Delay:         0.616ns  (logic 0.137ns, net 0.479ns, 22% logic)                
+ Logic Levels:            0                                                               
+
+ Point                                                       Type                     Incr        Path      Info          
+---------------------------------------------------------------------------------------------------------
+ source latency                                                                      0.000       0.000                    
+ ctrl_clk                                                                            0.000       0.000                    
+ byte_clk_vio|ctrl_clk_vio.d[0]                              hier                    0.000       0.000                    
+ byte_clk_vio|ctrl_clk_vio.f[0]                              cell                    0.262       0.262                    
+ ctrl_clk_pad_gclk_inst.clki (ctrl_clk_pad)                  net                     0.000       0.262      ../../source_code/rtl/mipi_driver_tp.v(4)
+ ctrl_clk_pad_gclk_inst.clko                                 cell (GCLK)             0.000       0.262                    
+ mipi_driver_gen_u/reg5_b2|mipi_driver_gen_u/reg5_b3.clk (ctrl_clk_pad_gclk_net) net                     2.157       2.419                    
+ launch clock edge                                                                   0.000       2.419
+---------------------------------------------------------------------------------------------------------
+ mipi_driver_gen_u/reg5_b2|mipi_driver_gen_u/reg5_b3.q[1]    clk2q                   0.137 r     2.556
+ video_buf_u/inst_2048x32_sub_000000_016.addra[4] (addra[2]) net  (fanout = 9)       0.479 r     3.035      ../../source_code/rtl/mipi_driver_tp.v(173)
+ video_buf_u/inst_2048x32_sub_000000_016                      (EMB)                  0.000       3.035
+ Arrival time                                                                        3.035                  (0 lvl)       
+
+ source latency                                                                      0.000       0.000                    
+ ctrl_clk                                                                            0.000       0.000                    
+ byte_clk_vio|ctrl_clk_vio.d[0]                              hier                    0.000       0.000                    
+ byte_clk_vio|ctrl_clk_vio.f[0]                              cell                    0.274       0.274                    
+ ctrl_clk_pad_gclk_inst.clki (ctrl_clk_pad)                  net                     0.000       0.274      ../../source_code/rtl/mipi_driver_tp.v(4)
+ ctrl_clk_pad_gclk_inst.clko                                 cell (GCLK)             0.000       0.274                    
+ video_buf_u/inst_2048x32_sub_000000_016.clka (ctrl_clk_pad_gclk_net) net                     2.414       2.688                    
+ capture clock edge                                                                  0.000       2.688
+---------------------------------------------------------------------------------------------------------
+ cell hold                                                                           0.200       2.888
+ clock uncertainty                                                                   0.000       2.888
+ clock recovergence pessimism                                                       -0.187       2.701
+ Required time                                                                       2.701            
+---------------------------------------------------------------------------------------------------------
+ Slack                                                                               0.334ns          
+
+---------------------------------------------------------------------------------------------------------
+
+Paths for end point video_buf_u/inst_2048x32_sub_000000_000 (11 paths)
+---------------------------------------------------------------------------------------------------------
+ Slack (hold check):      0.334 ns                                                        
+ Start Point:             mipi_driver_gen_u/reg5_b2|mipi_driver_gen_u/reg5_b3.clk (rising edge triggered by clock ctrl_clk)
+ End Point:               video_buf_u/inst_2048x32_sub_000000_000.addra[4] (rising edge triggered by clock ctrl_clk)
+ Clock group:             ctrl_clk                                                        
+ Data Path Delay:         0.616ns  (logic 0.137ns, net 0.479ns, 22% logic)                
+ Logic Levels:            0                                                               
+
+ Point                                                       Type                     Incr        Path      Info          
+---------------------------------------------------------------------------------------------------------
+ source latency                                                                      0.000       0.000                    
+ ctrl_clk                                                                            0.000       0.000                    
+ byte_clk_vio|ctrl_clk_vio.d[0]                              hier                    0.000       0.000                    
+ byte_clk_vio|ctrl_clk_vio.f[0]                              cell                    0.262       0.262                    
+ ctrl_clk_pad_gclk_inst.clki (ctrl_clk_pad)                  net                     0.000       0.262      ../../source_code/rtl/mipi_driver_tp.v(4)
+ ctrl_clk_pad_gclk_inst.clko                                 cell (GCLK)             0.000       0.262                    
+ mipi_driver_gen_u/reg5_b2|mipi_driver_gen_u/reg5_b3.clk (ctrl_clk_pad_gclk_net) net                     2.157       2.419                    
+ launch clock edge                                                                   0.000       2.419
+---------------------------------------------------------------------------------------------------------
+ mipi_driver_gen_u/reg5_b2|mipi_driver_gen_u/reg5_b3.q[1]    clk2q                   0.137 r     2.556
+ video_buf_u/inst_2048x32_sub_000000_000.addra[4] (addra[2]) net  (fanout = 9)       0.479 r     3.035      ../../source_code/rtl/mipi_driver_tp.v(173)
+ video_buf_u/inst_2048x32_sub_000000_000                      (EMB)                  0.000       3.035
+ Arrival time                                                                        3.035                  (0 lvl)       
+
+ source latency                                                                      0.000       0.000                    
+ ctrl_clk                                                                            0.000       0.000                    
+ byte_clk_vio|ctrl_clk_vio.d[0]                              hier                    0.000       0.000                    
+ byte_clk_vio|ctrl_clk_vio.f[0]                              cell                    0.274       0.274                    
+ ctrl_clk_pad_gclk_inst.clki (ctrl_clk_pad)                  net                     0.000       0.274      ../../source_code/rtl/mipi_driver_tp.v(4)
+ ctrl_clk_pad_gclk_inst.clko                                 cell (GCLK)             0.000       0.274                    
+ video_buf_u/inst_2048x32_sub_000000_000.clka (ctrl_clk_pad_gclk_net) net                     2.414       2.688                    
+ capture clock edge                                                                  0.000       2.688
+---------------------------------------------------------------------------------------------------------
+ cell hold                                                                           0.200       2.888
+ clock uncertainty                                                                   0.000       2.888
+ clock recovergence pessimism                                                       -0.187       2.701
+ Required time                                                                       2.701            
+---------------------------------------------------------------------------------------------------------
+ Slack                                                                               0.334ns          
+
+---------------------------------------------------------------------------------------------------------
+
+ Slack (hold check):      0.334 ns                                                        
+ Start Point:             mipi_driver_gen_u/reg5_b7|mipi_driver_gen_u/reg5_b9.clk (rising edge triggered by clock ctrl_clk)
+ End Point:               video_buf_u/inst_2048x32_sub_000000_000.addra[9] (rising edge triggered by clock ctrl_clk)
+ Clock group:             ctrl_clk                                                        
+ Data Path Delay:         0.616ns  (logic 0.137ns, net 0.479ns, 22% logic)                
+ Logic Levels:            0                                                               
+
+ Point                                                       Type                     Incr        Path      Info          
+---------------------------------------------------------------------------------------------------------
+ source latency                                                                      0.000       0.000                    
+ ctrl_clk                                                                            0.000       0.000                    
+ byte_clk_vio|ctrl_clk_vio.d[0]                              hier                    0.000       0.000                    
+ byte_clk_vio|ctrl_clk_vio.f[0]                              cell                    0.262       0.262                    
+ ctrl_clk_pad_gclk_inst.clki (ctrl_clk_pad)                  net                     0.000       0.262      ../../source_code/rtl/mipi_driver_tp.v(4)
+ ctrl_clk_pad_gclk_inst.clko                                 cell (GCLK)             0.000       0.262                    
+ mipi_driver_gen_u/reg5_b7|mipi_driver_gen_u/reg5_b9.clk (ctrl_clk_pad_gclk_net) net                     2.157       2.419                    
+ launch clock edge                                                                   0.000       2.419
+---------------------------------------------------------------------------------------------------------
+ mipi_driver_gen_u/reg5_b7|mipi_driver_gen_u/reg5_b9.q[1]    clk2q                   0.137 r     2.556
+ video_buf_u/inst_2048x32_sub_000000_000.addra[9] (addra[7]) net  (fanout = 9)       0.479 r     3.035      ../../source_code/rtl/mipi_driver_tp.v(173)
+ video_buf_u/inst_2048x32_sub_000000_000                      (EMB)                  0.000       3.035
+ Arrival time                                                                        3.035                  (0 lvl)       
+
+ source latency                                                                      0.000       0.000                    
+ ctrl_clk                                                                            0.000       0.000                    
+ byte_clk_vio|ctrl_clk_vio.d[0]                              hier                    0.000       0.000                    
+ byte_clk_vio|ctrl_clk_vio.f[0]                              cell                    0.274       0.274                    
+ ctrl_clk_pad_gclk_inst.clki (ctrl_clk_pad)                  net                     0.000       0.274      ../../source_code/rtl/mipi_driver_tp.v(4)
+ ctrl_clk_pad_gclk_inst.clko                                 cell (GCLK)             0.000       0.274                    
+ video_buf_u/inst_2048x32_sub_000000_000.clka (ctrl_clk_pad_gclk_net) net                     2.414       2.688                    
+ capture clock edge                                                                  0.000       2.688
+---------------------------------------------------------------------------------------------------------
+ cell hold                                                                           0.200       2.888
+ clock uncertainty                                                                   0.000       2.888
+ clock recovergence pessimism                                                       -0.187       2.701
+ Required time                                                                       2.701            
+---------------------------------------------------------------------------------------------------------
+ Slack                                                                               0.334ns          
+
+---------------------------------------------------------------------------------------------------------
+
+ Slack (hold check):      0.334 ns                                                        
+ Start Point:             Sdr_rd_pixel_dat[27]_vio|mipi_driver_gen_u/reg5_b8.clk (rising edge triggered by clock ctrl_clk)
+ End Point:               video_buf_u/inst_2048x32_sub_000000_000.addra[10] (rising edge triggered by clock ctrl_clk)
+ Clock group:             ctrl_clk                                                        
+ Data Path Delay:         0.616ns  (logic 0.137ns, net 0.479ns, 22% logic)                
+ Logic Levels:            0                                                               
+
+ Point                                                       Type                     Incr        Path      Info          
+---------------------------------------------------------------------------------------------------------
+ source latency                                                                      0.000       0.000                    
+ ctrl_clk                                                                            0.000       0.000                    
+ byte_clk_vio|ctrl_clk_vio.d[0]                              hier                    0.000       0.000                    
+ byte_clk_vio|ctrl_clk_vio.f[0]                              cell                    0.262       0.262                    
+ ctrl_clk_pad_gclk_inst.clki (ctrl_clk_pad)                  net                     0.000       0.262      ../../source_code/rtl/mipi_driver_tp.v(4)
+ ctrl_clk_pad_gclk_inst.clko                                 cell (GCLK)             0.000       0.262                    
+ Sdr_rd_pixel_dat[27]_vio|mipi_driver_gen_u/reg5_b8.clk (ctrl_clk_pad_gclk_net) net                     2.157       2.419                    
+ launch clock edge                                                                   0.000       2.419
+---------------------------------------------------------------------------------------------------------
+ Sdr_rd_pixel_dat[27]_vio|mipi_driver_gen_u/reg5_b8.q[0]     clk2q                   0.137 r     2.556
+ video_buf_u/inst_2048x32_sub_000000_000.addra[10] (addra[8]) net  (fanout = 9)       0.479 r     3.035      ../../source_code/rtl/mipi_driver_tp.v(173)
+ video_buf_u/inst_2048x32_sub_000000_000                      (EMB)                  0.000       3.035
+ Arrival time                                                                        3.035                  (0 lvl)       
+
+ source latency                                                                      0.000       0.000                    
+ ctrl_clk                                                                            0.000       0.000                    
+ byte_clk_vio|ctrl_clk_vio.d[0]                              hier                    0.000       0.000                    
+ byte_clk_vio|ctrl_clk_vio.f[0]                              cell                    0.274       0.274                    
+ ctrl_clk_pad_gclk_inst.clki (ctrl_clk_pad)                  net                     0.000       0.274      ../../source_code/rtl/mipi_driver_tp.v(4)
+ ctrl_clk_pad_gclk_inst.clko                                 cell (GCLK)             0.000       0.274                    
+ video_buf_u/inst_2048x32_sub_000000_000.clka (ctrl_clk_pad_gclk_net) net                     2.414       2.688                    
+ capture clock edge                                                                  0.000       2.688
+---------------------------------------------------------------------------------------------------------
+ cell hold                                                                           0.200       2.888
+ clock uncertainty                                                                   0.000       2.888
+ clock recovergence pessimism                                                       -0.187       2.701
+ Required time                                                                       2.701            
+---------------------------------------------------------------------------------------------------------
+ Slack                                                                               0.334ns          
+
+---------------------------------------------------------------------------------------------------------
+
+
+=========================================================================================================
+Timing summary:                                                                           
+---------------------------------------------------------------------------------------------------------
+Constraint path number: 2548 (STA coverage = 74.82%)
+Timing violations: 0 setup errors, and 0 hold errors.
+Minimal setup slack: 3.426, minimal hold slack: 0.169
+
+Timing group statistics: 
+	Clock constraints: 
+	  Clock Name                                  Min Period     Max Freq           Skew      Fanout            TNS
+	  byte_clk (112.360MHz)                          5.389ns     185.563MHz        0.084ns        72        0.000ns
+	  ctrl_clk (149.254MHz)                          3.274ns     305.437MHz        0.084ns        20        0.000ns
+	Minimum input arrival time before clock: no constraint path
+	Maximum output required time after clock: no constraint path
+	Maximum combinational path delay: no constraint path
+
+
+Warning: No clock constraint on 1 clock net(s): 
+	mipi_driver_gen_u/n74
+
+---------------------------------------------------------------------------------------------------------

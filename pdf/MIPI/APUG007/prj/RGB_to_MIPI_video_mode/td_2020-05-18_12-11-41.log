@@ -1,0 +1,850 @@
+============================================================
+   Tang Dynasty, V4.6.14756
+   Copyright:   Shanghai Anlogic Infotech Co., Ltd.
+                2011 - 2021
+   Executable = C:/Anlogic/TD4.6.3/bin/td.exe
+   Built at =   17:01:29 Oct 21 2019
+   Run by =     lihon
+   Run Date =   Mon May 18 12:11:41 2020
+
+   Run on =     LAPTOP-P69PQHTO
+============================================================
+RUN-1002 : start command "open_project RGB_to_MIPI_video_mode.al"
+HDL-1007 : analyze verilog file ../../source_code/rtl/mipi_driver_gen.v
+HDL-1007 : analyze included file ../../source_code/rtl/../include/te_define.v in ../../source_code/rtl/mipi_driver_gen.v(1)
+HDL-1007 : back to file '../../source_code/rtl/mipi_driver_gen.v' in ../../source_code/rtl/mipi_driver_gen.v(1)
+HDL-1007 : analyze verilog file ../../source_code/rtl/mipi_driver_tp.v
+HDL-1007 : analyze verilog file ../../source_code/rtl/al_ip/video_buf.v
+RUN-1002 : start command "import_device ef2_s4.db -package EF2S45VG81C"
+ARC-1001 : Device Initialization.
+ARC-1001 : -------------------------------------------------
+ARC-1001 :       OPTION       |      IO       |   SETTING   
+ARC-1001 : -------------------------------------------------
+ARC-1001 :   tdi/tms/tck/tdo  |  C6/D7/D8/C9  |  dedicated  
+ARC-1001 : -------------------------------------------------
+ARC-1004 : Device setting, marked 4 dedicate IOs in total.
+HDL-1007 : analyze verilog file ../../source_code/rtl/mipi_driver_gen.v
+HDL-1007 : analyze included file ../../source_code/rtl/../include/te_define.v in ../../source_code/rtl/mipi_driver_gen.v(1)
+HDL-1007 : back to file '../../source_code/rtl/mipi_driver_gen.v' in ../../source_code/rtl/mipi_driver_gen.v(1)
+HDL-1007 : analyze verilog file ../../source_code/rtl/mipi_driver_gen.v
+HDL-1007 : analyze included file ../../source_code/rtl/../include/te_define.v in ../../source_code/rtl/mipi_driver_gen.v(1)
+HDL-1007 : back to file '../../source_code/rtl/mipi_driver_gen.v' in ../../source_code/rtl/mipi_driver_gen.v(1)
+HDL-8007 ERROR: 'HBP_BP_CMD' is already declared in ../../source_code/rtl/mipi_driver_gen.v(146)
+HDL-1007 : previous declaration of 'HBP_BP_CMD' is from here in ../../source_code/rtl/mipi_driver_gen.v(123)
+HDL-8007 ERROR: 'HSA_BP_CMD' is already declared in ../../source_code/rtl/mipi_driver_gen.v(147)
+HDL-1007 : previous declaration of 'HSA_BP_CMD' is from here in ../../source_code/rtl/mipi_driver_gen.v(124)
+HDL-8007 ERROR: 'HFP_BP_CMD' is already declared in ../../source_code/rtl/mipi_driver_gen.v(148)
+HDL-1007 : previous declaration of 'HFP_BP_CMD' is from here in ../../source_code/rtl/mipi_driver_gen.v(137)
+HDL-8007 ERROR: 'VACT_ST_CMD' is already declared in ../../source_code/rtl/mipi_driver_gen.v(149)
+HDL-1007 : previous declaration of 'VACT_ST_CMD' is from here in ../../source_code/rtl/mipi_driver_gen.v(126)
+HDL-8007 ERROR: ignore module module due to previous errors in ../../source_code/rtl/mipi_driver_gen.v(730)
+HDL-1007 : Verilog file '../../source_code/rtl/mipi_driver_gen.v' ignored due to errors
+HDL-1007 : analyze verilog file ../../source_code/rtl/mipi_driver_gen.v
+HDL-1007 : analyze included file ../../source_code/rtl/../include/te_define.v in ../../source_code/rtl/mipi_driver_gen.v(1)
+HDL-1007 : back to file '../../source_code/rtl/mipi_driver_gen.v' in ../../source_code/rtl/mipi_driver_gen.v(1)
+HDL-8007 ERROR: 'HBP_BP_CMD' is already declared in ../../source_code/rtl/mipi_driver_gen.v(148)
+HDL-1007 : previous declaration of 'HBP_BP_CMD' is from here in ../../source_code/rtl/mipi_driver_gen.v(123)
+HDL-8007 ERROR: 'HSA_BP_CMD' is already declared in ../../source_code/rtl/mipi_driver_gen.v(149)
+HDL-1007 : previous declaration of 'HSA_BP_CMD' is from here in ../../source_code/rtl/mipi_driver_gen.v(124)
+HDL-8007 ERROR: 'HFP_BP_CMD' is already declared in ../../source_code/rtl/mipi_driver_gen.v(150)
+HDL-1007 : previous declaration of 'HFP_BP_CMD' is from here in ../../source_code/rtl/mipi_driver_gen.v(137)
+HDL-8007 ERROR: 'VACT_ST_CMD' is already declared in ../../source_code/rtl/mipi_driver_gen.v(151)
+HDL-1007 : previous declaration of 'VACT_ST_CMD' is from here in ../../source_code/rtl/mipi_driver_gen.v(126)
+HDL-8007 ERROR: ignore module module due to previous errors in ../../source_code/rtl/mipi_driver_gen.v(732)
+HDL-1007 : Verilog file '../../source_code/rtl/mipi_driver_gen.v' ignored due to errors
+HDL-1007 : analyze verilog file ../../source_code/rtl/mipi_driver_gen.v
+HDL-1007 : analyze included file ../../source_code/rtl/../include/te_define.v in ../../source_code/rtl/mipi_driver_gen.v(1)
+HDL-1007 : back to file '../../source_code/rtl/mipi_driver_gen.v' in ../../source_code/rtl/mipi_driver_gen.v(1)
+HDL-8007 ERROR: 'HBP_BP_CMD' is already declared in ../../source_code/rtl/mipi_driver_gen.v(148)
+HDL-1007 : previous declaration of 'HBP_BP_CMD' is from here in ../../source_code/rtl/mipi_driver_gen.v(123)
+HDL-8007 ERROR: 'HSA_BP_CMD' is already declared in ../../source_code/rtl/mipi_driver_gen.v(149)
+HDL-1007 : previous declaration of 'HSA_BP_CMD' is from here in ../../source_code/rtl/mipi_driver_gen.v(124)
+HDL-8007 ERROR: 'HFP_BP_CMD' is already declared in ../../source_code/rtl/mipi_driver_gen.v(150)
+HDL-1007 : previous declaration of 'HFP_BP_CMD' is from here in ../../source_code/rtl/mipi_driver_gen.v(137)
+HDL-8007 ERROR: 'VACT_ST_CMD' is already declared in ../../source_code/rtl/mipi_driver_gen.v(151)
+HDL-1007 : previous declaration of 'VACT_ST_CMD' is from here in ../../source_code/rtl/mipi_driver_gen.v(126)
+HDL-8007 ERROR: ignore module module due to previous errors in ../../source_code/rtl/mipi_driver_gen.v(732)
+HDL-1007 : Verilog file '../../source_code/rtl/mipi_driver_gen.v' ignored due to errors
+HDL-1007 : analyze verilog file ../../source_code/rtl/mipi_driver_gen.v
+HDL-1007 : analyze included file ../../source_code/rtl/../include/te_define.v in ../../source_code/rtl/mipi_driver_gen.v(1)
+HDL-1007 : back to file '../../source_code/rtl/mipi_driver_gen.v' in ../../source_code/rtl/mipi_driver_gen.v(1)
+HDL-8007 ERROR: 'HBP_BP_CMD' is already declared in ../../source_code/rtl/mipi_driver_gen.v(148)
+HDL-1007 : previous declaration of 'HBP_BP_CMD' is from here in ../../source_code/rtl/mipi_driver_gen.v(123)
+HDL-8007 ERROR: 'HSA_BP_CMD' is already declared in ../../source_code/rtl/mipi_driver_gen.v(149)
+HDL-1007 : previous declaration of 'HSA_BP_CMD' is from here in ../../source_code/rtl/mipi_driver_gen.v(124)
+HDL-8007 ERROR: 'HFP_BP_CMD' is already declared in ../../source_code/rtl/mipi_driver_gen.v(150)
+HDL-1007 : previous declaration of 'HFP_BP_CMD' is from here in ../../source_code/rtl/mipi_driver_gen.v(137)
+HDL-8007 ERROR: 'VACT_ST_CMD' is already declared in ../../source_code/rtl/mipi_driver_gen.v(151)
+HDL-1007 : previous declaration of 'VACT_ST_CMD' is from here in ../../source_code/rtl/mipi_driver_gen.v(126)
+HDL-8007 ERROR: ignore module module due to previous errors in ../../source_code/rtl/mipi_driver_gen.v(732)
+HDL-1007 : Verilog file '../../source_code/rtl/mipi_driver_gen.v' ignored due to errors
+HDL-1007 : analyze verilog file ../../source_code/rtl/mipi_driver_gen.v
+HDL-1007 : analyze included file ../../source_code/rtl/../include/te_define.v in ../../source_code/rtl/mipi_driver_gen.v(1)
+HDL-1007 : back to file '../../source_code/rtl/mipi_driver_gen.v' in ../../source_code/rtl/mipi_driver_gen.v(1)
+HDL-8007 ERROR: 'HBP_BP_CMD' is already declared in ../../source_code/rtl/mipi_driver_gen.v(148)
+HDL-1007 : previous declaration of 'HBP_BP_CMD' is from here in ../../source_code/rtl/mipi_driver_gen.v(123)
+HDL-8007 ERROR: 'HSA_BP_CMD' is already declared in ../../source_code/rtl/mipi_driver_gen.v(149)
+HDL-1007 : previous declaration of 'HSA_BP_CMD' is from here in ../../source_code/rtl/mipi_driver_gen.v(124)
+HDL-8007 ERROR: 'HFP_BP_CMD' is already declared in ../../source_code/rtl/mipi_driver_gen.v(150)
+HDL-1007 : previous declaration of 'HFP_BP_CMD' is from here in ../../source_code/rtl/mipi_driver_gen.v(137)
+HDL-8007 ERROR: 'VACT_ST_CMD' is already declared in ../../source_code/rtl/mipi_driver_gen.v(151)
+HDL-1007 : previous declaration of 'VACT_ST_CMD' is from here in ../../source_code/rtl/mipi_driver_gen.v(126)
+HDL-8007 ERROR: ignore module module due to previous errors in ../../source_code/rtl/mipi_driver_gen.v(732)
+HDL-1007 : Verilog file '../../source_code/rtl/mipi_driver_gen.v' ignored due to errors
+HDL-1007 : analyze verilog file ../../source_code/rtl/mipi_driver_gen.v
+HDL-1007 : analyze included file ../../source_code/rtl/../include/te_define.v in ../../source_code/rtl/mipi_driver_gen.v(1)
+HDL-1007 : back to file '../../source_code/rtl/mipi_driver_gen.v' in ../../source_code/rtl/mipi_driver_gen.v(1)
+HDL-8007 ERROR: 'HBP_BP_CMD' is already declared in ../../source_code/rtl/mipi_driver_gen.v(148)
+HDL-1007 : previous declaration of 'HBP_BP_CMD' is from here in ../../source_code/rtl/mipi_driver_gen.v(123)
+HDL-8007 ERROR: 'HSA_BP_CMD' is already declared in ../../source_code/rtl/mipi_driver_gen.v(149)
+HDL-1007 : previous declaration of 'HSA_BP_CMD' is from here in ../../source_code/rtl/mipi_driver_gen.v(124)
+HDL-8007 ERROR: 'HFP_BP_CMD' is already declared in ../../source_code/rtl/mipi_driver_gen.v(150)
+HDL-1007 : previous declaration of 'HFP_BP_CMD' is from here in ../../source_code/rtl/mipi_driver_gen.v(137)
+HDL-8007 ERROR: 'VACT_ST_CMD' is already declared in ../../source_code/rtl/mipi_driver_gen.v(151)
+HDL-1007 : previous declaration of 'VACT_ST_CMD' is from here in ../../source_code/rtl/mipi_driver_gen.v(126)
+HDL-8007 ERROR: ignore module module due to previous errors in ../../source_code/rtl/mipi_driver_gen.v(732)
+HDL-1007 : Verilog file '../../source_code/rtl/mipi_driver_gen.v' ignored due to errors
+HDL-1007 : analyze verilog file ../../source_code/rtl/mipi_driver_gen.v
+HDL-1007 : analyze included file ../../source_code/rtl/../include/te_define.v in ../../source_code/rtl/mipi_driver_gen.v(1)
+HDL-1007 : back to file '../../source_code/rtl/mipi_driver_gen.v' in ../../source_code/rtl/mipi_driver_gen.v(1)
+HDL-8007 ERROR: 'HBP_BP_CMD' is already declared in ../../source_code/rtl/mipi_driver_gen.v(148)
+HDL-1007 : previous declaration of 'HBP_BP_CMD' is from here in ../../source_code/rtl/mipi_driver_gen.v(123)
+HDL-8007 ERROR: 'HSA_BP_CMD' is already declared in ../../source_code/rtl/mipi_driver_gen.v(149)
+HDL-1007 : previous declaration of 'HSA_BP_CMD' is from here in ../../source_code/rtl/mipi_driver_gen.v(124)
+HDL-8007 ERROR: 'VACT_ST_CMD' is already declared in ../../source_code/rtl/mipi_driver_gen.v(151)
+HDL-1007 : previous declaration of 'VACT_ST_CMD' is from here in ../../source_code/rtl/mipi_driver_gen.v(126)
+HDL-8007 ERROR: ignore module module due to previous errors in ../../source_code/rtl/mipi_driver_gen.v(732)
+HDL-1007 : Verilog file '../../source_code/rtl/mipi_driver_gen.v' ignored due to errors
+HDL-1007 : analyze verilog file ../../source_code/rtl/mipi_driver_gen.v
+HDL-1007 : analyze included file ../../source_code/rtl/../include/te_define.v in ../../source_code/rtl/mipi_driver_gen.v(1)
+HDL-1007 : back to file '../../source_code/rtl/mipi_driver_gen.v' in ../../source_code/rtl/mipi_driver_gen.v(1)
+HDL-1007 : analyze verilog file ../../source_code/rtl/mipi_driver_gen.v
+HDL-1007 : analyze included file ../../source_code/rtl/../include/te_define.v in ../../source_code/rtl/mipi_driver_gen.v(1)
+HDL-1007 : back to file '../../source_code/rtl/mipi_driver_gen.v' in ../../source_code/rtl/mipi_driver_gen.v(1)
+HDL-1007 : analyze verilog file ../../source_code/rtl/mipi_driver_tp.v
+HDL-8007 ERROR: syntax error near '}' in ../../source_code/rtl/mipi_driver_tp.v(227)
+HDL-8007 ERROR: ignore module module due to previous errors in ../../source_code/rtl/mipi_driver_tp.v(259)
+HDL-1007 : Verilog file '../../source_code/rtl/mipi_driver_tp.v' ignored due to errors
+HDL-1007 : analyze verilog file ../../source_code/rtl/mipi_driver_tp.v
+HDL-1007 : analyze verilog file ../../source_code/rtl/mipi_driver_gen.v
+HDL-1007 : analyze included file ../../source_code/rtl/../include/te_define.v in ../../source_code/rtl/mipi_driver_gen.v(1)
+HDL-1007 : back to file '../../source_code/rtl/mipi_driver_gen.v' in ../../source_code/rtl/mipi_driver_gen.v(1)
+HDL-1007 : analyze verilog file ../../source_code/rtl/mipi_driver_tp.v
+HDL-1007 : analyze verilog file ../../source_code/rtl/al_ip/video_buf.v
+RUN-1002 : start command "elaborate -top mipi_driver_tp"
+HDL-1007 : elaborate module mipi_driver_tp in ../../source_code/rtl/mipi_driver_tp.v(1)
+HDL-1007 : elaborate module video_buf in ../../source_code/rtl/al_ip/video_buf.v(14)
+HDL-1007 : elaborate module EF2_LOGIC_BRAM(DATA_WIDTH_A=32,DATA_WIDTH_B=32,ADDR_WIDTH_A=11,ADDR_WIDTH_B=11,DATA_DEPTH_A=2048,DATA_DEPTH_B=2048,MODE="PDPW") in C:/Anlogic/TD4.6.3/arch/ef2_macro.v(2844)
+HDL-1007 : elaborate module mipi_driver_gen(VBP=6,VFP=30) in ../../source_code/rtl/mipi_driver_gen.v(2)
+HDL-8007 ERROR: index 15 is out of range [7:0] for 'HFP_BP_CMD' in ../../source_code/rtl/mipi_driver_gen.v(556)
+HDL-1007 : module 'mipi_driver_gen' remains a black box, due to errors in its contents in ../../source_code/rtl/mipi_driver_gen.v(2)
+HDL-8007 ERROR: mipi_driver_gen(VBP=6,VFP=30) is a black box in ../../source_code/rtl/mipi_driver_gen.v(2)
+HDL-1007 : analyze verilog file ../../source_code/rtl/mipi_driver_gen.v
+HDL-1007 : analyze included file ../../source_code/rtl/../include/te_define.v in ../../source_code/rtl/mipi_driver_gen.v(1)
+HDL-1007 : back to file '../../source_code/rtl/mipi_driver_gen.v' in ../../source_code/rtl/mipi_driver_gen.v(1)
+HDL-8007 ERROR: 'HSA_BP_CMD' is not declared in ../../source_code/rtl/mipi_driver_gen.v(511)
+HDL-8007 ERROR: 'HBP_BP_CMD' is not declared in ../../source_code/rtl/mipi_driver_gen.v(531)
+HDL-8007 ERROR: 'VACT_ST_CMD' is not declared in ../../source_code/rtl/mipi_driver_gen.v(546)
+HDL-8007 ERROR: 'HFP_BP_CMD' is not declared in ../../source_code/rtl/mipi_driver_gen.v(556)
+HDL-8007 ERROR: 'HFP_BP_CMD' is not declared in ../../source_code/rtl/mipi_driver_gen.v(561)
+HDL-8007 ERROR: ignore module module due to previous errors in ../../source_code/rtl/mipi_driver_gen.v(732)
+HDL-1007 : Verilog file '../../source_code/rtl/mipi_driver_gen.v' ignored due to errors
+HDL-1007 : analyze verilog file ../../source_code/rtl/mipi_driver_tp.v
+HDL-1007 : analyze verilog file ../../source_code/rtl/al_ip/video_buf.v
+HDL-1007 : analyze verilog file ../../source_code/rtl/mipi_driver_gen.v
+HDL-1007 : analyze included file ../../source_code/rtl/../include/te_define.v in ../../source_code/rtl/mipi_driver_gen.v(1)
+HDL-1007 : back to file '../../source_code/rtl/mipi_driver_gen.v' in ../../source_code/rtl/mipi_driver_gen.v(1)
+HDL-8007 ERROR: 'HFP_BP_CMD' is not declared in ../../source_code/rtl/mipi_driver_gen.v(561)
+HDL-8007 ERROR: 'HFP_BP_CMD' is not declared in ../../source_code/rtl/mipi_driver_gen.v(566)
+HDL-8007 ERROR: ignore module module due to previous errors in ../../source_code/rtl/mipi_driver_gen.v(737)
+HDL-1007 : Verilog file '../../source_code/rtl/mipi_driver_gen.v' ignored due to errors
+HDL-1007 : analyze verilog file ../../source_code/rtl/mipi_driver_tp.v
+HDL-1007 : analyze verilog file ../../source_code/rtl/al_ip/video_buf.v
+HDL-1007 : analyze verilog file ../../source_code/rtl/mipi_driver_gen.v
+HDL-1007 : analyze included file ../../source_code/rtl/../include/te_define.v in ../../source_code/rtl/mipi_driver_gen.v(1)
+HDL-1007 : back to file '../../source_code/rtl/mipi_driver_gen.v' in ../../source_code/rtl/mipi_driver_gen.v(1)
+HDL-1007 : analyze verilog file ../../source_code/rtl/mipi_driver_tp.v
+HDL-1007 : analyze verilog file ../../source_code/rtl/al_ip/video_buf.v
+HDL-1007 : analyze verilog file ../../source_code/rtl/mipi_driver_gen.v
+HDL-1007 : analyze included file ../../source_code/rtl/../include/te_define.v in ../../source_code/rtl/mipi_driver_gen.v(1)
+HDL-1007 : back to file '../../source_code/rtl/mipi_driver_gen.v' in ../../source_code/rtl/mipi_driver_gen.v(1)
+HDL-8007 ERROR: 'ecc' is not declared in ../../source_code/rtl/mipi_driver_gen.v(156)
+HDL-8007 ERROR: ignore module module due to previous errors in ../../source_code/rtl/mipi_driver_gen.v(737)
+HDL-1007 : Verilog file '../../source_code/rtl/mipi_driver_gen.v' ignored due to errors
+HDL-1007 : analyze verilog file ../../source_code/rtl/mipi_driver_gen.v
+HDL-1007 : analyze included file ../../source_code/rtl/../include/te_define.v in ../../source_code/rtl/mipi_driver_gen.v(1)
+HDL-1007 : back to file '../../source_code/rtl/mipi_driver_gen.v' in ../../source_code/rtl/mipi_driver_gen.v(1)
+HDL-1007 : analyze verilog file ../../source_code/rtl/mipi_driver_gen.v
+HDL-1007 : analyze included file ../../source_code/rtl/../include/te_define.v in ../../source_code/rtl/mipi_driver_gen.v(1)
+HDL-1007 : back to file '../../source_code/rtl/mipi_driver_gen.v' in ../../source_code/rtl/mipi_driver_gen.v(1)
+HDL-1007 : analyze verilog file ../../source_code/rtl/mipi_driver_tp.v
+HDL-1007 : analyze verilog file ../../source_code/rtl/al_ip/video_buf.v
+RUN-1002 : start command "elaborate -top mipi_driver_tp"
+HDL-1007 : elaborate module mipi_driver_tp in ../../source_code/rtl/mipi_driver_tp.v(1)
+HDL-1007 : elaborate module video_buf in ../../source_code/rtl/al_ip/video_buf.v(14)
+HDL-1007 : elaborate module EF2_LOGIC_BRAM(DATA_WIDTH_A=32,DATA_WIDTH_B=32,ADDR_WIDTH_A=11,ADDR_WIDTH_B=11,DATA_DEPTH_A=2048,DATA_DEPTH_B=2048,MODE="PDPW") in C:/Anlogic/TD4.6.3/arch/ef2_macro.v(2844)
+HDL-1007 : elaborate module mipi_driver_gen(VBP=6,VFP=30) in ../../source_code/rtl/mipi_driver_gen.v(2)
+HDL-1200 : Current top model is mipi_driver_tp
+HDL-1100 : Inferred 0 RAMs.
+GUI-5001 WARNING: Found no ADC files
+RUN-1002 : start command "optimize_rtl"
+RUN-1001 : Open license file C:/Anlogic/TD4.6.3/license/Anlogic.lic
+SYN-1012 : SanityCheck: Model "mipi_driver_tp"
+SYN-1012 : SanityCheck: Model "mipi_driver_gen(VBP=6,VFP=30)"
+SYN-1012 : SanityCheck: Model "video_buf"
+SYN-5015 WARNING: Found latch in "mipi_driver_gen(VBP=6,VFP=30)", name: "reg5_b0", d: "n69[0]", q: "nstate[0]" // ../../source_code/rtl/mipi_driver_gen.v(712)
+SYN-5015 WARNING: Found latch in "mipi_driver_gen(VBP=6,VFP=30)", name: "reg5_b1", d: "n69[1]", q: "nstate[1]" // ../../source_code/rtl/mipi_driver_gen.v(712)
+SYN-5015 WARNING: Found latch in "mipi_driver_gen(VBP=6,VFP=30)", name: "reg5_b2", d: "n69[2]", q: "nstate[2]" // ../../source_code/rtl/mipi_driver_gen.v(712)
+SYN-5015 WARNING: Found latch in "mipi_driver_gen(VBP=6,VFP=30)", name: "reg5_b3", d: "n69[3]", q: "nstate[3]" // ../../source_code/rtl/mipi_driver_gen.v(712)
+SYN-5015 WARNING: Found latch in "mipi_driver_gen(VBP=6,VFP=30)", name: "reg5_b4", d: "n69[4]", q: "nstate[4]" // ../../source_code/rtl/mipi_driver_gen.v(712)
+SYN-1011 : Flatten model mipi_driver_tp
+SYN-1011 : Flatten model mipi_driver_gen(VBP=6,VFP=30)
+SYN-1011 : Flatten model video_buf
+SYN-1016 : Merged 3 instances.
+SYN-1014 : Optimize round 1
+SYN-1032 : 484/39 useful/useless nets, 354/0 useful/useless insts
+SYN-1019 : Optimized 0 mux instances.
+SYN-1020 : Optimized 21 distributor mux.
+SYN-1016 : Merged 57 instances.
+SYN-1015 : Optimize round 1, 101 better
+SYN-1014 : Optimize round 2
+SYN-1032 : 432/57 useful/useless nets, 302/31 useful/useless insts
+SYN-1019 : Optimized 0 mux instances.
+SYN-1015 : Optimize round 2, 41 better
+SYN-1014 : Optimize round 3
+SYN-1032 : 432/0 useful/useless nets, 302/0 useful/useless insts
+SYN-1019 : Optimized 0 mux instances.
+SYN-1015 : Optimize round 3, 0 better
+RUN-1002 : start command "report_area -file RGB_to_MIPI_video_mode_rtl.area"
+RUN-1001 : standard
+***Report Model: mipi_driver_tp***
+
+IO Statistics
+#IO                    74
+  #input               39
+  #output              35
+  #inout                0
+
+Gate Statistics
+#Basic gates          174
+  #and                 14
+  #nand                 0
+  #or                   4
+  #nor                  0
+  #xor                  0
+  #xnor                 0
+  #buf                  0
+  #not                 16
+  #bufif1               0
+  #MX21                13
+  #FADD                 0
+  #DFF                122
+  #LATCH                5
+#MACRO_ADD             13
+#MACRO_EQ              14
+#MACRO_MUX             97
+
+RUN-1001 : 
+Report Hierarchy Area:
++-------------------------------------------------+
+|Instance |Module         |gates  |seq    |macros |
++-------------------------------------------------+
+|top      |mipi_driver_tp |47     |127    |28     |
++-------------------------------------------------+
+
+RUN-1002 : start command "export_db RGB_to_MIPI_video_mode_rtl.db"
+RUN-1001 : Exported /
+RUN-1001 : Exported libs
+RUN-1001 : Exported entities
+RUN-1001 : Exported ports
+RUN-1001 : Exported pins
+RUN-1001 : Exported instances
+RUN-1001 : Exported nets
+RUN-1001 : Exported buses
+RUN-1001 : Exported models
+RUN-1001 : Exported congestions
+RUN-1001 : Exported violations
+RUN-1001 : Exported IO constraints
+RUN-1001 : Exported Inst constraints
+RUN-1001 : Exported flow parameters
+RUN-1002 : start command "optimize_gate -packarea RGB_to_MIPI_video_mode_gate.area"
+RUN-1001 : Open license file C:/Anlogic/TD4.6.3/license/Anlogic.lic
+SYN-8001 ERROR: Cannot fit all model pins.
+RUN-1002 : start command "optimize_gate -packarea RGB_to_MIPI_video_mode_gate.area"
+RUN-1001 : Open license file C:/Anlogic/TD4.6.3/license/Anlogic.lic
+SYN-8001 ERROR: Cannot fit all model pins.
+HDL-1007 : analyze verilog file ../../source_code/rtl/mipi_driver_gen.v
+HDL-1007 : analyze included file ../../source_code/rtl/../include/te_define.v in ../../source_code/rtl/mipi_driver_gen.v(1)
+HDL-1007 : back to file '../../source_code/rtl/mipi_driver_gen.v' in ../../source_code/rtl/mipi_driver_gen.v(1)
+HDL-1007 : analyze verilog file ../../source_code/rtl/mipi_driver_tp.v
+HDL-1007 : analyze verilog file ../../source_code/rtl/al_ip/video_buf.v
+HDL-1007 : analyze verilog file ../../source_code/rtl/mipi_driver_tp.v
+HDL-1007 : analyze verilog file ../../source_code/rtl/mipi_driver_tp.v
+HDL-1007 : analyze verilog file ../../source_code/rtl/mipi_driver_gen.v
+HDL-1007 : analyze included file ../../source_code/rtl/../include/te_define.v in ../../source_code/rtl/mipi_driver_gen.v(1)
+HDL-1007 : back to file '../../source_code/rtl/mipi_driver_gen.v' in ../../source_code/rtl/mipi_driver_gen.v(1)
+HDL-1007 : analyze verilog file ../../source_code/rtl/mipi_driver_tp.v
+HDL-1007 : analyze verilog file ../../source_code/rtl/al_ip/video_buf.v
+RUN-1002 : start command "elaborate -top mipi_driver_tp"
+HDL-1007 : elaborate module mipi_driver_tp in ../../source_code/rtl/mipi_driver_tp.v(1)
+HDL-1007 : elaborate module video_buf in ../../source_code/rtl/al_ip/video_buf.v(14)
+HDL-1007 : elaborate module EF2_LOGIC_BRAM(DATA_WIDTH_A=32,DATA_WIDTH_B=32,ADDR_WIDTH_A=11,ADDR_WIDTH_B=11,DATA_DEPTH_A=2048,DATA_DEPTH_B=2048,MODE="PDPW") in C:/Anlogic/TD4.6.3/arch/ef2_macro.v(2844)
+HDL-1007 : elaborate module mipi_driver_gen(VBP=6,VFP=30) in ../../source_code/rtl/mipi_driver_gen.v(2)
+HDL-1200 : Current top model is mipi_driver_tp
+HDL-1100 : Inferred 0 RAMs.
+GUI-5001 WARNING: Found no ADC files
+RUN-1002 : start command "optimize_rtl"
+RUN-1001 : Open license file C:/Anlogic/TD4.6.3/license/Anlogic.lic
+SYN-1012 : SanityCheck: Model "mipi_driver_tp"
+SYN-1012 : SanityCheck: Model "mipi_driver_gen(VBP=6,VFP=30)"
+SYN-1012 : SanityCheck: Model "video_buf"
+SYN-5015 WARNING: Found latch in "mipi_driver_gen(VBP=6,VFP=30)", name: "reg5_b0", d: "n69[0]", q: "nstate[0]" // ../../source_code/rtl/mipi_driver_gen.v(712)
+SYN-5015 WARNING: Found latch in "mipi_driver_gen(VBP=6,VFP=30)", name: "reg5_b1", d: "n69[1]", q: "nstate[1]" // ../../source_code/rtl/mipi_driver_gen.v(712)
+SYN-5015 WARNING: Found latch in "mipi_driver_gen(VBP=6,VFP=30)", name: "reg5_b2", d: "n69[2]", q: "nstate[2]" // ../../source_code/rtl/mipi_driver_gen.v(712)
+SYN-5015 WARNING: Found latch in "mipi_driver_gen(VBP=6,VFP=30)", name: "reg5_b3", d: "n69[3]", q: "nstate[3]" // ../../source_code/rtl/mipi_driver_gen.v(712)
+SYN-5015 WARNING: Found latch in "mipi_driver_gen(VBP=6,VFP=30)", name: "reg5_b4", d: "n69[4]", q: "nstate[4]" // ../../source_code/rtl/mipi_driver_gen.v(712)
+SYN-1011 : Flatten model mipi_driver_tp
+SYN-1011 : Flatten model mipi_driver_gen(VBP=6,VFP=30)
+SYN-1011 : Flatten model video_buf
+SYN-1016 : Merged 3 instances.
+SYN-1014 : Optimize round 1
+SYN-1032 : 508/39 useful/useless nets, 378/0 useful/useless insts
+SYN-1019 : Optimized 0 mux instances.
+SYN-1020 : Optimized 21 distributor mux.
+SYN-1016 : Merged 57 instances.
+SYN-1015 : Optimize round 1, 101 better
+SYN-1014 : Optimize round 2
+SYN-1032 : 456/57 useful/useless nets, 326/31 useful/useless insts
+SYN-1019 : Optimized 0 mux instances.
+SYN-1015 : Optimize round 2, 41 better
+SYN-1014 : Optimize round 3
+SYN-1032 : 456/0 useful/useless nets, 326/0 useful/useless insts
+SYN-1019 : Optimized 0 mux instances.
+SYN-1015 : Optimize round 3, 0 better
+RUN-1002 : start command "report_area -file RGB_to_MIPI_video_mode_rtl.area"
+RUN-1001 : standard
+***Report Model: mipi_driver_tp***
+
+IO Statistics
+#IO                    50
+  #input               39
+  #output              11
+  #inout                0
+
+Gate Statistics
+#Basic gates          198
+  #and                 38
+  #nand                 0
+  #or                   4
+  #nor                  0
+  #xor                  0
+  #xnor                 0
+  #buf                  0
+  #not                 16
+  #bufif1               0
+  #MX21                13
+  #FADD                 0
+  #DFF                122
+  #LATCH                5
+#MACRO_ADD             13
+#MACRO_EQ              14
+#MACRO_MUX             97
+
+RUN-1001 : 
+Report Hierarchy Area:
++-------------------------------------------------+
+|Instance |Module         |gates  |seq    |macros |
++-------------------------------------------------+
+|top      |mipi_driver_tp |71     |127    |28     |
++-------------------------------------------------+
+
+RUN-1002 : start command "export_db RGB_to_MIPI_video_mode_rtl.db"
+RUN-1001 : Exported /
+RUN-1001 : Exported libs
+RUN-1001 : Exported entities
+RUN-1001 : Exported ports
+RUN-1001 : Exported pins
+RUN-1001 : Exported instances
+RUN-1001 : Exported nets
+RUN-1001 : Exported buses
+RUN-1001 : Exported models
+RUN-1001 : Exported congestions
+RUN-1001 : Exported violations
+RUN-1001 : Exported IO constraints
+RUN-1001 : Exported Inst constraints
+RUN-1001 : Exported flow parameters
+RUN-1002 : start command "optimize_gate -packarea RGB_to_MIPI_video_mode_gate.area"
+RUN-1001 : Open license file C:/Anlogic/TD4.6.3/license/Anlogic.lic
+SYN-2001 : Map 50 IOs to PADs
+SYN-2501 : Processed 0 LOGIC_BUF instances.
+SYN-2512 : LOGIC BRAM "video_buf_u/inst"
+SYN-2571 : Optimize after map_dsp, round 1
+SYN-1032 : 506/0 useful/useless nets, 384/0 useful/useless insts
+SYN-2571 : Optimize after map_dsp, round 1, 0 better
+SYN-2501 : Optimize round 1
+SYN-1032 : 658/0 useful/useless nets, 536/0 useful/useless insts
+SYN-1016 : Merged 37 instances.
+SYN-2501 : Optimize round 1, 169 better
+SYN-2501 : Optimize round 2
+SYN-1032 : 621/0 useful/useless nets, 499/0 useful/useless insts
+SYN-2501 : Optimize round 2, 0 better
+SYN-2501 : Map 13 macro adder
+SYN-3001 : Mapper mapped 31 instances into 1 LUTs, name keeping = 100%.
+SYN-1032 : 1922/0 useful/useless nets, 1800/0 useful/useless insts
+SYN-3001 : X or Z is treated as constant in optimizing instance mipi_driver_gen_u/_al_const_x.
+SYN-3001 : Running gate level optimization.
+SYN-2553 : LUT mapping.
+SYN-2551 : Post mapping optimization.
+SYN-3001 : Logic optimization runtime opt =   0.15 sec, map =   0.00 sec
+SYN-2581 : Mapping with K=5, #lut = 192 (3.91), #lev = 6 (2.70)
+SYN-3001 : Mapper mapped 1440 instances into 194 LUTs, name keeping = 63%.
+SYN-1001 : Packing model "mipi_driver_tp" ...
+SYN-4010 : Pack lib has 47 rtl pack models with 19 top pack blocks
+SYN-1014 : Optimize round 1
+SYN-1032 : 670/0 useful/useless nets, 548/0 useful/useless insts
+SYN-1015 : Optimize round 1, 0 better
+SYN-4002 : Packing 125 DFF/LATCH to SEQ ...
+SYN-4009 : Pack 6 carry chain into lslice
+SYN-4007 : Packing 96 adder to BLE ...
+SYN-4008 : Packed 96 adder and 0 SEQ to BLE.
+SYN-4007 : Packing 0 gate4 to BLE ...
+SYN-4008 : Packed 0 gate4 and 0 SEQ to BLE.
+SYN-4012 : Packed 0 FxMUX
+SYN-4007 : Packing 0 MUX to BLE ...
+SYN-4008 : Packed 0 MUX and 0 SEQ to BLE.
+SYN-4007 : Packing 194 LUT to BLE ...
+SYN-4008 : Packed 194 LUT and 91 SEQ to BLE.
+SYN-4003 : Packing 34 remaining SEQ's ...
+SYN-4004 : #0: Packed 0 SEQ (34 nodes)...
+SYN-4004 : #1: Packed 17 SEQ (280 nodes)...
+SYN-4005 : Packed 17 SEQ with LUT/SLICE
+SYN-4006 : 90 single LUT's are left
+SYN-4006 : 17 single SEQ's are left
+SYN-4011 : Packing model "mipi_driver_tp" (AL_USER_NORMAL) with 211/341 primitive instances ...
+RUN-1002 : start command "report_area -file RGB_to_MIPI_video_mode_gate.area"
+RUN-1001 : standard
+***Report Model: mipi_driver_tp***
+
+IO Statistics
+#IO                    50
+  #input               39
+  #output              11
+  #inout                0
+
+Utilization Statistics
+#lut                  344   out of   4480    7.68%
+#reg                  125   out of   4480    2.79%
+#le                   359
+  #lut only           234   out of    359   65.18%
+  #reg only            15   out of    359    4.18%
+  #lut&reg            110   out of    359   30.64%
+#dsp                    0   out of     15    0.00%
+#bram                   8   out of     12   66.67%
+  #bram9k               8
+  #fifo9k               0
+#bram32k                0   out of      6    0.00%
+#pad                   50   out of     51   98.04%
+  #ireg                 1
+  #oreg                 1
+  #treg                 0
+#pll                    0   out of      1    0.00%
+
+RUN-1001 : 
+Report Hierarchy Area:
++----------------------------------------------+
+|Instance |Module         |le    |lut   |seq   |
++----------------------------------------------+
+|top      |mipi_driver_tp |359   |344   |125   |
++----------------------------------------------+
+
+RUN-1003 : finish command "optimize_gate -packarea RGB_to_MIPI_video_mode_gate.area" in  2.482541s wall, 2.046875s user + 0.390625s system = 2.437500s CPU (98.2%)
+
+RUN-1004 : used memory is 192 MB, reserved memory is 162 MB, peak memory is 213 MB
+RUN-1002 : start command "legalize_phy_inst"
+SYN-1011 : Flatten model mipi_driver_tp
+RUN-1002 : start command "export_db RGB_to_MIPI_video_mode_gate.db"
+RUN-1001 : Exported /
+RUN-1001 : Exported libs
+RUN-1001 : Exported entities
+RUN-1001 : Exported ports
+RUN-1001 : Exported pins
+RUN-1001 : Exported instances
+RUN-1001 : Exported nets
+RUN-1001 : Exported buses
+RUN-1001 : Exported models
+RUN-1001 : Exported congestions
+RUN-1001 : Exported violations
+RUN-1001 : Exported IO constraints
+RUN-1001 : Exported Inst constraints
+RUN-1001 : Exported flow parameters
+RUN-1002 : start command "place"
+RUN-1001 : Open license file C:/Anlogic/TD4.6.3/license/Anlogic.lic
+PHY-3001 : Placer runs in 8 thread(s).
+SYN-4024 : Net "byte_clk_pad" drive clk pins.
+SYN-4024 : Net "ctrl_clk_pad" drive clk pins.
+SYN-4024 : Net "mipi_driver_gen_u/n70" drive clk pins.
+SYN-4025 : Tag rtl::Net byte_clk_pad as clock net
+SYN-4025 : Tag rtl::Net ctrl_clk_pad as clock net
+SYN-4025 : Tag rtl::Net mipi_driver_gen_u/n70 as clock net
+SYN-4026 : Tagged 3 rtl::Net as clock net
+SYN-4015 : Create BUFG instance for clk Net mipi_driver_gen_u/n70 to drive 4 clock pins.
+PHY-1001 : Populate physical database.
+RUN-1001 : There are total 243 instances
+RUN-1001 : 91 mslices, 90 lslices, 50 pads, 8 brams, 0 dsps
+RUN-1001 : There are total 481 nets
+RUN-1001 : 310 nets have 2 pins
+RUN-1001 : 96 nets have [3 - 5] pins
+RUN-1001 : 43 nets have [6 - 10] pins
+RUN-1001 : 22 nets have [11 - 20] pins
+RUN-1001 : 8 nets have [21 - 99] pins
+RUN-1001 : 2 nets have 100+ pins
+PHY-3001 : Initial placement ...
+PHY-3001 : design contains 241 instances, 181 slices, 13 macros(69 instances)
+PHY-3001 : Start timing update ...
+RUN-1002 : start command "start_timer"
+TMR-5001 WARNING: No sdc constraints found while initiating timer.
+TMR-2505 : Start building timing graph for model mipi_driver_tp.
+TMR-2506 : Build timing graph completely. Port num: 12, tpin num: 1995, tnet num: 479, tinst num: 241, tnode num: 2337, tedge num: 3276.
+TMR-2507 : Eliminate loop in the timing graph, delete 0 tedges.
+TMR-2508 : Levelizing timing graph completed, there are 21 levels in total.
+TMR-2501 : Timing graph initialized successfully.
+TMR-2503 : Start to update net delay, extr mode = 2.
+TMR-2504 : Update delay of 479 nets completely.
+TMR-2502 : Annotate delay completely, extr mode = 2.
+TMR-3002 : No user constraint, initiate default constraint.
+TMR-1501 : Assign derive clock DeriveClock to 216 clock pins, and constraint 342 relative nodes.
+TMR-3005 : Start mapping report constraints, there are 0 constraints in total.
+TMR-3003 : Constraints initiated successfully.
+TMR-3501 : Forward propagation: start to calculate arrival time...
+TMR-3502 : Backward propagation: start to calculate required time...
+TMR-3503 : Timing propagation completes.
+PHY-3001 : End timing update;  0.184913s wall, 0.140625s user + 0.000000s system = 0.140625s CPU (76.0%)
+
+PHY-3001 : Global placement ...
+PHY-3001 : Initial: Len = 66938.2
+PHY-3001 : Run with size of 3
+PHY-3001 : Cell area utilization is 8%, beta_incr = 0.951518
+PHY-3001 : :::0::: Try harder cell spreading with beta_ = 0
+PHY-3002 : Step(1): len = 44017.9, overlap = 15.75
+PHY-3002 : Step(2): len = 33333.4, overlap = 13.5
+PHY-3002 : Step(3): len = 27381.2, overlap = 15.75
+PHY-3002 : Step(4): len = 23476.6, overlap = 18.75
+PHY-3002 : Step(5): len = 20509.3, overlap = 21.25
+PHY-3002 : Step(6): len = 18273.7, overlap = 22.5
+PHY-3002 : Step(7): len = 16180.5, overlap = 22.25
+PHY-3002 : Step(8): len = 14707.4, overlap = 22.5
+PHY-3002 : Step(9): len = 13554.1, overlap = 23
+PHY-3001 : :::1::: Try harder cell spreading with beta_ = 1.12856e-05
+PHY-3002 : Step(10): len = 15063.8, overlap = 18.5
+PHY-3002 : Step(11): len = 15471.2, overlap = 14
+PHY-3002 : Step(12): len = 15467.8, overlap = 14.5
+PHY-3002 : Step(13): len = 14755.4, overlap = 14.75
+PHY-3002 : Step(14): len = 14591.3, overlap = 14.25
+PHY-3002 : Step(15): len = 14665.9, overlap = 14.25
+PHY-3002 : Step(16): len = 14527.6, overlap = 14
+PHY-3001 : :::2::: Try harder cell spreading with beta_ = 2.25711e-05
+PHY-3002 : Step(17): len = 14662.6, overlap = 14
+PHY-3002 : Step(18): len = 14693.6, overlap = 14.25
+PHY-3002 : Step(19): len = 14773.8, overlap = 14
+PHY-3001 : :::3::: Try harder cell spreading with beta_ = 4.51423e-05
+PHY-3002 : Step(20): len = 14895.4, overlap = 11.5
+PHY-3002 : Step(21): len = 15099.4, overlap = 14.25
+PHY-3001 : Legalization ...
+PHY-3001 : End legalization;  0.011215s wall, 0.015625s user + 0.015625s system = 0.031250s CPU (278.6%)
+
+PHY-3001 : Run with size of 3
+PHY-3001 : Cell area utilization is 10%, beta_incr = 0.951518
+PHY-3001 : :::0::: Try harder cell spreading with beta_ = 3.04281e-06
+PHY-3002 : Step(22): len = 16915.9, overlap = 9.75
+PHY-3002 : Step(23): len = 16910.6, overlap = 10
+PHY-3002 : Step(24): len = 16808, overlap = 10
+PHY-3001 : :::1::: Try harder cell spreading with beta_ = 6.08563e-06
+PHY-3002 : Step(25): len = 16735.1, overlap = 9
+PHY-3002 : Step(26): len = 16735.1, overlap = 9
+PHY-3001 : :::2::: Try harder cell spreading with beta_ = 1.21713e-05
+PHY-3002 : Step(27): len = 16704.9, overlap = 8.5
+PHY-3002 : Step(28): len = 16704.9, overlap = 8.5
+PHY-3001 : Run with size of 1
+PHY-3001 : Cell area utilization is 10%, beta_incr = 0.951518
+PHY-3001 : :::0::: Try harder cell spreading with beta_ = 1.05822e-05
+PHY-3002 : Step(29): len = 16696.8, overlap = 22.75
+PHY-3002 : Step(30): len = 16717.5, overlap = 22.5
+PHY-3001 : :::1::: Try harder cell spreading with beta_ = 2.11643e-05
+PHY-3002 : Step(31): len = 16719.1, overlap = 22.5
+PHY-3002 : Step(32): len = 16850.4, overlap = 22.25
+PHY-3001 : :::2::: Try harder cell spreading with beta_ = 4.23286e-05
+PHY-3002 : Step(33): len = 16920, overlap = 21.75
+PHY-3002 : Step(34): len = 17074.9, overlap = 22
+PHY-3002 : Step(35): len = 17285.9, overlap = 21.5
+PHY-3002 : Step(36): len = 17214.3, overlap = 21.25
+PHY-3002 : Step(37): len = 17201.1, overlap = 21.25
+PHY-3002 : Step(38): len = 17153.3, overlap = 20.25
+PHY-3001 : :::3::: Try harder cell spreading with beta_ = 7.33809e-05
+PHY-3002 : Step(39): len = 17473.6, overlap = 19.5
+PHY-3002 : Step(40): len = 17762.9, overlap = 18.5
+PHY-3002 : Step(41): len = 17902.8, overlap = 18.25
+PHY-3001 : Legalization ...
+PHY-3001 : End legalization;  0.024557s wall, 0.015625s user + 0.015625s system = 0.031250s CPU (127.3%)
+
+PHY-3001 : Run with size of 1
+PHY-3001 : Cell area utilization is 10%, beta_incr = 0.951518
+PHY-3001 : :::0::: Try harder cell spreading with beta_ = 0.000701017
+PHY-3002 : Step(42): len = 20995.3, overlap = 13
+PHY-3002 : Step(43): len = 20907.7, overlap = 12
+PHY-3002 : Step(44): len = 20609.2, overlap = 11
+PHY-3002 : Step(45): len = 20381.5, overlap = 11.25
+PHY-3002 : Step(46): len = 20175.6, overlap = 12.75
+PHY-3002 : Step(47): len = 20013.8, overlap = 11.75
+PHY-3002 : Step(48): len = 19984.4, overlap = 12.75
+PHY-3002 : Step(49): len = 19942.2, overlap = 11.75
+PHY-3001 : :::1::: Try harder cell spreading with beta_ = 0.00140203
+PHY-3002 : Step(50): len = 20182.2, overlap = 12.25
+PHY-3002 : Step(51): len = 20271.9, overlap = 13.75
+PHY-3002 : Step(52): len = 20343, overlap = 13.25
+PHY-3001 : :::2::: Try harder cell spreading with beta_ = 0.00280407
+PHY-3002 : Step(53): len = 20469, overlap = 12.5
+PHY-3002 : Step(54): len = 20571.4, overlap = 12
+PHY-3002 : Step(55): len = 20625.4, overlap = 11.75
+PHY-3001 : Legalization ...
+PHY-3001 : End legalization;  0.004156s wall, 0.000000s user + 0.000000s system = 0.000000s CPU (n/a%)
+
+PHY-3001 : Legalized: Len = 20924.9, Over = 0
+PHY-3001 : Spreading special nets. 4 overflows in 750 tiles.
+PHY-3001 : 7 instances has been re-located, deltaX = 7, deltaY = 1.
+PHY-3001 : Final: Len = 21020.9, Over = 0
+RUN-1003 : finish command "place" in  2.410755s wall, 3.359375s user + 1.406250s system = 4.765625s CPU (197.7%)
+
+RUN-1004 : used memory is 199 MB, reserved memory is 167 MB, peak memory is 213 MB
+RUN-1002 : start command "route"
+RUN-1001 : Open license file C:/Anlogic/TD4.6.3/license/Anlogic.lic
+PHY-1001 : Pin misalignment score is improved from 214 to 168
+PHY-1001 : Pin misalignment score is improved from 168 to 170
+PHY-1001 : Route runs in 8 thread(s)
+RUN-1001 : There are total 243 instances
+RUN-1001 : 91 mslices, 90 lslices, 50 pads, 8 brams, 0 dsps
+RUN-1001 : There are total 481 nets
+RUN-1001 : 310 nets have 2 pins
+RUN-1001 : 96 nets have [3 - 5] pins
+RUN-1001 : 43 nets have [6 - 10] pins
+RUN-1001 : 22 nets have [11 - 20] pins
+RUN-1001 : 8 nets have [21 - 99] pins
+RUN-1001 : 2 nets have 100+ pins
+PHY-1001 : Start global routing ...
+RUN-1001 : Generating global routing grids ...
+PHY-1001 : Generate routing nets ...
+PHY-1001 : Global iterations in 8 thread ...
+PHY-1002 : len = 35400, over cnt = 27(0%), over = 32, worst = 2
+PHY-1002 : len = 35512, over cnt = 19(0%), over = 20, worst = 2
+PHY-1002 : len = 35616, over cnt = 6(0%), over = 6, worst = 1
+PHY-1002 : len = 35368, over cnt = 0(0%), over = 0, worst = 0
+PHY-1001 : End global iterations;  0.022065s wall, 0.015625s user + 0.000000s system = 0.015625s CPU (70.8%)
+
+PHY-1001 : End global routing;  0.048541s wall, 0.046875s user + 0.000000s system = 0.046875s CPU (96.6%)
+
+PHY-1001 : Start detail routing ...
+PHY-1001 : Generate detailed routing grids ...
+PHY-1001 : Generate nets ...
+PHY-1001 : net byte_clk_pad will be routed on clock mesh
+PHY-1001 : net ctrl_clk_pad will be routed on clock mesh
+PHY-1001 : clock net mipi_driver_gen_u/n70_gclk_net will be merged with clock mipi_driver_gen_u/n70
+PHY-1001 : Detail Route ...
+PHY-1001 : ===== Detail Route Phase 1 =====
+PHY-1001 : Routed 0% nets.
+PHY-1002 : len = 3872, over cnt = 0(0%), over = 0, worst = 0
+PHY-1001 : End Routed; 0.054901s wall, 0.046875s user + 0.000000s system = 0.046875s CPU (85.4%)
+
+PHY-1001 : ===== Detail Route Phase 2 =====
+PHY-1001 : Routed 0% nets.
+PHY-1002 : len = 3872, over cnt = 0(0%), over = 0, worst = 0
+PHY-1001 : End Routed; 0.000032s wall, 0.000000s user + 0.000000s system = 0.000000s CPU (n/a%)
+
+PHY-1001 : ===== Detail Route Phase 3 =====
+PHY-1001 : Routed 31% nets.
+PHY-1001 : Routed 36% nets.
+PHY-1001 : Routed 44% nets.
+PHY-1001 : Routed 55% nets.
+PHY-1001 : Routed 77% nets.
+PHY-1002 : len = 54880, over cnt = 22(0%), over = 22, worst = 1
+PHY-1001 : End Routed; 0.998648s wall, 1.234375s user + 0.078125s system = 1.312500s CPU (131.4%)
+
+PHY-1001 : ===== DR Iter 1 =====
+PHY-1002 : len = 54504, over cnt = 7(0%), over = 7, worst = 1
+PHY-1001 : End DR Iter 1; 0.034666s wall, 0.062500s user + 0.000000s system = 0.062500s CPU (180.3%)
+
+PHY-1001 : ===== DR Iter 2 =====
+PHY-1002 : len = 54584, over cnt = 0(0%), over = 0, worst = 0
+PHY-1003 : Routed, final wirelength = 54584
+PHY-1001 : End DR Iter 2; 0.019835s wall, 0.015625s user + 0.000000s system = 0.015625s CPU (78.8%)
+
+PHY-1001 : 0 feed throughs used by 0 nets
+PHY-1001 : Generate detailed routing grids ...
+PHY-1001 : Generate nets ...
+PHY-1001 : net byte_clk_pad will be routed on clock mesh
+PHY-1001 : net ctrl_clk_pad will be routed on clock mesh
+PHY-1001 : clock net mipi_driver_gen_u/n70_gclk_net will be merged with clock mipi_driver_gen_u/n70
+PHY-1001 : eco open net = 0
+PHY-1001 : End detail routing;  3.304335s wall, 3.453125s user + 0.234375s system = 3.687500s CPU (111.6%)
+
+PHY-1001 : Routing violations:
+PHY-1001 : End of Routing Violations.
+RUN-1003 : finish command "route" in  3.464289s wall, 3.609375s user + 0.250000s system = 3.859375s CPU (111.4%)
+
+RUN-1004 : used memory is 229 MB, reserved memory is 201 MB, peak memory is 347 MB
+RUN-1002 : start command "report_area -io_info -file RGB_to_MIPI_video_mode_phy.area"
+RUN-1001 : standard
+***Report Model: mipi_driver_tp***
+
+IO Statistics
+#IO                    50
+  #input               39
+  #output              11
+  #inout                0
+
+Utilization Statistics
+#lut                  344   out of   4480    7.68%
+#reg                  125   out of   4480    2.79%
+#le                   359
+  #lut only           234   out of    359   65.18%
+  #reg only            15   out of    359    4.18%
+  #lut&reg            110   out of    359   30.64%
+#dsp                    0   out of     15    0.00%
+#bram                   8   out of     12   66.67%
+  #bram9k               8
+  #fifo9k               0
+#bram32k                0   out of      6    0.00%
+#pad                   50   out of     51   98.04%
+  #ireg                 1
+  #oreg                 1
+  #treg                 0
+#pll                    0   out of      1    0.00%
+
+RUN-1001 : 
+
+RUN-1002 : start command "export_db RGB_to_MIPI_video_mode_pr.db"
+RUN-1001 : Exported /
+RUN-1001 : Exported libs
+RUN-1001 : Exported entities
+RUN-1001 : Exported ports
+RUN-1001 : Exported pins
+RUN-1001 : Exported instances
+RUN-1001 : Exported nets
+RUN-1001 : Exported buses
+RUN-1001 : Exported models
+RUN-1001 : Exported congestions
+RUN-1001 : Exported violations
+RUN-1001 : Exported IO constraints
+RUN-1001 : Exported Inst constraints
+RUN-1001 : Exported flow parameters
+RUN-1002 : start command "bitgen -bit RGB_to_MIPI_video_mode.bit -version 0X00 -g ucode:00000000111011000000000000000000"
+BIT-1003 : Start to generate bitstream. 
+BIT-1002 : Init instances with 8 threads.
+BIT-1002 : Init instances completely, inst num: 243
+BIT-1002 : Init pips with 8 threads.
+BIT-1002 : Init pips completely, net num: 481, pip num: 4527
+BIT-1003 : Multithreading accelaration with 8 threads.
+BIT-1003 : Generate bitstream completely, there are 513 valid insts, and 13150 bits set as '1'.
+BIT-1004 : Generate bits file RGB_to_MIPI_video_mode.bit.
+RUN-1003 : finish command "bitgen -bit RGB_to_MIPI_video_mode.bit -version 0X00 -g ucode:00000000111011000000000000000000" in  1.396602s wall, 7.687500s user + 0.046875s system = 7.734375s CPU (553.8%)
+
+RUN-1004 : used memory is 234 MB, reserved memory is 205 MB, peak memory is 347 MB
+HDL-1007 : analyze verilog file ../../source_code/rtl/mipi_driver_gen.v
+HDL-1007 : analyze included file ../../source_code/rtl/../include/te_define.v in ../../source_code/rtl/mipi_driver_gen.v(1)
+HDL-1007 : back to file '../../source_code/rtl/mipi_driver_gen.v' in ../../source_code/rtl/mipi_driver_gen.v(1)
+HDL-1007 : analyze verilog file ../../source_code/rtl/mipi_driver_tp.v
+HDL-1007 : analyze verilog file ../../source_code/rtl/al_ip/video_buf.v
+HDL-1007 : analyze verilog file ../../source_code/rtl/mipi_driver_gen.v
+HDL-1007 : analyze included file ../../source_code/rtl/../include/te_define.v in ../../source_code/rtl/mipi_driver_gen.v(1)
+HDL-1007 : back to file '../../source_code/rtl/mipi_driver_gen.v' in ../../source_code/rtl/mipi_driver_gen.v(1)
+HDL-1007 : analyze verilog file ../../source_code/rtl/mipi_driver_tp.v
+HDL-1007 : analyze verilog file ../../source_code/rtl/al_ip/video_buf.v
+RUN-1002 : start command "elaborate -top mipi_driver_tp"
+HDL-1007 : elaborate module mipi_driver_tp in ../../source_code/rtl/mipi_driver_tp.v(1)
+HDL-1007 : elaborate module video_buf in ../../source_code/rtl/al_ip/video_buf.v(14)
+HDL-1007 : elaborate module EF2_LOGIC_BRAM(DATA_WIDTH_A=32,DATA_WIDTH_B=32,ADDR_WIDTH_A=11,ADDR_WIDTH_B=11,DATA_DEPTH_A=2048,DATA_DEPTH_B=2048,MODE="PDPW") in C:/Anlogic/TD4.6.3/arch/ef2_macro.v(2844)
+HDL-1007 : elaborate module mipi_driver_gen(VBP=6,VFP=30) in ../../source_code/rtl/mipi_driver_gen.v(2)
+HDL-1200 : Current top model is mipi_driver_tp
+HDL-1100 : Inferred 0 RAMs.
+GUI-5001 WARNING: Found no ADC files
+RUN-1002 : start command "optimize_rtl"
+RUN-1001 : Open license file C:/Anlogic/TD4.6.3/license/Anlogic.lic
+SYN-1012 : SanityCheck: Model "mipi_driver_tp"
+SYN-1012 : SanityCheck: Model "mipi_driver_gen(VBP=6,VFP=30)"
+SYN-1012 : SanityCheck: Model "video_buf"
+SYN-5015 WARNING: Found latch in "mipi_driver_gen(VBP=6,VFP=30)", name: "reg5_b0", d: "n69[0]", q: "nstate[0]" // ../../source_code/rtl/mipi_driver_gen.v(712)
+SYN-5015 WARNING: Found latch in "mipi_driver_gen(VBP=6,VFP=30)", name: "reg5_b1", d: "n69[1]", q: "nstate[1]" // ../../source_code/rtl/mipi_driver_gen.v(712)
+SYN-5015 WARNING: Found latch in "mipi_driver_gen(VBP=6,VFP=30)", name: "reg5_b2", d: "n69[2]", q: "nstate[2]" // ../../source_code/rtl/mipi_driver_gen.v(712)
+SYN-5015 WARNING: Found latch in "mipi_driver_gen(VBP=6,VFP=30)", name: "reg5_b3", d: "n69[3]", q: "nstate[3]" // ../../source_code/rtl/mipi_driver_gen.v(712)
+SYN-5015 WARNING: Found latch in "mipi_driver_gen(VBP=6,VFP=30)", name: "reg5_b4", d: "n69[4]", q: "nstate[4]" // ../../source_code/rtl/mipi_driver_gen.v(712)
+SYN-1011 : Flatten model mipi_driver_tp
+SYN-1011 : Flatten model mipi_driver_gen(VBP=6,VFP=30)
+SYN-1011 : Flatten model video_buf
+SYN-1016 : Merged 3 instances.
+SYN-1014 : Optimize round 1
+SYN-1032 : 484/39 useful/useless nets, 354/0 useful/useless insts
+SYN-1019 : Optimized 0 mux instances.
+SYN-1020 : Optimized 21 distributor mux.
+SYN-1016 : Merged 57 instances.
+SYN-1015 : Optimize round 1, 101 better
+SYN-1014 : Optimize round 2
+SYN-1032 : 432/57 useful/useless nets, 302/31 useful/useless insts
+SYN-1019 : Optimized 0 mux instances.
+SYN-1015 : Optimize round 2, 41 better
+SYN-1014 : Optimize round 3
+SYN-1032 : 432/0 useful/useless nets, 302/0 useful/useless insts
+SYN-1019 : Optimized 0 mux instances.
+SYN-1015 : Optimize round 3, 0 better
+RUN-1002 : start command "report_area -file RGB_to_MIPI_video_mode_rtl.area"
+RUN-1001 : standard
+***Report Model: mipi_driver_tp***
+
+IO Statistics
+#IO                    74
+  #input               39
+  #output              35
+  #inout                0
+
+Gate Statistics
+#Basic gates          174
+  #and                 14
+  #nand                 0
+  #or                   4
+  #nor                  0
+  #xor                  0
+  #xnor                 0
+  #buf                  0
+  #not                 16
+  #bufif1               0
+  #MX21                13
+  #FADD                 0
+  #DFF                122
+  #LATCH                5
+#MACRO_ADD             13
+#MACRO_EQ              14
+#MACRO_MUX             97
+
+RUN-1001 : 
+Report Hierarchy Area:
++-------------------------------------------------+
+|Instance |Module         |gates  |seq    |macros |
++-------------------------------------------------+
+|top      |mipi_driver_tp |47     |127    |28     |
++-------------------------------------------------+
+
+RUN-1002 : start command "export_db RGB_to_MIPI_video_mode_rtl.db"
+RUN-1001 : Exported /
+RUN-1001 : Exported libs
+RUN-1001 : Exported entities
+RUN-1001 : Exported ports
+RUN-1001 : Exported pins
+RUN-1001 : Exported instances
+RUN-1001 : Exported nets
+RUN-1001 : Exported buses
+RUN-1001 : Exported models
+RUN-1001 : Exported congestions
+RUN-1001 : Exported violations
+RUN-1001 : Exported IO constraints
+RUN-1001 : Exported Inst constraints
+RUN-1001 : Exported flow parameters
+RUN-1002 : start command "optimize_gate -packarea RGB_to_MIPI_video_mode_gate.area"
+RUN-1001 : Open license file C:/Anlogic/TD4.6.3/license/Anlogic.lic
+SYN-8001 ERROR: Cannot fit all model pins.

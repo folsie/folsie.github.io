@@ -1,0 +1,37 @@
+standard
+***Report Model: mipi_driver_tp***
+
+IO Statistics
+#IO                      74
+  #input                 39
+  #output                35
+  #inout                  0
+
+LUT Statistics
+#Total_luts             438
+  #lut4                 243
+  #lut5                  27
+  #lut6                   0
+  #lut5_mx41              0
+  #lut4_alu1b           168
+
+Utilization Statistics
+#lut                    438   out of   4480    9.78%
+#reg                    127   out of   4480    2.83%
+#le                       0
+#dsp                      0   out of     15    0.00%
+#bram                     8   out of     12   66.67%
+  #bram9k                 8
+  #fifo9k                 0
+#bram32k                  0   out of      6    0.00%
+#pad                      0   out of     53    0.00%
+#virtual IO              74
+#pll                      0   out of      1    0.00%
+
+Report Hierarchy Area:
++-------------------------------------------------------------------------------------------+
+|Instance            |Module                        |lut    |ripple |seq    |bram   |dsp    |
++-------------------------------------------------------------------------------------------+
+|top                 |mipi_driver_tp                |270    |168    |127    |8      |0      |
+|  mipi_driver_gen_u |mipi_driver_gen(VBP=6,VFP=30) |233    |168    |127    |0      |0      |
++-------------------------------------------------------------------------------------------+

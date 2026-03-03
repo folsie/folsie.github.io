@@ -1,0 +1,7 @@
+#[INFO] IpTool V2025.08 (APP main), Windows 64bit (Release), Build 171484 2025/08/11, 10:43:30 Aug 11 2025 on WIN10-204
+#[INFO] Run at Tue Mar  3 15:40:36 2026
+
+#[INFO] Load ipc data success from E:/BaiduSyncdisk/fs/quarto/cldmt/pdf/MIPI/APUG075/td_project/../user_source/ip_source/pll.ipc
+ipst_gui_select_dialog IP_Status
+ipst_gui_set_checkbox IP_Status ReportBrowser.IpStReportTree.SelectAll checked
+ipst_gui_close_dialog IP_Status

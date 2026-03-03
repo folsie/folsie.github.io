@@ -1,0 +1,25 @@
+============================================================
+   Tang Dynasty, V4.6.14756
+   Copyright:   Shanghai Anlogic Infotech Co., Ltd.
+                2011 - 2021
+   Executable = C:/Anlogic/TD4.6.3/bin/td.exe
+   Built at =   17:01:29 Oct 21 2019
+   Run by =     lihon
+   Run Date =   Mon May 18 15:57:25 2020
+
+   Run on =     LAPTOP-P69PQHTO
+============================================================
+RUN-1002 : start command "open_project RGB_to_MIPI_video_mode.al"
+HDL-1007 : analyze verilog file ../../source_code/rtl/mipi_driver_gen.v
+HDL-1007 : analyze included file ../../source_code/rtl/../include/te_define.v in ../../source_code/rtl/mipi_driver_gen.v(1)
+HDL-1007 : back to file '../../source_code/rtl/mipi_driver_gen.v' in ../../source_code/rtl/mipi_driver_gen.v(1)
+HDL-1007 : analyze verilog file ../../source_code/rtl/mipi_driver_tp.v
+HDL-1007 : analyze verilog file ../../source_code/rtl/al_ip/video_buf.v
+RUN-1002 : start command "import_device ef2_s4.db -package EF2S45VG81C"
+ARC-1001 : Device Initialization.
+ARC-1001 : -------------------------------------------------
+ARC-1001 :       OPTION       |      IO       |   SETTING   
+ARC-1001 : -------------------------------------------------
+ARC-1001 :   tdi/tms/tck/tdo  |  C6/D7/D8/C9  |  dedicated  
+ARC-1001 : -------------------------------------------------
+ARC-1004 : Device setting, marked 4 dedicate IOs in total.

@@ -1,0 +1,35 @@
+standard
+***Report Model: mipi_driver_tp***
+
+IO Statistics
+#IO                      74
+  #input                 39
+  #output                35
+  #inout                  0
+
+Gate Statistics
+#Basic gates            180
+  #and                   14
+  #nand                   0
+  #or                     4
+  #nor                    0
+  #xor                    0
+  #xnor                   0
+  #buf                    0
+  #not                   16
+  #bufif1                 0
+  #MX21                  19
+  #FADD                   0
+  #DFF                  122
+  #LATCH                  5
+#MACRO_ADD               13
+#MACRO_EQ                14
+#MACRO_MUX               97
+
+Report Hierarchy Area:
++-------------------------------------------------------------+
+|Instance            |Module          |gates  |seq    |macros |
++-------------------------------------------------------------+
+|top                 |mipi_driver_tp  |53     |127    |28     |
+|  mipi_driver_gen_u |mipi_driver_gen |53     |127    |27     |
++-------------------------------------------------------------+

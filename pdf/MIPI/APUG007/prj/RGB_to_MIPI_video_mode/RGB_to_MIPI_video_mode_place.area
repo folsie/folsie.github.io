@@ -1,0 +1,36 @@
+standard
+***Report Model: mipi_driver_tp***
+
+IO Statistics
+#IO                      74
+  #input                 39
+  #output                35
+  #inout                  0
+
+Utilization Statistics
+#lut                    408   out of   4480    9.11%
+#reg                    127   out of   4480    2.83%
+#le                     408
+  #lut only             281   out of    408   68.87%
+  #reg only               0   out of    408    0.00%
+  #lut&reg              127   out of    408   31.13%
+#dsp                      0   out of     15    0.00%
+#bram                     8   out of     12   66.67%
+  #bram9k                 8
+  #fifo9k                 0
+#bram32k                  0   out of      6    0.00%
+#pad                      0   out of     53    0.00%
+#virtual IO              74
+#pll                      0   out of      1    0.00%
+
+
+Detailed IO Report
+
+  Name    Direction    Location    IOStandard    DriveStrength    PullType    PackReg  
+
+Report Hierarchy Area:
++------------------------------------------------------------------------+
+|Instance |Module         |le    |lut    |ripple |seq    |bram   |dsp    |
++------------------------------------------------------------------------+
+|top      |mipi_driver_tp |408   |339    |69     |127    |8      |0      |
++------------------------------------------------------------------------+

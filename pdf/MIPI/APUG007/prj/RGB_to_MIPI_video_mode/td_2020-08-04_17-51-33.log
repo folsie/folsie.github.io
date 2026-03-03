@@ -1,0 +1,2578 @@
+============================================================
+   Tang Dynasty, V5.0.20734
+   Copyright:   Shanghai Anlogic Infotech Co., Ltd.
+                2011 - 2021
+   Executable = C:/Anlogic/TD5.0.20734/bin/td.exe
+   Built at =   18:40:57 Jul  8 2020
+   Run by =     lihon
+   Run Date =   Tue Aug  4 17:51:33 2020
+
+   Run on =     LAPTOP-P69PQHTO
+============================================================
+RUN-1002 : start command "import_device ef2_s4.db -package EF2S45VG81C"
+ARC-1001 : Device Initialization.
+ARC-1001 : -------------------------------------------------
+ARC-1001 :       OPTION       |      IO       |   SETTING   
+ARC-1001 : -------------------------------------------------
+ARC-1001 :       jtagen       |      F6       |    gpio    
+ARC-1001 :   tdi/tms/tck/tdo  |  C6/D7/D8/C9  |  dedicate  
+ARC-1001 : -------------------------------------------------
+ARC-1004 : Device setting, marked 4 dedicate IOs in total.
+RUN-1001 : Print Global Property
+RUN-1001 : -------------------------------------------------------
+RUN-1001 :        Parameters        |  Settings  |  Default Values  
+RUN-1001 : -------------------------------------------------------
+RUN-1001 :          message         |  standard  |     standard     
+RUN-1001 :   mixed_pack_place_flow  |     on     |        on        
+RUN-1001 :        syn_ip_flow       |    off     |       off        
+RUN-1001 :          thread          |    auto    |       auto       
+RUN-1001 : -------------------------------------------------------
+RUN-1001 : Print Design Property
+RUN-1001 : ------------------------------------------------------
+RUN-1001 :        Parameters       |  Settings  |  Default Values  
+RUN-1001 : ------------------------------------------------------
+RUN-1001 :        infer_add        |     on     |        on        
+RUN-1001 :        infer_fsm        |    off     |       off        
+RUN-1001 :        infer_mult       |     on     |        on        
+RUN-1001 :        infer_ram        |     on     |        on        
+RUN-1001 :        infer_reg        |     on     |        on        
+RUN-1001 :   infer_reg_init_value  |     on     |        on        
+RUN-1001 :        infer_rom        |     on     |        on        
+RUN-1001 : ------------------------------------------------------
+HDL-1007 : analyze verilog file ../../source_code/rtl/mipi_driver_tp.v
+HDL-1007 : analyze verilog file ../../source_code/rtl/al_ip/video_buf.v
+HDL-1007 : analyze verilog file ../../source_code/include/te_define.v
+RUN-1001 : Print Global Property
+RUN-1001 : -------------------------------------------------------
+RUN-1001 :        Parameters        |  Settings  |  Default Values  
+RUN-1001 : -------------------------------------------------------
+RUN-1001 :          message         |  standard  |     standard     
+RUN-1001 :   mixed_pack_place_flow  |     on     |        on        
+RUN-1001 :        syn_ip_flow       |    off     |       off        
+RUN-1001 :          thread          |    auto    |       auto       
+RUN-1001 : -------------------------------------------------------
+RUN-1001 : Print Design Property
+RUN-1001 : ------------------------------------------------------
+RUN-1001 :        Parameters       |  Settings  |  Default Values  
+RUN-1001 : ------------------------------------------------------
+RUN-1001 :        infer_add        |     on     |        on        
+RUN-1001 :        infer_fsm        |    off     |       off        
+RUN-1001 :        infer_mult       |     on     |        on        
+RUN-1001 :        infer_ram        |     on     |        on        
+RUN-1001 :        infer_reg        |     on     |        on        
+RUN-1001 :   infer_reg_init_value  |     on     |        on        
+RUN-1001 :        infer_rom        |     on     |        on        
+RUN-1001 : ------------------------------------------------------
+HDL-1007 : analyze verilog file ../../source_code/rtl/mipi_driver_gen.enc.v
+HDL-1007 : analyze included file ../../source_code/rtl/../include/te_define.v in ../../source_code/rtl/mipi_driver_gen.enc.v(1)
+HDL-1007 : back to file '../../source_code/rtl/mipi_driver_gen.enc.v' in ../../source_code/rtl/mipi_driver_gen.enc.v(1)
+Copyright (c) 1998-2019 The OpenSSL Project.  All rights reserved.
+This product includes software developed by the OpenSSL Project
+for use in the OpenSSL Toolkit (http://www.openssl.org/)
+Copyright (C) 1995-1998 Eric Young (eay@cryptsoft.com)
+All rights reserved.
+This product includes cryptographic software written by Eric Young (eay@cryptsoft.com)
+HDL-1007 : back to file '../../source_code/rtl/mipi_driver_gen.enc.v' in ../../source_code/rtl/mipi_driver_gen.enc.v(478)
+RUN-1001 : Print Global Property
+RUN-1001 : -------------------------------------------------------
+RUN-1001 :        Parameters        |  Settings  |  Default Values  
+RUN-1001 : -------------------------------------------------------
+RUN-1001 :          message         |  standard  |     standard     
+RUN-1001 :   mixed_pack_place_flow  |     on     |        on        
+RUN-1001 :        syn_ip_flow       |    off     |       off        
+RUN-1001 :          thread          |    auto    |       auto       
+RUN-1001 : -------------------------------------------------------
+RUN-1001 : Print Design Property
+RUN-1001 : ------------------------------------------------------
+RUN-1001 :        Parameters       |  Settings  |  Default Values  
+RUN-1001 : ------------------------------------------------------
+RUN-1001 :        infer_add        |     on     |        on        
+RUN-1001 :        infer_fsm        |    off     |       off        
+RUN-1001 :        infer_mult       |     on     |        on        
+RUN-1001 :        infer_ram        |     on     |        on        
+RUN-1001 :        infer_reg        |     on     |        on        
+RUN-1001 :   infer_reg_init_value  |     on     |        on        
+RUN-1001 :        infer_rom        |     on     |        on        
+RUN-1001 : ------------------------------------------------------
+HDL-1007 : analyze verilog file ../../source_code/rtl/mipi_driver_tp.v
+HDL-1007 : analyze verilog file ../../source_code/rtl/al_ip/video_buf.v
+HDL-1007 : analyze verilog file ../../source_code/rtl/mipi_driver_gen.enc.v
+HDL-1007 : analyze included file ../../source_code/rtl/../include/te_define.v in ../../source_code/rtl/mipi_driver_gen.enc.v(1)
+HDL-1007 : back to file '../../source_code/rtl/mipi_driver_gen.enc.v' in ../../source_code/rtl/mipi_driver_gen.enc.v(1)
+HDL-1007 : back to file '../../source_code/rtl/mipi_driver_gen.enc.v' in ../../source_code/rtl/mipi_driver_gen.enc.v(478)
+RUN-1002 : start command "elaborate -top mipi_driver_tp"
+RUN-1001 : Print Design Property
+RUN-1001 : ------------------------------------------------------
+RUN-1001 :        Parameters       |  Settings  |  Default Values  
+RUN-1001 : ------------------------------------------------------
+RUN-1001 :        infer_add        |     on     |        on        
+RUN-1001 :        infer_fsm        |    off     |       off        
+RUN-1001 :        infer_mult       |     on     |        on        
+RUN-1001 :        infer_ram        |     on     |        on        
+RUN-1001 :        infer_reg        |     on     |        on        
+RUN-1001 :   infer_reg_init_value  |     on     |        on        
+RUN-1001 :        infer_rom        |     on     |        on        
+RUN-1001 : ------------------------------------------------------
+RUN-1001 : Print Rtl Property
+RUN-1001 : ------------------------------------------------------
+RUN-1001 :        Parameters       |  Settings  |  Default Values  
+RUN-1001 : ------------------------------------------------------
+RUN-1001 :       compress_add      |   ripple   |      ripple      
+RUN-1001 :        elf_sload        |    off     |       off        
+RUN-1001 :       fix_undriven      |     0      |        0         
+RUN-1001 :         flatten         |    off     |       off        
+RUN-1001 :    hdl_warning_level    |   normal   |      normal      
+RUN-1001 :   impl_internal_tribuf  |     on     |        on        
+RUN-1001 :      impl_set_reset     |     on     |        on        
+RUN-1001 :        infer_gsr        |    off     |       off        
+RUN-1001 :      keep_hierarchy     |    auto    |       auto       
+RUN-1001 :        max_fanout       |    9999    |       9999       
+RUN-1001 :       merge_equal       |     on     |        on        
+RUN-1001 :       merge_equiv       |     on     |        on        
+RUN-1001 :      min_ripple_len     |     3      |        3         
+RUN-1001 :        opt_arith        |     on     |        on        
+RUN-1001 :       opt_big_gate      |    off     |       off        
+RUN-1001 :        opt_const        |     on     |        on        
+RUN-1001 :      opt_const_mult     |     on     |        on        
+RUN-1001 :         opt_mux         |    off     |       off        
+RUN-1001 :         opt_ram         |    high    |       high       
+RUN-1001 :      rtl_sim_model      |    off     |       off        
+RUN-1001 :         seq_syn         |     on     |        on        
+RUN-1001 : ------------------------------------------------------
+RUN-1001 : Print Global Property
+RUN-1001 : -------------------------------------------------------
+RUN-1001 :        Parameters        |  Settings  |  Default Values  
+RUN-1001 : -------------------------------------------------------
+RUN-1001 :          message         |  standard  |     standard     
+RUN-1001 :   mixed_pack_place_flow  |     on     |        on        
+RUN-1001 :        syn_ip_flow       |    off     |       off        
+RUN-1001 :          thread          |    auto    |       auto       
+RUN-1001 : -------------------------------------------------------
+RUN-1001 : Print Design Property
+RUN-1001 : ------------------------------------------------------
+RUN-1001 :        Parameters       |  Settings  |  Default Values  
+RUN-1001 : ------------------------------------------------------
+RUN-1001 :        infer_add        |     on     |        on        
+RUN-1001 :        infer_fsm        |    off     |       off        
+RUN-1001 :        infer_mult       |     on     |        on        
+RUN-1001 :        infer_ram        |     on     |        on        
+RUN-1001 :        infer_reg        |     on     |        on        
+RUN-1001 :   infer_reg_init_value  |     on     |        on        
+RUN-1001 :        infer_rom        |     on     |        on        
+RUN-1001 : ------------------------------------------------------
+HDL-1007 : elaborate module mipi_driver_tp in ../../source_code/rtl/mipi_driver_tp.v(1)
+HDL-1007 : elaborate module video_buf in ../../source_code/rtl/al_ip/video_buf.v(14)
+HDL-1007 : elaborate module EF2_LOGIC_BRAM(DATA_WIDTH_A=32,DATA_WIDTH_B=32,ADDR_WIDTH_A=11,ADDR_WIDTH_B=11,DATA_DEPTH_A=2048,DATA_DEPTH_B=2048,MODE="PDPW") in C:/Anlogic/TD5.0.20734/arch/ef2_macro.v(2805)
+HDL-1007 : elaborate module mipi_driver_gen(VBP=6,VFP=30) in ../../source_code/rtl/mipi_driver_gen.enc.v(2)
+HDL-1200 : Current top model is mipi_driver_tp
+HDL-1100 : Inferred 0 RAMs.
+GUI-5001 WARNING: Found no ADC files
+RUN-1002 : start command "optimize_rtl"
+RUN-1001 : Open license file C:/Anlogic/TD5.0.20734/license/Anlogic.lic
+RUN-1001 : Print Rtl Property
+RUN-1001 : ------------------------------------------------------
+RUN-1001 :        Parameters       |  Settings  |  Default Values  
+RUN-1001 : ------------------------------------------------------
+RUN-1001 :       compress_add      |   ripple   |      ripple      
+RUN-1001 :        elf_sload        |    off     |       off        
+RUN-1001 :       fix_undriven      |     0      |        0         
+RUN-1001 :         flatten         |    off     |       off        
+RUN-1001 :    hdl_warning_level    |   normal   |      normal      
+RUN-1001 :   impl_internal_tribuf  |     on     |        on        
+RUN-1001 :      impl_set_reset     |     on     |        on        
+RUN-1001 :        infer_gsr        |    off     |       off        
+RUN-1001 :      keep_hierarchy     |    auto    |       auto       
+RUN-1001 :        max_fanout       |    9999    |       9999       
+RUN-1001 :       merge_equal       |     on     |        on        
+RUN-1001 :       merge_equiv       |     on     |        on        
+RUN-1001 :      min_ripple_len     |     3      |        3         
+RUN-1001 :        opt_arith        |     on     |        on        
+RUN-1001 :       opt_big_gate      |    off     |       off        
+RUN-1001 :        opt_const        |     on     |        on        
+RUN-1001 :      opt_const_mult     |     on     |        on        
+RUN-1001 :         opt_mux         |    off     |       off        
+RUN-1001 :         opt_ram         |    high    |       high       
+RUN-1001 :      rtl_sim_model      |    off     |       off        
+RUN-1001 :         seq_syn         |     on     |        on        
+RUN-1001 : ------------------------------------------------------
+SYN-1012 : SanityCheck: Model "mipi_driver_tp"
+SYN-1012 : SanityCheck: Model "mipi_driver_gen(VBP=6,VFP=30)"
+SYN-1012 : SanityCheck: Model "video_buf"
+SYN-1011 : Flatten model mipi_driver_tp
+SYN-1011 : Flatten model mipi_driver_gen(VBP=6,VFP=30)
+SYN-1011 : Flatten model video_buf
+SYN-1016 : Merged 1 instances.
+SYN-1014 : Optimize round 1
+SYN-1032 : 586/75 useful/useless nets, 361/0 useful/useless insts
+SYN-1016 : Merged 1 instances.
+SYN-1015 : Optimize round 1, 1 better
+SYN-1014 : Optimize round 2
+SYN-1015 : Optimize round 2, 0 better
+SYN-1014 : Optimize round 1
+SYN-1020 : Optimized 21 distributor mux.
+SYN-1016 : Merged 57 instances.
+SYN-1015 : Optimize round 1, 223 better
+SYN-1014 : Optimize round 2
+SYN-1032 : 406/10 useful/useless nets, 307/33 useful/useless insts
+SYN-1015 : Optimize round 2, 43 better
+SYN-1014 : Optimize round 3
+SYN-1015 : Optimize round 3, 0 better
+RUN-1002 : start command "report_area -file RGB_to_MIPI_video_mode_rtl.area"
+RUN-1001 : standard
+***Report Model: mipi_driver_tp***
+
+IO Statistics
+#IO                      74
+  #input                 39
+  #output                35
+  #inout                  0
+
+Gate Statistics
+#Basic gates            180
+  #and                   14
+  #nand                   0
+  #or                     4
+  #nor                    0
+  #xor                    0
+  #xnor                   0
+  #buf                    0
+  #not                   16
+  #bufif1                 0
+  #MX21                  19
+  #FADD                   0
+  #DFF                  122
+  #LATCH                  5
+#MACRO_ADD               13
+#MACRO_EQ                14
+#MACRO_MUX               97
+
+Report Hierarchy Area:
++-------------------------------------------------------------+
+|Instance            |Module          |gates  |seq    |macros |
++-------------------------------------------------------------+
+|top                 |mipi_driver_tp  |53     |127    |28     |
+|  mipi_driver_gen_u |mipi_driver_gen |53     |127    |27     |
++-------------------------------------------------------------+
+
+RUN-1002 : start command "export_db RGB_to_MIPI_video_mode_rtl.db"
+RUN-1001 : Exported /
+RUN-1001 : Exported libs
+RUN-1001 : Exported entities
+RUN-1001 : Exported ports
+RUN-1001 : Exported pins
+RUN-1001 : Exported instances
+RUN-1001 : Exported nets
+RUN-1001 : Exported buses
+RUN-1001 : Exported models
+RUN-1001 : Exported congestions
+RUN-1001 : Exported violations
+RUN-1001 : Exported IO constraints
+RUN-1001 : Exported Inst constraints
+RUN-1001 : Exported flow parameters
+RUN-1002 : start command "optimize_gate -maparea RGB_to_MIPI_video_mode_gate.area"
+RUN-1001 : Open license file C:/Anlogic/TD5.0.20734/license/Anlogic.lic
+RUN-1001 : Print Gate Property
+RUN-1001 : ----------------------------------------------------------
+RUN-1001 :          Parameters         |  Settings  |  Default Values  
+RUN-1001 : ----------------------------------------------------------
+RUN-1001 :        auto_partition       |    fine    |       fine       
+RUN-1001 :         cascade_dsp         |     on     |        on        
+RUN-1001 :         cascade_eram        |     on     |        on        
+RUN-1001 :        gate_sim_model       |    off     |       off        
+RUN-1001 :        map_sim_model        |    off     |       off        
+RUN-1001 :           opt_area          |   medium   |      medium      
+RUN-1001 :          opt_timing         |    auto    |       auto       
+RUN-1001 :         pack_effort         |   medium   |      medium      
+RUN-1001 :      pack_lslice_ripple     |     on     |        on        
+RUN-1001 :   pack_lslice_ripple_ratio  |    0.5     |       0.5        
+RUN-1001 :        pack_seq_in_io       |     on     |        on        
+RUN-1001 :            report           |  standard  |     standard     
+RUN-1001 : ----------------------------------------------------------
+SYN-8001 ERROR: Cannot fit all model pins.
+RUN-1001 : Print Global Property
+RUN-1001 : -------------------------------------------------------
+RUN-1001 :        Parameters        |  Settings  |  Default Values  
+RUN-1001 : -------------------------------------------------------
+RUN-1001 :          message         |  standard  |     standard     
+RUN-1001 :   mixed_pack_place_flow  |     on     |        on        
+RUN-1001 :        syn_ip_flow       |    off     |       off        
+RUN-1001 :          thread          |    auto    |       auto       
+RUN-1001 : -------------------------------------------------------
+RUN-1001 : Print Design Property
+RUN-1001 : ------------------------------------------------------
+RUN-1001 :        Parameters       |  Settings  |  Default Values  
+RUN-1001 : ------------------------------------------------------
+RUN-1001 :        infer_add        |     on     |        on        
+RUN-1001 :        infer_fsm        |    off     |       off        
+RUN-1001 :        infer_mult       |     on     |        on        
+RUN-1001 :        infer_ram        |     on     |        on        
+RUN-1001 :        infer_reg        |     on     |        on        
+RUN-1001 :   infer_reg_init_value  |     on     |        on        
+RUN-1001 :        infer_rom        |     on     |        on        
+RUN-1001 : ------------------------------------------------------
+HDL-1007 : analyze verilog file ../../source_code/rtl/mipi_driver_tp.v
+HDL-1007 : analyze verilog file ../../source_code/rtl/al_ip/video_buf.v
+HDL-1007 : analyze verilog file ../../source_code/rtl/mipi_driver_gen.enc.v
+HDL-1007 : analyze included file ../../source_code/rtl/../include/te_define.v in ../../source_code/rtl/mipi_driver_gen.enc.v(1)
+HDL-1007 : back to file '../../source_code/rtl/mipi_driver_gen.enc.v' in ../../source_code/rtl/mipi_driver_gen.enc.v(1)
+HDL-1007 : back to file '../../source_code/rtl/mipi_driver_gen.enc.v' in ../../source_code/rtl/mipi_driver_gen.enc.v(478)
+HDL-1007 : analyze verilog file ../../source_code/tb/top_tb.v
+RUN-1001 : Print Global Property
+RUN-1001 : -------------------------------------------------------
+RUN-1001 :        Parameters        |  Settings  |  Default Values  
+RUN-1001 : -------------------------------------------------------
+RUN-1001 :          message         |  standard  |     standard     
+RUN-1001 :   mixed_pack_place_flow  |     on     |        on        
+RUN-1001 :        syn_ip_flow       |    off     |       off        
+RUN-1001 :          thread          |    auto    |       auto       
+RUN-1001 : -------------------------------------------------------
+RUN-1001 : Print Design Property
+RUN-1001 : ------------------------------------------------------
+RUN-1001 :        Parameters       |  Settings  |  Default Values  
+RUN-1001 : ------------------------------------------------------
+RUN-1001 :        infer_add        |     on     |        on        
+RUN-1001 :        infer_fsm        |    off     |       off        
+RUN-1001 :        infer_mult       |     on     |        on        
+RUN-1001 :        infer_ram        |     on     |        on        
+RUN-1001 :        infer_reg        |     on     |        on        
+RUN-1001 :   infer_reg_init_value  |     on     |        on        
+RUN-1001 :        infer_rom        |     on     |        on        
+RUN-1001 : ------------------------------------------------------
+HDL-1007 : analyze verilog file ../../source_code/tb/top_tb.v
+RUN-1001 : Print Global Property
+RUN-1001 : -------------------------------------------------------
+RUN-1001 :        Parameters        |  Settings  |  Default Values  
+RUN-1001 : -------------------------------------------------------
+RUN-1001 :          message         |  standard  |     standard     
+RUN-1001 :   mixed_pack_place_flow  |     on     |        on        
+RUN-1001 :        syn_ip_flow       |    off     |       off        
+RUN-1001 :          thread          |    auto    |       auto       
+RUN-1001 : -------------------------------------------------------
+RUN-1001 : Print Design Property
+RUN-1001 : ------------------------------------------------------
+RUN-1001 :        Parameters       |  Settings  |  Default Values  
+RUN-1001 : ------------------------------------------------------
+RUN-1001 :        infer_add        |     on     |        on        
+RUN-1001 :        infer_fsm        |    off     |       off        
+RUN-1001 :        infer_mult       |     on     |        on        
+RUN-1001 :        infer_ram        |     on     |        on        
+RUN-1001 :        infer_reg        |     on     |        on        
+RUN-1001 :   infer_reg_init_value  |     on     |        on        
+RUN-1001 :        infer_rom        |     on     |        on        
+RUN-1001 : ------------------------------------------------------
+HDL-1007 : analyze verilog file ../../source_code/rtl/mipi_driver_tp.v
+HDL-1007 : analyze verilog file ../../source_code/rtl/al_ip/video_buf.v
+HDL-1007 : analyze verilog file ../../source_code/rtl/mipi_driver_gen.enc.v
+HDL-1007 : analyze included file ../../source_code/rtl/../include/te_define.v in ../../source_code/rtl/mipi_driver_gen.enc.v(1)
+HDL-1007 : back to file '../../source_code/rtl/mipi_driver_gen.enc.v' in ../../source_code/rtl/mipi_driver_gen.enc.v(1)
+HDL-1007 : back to file '../../source_code/rtl/mipi_driver_gen.enc.v' in ../../source_code/rtl/mipi_driver_gen.enc.v(478)
+HDL-1007 : analyze verilog file ../../source_code/tb/top_tb.v
+RUN-1002 : start command "elaborate -top top_tb"
+RUN-1001 : Print Design Property
+RUN-1001 : ------------------------------------------------------
+RUN-1001 :        Parameters       |  Settings  |  Default Values  
+RUN-1001 : ------------------------------------------------------
+RUN-1001 :        infer_add        |     on     |        on        
+RUN-1001 :        infer_fsm        |    off     |       off        
+RUN-1001 :        infer_mult       |     on     |        on        
+RUN-1001 :        infer_ram        |     on     |        on        
+RUN-1001 :        infer_reg        |     on     |        on        
+RUN-1001 :   infer_reg_init_value  |     on     |        on        
+RUN-1001 :        infer_rom        |     on     |        on        
+RUN-1001 : ------------------------------------------------------
+RUN-1001 : Print Rtl Property
+RUN-1001 : ------------------------------------------------------
+RUN-1001 :        Parameters       |  Settings  |  Default Values  
+RUN-1001 : ------------------------------------------------------
+RUN-1001 :       compress_add      |   ripple   |      ripple      
+RUN-1001 :        elf_sload        |    off     |       off        
+RUN-1001 :       fix_undriven      |     0      |        0         
+RUN-1001 :         flatten         |    off     |       off        
+RUN-1001 :    hdl_warning_level    |   normal   |      normal      
+RUN-1001 :   impl_internal_tribuf  |     on     |        on        
+RUN-1001 :      impl_set_reset     |     on     |        on        
+RUN-1001 :        infer_gsr        |    off     |       off        
+RUN-1001 :      keep_hierarchy     |    auto    |       auto       
+RUN-1001 :        max_fanout       |    9999    |       9999       
+RUN-1001 :       merge_equal       |     on     |        on        
+RUN-1001 :       merge_equiv       |     on     |        on        
+RUN-1001 :      min_ripple_len     |     3      |        3         
+RUN-1001 :        opt_arith        |     on     |        on        
+RUN-1001 :       opt_big_gate      |    off     |       off        
+RUN-1001 :        opt_const        |     on     |        on        
+RUN-1001 :      opt_const_mult     |     on     |        on        
+RUN-1001 :         opt_mux         |    off     |       off        
+RUN-1001 :         opt_ram         |    high    |       high       
+RUN-1001 :      rtl_sim_model      |    off     |       off        
+RUN-1001 :         seq_syn         |     on     |        on        
+RUN-1001 : ------------------------------------------------------
+RUN-1001 : Print Global Property
+RUN-1001 : -------------------------------------------------------
+RUN-1001 :        Parameters        |  Settings  |  Default Values  
+RUN-1001 : -------------------------------------------------------
+RUN-1001 :          message         |  standard  |     standard     
+RUN-1001 :   mixed_pack_place_flow  |     on     |        on        
+RUN-1001 :        syn_ip_flow       |    off     |       off        
+RUN-1001 :          thread          |    auto    |       auto       
+RUN-1001 : -------------------------------------------------------
+RUN-1001 : Print Design Property
+RUN-1001 : ------------------------------------------------------
+RUN-1001 :        Parameters       |  Settings  |  Default Values  
+RUN-1001 : ------------------------------------------------------
+RUN-1001 :        infer_add        |     on     |        on        
+RUN-1001 :        infer_fsm        |    off     |       off        
+RUN-1001 :        infer_mult       |     on     |        on        
+RUN-1001 :        infer_ram        |     on     |        on        
+RUN-1001 :        infer_reg        |     on     |        on        
+RUN-1001 :   infer_reg_init_value  |     on     |        on        
+RUN-1001 :        infer_rom        |     on     |        on        
+RUN-1001 : ------------------------------------------------------
+HDL-1007 : elaborate module top_tb in ../../source_code/tb/top_tb.v(6)
+HDL-5007 WARNING: delay control is not supported for synthesis in ../../source_code/tb/top_tb.v(251)
+HDL-5007 WARNING: delay control is not supported for synthesis in ../../source_code/tb/top_tb.v(255)
+HDL-5007 WARNING: using initial value of 'rstn' since it is never assigned in ../../source_code/tb/top_tb.v(260)
+HDL-5007 WARNING: delay control is not supported for synthesis in ../../source_code/tb/top_tb.v(22)
+HDL-5007 WARNING: delay control is not supported for synthesis in ../../source_code/tb/top_tb.v(24)
+HDL-8007 ERROR: if-condition does not match any sensitivity list edge in ../../source_code/tb/top_tb.v(54)
+HDL-1007 : module 'top_tb' remains a black box, due to errors in its contents in ../../source_code/tb/top_tb.v(6)
+HDL-8007 ERROR: top_tb is a black box in ../../source_code/tb/top_tb.v(6)
+RUN-1001 : Print Global Property
+RUN-1001 : -------------------------------------------------------
+RUN-1001 :        Parameters        |  Settings  |  Default Values  
+RUN-1001 : -------------------------------------------------------
+RUN-1001 :          message         |  standard  |     standard     
+RUN-1001 :   mixed_pack_place_flow  |     on     |        on        
+RUN-1001 :        syn_ip_flow       |    off     |       off        
+RUN-1001 :          thread          |    auto    |       auto       
+RUN-1001 : -------------------------------------------------------
+RUN-1001 : Print Design Property
+RUN-1001 : ------------------------------------------------------
+RUN-1001 :        Parameters       |  Settings  |  Default Values  
+RUN-1001 : ------------------------------------------------------
+RUN-1001 :        infer_add        |     on     |        on        
+RUN-1001 :        infer_fsm        |    off     |       off        
+RUN-1001 :        infer_mult       |     on     |        on        
+RUN-1001 :        infer_ram        |     on     |        on        
+RUN-1001 :        infer_reg        |     on     |        on        
+RUN-1001 :   infer_reg_init_value  |     on     |        on        
+RUN-1001 :        infer_rom        |     on     |        on        
+RUN-1001 : ------------------------------------------------------
+HDL-1007 : analyze verilog file ../../source_code/rtl/mipi_driver_tp.v
+HDL-1007 : analyze verilog file ../../source_code/rtl/al_ip/video_buf.v
+HDL-1007 : analyze verilog file ../../source_code/rtl/mipi_driver_gen.enc.v
+HDL-1007 : analyze included file ../../source_code/rtl/../include/te_define.v in ../../source_code/rtl/mipi_driver_gen.enc.v(1)
+HDL-1007 : back to file '../../source_code/rtl/mipi_driver_gen.enc.v' in ../../source_code/rtl/mipi_driver_gen.enc.v(1)
+HDL-1007 : back to file '../../source_code/rtl/mipi_driver_gen.enc.v' in ../../source_code/rtl/mipi_driver_gen.enc.v(478)
+HDL-1007 : analyze verilog file ../../source_code/tb/top_tb.v
+RUN-1001 : Print Global Property
+RUN-1001 : -------------------------------------------------------
+RUN-1001 :        Parameters        |  Settings  |  Default Values  
+RUN-1001 : -------------------------------------------------------
+RUN-1001 :          message         |  standard  |     standard     
+RUN-1001 :   mixed_pack_place_flow  |     on     |        on        
+RUN-1001 :        syn_ip_flow       |    off     |       off        
+RUN-1001 :          thread          |    auto    |       auto       
+RUN-1001 : -------------------------------------------------------
+RUN-1001 : Print Design Property
+RUN-1001 : ------------------------------------------------------
+RUN-1001 :        Parameters       |  Settings  |  Default Values  
+RUN-1001 : ------------------------------------------------------
+RUN-1001 :        infer_add        |     on     |        on        
+RUN-1001 :        infer_fsm        |    off     |       off        
+RUN-1001 :        infer_mult       |     on     |        on        
+RUN-1001 :        infer_ram        |     on     |        on        
+RUN-1001 :        infer_reg        |     on     |        on        
+RUN-1001 :   infer_reg_init_value  |     on     |        on        
+RUN-1001 :        infer_rom        |     on     |        on        
+RUN-1001 : ------------------------------------------------------
+HDL-1007 : analyze verilog file ../../source_code/rtl/mipi_driver_tp.v
+HDL-1007 : analyze verilog file ../../source_code/rtl/al_ip/video_buf.v
+HDL-1007 : analyze verilog file ../../source_code/rtl/mipi_driver_gen.enc.v
+HDL-1007 : analyze included file ../../source_code/rtl/../include/te_define.v in ../../source_code/rtl/mipi_driver_gen.enc.v(1)
+HDL-1007 : back to file '../../source_code/rtl/mipi_driver_gen.enc.v' in ../../source_code/rtl/mipi_driver_gen.enc.v(1)
+HDL-1007 : back to file '../../source_code/rtl/mipi_driver_gen.enc.v' in ../../source_code/rtl/mipi_driver_gen.enc.v(478)
+RUN-1001 : Print Global Property
+RUN-1001 : -------------------------------------------------------
+RUN-1001 :        Parameters        |  Settings  |  Default Values  
+RUN-1001 : -------------------------------------------------------
+RUN-1001 :          message         |  standard  |     standard     
+RUN-1001 :   mixed_pack_place_flow  |     on     |        on        
+RUN-1001 :        syn_ip_flow       |    off     |       off        
+RUN-1001 :          thread          |    auto    |       auto       
+RUN-1001 : -------------------------------------------------------
+RUN-1001 : Print Design Property
+RUN-1001 : ------------------------------------------------------
+RUN-1001 :        Parameters       |  Settings  |  Default Values  
+RUN-1001 : ------------------------------------------------------
+RUN-1001 :        infer_add        |     on     |        on        
+RUN-1001 :        infer_fsm        |    off     |       off        
+RUN-1001 :        infer_mult       |     on     |        on        
+RUN-1001 :        infer_ram        |     on     |        on        
+RUN-1001 :        infer_reg        |     on     |        on        
+RUN-1001 :   infer_reg_init_value  |     on     |        on        
+RUN-1001 :        infer_rom        |     on     |        on        
+RUN-1001 : ------------------------------------------------------
+HDL-1007 : analyze verilog file ../../source_code/rtl/mipi_driver_tp.v
+HDL-1007 : analyze verilog file ../../source_code/rtl/al_ip/video_buf.v
+HDL-1007 : analyze verilog file ../../source_code/rtl/mipi_driver_gen.enc.v
+HDL-1007 : analyze included file ../../source_code/rtl/../include/te_define.v in ../../source_code/rtl/mipi_driver_gen.enc.v(1)
+HDL-1007 : back to file '../../source_code/rtl/mipi_driver_gen.enc.v' in ../../source_code/rtl/mipi_driver_gen.enc.v(1)
+HDL-1007 : back to file '../../source_code/rtl/mipi_driver_gen.enc.v' in ../../source_code/rtl/mipi_driver_gen.enc.v(478)
+RUN-1002 : start command "elaborate -top mipi_driver_tp"
+RUN-1001 : Print Design Property
+RUN-1001 : ------------------------------------------------------
+RUN-1001 :        Parameters       |  Settings  |  Default Values  
+RUN-1001 : ------------------------------------------------------
+RUN-1001 :        infer_add        |     on     |        on        
+RUN-1001 :        infer_fsm        |    off     |       off        
+RUN-1001 :        infer_mult       |     on     |        on        
+RUN-1001 :        infer_ram        |     on     |        on        
+RUN-1001 :        infer_reg        |     on     |        on        
+RUN-1001 :   infer_reg_init_value  |     on     |        on        
+RUN-1001 :        infer_rom        |     on     |        on        
+RUN-1001 : ------------------------------------------------------
+RUN-1001 : Print Rtl Property
+RUN-1001 : ------------------------------------------------------
+RUN-1001 :        Parameters       |  Settings  |  Default Values  
+RUN-1001 : ------------------------------------------------------
+RUN-1001 :       compress_add      |   ripple   |      ripple      
+RUN-1001 :        elf_sload        |    off     |       off        
+RUN-1001 :       fix_undriven      |     0      |        0         
+RUN-1001 :         flatten         |    off     |       off        
+RUN-1001 :    hdl_warning_level    |   normal   |      normal      
+RUN-1001 :   impl_internal_tribuf  |     on     |        on        
+RUN-1001 :      impl_set_reset     |     on     |        on        
+RUN-1001 :        infer_gsr        |    off     |       off        
+RUN-1001 :      keep_hierarchy     |    auto    |       auto       
+RUN-1001 :        max_fanout       |    9999    |       9999       
+RUN-1001 :       merge_equal       |     on     |        on        
+RUN-1001 :       merge_equiv       |     on     |        on        
+RUN-1001 :      min_ripple_len     |     3      |        3         
+RUN-1001 :        opt_arith        |     on     |        on        
+RUN-1001 :       opt_big_gate      |    off     |       off        
+RUN-1001 :        opt_const        |     on     |        on        
+RUN-1001 :      opt_const_mult     |     on     |        on        
+RUN-1001 :         opt_mux         |    off     |       off        
+RUN-1001 :         opt_ram         |    high    |       high       
+RUN-1001 :      rtl_sim_model      |    off     |       off        
+RUN-1001 :         seq_syn         |     on     |        on        
+RUN-1001 : ------------------------------------------------------
+RUN-1001 : Print Global Property
+RUN-1001 : -------------------------------------------------------
+RUN-1001 :        Parameters        |  Settings  |  Default Values  
+RUN-1001 : -------------------------------------------------------
+RUN-1001 :          message         |  standard  |     standard     
+RUN-1001 :   mixed_pack_place_flow  |     on     |        on        
+RUN-1001 :        syn_ip_flow       |    off     |       off        
+RUN-1001 :          thread          |    auto    |       auto       
+RUN-1001 : -------------------------------------------------------
+RUN-1001 : Print Design Property
+RUN-1001 : ------------------------------------------------------
+RUN-1001 :        Parameters       |  Settings  |  Default Values  
+RUN-1001 : ------------------------------------------------------
+RUN-1001 :        infer_add        |     on     |        on        
+RUN-1001 :        infer_fsm        |    off     |       off        
+RUN-1001 :        infer_mult       |     on     |        on        
+RUN-1001 :        infer_ram        |     on     |        on        
+RUN-1001 :        infer_reg        |     on     |        on        
+RUN-1001 :   infer_reg_init_value  |     on     |        on        
+RUN-1001 :        infer_rom        |     on     |        on        
+RUN-1001 : ------------------------------------------------------
+HDL-1007 : elaborate module mipi_driver_tp in ../../source_code/rtl/mipi_driver_tp.v(1)
+HDL-1007 : elaborate module video_buf in ../../source_code/rtl/al_ip/video_buf.v(14)
+HDL-1007 : elaborate module EF2_LOGIC_BRAM(DATA_WIDTH_A=32,DATA_WIDTH_B=32,ADDR_WIDTH_A=11,ADDR_WIDTH_B=11,DATA_DEPTH_A=2048,DATA_DEPTH_B=2048,MODE="PDPW") in C:/Anlogic/TD5.0.20734/arch/ef2_macro.v(2805)
+HDL-1007 : elaborate module mipi_driver_gen(VBP=6,VFP=30) in ../../source_code/rtl/mipi_driver_gen.enc.v(2)
+HDL-1200 : Current top model is mipi_driver_tp
+HDL-1100 : Inferred 0 RAMs.
+GUI-5001 WARNING: Found no ADC files
+RUN-1002 : start command "optimize_rtl"
+RUN-1001 : Open license file C:/Anlogic/TD5.0.20734/license/Anlogic.lic
+RUN-1001 : Print Rtl Property
+RUN-1001 : ------------------------------------------------------
+RUN-1001 :        Parameters       |  Settings  |  Default Values  
+RUN-1001 : ------------------------------------------------------
+RUN-1001 :       compress_add      |   ripple   |      ripple      
+RUN-1001 :        elf_sload        |    off     |       off        
+RUN-1001 :       fix_undriven      |     0      |        0         
+RUN-1001 :         flatten         |    off     |       off        
+RUN-1001 :    hdl_warning_level    |   normal   |      normal      
+RUN-1001 :   impl_internal_tribuf  |     on     |        on        
+RUN-1001 :      impl_set_reset     |     on     |        on        
+RUN-1001 :        infer_gsr        |    off     |       off        
+RUN-1001 :      keep_hierarchy     |    auto    |       auto       
+RUN-1001 :        max_fanout       |    9999    |       9999       
+RUN-1001 :       merge_equal       |     on     |        on        
+RUN-1001 :       merge_equiv       |     on     |        on        
+RUN-1001 :      min_ripple_len     |     3      |        3         
+RUN-1001 :        opt_arith        |     on     |        on        
+RUN-1001 :       opt_big_gate      |    off     |       off        
+RUN-1001 :        opt_const        |     on     |        on        
+RUN-1001 :      opt_const_mult     |     on     |        on        
+RUN-1001 :         opt_mux         |    off     |       off        
+RUN-1001 :         opt_ram         |    high    |       high       
+RUN-1001 :      rtl_sim_model      |    off     |       off        
+RUN-1001 :         seq_syn         |     on     |        on        
+RUN-1001 : ------------------------------------------------------
+SYN-1012 : SanityCheck: Model "mipi_driver_tp"
+SYN-1012 : SanityCheck: Model "mipi_driver_gen(VBP=6,VFP=30)"
+SYN-1012 : SanityCheck: Model "video_buf"
+SYN-1011 : Flatten model mipi_driver_tp
+SYN-1011 : Flatten model mipi_driver_gen(VBP=6,VFP=30)
+SYN-1011 : Flatten model video_buf
+SYN-1016 : Merged 1 instances.
+SYN-1014 : Optimize round 1
+SYN-1032 : 586/75 useful/useless nets, 361/0 useful/useless insts
+SYN-1016 : Merged 1 instances.
+SYN-1015 : Optimize round 1, 1 better
+SYN-1014 : Optimize round 2
+SYN-1015 : Optimize round 2, 0 better
+SYN-1014 : Optimize round 1
+SYN-1020 : Optimized 21 distributor mux.
+SYN-1016 : Merged 57 instances.
+SYN-1015 : Optimize round 1, 223 better
+SYN-1014 : Optimize round 2
+SYN-1032 : 406/10 useful/useless nets, 307/33 useful/useless insts
+SYN-1015 : Optimize round 2, 43 better
+SYN-1014 : Optimize round 3
+SYN-1015 : Optimize round 3, 0 better
+RUN-1002 : start command "report_area -file RGB_to_MIPI_video_mode_rtl.area"
+RUN-1001 : standard
+***Report Model: mipi_driver_tp***
+
+IO Statistics
+#IO                      74
+  #input                 39
+  #output                35
+  #inout                  0
+
+Gate Statistics
+#Basic gates            180
+  #and                   14
+  #nand                   0
+  #or                     4
+  #nor                    0
+  #xor                    0
+  #xnor                   0
+  #buf                    0
+  #not                   16
+  #bufif1                 0
+  #MX21                  19
+  #FADD                   0
+  #DFF                  122
+  #LATCH                  5
+#MACRO_ADD               13
+#MACRO_EQ                14
+#MACRO_MUX               97
+
+Report Hierarchy Area:
++-------------------------------------------------------------+
+|Instance            |Module          |gates  |seq    |macros |
++-------------------------------------------------------------+
+|top                 |mipi_driver_tp  |53     |127    |28     |
+|  mipi_driver_gen_u |mipi_driver_gen |53     |127    |27     |
++-------------------------------------------------------------+
+
+RUN-1002 : start command "export_db RGB_to_MIPI_video_mode_rtl.db"
+RUN-1001 : Exported /
+RUN-1001 : Exported libs
+RUN-1001 : Exported entities
+RUN-1001 : Exported ports
+RUN-1001 : Exported pins
+RUN-1001 : Exported instances
+RUN-1001 : Exported nets
+RUN-1001 : Exported buses
+RUN-1001 : Exported models
+RUN-1001 : Exported congestions
+RUN-1001 : Exported violations
+RUN-1001 : Exported IO constraints
+RUN-1001 : Exported Inst constraints
+RUN-1001 : Exported flow parameters
+RUN-1002 : start command "optimize_gate -maparea RGB_to_MIPI_video_mode_gate.area"
+RUN-1001 : Open license file C:/Anlogic/TD5.0.20734/license/Anlogic.lic
+RUN-1001 : Print Gate Property
+RUN-1001 : ----------------------------------------------------------
+RUN-1001 :          Parameters         |  Settings  |  Default Values  
+RUN-1001 : ----------------------------------------------------------
+RUN-1001 :        auto_partition       |    fine    |       fine       
+RUN-1001 :         cascade_dsp         |     on     |        on        
+RUN-1001 :         cascade_eram        |     on     |        on        
+RUN-1001 :        gate_sim_model       |    off     |       off        
+RUN-1001 :        map_sim_model        |    off     |       off        
+RUN-1001 :           opt_area          |   medium   |      medium      
+RUN-1001 :          opt_timing         |    auto    |       auto       
+RUN-1001 :         pack_effort         |   medium   |      medium      
+RUN-1001 :      pack_lslice_ripple     |     on     |        on        
+RUN-1001 :   pack_lslice_ripple_ratio  |    0.5     |       0.5        
+RUN-1001 :        pack_seq_in_io       |     on     |        on        
+RUN-1001 :            report           |  standard  |     standard     
+RUN-1001 : ----------------------------------------------------------
+SYN-8001 ERROR: Cannot fit all model pins.
+RUN-1001 : Print Global Property
+RUN-1001 : -------------------------------------------------------
+RUN-1001 :        Parameters        |  Settings  |  Default Values  
+RUN-1001 : -------------------------------------------------------
+RUN-1001 :          message         |  standard  |     standard     
+RUN-1001 :   mixed_pack_place_flow  |     on     |        on        
+RUN-1001 :        syn_ip_flow       |    off     |       off        
+RUN-1001 :          thread          |    auto    |       auto       
+RUN-1001 : -------------------------------------------------------
+RUN-1001 : Print Design Property
+RUN-1001 : ------------------------------------------------------
+RUN-1001 :        Parameters       |  Settings  |  Default Values  
+RUN-1001 : ------------------------------------------------------
+RUN-1001 :        infer_add        |     on     |        on        
+RUN-1001 :        infer_fsm        |    off     |       off        
+RUN-1001 :        infer_mult       |     on     |        on        
+RUN-1001 :        infer_ram        |     on     |        on        
+RUN-1001 :        infer_reg        |     on     |        on        
+RUN-1001 :   infer_reg_init_value  |     on     |        on        
+RUN-1001 :        infer_rom        |     on     |        on        
+RUN-1001 : ------------------------------------------------------
+HDL-1007 : analyze verilog file ../../source_code/rtl/mipi_driver_tp.v
+HDL-1007 : analyze verilog file ../../source_code/rtl/al_ip/video_buf.v
+HDL-1007 : analyze verilog file ../../source_code/rtl/mipi_driver_gen.enc.v
+HDL-1007 : analyze included file ../../source_code/rtl/../include/te_define.v in ../../source_code/rtl/mipi_driver_gen.enc.v(1)
+HDL-1007 : back to file '../../source_code/rtl/mipi_driver_gen.enc.v' in ../../source_code/rtl/mipi_driver_gen.enc.v(1)
+HDL-1007 : back to file '../../source_code/rtl/mipi_driver_gen.enc.v' in ../../source_code/rtl/mipi_driver_gen.enc.v(478)
+RUN-1002 : start command "elaborate -top mipi_driver_tp"
+RUN-1001 : Print Design Property
+RUN-1001 : ------------------------------------------------------
+RUN-1001 :        Parameters       |  Settings  |  Default Values  
+RUN-1001 : ------------------------------------------------------
+RUN-1001 :        infer_add        |     on     |        on        
+RUN-1001 :        infer_fsm        |    off     |       off        
+RUN-1001 :        infer_mult       |     on     |        on        
+RUN-1001 :        infer_ram        |     on     |        on        
+RUN-1001 :        infer_reg        |     on     |        on        
+RUN-1001 :   infer_reg_init_value  |     on     |        on        
+RUN-1001 :        infer_rom        |     on     |        on        
+RUN-1001 : ------------------------------------------------------
+RUN-1001 : Print Rtl Property
+RUN-1001 : ------------------------------------------------------
+RUN-1001 :        Parameters       |  Settings  |  Default Values  
+RUN-1001 : ------------------------------------------------------
+RUN-1001 :       compress_add      |   ripple   |      ripple      
+RUN-1001 :        elf_sload        |    off     |       off        
+RUN-1001 :       fix_undriven      |     0      |        0         
+RUN-1001 :         flatten         |    off     |       off        
+RUN-1001 :    hdl_warning_level    |   normal   |      normal      
+RUN-1001 :   impl_internal_tribuf  |     on     |        on        
+RUN-1001 :      impl_set_reset     |     on     |        on        
+RUN-1001 :        infer_gsr        |    off     |       off        
+RUN-1001 :      keep_hierarchy     |    auto    |       auto       
+RUN-1001 :        max_fanout       |    9999    |       9999       
+RUN-1001 :       merge_equal       |     on     |        on        
+RUN-1001 :       merge_equiv       |     on     |        on        
+RUN-1001 :      min_ripple_len     |     3      |        3         
+RUN-1001 :        opt_arith        |     on     |        on        
+RUN-1001 :       opt_big_gate      |    off     |       off        
+RUN-1001 :        opt_const        |     on     |        on        
+RUN-1001 :      opt_const_mult     |     on     |        on        
+RUN-1001 :         opt_mux         |    off     |       off        
+RUN-1001 :         opt_ram         |    high    |       high       
+RUN-1001 :      rtl_sim_model      |    off     |       off        
+RUN-1001 :         seq_syn         |     on     |        on        
+RUN-1001 : ------------------------------------------------------
+RUN-1001 : Print Global Property
+RUN-1001 : -------------------------------------------------------
+RUN-1001 :        Parameters        |  Settings  |  Default Values  
+RUN-1001 : -------------------------------------------------------
+RUN-1001 :          message         |  standard  |     standard     
+RUN-1001 :   mixed_pack_place_flow  |     on     |        on        
+RUN-1001 :        syn_ip_flow       |    off     |       off        
+RUN-1001 :          thread          |    auto    |       auto       
+RUN-1001 : -------------------------------------------------------
+RUN-1001 : Print Design Property
+RUN-1001 : ------------------------------------------------------
+RUN-1001 :        Parameters       |  Settings  |  Default Values  
+RUN-1001 : ------------------------------------------------------
+RUN-1001 :        infer_add        |     on     |        on        
+RUN-1001 :        infer_fsm        |    off     |       off        
+RUN-1001 :        infer_mult       |     on     |        on        
+RUN-1001 :        infer_ram        |     on     |        on        
+RUN-1001 :        infer_reg        |     on     |        on        
+RUN-1001 :   infer_reg_init_value  |     on     |        on        
+RUN-1001 :        infer_rom        |     on     |        on        
+RUN-1001 : ------------------------------------------------------
+HDL-1007 : elaborate module mipi_driver_tp in ../../source_code/rtl/mipi_driver_tp.v(1)
+HDL-1007 : elaborate module video_buf in ../../source_code/rtl/al_ip/video_buf.v(14)
+HDL-1007 : elaborate module EF2_LOGIC_BRAM(DATA_WIDTH_A=32,DATA_WIDTH_B=32,ADDR_WIDTH_A=11,ADDR_WIDTH_B=11,DATA_DEPTH_A=2048,DATA_DEPTH_B=2048,MODE="PDPW") in C:/Anlogic/TD5.0.20734/arch/ef2_macro.v(2805)
+HDL-1007 : elaborate module mipi_driver_gen(VBP=6,VFP=30) in ../../source_code/rtl/mipi_driver_gen.enc.v(2)
+HDL-1200 : Current top model is mipi_driver_tp
+HDL-1100 : Inferred 0 RAMs.
+RUN-1002 : start command "read_adc ../../adc_sdc/test.adc"
+RUN-1002 : start command "set_pin_assignment  Row_rd_req   LOCATION = virtualIO; "
+RUN-1002 : start command "set_pin_assignment  Sdr_rd_pixel_dat[0]   LOCATION = virtualIO; "
+RUN-1002 : start command "set_pin_assignment  Sdr_rd_pixel_dat[10]   LOCATION = virtualIO; "
+RUN-1002 : start command "set_pin_assignment  Sdr_rd_pixel_dat[11]   LOCATION = virtualIO; "
+RUN-1002 : start command "set_pin_assignment  Sdr_rd_pixel_dat[12]   LOCATION = virtualIO; "
+RUN-1002 : start command "set_pin_assignment  Sdr_rd_pixel_dat[13]   LOCATION = virtualIO; "
+RUN-1002 : start command "set_pin_assignment  Sdr_rd_pixel_dat[14]   LOCATION = virtualIO; "
+RUN-1002 : start command "set_pin_assignment  Sdr_rd_pixel_dat[15]   LOCATION = virtualIO; "
+RUN-1002 : start command "set_pin_assignment  Sdr_rd_pixel_dat[16]   LOCATION = virtualIO; "
+RUN-1002 : start command "set_pin_assignment  Sdr_rd_pixel_dat[17]   LOCATION = virtualIO; "
+RUN-1002 : start command "set_pin_assignment  Sdr_rd_pixel_dat[18]   LOCATION = virtualIO; "
+RUN-1002 : start command "set_pin_assignment  Sdr_rd_pixel_dat[19]   LOCATION = virtualIO; "
+RUN-1002 : start command "set_pin_assignment  Sdr_rd_pixel_dat[1]   LOCATION = virtualIO; "
+RUN-1002 : start command "set_pin_assignment  Sdr_rd_pixel_dat[20]   LOCATION = virtualIO; "
+RUN-1002 : start command "set_pin_assignment  Sdr_rd_pixel_dat[21]   LOCATION = virtualIO; "
+RUN-1002 : start command "set_pin_assignment  Sdr_rd_pixel_dat[22]   LOCATION = virtualIO; "
+RUN-1002 : start command "set_pin_assignment  Sdr_rd_pixel_dat[23]   LOCATION = virtualIO; "
+RUN-1002 : start command "set_pin_assignment  Sdr_rd_pixel_dat[24]   LOCATION = virtualIO; "
+RUN-1002 : start command "set_pin_assignment  Sdr_rd_pixel_dat[25]   LOCATION = virtualIO; "
+RUN-1002 : start command "set_pin_assignment  Sdr_rd_pixel_dat[26]   LOCATION = virtualIO; "
+RUN-1002 : start command "set_pin_assignment  Sdr_rd_pixel_dat[27]   LOCATION = virtualIO; "
+RUN-1002 : start command "set_pin_assignment  Sdr_rd_pixel_dat[28]   LOCATION = virtualIO; "
+RUN-1002 : start command "set_pin_assignment  Sdr_rd_pixel_dat[29]   LOCATION = virtualIO; "
+RUN-1002 : start command "set_pin_assignment  Sdr_rd_pixel_dat[2]   LOCATION = virtualIO; "
+RUN-1002 : start command "set_pin_assignment  Sdr_rd_pixel_dat[30]   LOCATION = virtualIO; "
+RUN-1002 : start command "set_pin_assignment  Sdr_rd_pixel_dat[31]   LOCATION = virtualIO; "
+RUN-1002 : start command "set_pin_assignment  Sdr_rd_pixel_dat[3]   LOCATION = virtualIO; "
+RUN-1002 : start command "set_pin_assignment  Sdr_rd_pixel_dat[4]   LOCATION = virtualIO; "
+RUN-1002 : start command "set_pin_assignment  Sdr_rd_pixel_dat[5]   LOCATION = virtualIO; "
+RUN-1002 : start command "set_pin_assignment  Sdr_rd_pixel_dat[6]   LOCATION = virtualIO; "
+RUN-1002 : start command "set_pin_assignment  Sdr_rd_pixel_dat[7]   LOCATION = virtualIO; "
+RUN-1002 : start command "set_pin_assignment  Sdr_rd_pixel_dat[8]   LOCATION = virtualIO; "
+RUN-1002 : start command "set_pin_assignment  Sdr_rd_pixel_dat[9]   LOCATION = virtualIO; "
+RUN-1002 : start command "set_pin_assignment  Sdr_rd_pixel_en   LOCATION = virtualIO; "
+RUN-1002 : start command "set_pin_assignment  byte_clk   LOCATION = virtualIO; "
+RUN-1002 : start command "set_pin_assignment  byte_data_en_o   LOCATION = virtualIO; "
+RUN-1002 : start command "set_pin_assignment  byte_data_out_o[0]   LOCATION = virtualIO; "
+RUN-1002 : start command "set_pin_assignment  byte_data_out_o[10]   LOCATION = virtualIO; "
+RUN-1002 : start command "set_pin_assignment  byte_data_out_o[11]   LOCATION = virtualIO; "
+RUN-1002 : start command "set_pin_assignment  byte_data_out_o[12]   LOCATION = virtualIO; "
+RUN-1002 : start command "set_pin_assignment  byte_data_out_o[13]   LOCATION = virtualIO; "
+RUN-1002 : start command "set_pin_assignment  byte_data_out_o[14]   LOCATION = virtualIO; "
+RUN-1002 : start command "set_pin_assignment  byte_data_out_o[15]   LOCATION = virtualIO; "
+RUN-1002 : start command "set_pin_assignment  byte_data_out_o[16]   LOCATION = virtualIO; "
+RUN-1002 : start command "set_pin_assignment  byte_data_out_o[17]   LOCATION = virtualIO; "
+RUN-1002 : start command "set_pin_assignment  byte_data_out_o[18]   LOCATION = virtualIO; "
+RUN-1002 : start command "set_pin_assignment  byte_data_out_o[19]   LOCATION = virtualIO; "
+RUN-1002 : start command "set_pin_assignment  byte_data_out_o[1]   LOCATION = virtualIO; "
+RUN-1002 : start command "set_pin_assignment  byte_data_out_o[20]   LOCATION = virtualIO; "
+RUN-1002 : start command "set_pin_assignment  byte_data_out_o[21]   LOCATION = virtualIO; "
+RUN-1002 : start command "set_pin_assignment  byte_data_out_o[22]   LOCATION = virtualIO; "
+RUN-1002 : start command "set_pin_assignment  byte_data_out_o[23]   LOCATION = virtualIO; "
+RUN-1002 : start command "set_pin_assignment  byte_data_out_o[24]   LOCATION = virtualIO; "
+RUN-1002 : start command "set_pin_assignment  byte_data_out_o[25]   LOCATION = virtualIO; "
+RUN-1002 : start command "set_pin_assignment  byte_data_out_o[26]   LOCATION = virtualIO; "
+RUN-1002 : start command "set_pin_assignment  byte_data_out_o[27]   LOCATION = virtualIO; "
+RUN-1002 : start command "set_pin_assignment  byte_data_out_o[28]   LOCATION = virtualIO; "
+RUN-1002 : start command "set_pin_assignment  byte_data_out_o[29]   LOCATION = virtualIO; "
+RUN-1002 : start command "set_pin_assignment  byte_data_out_o[2]   LOCATION = virtualIO; "
+RUN-1002 : start command "set_pin_assignment  byte_data_out_o[30]   LOCATION = virtualIO; "
+RUN-1002 : start command "set_pin_assignment  byte_data_out_o[31]   LOCATION = virtualIO; "
+RUN-1002 : start command "set_pin_assignment  byte_data_out_o[3]   LOCATION = virtualIO; "
+RUN-1002 : start command "set_pin_assignment  byte_data_out_o[4]   LOCATION = virtualIO; "
+RUN-1002 : start command "set_pin_assignment  byte_data_out_o[5]   LOCATION = virtualIO; "
+RUN-1002 : start command "set_pin_assignment  byte_data_out_o[6]   LOCATION = virtualIO; "
+RUN-1002 : start command "set_pin_assignment  byte_data_out_o[7]   LOCATION = virtualIO; "
+RUN-1002 : start command "set_pin_assignment  byte_data_out_o[8]   LOCATION = virtualIO; "
+RUN-1002 : start command "set_pin_assignment  byte_data_out_o[9]   LOCATION = virtualIO; "
+RUN-1002 : start command "set_pin_assignment  config_done   LOCATION = virtualIO; "
+RUN-1002 : start command "set_pin_assignment  ctrl_clk   LOCATION = virtualIO; "
+RUN-1002 : start command "set_pin_assignment  hs_data_rdy   LOCATION = virtualIO; "
+RUN-1002 : start command "set_pin_assignment  rstn   LOCATION = virtualIO; "
+RUN-1002 : start command "set_pin_assignment  te_in   LOCATION = virtualIO; "
+RUN-1002 : start command "set_pin_assignment  te_out   LOCATION = virtualIO; "
+RUN-1002 : start command "optimize_rtl"
+RUN-1001 : Open license file C:/Anlogic/TD5.0.20734/license/Anlogic.lic
+RUN-1001 : Print Rtl Property
+RUN-1001 : ------------------------------------------------------
+RUN-1001 :        Parameters       |  Settings  |  Default Values  
+RUN-1001 : ------------------------------------------------------
+RUN-1001 :       compress_add      |   ripple   |      ripple      
+RUN-1001 :        elf_sload        |    off     |       off        
+RUN-1001 :       fix_undriven      |     0      |        0         
+RUN-1001 :         flatten         |    off     |       off        
+RUN-1001 :    hdl_warning_level    |   normal   |      normal      
+RUN-1001 :   impl_internal_tribuf  |     on     |        on        
+RUN-1001 :      impl_set_reset     |     on     |        on        
+RUN-1001 :        infer_gsr        |    off     |       off        
+RUN-1001 :      keep_hierarchy     |    auto    |       auto       
+RUN-1001 :        max_fanout       |    9999    |       9999       
+RUN-1001 :       merge_equal       |     on     |        on        
+RUN-1001 :       merge_equiv       |     on     |        on        
+RUN-1001 :      min_ripple_len     |     3      |        3         
+RUN-1001 :        opt_arith        |     on     |        on        
+RUN-1001 :       opt_big_gate      |    off     |       off        
+RUN-1001 :        opt_const        |     on     |        on        
+RUN-1001 :      opt_const_mult     |     on     |        on        
+RUN-1001 :         opt_mux         |    off     |       off        
+RUN-1001 :         opt_ram         |    high    |       high       
+RUN-1001 :      rtl_sim_model      |    off     |       off        
+RUN-1001 :         seq_syn         |     on     |        on        
+RUN-1001 : ------------------------------------------------------
+SYN-1012 : SanityCheck: Model "mipi_driver_tp"
+SYN-1012 : SanityCheck: Model "mipi_driver_gen(VBP=6,VFP=30)"
+SYN-1012 : SanityCheck: Model "video_buf"
+SYN-1011 : Flatten model mipi_driver_tp
+SYN-1011 : Flatten model mipi_driver_gen(VBP=6,VFP=30)
+SYN-1011 : Flatten model video_buf
+SYN-1016 : Merged 1 instances.
+SYN-1014 : Optimize round 1
+SYN-1032 : 586/75 useful/useless nets, 361/0 useful/useless insts
+SYN-1016 : Merged 1 instances.
+SYN-1015 : Optimize round 1, 1 better
+SYN-1014 : Optimize round 2
+SYN-1015 : Optimize round 2, 0 better
+SYN-1014 : Optimize round 1
+SYN-1020 : Optimized 21 distributor mux.
+SYN-1016 : Merged 57 instances.
+SYN-1015 : Optimize round 1, 223 better
+SYN-1014 : Optimize round 2
+SYN-1032 : 406/10 useful/useless nets, 307/33 useful/useless insts
+SYN-1015 : Optimize round 2, 43 better
+SYN-1014 : Optimize round 3
+SYN-1015 : Optimize round 3, 0 better
+RUN-1002 : start command "report_area -file RGB_to_MIPI_video_mode_rtl.area"
+RUN-1001 : standard
+***Report Model: mipi_driver_tp***
+
+IO Statistics
+#IO                      74
+  #input                 39
+  #output                35
+  #inout                  0
+
+Gate Statistics
+#Basic gates            180
+  #and                   14
+  #nand                   0
+  #or                     4
+  #nor                    0
+  #xor                    0
+  #xnor                   0
+  #buf                    0
+  #not                   16
+  #bufif1                 0
+  #MX21                  19
+  #FADD                   0
+  #DFF                  122
+  #LATCH                  5
+#MACRO_ADD               13
+#MACRO_EQ                14
+#MACRO_MUX               97
+
+Report Hierarchy Area:
++-------------------------------------------------------------+
+|Instance            |Module          |gates  |seq    |macros |
++-------------------------------------------------------------+
+|top                 |mipi_driver_tp  |53     |127    |28     |
+|  mipi_driver_gen_u |mipi_driver_gen |53     |127    |27     |
++-------------------------------------------------------------+
+
+RUN-1002 : start command "export_db RGB_to_MIPI_video_mode_rtl.db"
+RUN-1001 : Exported /
+RUN-1001 : Exported libs
+RUN-1001 : Exported entities
+RUN-1001 : Exported ports
+RUN-1001 : Exported pins
+RUN-1001 : Exported instances
+RUN-1001 : Exported nets
+RUN-1001 : Exported buses
+RUN-1001 : Exported models
+RUN-1001 : Exported congestions
+RUN-1001 : Exported violations
+RUN-1001 : Exported IO constraints
+RUN-1001 : Exported Inst constraints
+RUN-1001 : Exported flow parameters
+RUN-1002 : start command "optimize_gate -maparea RGB_to_MIPI_video_mode_gate.area"
+RUN-1001 : Open license file C:/Anlogic/TD5.0.20734/license/Anlogic.lic
+RUN-1001 : Print Gate Property
+RUN-1001 : ----------------------------------------------------------
+RUN-1001 :          Parameters         |  Settings  |  Default Values  
+RUN-1001 : ----------------------------------------------------------
+RUN-1001 :        auto_partition       |    fine    |       fine       
+RUN-1001 :         cascade_dsp         |     on     |        on        
+RUN-1001 :         cascade_eram        |     on     |        on        
+RUN-1001 :        gate_sim_model       |    off     |       off        
+RUN-1001 :        map_sim_model        |    off     |       off        
+RUN-1001 :           opt_area          |   medium   |      medium      
+RUN-1001 :          opt_timing         |    auto    |       auto       
+RUN-1001 :         pack_effort         |   medium   |      medium      
+RUN-1001 :      pack_lslice_ripple     |     on     |        on        
+RUN-1001 :   pack_lslice_ripple_ratio  |    0.5     |       0.5        
+RUN-1001 :        pack_seq_in_io       |     on     |        on        
+RUN-1001 :            report           |  standard  |     standard     
+RUN-1001 : ----------------------------------------------------------
+SYN-2001 : Map 0 IOs to PADs
+SYN-2501 : Processed 0 LOGIC_BUF instances.
+SYN-2512 : LOGIC BRAM "video_buf_u/inst"
+SYN-2571 : Optimize after map_dsp, round 1
+SYN-2571 : Optimize after map_dsp, round 1, 0 better
+SYN-2501 : Optimize round 1
+SYN-2501 : Optimize round 1, 0 better
+SYN-1032 : 609/1 useful/useless nets, 392/1 useful/useless insts
+SYN-2501 : Processed 0 LOGIC_BUF instances.
+SYN-2571 : Optimize after map_dsp, round 1
+SYN-2571 : Optimize after map_dsp, round 1, 0 better
+SYN-2501 : Optimize round 1
+SYN-1016 : Merged 37 instances.
+SYN-2501 : Optimize round 1, 168 better
+SYN-2501 : Optimize round 2
+SYN-2501 : Optimize round 2, 0 better
+SYN-2501 : Map 13 macro adder
+SYN-3001 : Mapper mapped 31 instances into 1 LUTs, name keeping = 100%.
+SYN-1019 : Optimized 676 mux instances.
+SYN-1016 : Merged 170 instances.
+SYN-1032 : 1014/676 useful/useless nets, 915/0 useful/useless insts
+SYN-3001 : X or Z is treated as constant in optimizing instance _al_const_x.
+SYN-3001 : X or Z is treated as constant in optimizing instance _al_const_x.
+SYN-3001 : X or Z is treated as constant in optimizing instance _al_const_x.
+SYN-1032 : 1171/9 useful/useless nets, 954/9 useful/useless insts
+SYN-3001 : Running gate level optimization.
+SYN-2581 : Mapping with K=0, #lut = 0 (0.00), #lev = 0 (0.00)
+SYN-2551 : Post LUT mapping optimization.
+SYN-2581 : Mapping with K=0, #lut = 0 (0.00), #lev = 0 (0.00)
+SYN-3001 : Logic optimization runtime opt =   0.00 sec, map =   0.00 sec
+SYN-3001 : Mapper mapped 0 instances into 0 LUTs, name keeping = 0%.
+SYN-3001 : X or Z is treated as constant in optimizing instance _al_const_x.
+SYN-3001 : Running gate level optimization.
+SYN-2581 : Mapping with K=5, #lut = 194 (3.63), #lev = 4 (2.72)
+SYN-2551 : Post LUT mapping optimization.
+SYN-2581 : Mapping with K=5, #lut = 190 (3.74), #lev = 4 (2.84)
+SYN-3001 : Logic optimization runtime opt =   0.04 sec, map = 453.08 sec
+SYN-3001 : Mapper mapped 572 instances into 192 LUTs, name keeping = 56%.
+RUN-1002 : start command "report_area -file RGB_to_MIPI_video_mode_gate.area"
+RUN-1001 : standard
+***Report Model: mipi_driver_tp***
+
+IO Statistics
+#IO                      74
+  #input                 39
+  #output                35
+  #inout                  0
+
+LUT Statistics
+#Total_luts             434
+  #lut4                 223
+  #lut5                  43
+  #lut6                   0
+  #lut5_mx41              0
+  #lut4_alu1b           168
+
+Utilization Statistics
+#lut                    434   out of   4480    9.69%
+#reg                    127   out of   4480    2.83%
+#le                       0
+#dsp                      0   out of     15    0.00%
+#bram                     8   out of     12   66.67%
+  #bram9k                 8
+  #fifo9k                 0
+#bram32k                  0   out of      6    0.00%
+#pad                      0   out of     53    0.00%
+#virtual IO              74
+#pll                      0   out of      1    0.00%
+
+Report Hierarchy Area:
++-------------------------------------------------------------------------------------------+
+|Instance            |Module                        |lut    |ripple |seq    |bram   |dsp    |
++-------------------------------------------------------------------------------------------+
+|top                 |mipi_driver_tp                |266    |168    |127    |8      |0      |
+|  mipi_driver_gen_u |mipi_driver_gen(VBP=6,VFP=30) |229    |168    |127    |0      |0      |
++-------------------------------------------------------------------------------------------+
+
+SYN-1001 : Packing model "mipi_driver_tp" ...
+SYN-4010 : Pack lib has 49 rtl pack models with 21 top pack blocks
+SYN-1014 : Optimize round 1
+SYN-1015 : Optimize round 1, 0 better
+SYN-4002 : Packing 0 DFF/LATCH to SEQ ...
+SYN-4009 : Pack 0 carry chain into lslice
+SYN-4007 : Packing 0 adder to BLE ...
+SYN-4008 : Packed 0 adder and 0 SEQ to BLE.
+SYN-4007 : Packing 0 gate4 to BLE ...
+SYN-4008 : Packed 0 gate4 and 0 SEQ to BLE.
+SYN-4012 : Packed 0 FxMUX
+SYN-1001 : Packing model "mipi_driver_gen(VBP=6,VFP=30)" ...
+SYN-4010 : Pack lib has 49 rtl pack models with 21 top pack blocks
+SYN-1014 : Optimize round 1
+SYN-1015 : Optimize round 1, 0 better
+SYN-4002 : Packing 127 DFF/LATCH to SEQ ...
+SYN-4009 : Pack 6 carry chain into lslice
+SYN-4007 : Packing 96 adder to BLE ...
+SYN-4008 : Packed 96 adder and 0 SEQ to BLE.
+SYN-4007 : Packing 0 gate4 to BLE ...
+SYN-4008 : Packed 0 gate4 and 0 SEQ to BLE.
+SYN-4012 : Packed 0 FxMUX
+RUN-1003 : finish command "optimize_gate -maparea RGB_to_MIPI_video_mode_gate.area" in  1.300072s wall, 1.203125s user + 0.218750s system = 1.421875s CPU (109.4%)
+
+RUN-1004 : used memory is 233 MB, reserved memory is 172 MB, peak memory is 294 MB
+RUN-1002 : start command "legalize_phy_inst"
+SYN-1011 : Flatten model mipi_driver_tp
+SYN-1011 : Flatten model mipi_driver_gen(VBP=6,VFP=30)
+SYN-1016 : Merged 1 instances.
+RUN-1002 : start command "export_db RGB_to_MIPI_video_mode_gate.db"
+RUN-1001 : Exported /
+RUN-1001 : Exported libs
+RUN-1001 : Exported entities
+RUN-1001 : Exported ports
+RUN-1001 : Exported pins
+RUN-1001 : Exported instances
+RUN-1001 : Exported nets
+RUN-1001 : Exported buses
+RUN-1001 : Exported models
+RUN-1001 : Exported congestions
+RUN-1001 : Exported violations
+RUN-1001 : Exported IO constraints
+RUN-1001 : Exported Inst constraints
+RUN-1001 : Exported flow parameters
+RUN-1002 : start command "place"
+RUN-1001 : Open license file C:/Anlogic/TD5.0.20734/license/Anlogic.lic
+RUN-1001 : Print Place Property
+RUN-1001 : --------------------------------------------
+RUN-1001 :   Parameters  |  Settings  |  Default Values  
+RUN-1001 : --------------------------------------------
+RUN-1001 :     effort    |   medium   |      medium      
+RUN-1001 :   opt_timing  |   medium   |      medium      
+RUN-1001 :   relaxation  |    1.0     |       1.0        
+RUN-1001 :    retiming   |    off     |       off        
+RUN-1001 : --------------------------------------------
+PHY-3001 : Placer runs in 8 thread(s).
+SYN-4024 : Net "byte_clk_pad" drive clk pins.
+SYN-4024 : Net "ctrl_clk_pad" drive clk pins.
+SYN-4024 : Net "mipi_driver_gen_u/n74" drive clk pins.
+SYN-4025 : Tag rtl::Net byte_clk_pad as clock net
+SYN-4025 : Tag rtl::Net ctrl_clk_pad as clock net
+SYN-4025 : Tag rtl::Net mipi_driver_gen_u/n74 as clock net
+SYN-4026 : Tagged 3 rtl::Net as clock net
+SYN-4015 : Create BUFG instance for clk Net byte_clk_pad to drive 113 clock pins.
+SYN-4015 : Create BUFG instance for clk Net ctrl_clk_pad to drive 25 clock pins.
+SYN-4015 : Create BUFG instance for clk Net mipi_driver_gen_u/n74 to drive 5 clock pins.
+PHY-1001 : Populate physical database on model mipi_driver_tp.
+RUN-1001 : There are total 476 instances
+RUN-1001 : 266 luts, 127 seqs, 49 mslices, 20 lslices, 0 pads, 8 brams, 0 dsps
+RUN-1001 : There are total 598 nets
+RUN-1001 : 429 nets have 2 pins
+RUN-1001 : 92 nets have [3 - 5] pins
+RUN-1001 : 42 nets have [6 - 10] pins
+RUN-1001 : 23 nets have [11 - 20] pins
+RUN-1001 : 10 nets have [21 - 99] pins
+RUN-1001 : 2 nets have 100+ pins
+PHY-3001 : Initial placement ...
+PHY-3001 : design contains 474 instances, 266 luts, 127 seqs, 69 slices, 13 macros(69 instances: 49 mslices 20 lslices)
+PHY-3001 : Cell area utilization is 9%
+PHY-3001 : Global placement ...
+PHY-3001 : Initial: Len = 67751.8
+PHY-3001 : Run with size of 3
+PHY-3001 : Cell area utilization is 9%
+PHY-3001 : :::0::: Try harder cell spreading with beta_ = 0
+PHY-3002 : Step(1): len = 44898.3, overlap = 18
+PHY-3002 : Step(2): len = 33557.3, overlap = 13.5
+PHY-3002 : Step(3): len = 26754.8, overlap = 11.25
+PHY-3002 : Step(4): len = 23065.2, overlap = 13.5
+PHY-3002 : Step(5): len = 17744.5, overlap = 11.25
+PHY-3002 : Step(6): len = 14988.1, overlap = 18
+PHY-3002 : Step(7): len = 12599.9, overlap = 11.625
+PHY-3002 : Step(8): len = 11272.6, overlap = 12.3125
+PHY-3002 : Step(9): len = 10092.2, overlap = 15.3125
+PHY-3002 : Step(10): len = 9470.7, overlap = 15.625
+PHY-3002 : Step(11): len = 8185.7, overlap = 24.625
+PHY-3002 : Step(12): len = 7326.5, overlap = 24.6875
+PHY-3002 : Step(13): len = 6882.3, overlap = 23.125
+PHY-3001 : :::1::: Try harder cell spreading with beta_ = 6.45499e-06
+PHY-3002 : Step(14): len = 9088.2, overlap = 18.9375
+PHY-3002 : Step(15): len = 9206.8, overlap = 19.0313
+PHY-3002 : Step(16): len = 9288.9, overlap = 19.125
+PHY-3001 : :::2::: Try harder cell spreading with beta_ = 1.291e-05
+PHY-3002 : Step(17): len = 9595.9, overlap = 19
+PHY-3002 : Step(18): len = 9626.4, overlap = 18.875
+PHY-3002 : Step(19): len = 9632, overlap = 16.5
+PHY-3002 : Step(20): len = 9696.5, overlap = 16.25
+PHY-3002 : Step(21): len = 9077, overlap = 16.2813
+PHY-3002 : Step(22): len = 8727, overlap = 15.875
+PHY-3002 : Step(23): len = 8602.7, overlap = 18.2188
+PHY-3001 : :::3::: Try harder cell spreading with beta_ = 2.58199e-05
+PHY-3002 : Step(24): len = 9325.4, overlap = 18.2188
+PHY-3002 : Step(25): len = 9399.3, overlap = 17.8438
+PHY-3002 : Step(26): len = 9387.1, overlap = 17.9063
+PHY-3001 : :::4::: Try harder cell spreading with beta_ = 5.16399e-05
+PHY-3002 : Step(27): len = 9668.2, overlap = 20.25
+PHY-3002 : Step(28): len = 9721.5, overlap = 20.25
+PHY-3002 : Step(29): len = 9777.7, overlap = 20.25
+PHY-3002 : Step(30): len = 9833.7, overlap = 18
+PHY-3002 : Step(31): len = 9730, overlap = 18.0938
+PHY-3002 : Step(32): len = 9714.5, overlap = 18.1875
+PHY-3002 : Step(33): len = 9697.7, overlap = 15.9375
+PHY-3001 : :::5::: Try harder cell spreading with beta_ = 0.00010328
+PHY-3002 : Step(34): len = 9839, overlap = 18.0938
+PHY-3002 : Step(35): len = 9933.7, overlap = 18.0938
+PHY-3002 : Step(36): len = 10025.8, overlap = 15.8438
+PHY-3001 : Legalization ...
+PHY-3001 : End legalization;  0.007742s wall, 0.046875s user + 0.015625s system = 0.062500s CPU (807.3%)
+
+PHY-3001 : Run with size of 3
+PHY-3001 : Cell area utilization is 11%
+PHY-3001 : :::0::: Try harder cell spreading with beta_ = 4.99554e-06
+PHY-3002 : Step(37): len = 11278.4, overlap = 15.8438
+PHY-3002 : Step(38): len = 11317.9, overlap = 15.8125
+PHY-3002 : Step(39): len = 10353.3, overlap = 16.625
+PHY-3002 : Step(40): len = 10350.4, overlap = 16.625
+PHY-3002 : Step(41): len = 10061.9, overlap = 18.0313
+PHY-3001 : :::1::: Try harder cell spreading with beta_ = 9.99108e-06
+PHY-3002 : Step(42): len = 9657, overlap = 18.6563
+PHY-3002 : Step(43): len = 9681.6, overlap = 18.5
+PHY-3002 : Step(44): len = 9698.7, overlap = 18.4688
+PHY-3001 : :::2::: Try harder cell spreading with beta_ = 1.99822e-05
+PHY-3002 : Step(45): len = 9762.7, overlap = 15
+PHY-3002 : Step(46): len = 9863.9, overlap = 14.625
+PHY-3002 : Step(47): len = 10013.8, overlap = 13.0625
+PHY-3001 : Run with size of 1
+PHY-3001 : Cell area utilization is 11%
+PHY-3001 : :::0::: Try harder cell spreading with beta_ = 2.01696e-05
+PHY-3002 : Step(48): len = 10071.5, overlap = 38.25
+PHY-3002 : Step(49): len = 10147.3, overlap = 38
+PHY-3002 : Step(50): len = 10338.5, overlap = 36.1563
+PHY-3002 : Step(51): len = 10309.1, overlap = 36.9063
+PHY-3002 : Step(52): len = 9985, overlap = 36.9688
+PHY-3001 : :::1::: Try harder cell spreading with beta_ = 4.03391e-05
+PHY-3002 : Step(53): len = 10439.8, overlap = 37.3125
+PHY-3002 : Step(54): len = 10587.1, overlap = 35.75
+PHY-3002 : Step(55): len = 10719.8, overlap = 35.7188
+PHY-3001 : :::2::: Try harder cell spreading with beta_ = 8.06783e-05
+PHY-3002 : Step(56): len = 10757.8, overlap = 33.6563
+PHY-3002 : Step(57): len = 10819.3, overlap = 32.75
+PHY-3002 : Step(58): len = 11079.8, overlap = 31.4375
+PHY-3001 : :::3::: Try harder cell spreading with beta_ = 0.000161357
+PHY-3002 : Step(59): len = 11425.8, overlap = 27.75
+PHY-3002 : Step(60): len = 11475, overlap = 27.0938
+PHY-3002 : Step(61): len = 11602.5, overlap = 27.9375
+PHY-3001 : :::4::: Try harder cell spreading with beta_ = 0.000322713
+PHY-3002 : Step(62): len = 11790.4, overlap = 25.7813
+PHY-3002 : Step(63): len = 11840.9, overlap = 25.2813
+PHY-3002 : Step(64): len = 11913, overlap = 24.2813
+PHY-3002 : Step(65): len = 11941.5, overlap = 24.1563
+PHY-3002 : Step(66): len = 12010.9, overlap = 23.7813
+PHY-3001 : :::5::: Try harder cell spreading with beta_ = 0.000645426
+PHY-3002 : Step(67): len = 12098.8, overlap = 22.4688
+PHY-3002 : Step(68): len = 12182.8, overlap = 21.6563
+PHY-3001 : :::6::: Try harder cell spreading with beta_ = 0.00129085
+PHY-3002 : Step(69): len = 12267.2, overlap = 21.8438
+PHY-3002 : Step(70): len = 12360.5, overlap = 21.7813
+PHY-3001 : :::7::: Try harder cell spreading with beta_ = 0.0020886
+PHY-3002 : Step(71): len = 12416.7, overlap = 21.5938
+PHY-3002 : Step(72): len = 12496.2, overlap = 21.5938
+PHY-3002 : Step(73): len = 12601.1, overlap = 21.5625
+PHY-3002 : Step(74): len = 12691.4, overlap = 21.2188
+PHY-3002 : Step(75): len = 12705.6, overlap = 21.2188
+PHY-3001 : :::8::: Try harder cell spreading with beta_ = 0.0041772
+PHY-3002 : Step(76): len = 12699.5, overlap = 21.2188
+PHY-3002 : Step(77): len = 12690.2, overlap = 20.9063
+PHY-3001 : :::9::: Try harder cell spreading with beta_ = 0.0083544
+PHY-3002 : Step(78): len = 12699, overlap = 21.25
+PHY-3002 : Step(79): len = 12707.8, overlap = 21.3438
+PHY-3001 : :::10::: Try harder cell spreading with beta_ = 0.0135174
+PHY-3002 : Step(80): len = 12716.9, overlap = 21.5
+PHY-3002 : Step(81): len = 12751.9, overlap = 21.4063
+PHY-3001 : :::11::: Try harder cell spreading with beta_ = 0.0249733
+PHY-3002 : Step(82): len = 12745.3, overlap = 20.9688
+PHY-3002 : Step(83): len = 12740.9, overlap = 21.0625
+OPT-1001 : Start physical optimization ...
+OPT-1001 : Total overflow 21.06 peak overflow 1.50
+OPT-1001 : Start high-fanout net optimization ...
+OPT-1001 : Update timing in global mode
+PHY-1001 : Start incremental global routing ...
+RUN-1001 : Generating global routing grids ...
+PHY-1001 : Generate routing nets ...
+PHY-1001 : Global iterations in 8 thread ...
+PHY-1002 : len = 21072, over cnt = 44(0%), over = 66, worst = 3
+PHY-1002 : len = 21480, over cnt = 25(0%), over = 38, worst = 3
+PHY-1002 : len = 21672, over cnt = 12(0%), over = 20, worst = 3
+PHY-1002 : len = 21672, over cnt = 12(0%), over = 20, worst = 3
+PHY-1002 : len = 21144, over cnt = 0(0%), over = 0, worst = 0
+PHY-1001 : End global iterations;  0.023103s wall, 0.031250s user + 0.015625s system = 0.046875s CPU (202.9%)
+
+PHY-1001 : Congestion index: top1 = 28.13, top5 = 18.75, top10 = 12.50, top15 = 5.00.
+PHY-1001 : End incremental global routing;  0.043846s wall, 0.046875s user + 0.015625s system = 0.062500s CPU (142.5%)
+
+RUN-1002 : start command "start_timer"
+TMR-5001 WARNING: No sdc constraints found while initiating timer.
+TMR-2505 : Start building timing graph for model mipi_driver_tp.
+TMR-2506 : Build timing graph completely. Port num: 12, tpin num: 2236, tnet num: 596, tinst num: 474, tnode num: 2647, tedge num: 3465.
+TMR-2508 : Levelizing timing graph completed, there are 21 levels in total.
+TMR-2501 : Timing graph initialized successfully.
+OPT-1001 : End timing update;  0.034994s wall, 0.031250s user + 0.015625s system = 0.046875s CPU (134.0%)
+
+OPT-1001 : 0 high-fanout net processed.
+OPT-1001 : End high-fanout net optimization;  0.116786s wall, 0.109375s user + 0.031250s system = 0.140625s CPU (120.4%)
+
+OPT-1001 : End physical optimization;  0.125979s wall, 0.125000s user + 0.031250s system = 0.156250s CPU (124.0%)
+
+PHY-3001 : Start packing ...
+SYN-4007 : Packing 0 MUX to BLE ...
+SYN-4008 : Packed 0 MUX and 0 SEQ to BLE.
+SYN-4007 : Packing 266 LUT to BLE ...
+SYN-4008 : Packed 266 LUT and 94 SEQ to BLE.
+SYN-4003 : Packing 33 remaining SEQ's ...
+SYN-4005 : Packed 32 SEQ with LUT/SLICE
+SYN-4006 : 145 single LUT's are left
+SYN-4006 : 1 single SEQ's are left
+SYN-4011 : Packing model "mipi_driver_tp" (AL_USER_NORMAL) with 267/350 primitive instances ...
+PHY-3001 : End packing;  0.055356s wall, 0.046875s user + 0.000000s system = 0.046875s CPU (84.7%)
+
+PHY-1001 : Populate physical database on model mipi_driver_tp.
+RUN-1001 : There are total 223 instances
+RUN-1001 : 105 mslices, 104 lslices, 0 pads, 8 brams, 0 dsps
+RUN-1001 : There are total 504 nets
+RUN-1001 : 331 nets have 2 pins
+RUN-1001 : 95 nets have [3 - 5] pins
+RUN-1001 : 45 nets have [6 - 10] pins
+RUN-1001 : 22 nets have [11 - 20] pins
+RUN-1001 : 10 nets have [21 - 99] pins
+RUN-1001 : 1 nets have 100+ pins
+PHY-3001 : design contains 221 instances, 209 slices, 13 macros(69 instances: 49 mslices 20 lslices)
+PHY-3001 : Cell area utilization is 12%
+PHY-3001 : After packing: Len = 12603, Over = 21.5
+PHY-3001 : Run with size of 1
+PHY-3001 : Cell area utilization is 12%
+PHY-3001 : :::0::: Try harder cell spreading with beta_ = 5.80998e-05
+PHY-3002 : Step(84): len = 11604.6, overlap = 21
+PHY-3002 : Step(85): len = 11509.7, overlap = 22.75
+PHY-3002 : Step(86): len = 11246.4, overlap = 23.25
+PHY-3002 : Step(87): len = 11058.1, overlap = 22.75
+PHY-3002 : Step(88): len = 10967.7, overlap = 22
+PHY-3001 : :::1::: Try harder cell spreading with beta_ = 0.000107284
+PHY-3002 : Step(89): len = 11318.5, overlap = 21.25
+PHY-3002 : Step(90): len = 11444.9, overlap = 21.75
+PHY-3002 : Step(91): len = 11564.5, overlap = 21
+PHY-3001 : :::2::: Try harder cell spreading with beta_ = 0.000214567
+PHY-3002 : Step(92): len = 11755.4, overlap = 19.25
+PHY-3002 : Step(93): len = 11755.4, overlap = 19.25
+PHY-3002 : Step(94): len = 11750.5, overlap = 19
+PHY-3001 : Legalization ...
+PHY-3001 : End legalization;  0.206628s wall, 0.281250s user + 0.078125s system = 0.359375s CPU (173.9%)
+
+PHY-3001 : Trial Legalized: Len = 13704.4
+PHY-3001 : Run with size of 1
+PHY-3001 : Cell area utilization is 11%
+PHY-3001 : :::0::: Try harder cell spreading with beta_ = 0.000227495
+PHY-3002 : Step(95): len = 12678.4, overlap = 6.75
+PHY-3002 : Step(96): len = 12203.1, overlap = 11.75
+PHY-3002 : Step(97): len = 12111, overlap = 12
+PHY-3002 : Step(98): len = 12112.5, overlap = 13.25
+PHY-3002 : Step(99): len = 12109.4, overlap = 13.25
+PHY-3002 : Step(100): len = 12061.3, overlap = 13.5
+PHY-3001 : :::1::: Try harder cell spreading with beta_ = 0.000454991
+PHY-3002 : Step(101): len = 12119.3, overlap = 13.25
+PHY-3002 : Step(102): len = 12160.1, overlap = 12.25
+PHY-3001 : :::2::: Try harder cell spreading with beta_ = 0.000786835
+PHY-3002 : Step(103): len = 12215.5, overlap = 12.25
+PHY-3002 : Step(104): len = 12272.9, overlap = 12.75
+PHY-3001 : Legalization ...
+PHY-3001 : End legalization;  0.003534s wall, 0.000000s user + 0.000000s system = 0.000000s CPU (n/a%)
+
+PHY-3001 : Legalized: Len = 12905.4, Over = 0
+PHY-3001 : Spreading special nets. 3 overflows in 750 tiles.
+PHY-3001 : End spreading;  0.002044s wall, 0.000000s user + 0.000000s system = 0.000000s CPU (n/a%)
+
+PHY-3001 : 4 instances has been re-located, deltaX = 0, deltaY = 3, maxDist = 1.
+PHY-3001 : Final: Len = 12947.4, Over = 0
+RUN-1003 : finish command "place" in  5.158574s wall, 6.703125s user + 3.312500s system = 10.015625s CPU (194.2%)
+
+RUN-1004 : used memory is 243 MB, reserved memory is 181 MB, peak memory is 294 MB
+RUN-1002 : start command "report_area -io_info -file RGB_to_MIPI_video_mode_place.area"
+RUN-1001 : standard
+***Report Model: mipi_driver_tp***
+
+IO Statistics
+#IO                      74
+  #input                 39
+  #output                35
+  #inout                  0
+
+Utilization Statistics
+#lut                    408   out of   4480    9.11%
+#reg                    127   out of   4480    2.83%
+#le                     409
+  #lut only             282   out of    409   68.95%
+  #reg only               1   out of    409    0.24%
+  #lut&reg              126   out of    409   30.81%
+#dsp                      0   out of     15    0.00%
+#bram                     8   out of     12   66.67%
+  #bram9k                 8
+  #fifo9k                 0
+#bram32k                  0   out of      6    0.00%
+#pad                      0   out of     53    0.00%
+#virtual IO              74
+#pll                      0   out of      1    0.00%
+
+
+Detailed IO Report
+
+  Name    Direction    Location    IOStandard    DriveStrength    PullType    PackReg  
+
+Report Hierarchy Area:
++------------------------------------------------------------------------+
+|Instance |Module         |le    |lut    |ripple |seq    |bram   |dsp    |
++------------------------------------------------------------------------+
+|top      |mipi_driver_tp |409   |339    |69     |127    |8      |0      |
++------------------------------------------------------------------------+
+
+RUN-1002 : start command "route"
+RUN-1001 : Open license file C:/Anlogic/TD5.0.20734/license/Anlogic.lic
+RUN-1001 : Print Route Property
+RUN-1001 : -----------------------------------------------
+RUN-1001 :    Parameters    |  Settings  |  Default Values  
+RUN-1001 : -----------------------------------------------
+RUN-1001 :      effort      |   medium   |      medium      
+RUN-1001 :     fix_hold     |    off     |       off        
+RUN-1001 :       lcnp       |     5      |        5         
+RUN-1001 :       mcnp       |     10     |        10        
+RUN-1001 :    opt_timing    |   medium   |      medium      
+RUN-1001 :   phy_sim_model  |    off     |       off        
+RUN-1001 :     priority     |   timing   |      timing      
+RUN-1001 :     swap_pin     |     on     |        on        
+RUN-1001 : -----------------------------------------------
+PHY-1001 : Route runs in 8 thread(s)
+RUN-1001 : There are total 223 instances
+RUN-1001 : 105 mslices, 104 lslices, 0 pads, 8 brams, 0 dsps
+RUN-1001 : There are total 504 nets
+RUN-1001 : 331 nets have 2 pins
+RUN-1001 : 95 nets have [3 - 5] pins
+RUN-1001 : 45 nets have [6 - 10] pins
+RUN-1001 : 22 nets have [11 - 20] pins
+RUN-1001 : 10 nets have [21 - 99] pins
+RUN-1001 : 1 nets have 100+ pins
+PHY-1001 : Start global routing ...
+RUN-1001 : Generating global routing grids ...
+PHY-1001 : Generate routing nets ...
+PHY-1001 : Global iterations in 8 thread ...
+PHY-1002 : len = 21208, over cnt = 31(0%), over = 42, worst = 2
+PHY-1002 : len = 21408, over cnt = 21(0%), over = 28, worst = 2
+PHY-1002 : len = 21688, over cnt = 5(0%), over = 6, worst = 2
+PHY-1002 : len = 21376, over cnt = 0(0%), over = 0, worst = 0
+PHY-1001 : End global iterations;  0.019152s wall, 0.015625s user + 0.000000s system = 0.015625s CPU (81.6%)
+
+PHY-1001 : Congestion index: top1 = 33.13, top5 = 20.00, top10 = 10.63, top15 = 5.63.
+PHY-1001 : End global routing;  0.066784s wall, 0.078125s user + 0.000000s system = 0.078125s CPU (117.0%)
+
+PHY-1001 : Start detail routing ...
+PHY-1001 : Generate detailed routing grids ...
+PHY-1001 : Generate nets ...
+PHY-1001 : clock net byte_clk_pad_gclk_net will be merged with clock byte_clk_pad
+PHY-1001 : clock net ctrl_clk_pad_gclk_net will be merged with clock ctrl_clk_pad
+PHY-1001 : clock net mipi_driver_gen_u/n74_gclk_net will be merged with clock mipi_driver_gen_u/n74
+PHY-1001 : Detail Route ...
+PHY-1001 : ===== Detail Route Phase 1 =====
+PHY-1001 : Routed 0% nets.
+PHY-1002 : len = 3528, over cnt = 0(0%), over = 0, worst = 0
+PHY-1001 : End Routed; 0.112279s wall, 0.109375s user + 0.000000s system = 0.109375s CPU (97.4%)
+
+PHY-1001 : ===== Detail Route Phase 2 =====
+PHY-1001 : Routed 0% nets.
+PHY-1002 : len = 3528, over cnt = 0(0%), over = 0, worst = 0
+PHY-1001 : End Routed; 0.000042s wall, 0.000000s user + 0.000000s system = 0.000000s CPU (n/a%)
+
+PHY-1001 : ===== Detail Route Phase 3 =====
+PHY-1001 : Routed 35% nets.
+PHY-1001 : Routed 39% nets.
+PHY-1001 : Routed 46% nets.
+PHY-1001 : Routed 55% nets.
+PHY-1001 : Routed 73% nets.
+PHY-1002 : len = 37136, over cnt = 35(0%), over = 35, worst = 1
+PHY-1001 : End Routed; 0.524887s wall, 0.687500s user + 0.093750s system = 0.781250s CPU (148.8%)
+
+PHY-1001 : ===== DR Iter 1 =====
+PHY-1002 : len = 36672, over cnt = 4(0%), over = 4, worst = 1
+PHY-1001 : End DR Iter 1; 0.026933s wall, 0.031250s user + 0.000000s system = 0.031250s CPU (116.0%)
+
+PHY-1001 : ===== DR Iter 2 =====
+PHY-1002 : len = 36688, over cnt = 0(0%), over = 0, worst = 0
+PHY-1003 : Routed, final wirelength = 36688
+PHY-1001 : End DR Iter 2; 0.013205s wall, 0.015625s user + 0.000000s system = 0.015625s CPU (118.3%)
+
+PHY-1001 : 0 feed throughs used by 0 nets
+PHY-1001 : Generate detailed routing grids ...
+PHY-1001 : Generate nets ...
+PHY-1001 : clock net byte_clk_pad_gclk_net will be merged with clock byte_clk_pad
+PHY-1001 : clock net ctrl_clk_pad_gclk_net will be merged with clock ctrl_clk_pad
+PHY-1001 : clock net mipi_driver_gen_u/n74_gclk_net will be merged with clock mipi_driver_gen_u/n74
+PHY-1001 : eco open net = 0
+PHY-1001 : End detail routing;  3.134330s wall, 3.218750s user + 0.218750s system = 3.437500s CPU (109.7%)
+
+PHY-1001 : Routing violations:
+PHY-1001 : End of Routing Violations.
+RUN-1003 : finish command "route" in  3.499795s wall, 3.593750s user + 0.250000s system = 3.843750s CPU (109.8%)
+
+RUN-1004 : used memory is 275 MB, reserved memory is 217 MB, peak memory is 394 MB
+RUN-1002 : start command "report_area -io_info -file RGB_to_MIPI_video_mode_phy.area"
+RUN-1001 : standard
+***Report Model: mipi_driver_tp***
+
+IO Statistics
+#IO                      74
+  #input                 39
+  #output                35
+  #inout                  0
+
+Utilization Statistics
+#lut                    408   out of   4480    9.11%
+#reg                    127   out of   4480    2.83%
+#le                     409
+  #lut only             282   out of    409   68.95%
+  #reg only               1   out of    409    0.24%
+  #lut&reg              126   out of    409   30.81%
+#dsp                      0   out of     15    0.00%
+#bram                     8   out of     12   66.67%
+  #bram9k                 8
+  #fifo9k                 0
+#bram32k                  0   out of      6    0.00%
+#pad                      0   out of     53    0.00%
+#virtual IO              74
+#pll                      0   out of      1    0.00%
+#gclk                     3   out of     16   18.75%
+
+
+Detailed IO Report
+
+  Name    Direction    Location    IOStandard    DriveStrength    PullType    PackReg  
+
+Report Hierarchy Area:
++------------------------------------------------------------------------+
+|Instance |Module         |le    |lut    |ripple |seq    |bram   |dsp    |
++------------------------------------------------------------------------+
+|top      |mipi_driver_tp |409   |339    |69     |127    |8      |0      |
++------------------------------------------------------------------------+
+
+RUN-1002 : start command "export_db RGB_to_MIPI_video_mode_pr.db"
+RUN-1001 : Exported /
+RUN-1001 : Exported libs
+RUN-1001 : Exported entities
+RUN-1001 : Exported ports
+RUN-1001 : Exported pins
+RUN-1001 : Exported instances
+RUN-1001 : Exported nets
+RUN-1001 : Exported buses
+RUN-1001 : Exported models
+RUN-1001 : Exported congestions
+RUN-1001 : Exported violations
+RUN-1001 : Exported IO constraints
+RUN-1001 : Exported Inst constraints
+RUN-1001 : Exported flow parameters
+RUN-1001 : Print Global Property
+RUN-1001 : -------------------------------------------------------
+RUN-1001 :        Parameters        |  Settings  |  Default Values  
+RUN-1001 : -------------------------------------------------------
+RUN-1001 :          message         |  standard  |     standard     
+RUN-1001 :   mixed_pack_place_flow  |     on     |        on        
+RUN-1001 :        syn_ip_flow       |    off     |       off        
+RUN-1001 :          thread          |    auto    |       auto       
+RUN-1001 : -------------------------------------------------------
+RUN-1001 : Print Design Property
+RUN-1001 : ------------------------------------------------------
+RUN-1001 :        Parameters       |  Settings  |  Default Values  
+RUN-1001 : ------------------------------------------------------
+RUN-1001 :        infer_add        |     on     |        on        
+RUN-1001 :        infer_fsm        |    off     |       off        
+RUN-1001 :        infer_mult       |     on     |        on        
+RUN-1001 :        infer_ram        |     on     |        on        
+RUN-1001 :        infer_reg        |     on     |        on        
+RUN-1001 :   infer_reg_init_value  |     on     |        on        
+RUN-1001 :        infer_rom        |     on     |        on        
+RUN-1001 : ------------------------------------------------------
+HDL-1007 : analyze verilog file ../../source_code/rtl/mipi_driver_tp.v
+HDL-1007 : analyze verilog file ../../source_code/rtl/al_ip/video_buf.v
+HDL-1007 : analyze verilog file ../../source_code/rtl/mipi_driver_gen.enc.v
+HDL-1007 : analyze included file ../../source_code/rtl/../include/te_define.v in ../../source_code/rtl/mipi_driver_gen.enc.v(1)
+HDL-1007 : back to file '../../source_code/rtl/mipi_driver_gen.enc.v' in ../../source_code/rtl/mipi_driver_gen.enc.v(1)
+HDL-1007 : back to file '../../source_code/rtl/mipi_driver_gen.enc.v' in ../../source_code/rtl/mipi_driver_gen.enc.v(478)
+RUN-1002 : start command "elaborate -top mipi_driver_tp"
+RUN-1001 : Print Design Property
+RUN-1001 : ------------------------------------------------------
+RUN-1001 :        Parameters       |  Settings  |  Default Values  
+RUN-1001 : ------------------------------------------------------
+RUN-1001 :        infer_add        |     on     |        on        
+RUN-1001 :        infer_fsm        |    off     |       off        
+RUN-1001 :        infer_mult       |     on     |        on        
+RUN-1001 :        infer_ram        |     on     |        on        
+RUN-1001 :        infer_reg        |     on     |        on        
+RUN-1001 :   infer_reg_init_value  |     on     |        on        
+RUN-1001 :        infer_rom        |     on     |        on        
+RUN-1001 : ------------------------------------------------------
+RUN-1001 : Print Rtl Property
+RUN-1001 : ------------------------------------------------------
+RUN-1001 :        Parameters       |  Settings  |  Default Values  
+RUN-1001 : ------------------------------------------------------
+RUN-1001 :       compress_add      |   ripple   |      ripple      
+RUN-1001 :        elf_sload        |    off     |       off        
+RUN-1001 :       fix_undriven      |     0      |        0         
+RUN-1001 :         flatten         |    off     |       off        
+RUN-1001 :    hdl_warning_level    |   normal   |      normal      
+RUN-1001 :   impl_internal_tribuf  |     on     |        on        
+RUN-1001 :      impl_set_reset     |     on     |        on        
+RUN-1001 :        infer_gsr        |    off     |       off        
+RUN-1001 :      keep_hierarchy     |    auto    |       auto       
+RUN-1001 :        max_fanout       |    9999    |       9999       
+RUN-1001 :       merge_equal       |     on     |        on        
+RUN-1001 :       merge_equiv       |     on     |        on        
+RUN-1001 :      min_ripple_len     |     3      |        3         
+RUN-1001 :        opt_arith        |     on     |        on        
+RUN-1001 :       opt_big_gate      |    off     |       off        
+RUN-1001 :        opt_const        |     on     |        on        
+RUN-1001 :      opt_const_mult     |     on     |        on        
+RUN-1001 :         opt_mux         |    off     |       off        
+RUN-1001 :         opt_ram         |    high    |       high       
+RUN-1001 :      rtl_sim_model      |    off     |       off        
+RUN-1001 :         seq_syn         |     on     |        on        
+RUN-1001 : ------------------------------------------------------
+RUN-1001 : Print Global Property
+RUN-1001 : -------------------------------------------------------
+RUN-1001 :        Parameters        |  Settings  |  Default Values  
+RUN-1001 : -------------------------------------------------------
+RUN-1001 :          message         |  standard  |     standard     
+RUN-1001 :   mixed_pack_place_flow  |     on     |        on        
+RUN-1001 :        syn_ip_flow       |    off     |       off        
+RUN-1001 :          thread          |    auto    |       auto       
+RUN-1001 : -------------------------------------------------------
+RUN-1001 : Print Design Property
+RUN-1001 : ------------------------------------------------------
+RUN-1001 :        Parameters       |  Settings  |  Default Values  
+RUN-1001 : ------------------------------------------------------
+RUN-1001 :        infer_add        |     on     |        on        
+RUN-1001 :        infer_fsm        |    off     |       off        
+RUN-1001 :        infer_mult       |     on     |        on        
+RUN-1001 :        infer_ram        |     on     |        on        
+RUN-1001 :        infer_reg        |     on     |        on        
+RUN-1001 :   infer_reg_init_value  |     on     |        on        
+RUN-1001 :        infer_rom        |     on     |        on        
+RUN-1001 : ------------------------------------------------------
+HDL-1007 : elaborate module mipi_driver_tp in ../../source_code/rtl/mipi_driver_tp.v(1)
+HDL-1007 : elaborate module video_buf in ../../source_code/rtl/al_ip/video_buf.v(14)
+HDL-1007 : elaborate module EF2_LOGIC_BRAM(DATA_WIDTH_A=32,DATA_WIDTH_B=32,ADDR_WIDTH_A=11,ADDR_WIDTH_B=11,DATA_DEPTH_A=2048,DATA_DEPTH_B=2048,MODE="PDPW") in C:/Anlogic/TD5.0.20734/arch/ef2_macro.v(2805)
+HDL-1007 : elaborate module mipi_driver_gen(VBP=6,VFP=30) in ../../source_code/rtl/mipi_driver_gen.enc.v(2)
+HDL-1200 : Current top model is mipi_driver_tp
+HDL-1100 : Inferred 0 RAMs.
+RUN-1002 : start command "read_adc ../../adc_sdc/test.adc"
+RUN-1002 : start command "set_pin_assignment  Row_rd_req   LOCATION = virtualIO; "
+RUN-1002 : start command "set_pin_assignment  Sdr_rd_pixel_dat[0]   LOCATION = virtualIO; "
+RUN-1002 : start command "set_pin_assignment  Sdr_rd_pixel_dat[10]   LOCATION = virtualIO; "
+RUN-1002 : start command "set_pin_assignment  Sdr_rd_pixel_dat[11]   LOCATION = virtualIO; "
+RUN-1002 : start command "set_pin_assignment  Sdr_rd_pixel_dat[12]   LOCATION = virtualIO; "
+RUN-1002 : start command "set_pin_assignment  Sdr_rd_pixel_dat[13]   LOCATION = virtualIO; "
+RUN-1002 : start command "set_pin_assignment  Sdr_rd_pixel_dat[14]   LOCATION = virtualIO; "
+RUN-1002 : start command "set_pin_assignment  Sdr_rd_pixel_dat[15]   LOCATION = virtualIO; "
+RUN-1002 : start command "set_pin_assignment  Sdr_rd_pixel_dat[16]   LOCATION = virtualIO; "
+RUN-1002 : start command "set_pin_assignment  Sdr_rd_pixel_dat[17]   LOCATION = virtualIO; "
+RUN-1002 : start command "set_pin_assignment  Sdr_rd_pixel_dat[18]   LOCATION = virtualIO; "
+RUN-1002 : start command "set_pin_assignment  Sdr_rd_pixel_dat[19]   LOCATION = virtualIO; "
+RUN-1002 : start command "set_pin_assignment  Sdr_rd_pixel_dat[1]   LOCATION = virtualIO; "
+RUN-1002 : start command "set_pin_assignment  Sdr_rd_pixel_dat[20]   LOCATION = virtualIO; "
+RUN-1002 : start command "set_pin_assignment  Sdr_rd_pixel_dat[21]   LOCATION = virtualIO; "
+RUN-1002 : start command "set_pin_assignment  Sdr_rd_pixel_dat[22]   LOCATION = virtualIO; "
+RUN-1002 : start command "set_pin_assignment  Sdr_rd_pixel_dat[23]   LOCATION = virtualIO; "
+RUN-1002 : start command "set_pin_assignment  Sdr_rd_pixel_dat[24]   LOCATION = virtualIO; "
+RUN-1002 : start command "set_pin_assignment  Sdr_rd_pixel_dat[25]   LOCATION = virtualIO; "
+RUN-1002 : start command "set_pin_assignment  Sdr_rd_pixel_dat[26]   LOCATION = virtualIO; "
+RUN-1002 : start command "set_pin_assignment  Sdr_rd_pixel_dat[27]   LOCATION = virtualIO; "
+RUN-1002 : start command "set_pin_assignment  Sdr_rd_pixel_dat[28]   LOCATION = virtualIO; "
+RUN-1002 : start command "set_pin_assignment  Sdr_rd_pixel_dat[29]   LOCATION = virtualIO; "
+RUN-1002 : start command "set_pin_assignment  Sdr_rd_pixel_dat[2]   LOCATION = virtualIO; "
+RUN-1002 : start command "set_pin_assignment  Sdr_rd_pixel_dat[30]   LOCATION = virtualIO; "
+RUN-1002 : start command "set_pin_assignment  Sdr_rd_pixel_dat[31]   LOCATION = virtualIO; "
+RUN-1002 : start command "set_pin_assignment  Sdr_rd_pixel_dat[3]   LOCATION = virtualIO; "
+RUN-1002 : start command "set_pin_assignment  Sdr_rd_pixel_dat[4]   LOCATION = virtualIO; "
+RUN-1002 : start command "set_pin_assignment  Sdr_rd_pixel_dat[5]   LOCATION = virtualIO; "
+RUN-1002 : start command "set_pin_assignment  Sdr_rd_pixel_dat[6]   LOCATION = virtualIO; "
+RUN-1002 : start command "set_pin_assignment  Sdr_rd_pixel_dat[7]   LOCATION = virtualIO; "
+RUN-1002 : start command "set_pin_assignment  Sdr_rd_pixel_dat[8]   LOCATION = virtualIO; "
+RUN-1002 : start command "set_pin_assignment  Sdr_rd_pixel_dat[9]   LOCATION = virtualIO; "
+RUN-1002 : start command "set_pin_assignment  Sdr_rd_pixel_en   LOCATION = virtualIO; "
+RUN-1002 : start command "set_pin_assignment  byte_clk   LOCATION = virtualIO; "
+RUN-1002 : start command "set_pin_assignment  byte_data_en_o   LOCATION = virtualIO; "
+RUN-1002 : start command "set_pin_assignment  byte_data_out_o[0]   LOCATION = virtualIO; "
+RUN-1002 : start command "set_pin_assignment  byte_data_out_o[10]   LOCATION = virtualIO; "
+RUN-1002 : start command "set_pin_assignment  byte_data_out_o[11]   LOCATION = virtualIO; "
+RUN-1002 : start command "set_pin_assignment  byte_data_out_o[12]   LOCATION = virtualIO; "
+RUN-1002 : start command "set_pin_assignment  byte_data_out_o[13]   LOCATION = virtualIO; "
+RUN-1002 : start command "set_pin_assignment  byte_data_out_o[14]   LOCATION = virtualIO; "
+RUN-1002 : start command "set_pin_assignment  byte_data_out_o[15]   LOCATION = virtualIO; "
+RUN-1002 : start command "set_pin_assignment  byte_data_out_o[16]   LOCATION = virtualIO; "
+RUN-1002 : start command "set_pin_assignment  byte_data_out_o[17]   LOCATION = virtualIO; "
+RUN-1002 : start command "set_pin_assignment  byte_data_out_o[18]   LOCATION = virtualIO; "
+RUN-1002 : start command "set_pin_assignment  byte_data_out_o[19]   LOCATION = virtualIO; "
+RUN-1002 : start command "set_pin_assignment  byte_data_out_o[1]   LOCATION = virtualIO; "
+RUN-1002 : start command "set_pin_assignment  byte_data_out_o[20]   LOCATION = virtualIO; "
+RUN-1002 : start command "set_pin_assignment  byte_data_out_o[21]   LOCATION = virtualIO; "
+RUN-1002 : start command "set_pin_assignment  byte_data_out_o[22]   LOCATION = virtualIO; "
+RUN-1002 : start command "set_pin_assignment  byte_data_out_o[23]   LOCATION = virtualIO; "
+RUN-1002 : start command "set_pin_assignment  byte_data_out_o[24]   LOCATION = virtualIO; "
+RUN-1002 : start command "set_pin_assignment  byte_data_out_o[25]   LOCATION = virtualIO; "
+RUN-1002 : start command "set_pin_assignment  byte_data_out_o[26]   LOCATION = virtualIO; "
+RUN-1002 : start command "set_pin_assignment  byte_data_out_o[27]   LOCATION = virtualIO; "
+RUN-1002 : start command "set_pin_assignment  byte_data_out_o[28]   LOCATION = virtualIO; "
+RUN-1002 : start command "set_pin_assignment  byte_data_out_o[29]   LOCATION = virtualIO; "
+RUN-1002 : start command "set_pin_assignment  byte_data_out_o[2]   LOCATION = virtualIO; "
+RUN-1002 : start command "set_pin_assignment  byte_data_out_o[30]   LOCATION = virtualIO; "
+RUN-1002 : start command "set_pin_assignment  byte_data_out_o[31]   LOCATION = virtualIO; "
+RUN-1002 : start command "set_pin_assignment  byte_data_out_o[3]   LOCATION = virtualIO; "
+RUN-1002 : start command "set_pin_assignment  byte_data_out_o[4]   LOCATION = virtualIO; "
+RUN-1002 : start command "set_pin_assignment  byte_data_out_o[5]   LOCATION = virtualIO; "
+RUN-1002 : start command "set_pin_assignment  byte_data_out_o[6]   LOCATION = virtualIO; "
+RUN-1002 : start command "set_pin_assignment  byte_data_out_o[7]   LOCATION = virtualIO; "
+RUN-1002 : start command "set_pin_assignment  byte_data_out_o[8]   LOCATION = virtualIO; "
+RUN-1002 : start command "set_pin_assignment  byte_data_out_o[9]   LOCATION = virtualIO; "
+RUN-1002 : start command "set_pin_assignment  config_done   LOCATION = virtualIO; "
+RUN-1002 : start command "set_pin_assignment  ctrl_clk   LOCATION = virtualIO; "
+RUN-1002 : start command "set_pin_assignment  hs_data_rdy   LOCATION = virtualIO; "
+RUN-1002 : start command "set_pin_assignment  rstn   LOCATION = virtualIO; "
+RUN-1002 : start command "set_pin_assignment  te_in   LOCATION = virtualIO; "
+RUN-1002 : start command "set_pin_assignment  te_out   LOCATION = virtualIO; "
+RUN-1002 : start command "optimize_rtl"
+RUN-1001 : Open license file C:/Anlogic/TD5.0.20734/license/Anlogic.lic
+RUN-1001 : Print Rtl Property
+RUN-1001 : ------------------------------------------------------
+RUN-1001 :        Parameters       |  Settings  |  Default Values  
+RUN-1001 : ------------------------------------------------------
+RUN-1001 :       compress_add      |   ripple   |      ripple      
+RUN-1001 :        elf_sload        |    off     |       off        
+RUN-1001 :       fix_undriven      |     0      |        0         
+RUN-1001 :         flatten         |    off     |       off        
+RUN-1001 :    hdl_warning_level    |   normal   |      normal      
+RUN-1001 :   impl_internal_tribuf  |     on     |        on        
+RUN-1001 :      impl_set_reset     |     on     |        on        
+RUN-1001 :        infer_gsr        |    off     |       off        
+RUN-1001 :      keep_hierarchy     |    auto    |       auto       
+RUN-1001 :        max_fanout       |    9999    |       9999       
+RUN-1001 :       merge_equal       |     on     |        on        
+RUN-1001 :       merge_equiv       |     on     |        on        
+RUN-1001 :      min_ripple_len     |     3      |        3         
+RUN-1001 :        opt_arith        |     on     |        on        
+RUN-1001 :       opt_big_gate      |    off     |       off        
+RUN-1001 :        opt_const        |     on     |        on        
+RUN-1001 :      opt_const_mult     |     on     |        on        
+RUN-1001 :         opt_mux         |    off     |       off        
+RUN-1001 :         opt_ram         |    high    |       high       
+RUN-1001 :      rtl_sim_model      |    off     |       off        
+RUN-1001 :         seq_syn         |     on     |        on        
+RUN-1001 : ------------------------------------------------------
+SYN-1012 : SanityCheck: Model "mipi_driver_tp"
+SYN-1012 : SanityCheck: Model "mipi_driver_gen(VBP=6,VFP=30)"
+SYN-1012 : SanityCheck: Model "video_buf"
+SYN-1011 : Flatten model mipi_driver_tp
+SYN-1011 : Flatten model mipi_driver_gen(VBP=6,VFP=30)
+SYN-1011 : Flatten model video_buf
+SYN-1016 : Merged 1 instances.
+SYN-1014 : Optimize round 1
+SYN-1032 : 586/75 useful/useless nets, 361/0 useful/useless insts
+SYN-1016 : Merged 1 instances.
+SYN-1015 : Optimize round 1, 1 better
+SYN-1014 : Optimize round 2
+SYN-1015 : Optimize round 2, 0 better
+SYN-1014 : Optimize round 1
+SYN-1020 : Optimized 21 distributor mux.
+SYN-1016 : Merged 57 instances.
+SYN-1015 : Optimize round 1, 223 better
+SYN-1014 : Optimize round 2
+SYN-1032 : 406/10 useful/useless nets, 307/33 useful/useless insts
+SYN-1015 : Optimize round 2, 43 better
+SYN-1014 : Optimize round 3
+SYN-1015 : Optimize round 3, 0 better
+RUN-1002 : start command "report_area -file RGB_to_MIPI_video_mode_rtl.area"
+RUN-1001 : standard
+***Report Model: mipi_driver_tp***
+
+IO Statistics
+#IO                      74
+  #input                 39
+  #output                35
+  #inout                  0
+
+Gate Statistics
+#Basic gates            180
+  #and                   14
+  #nand                   0
+  #or                     4
+  #nor                    0
+  #xor                    0
+  #xnor                   0
+  #buf                    0
+  #not                   16
+  #bufif1                 0
+  #MX21                  19
+  #FADD                   0
+  #DFF                  122
+  #LATCH                  5
+#MACRO_ADD               13
+#MACRO_EQ                14
+#MACRO_MUX               97
+
+Report Hierarchy Area:
++-------------------------------------------------------------+
+|Instance            |Module          |gates  |seq    |macros |
++-------------------------------------------------------------+
+|top                 |mipi_driver_tp  |53     |127    |28     |
+|  mipi_driver_gen_u |mipi_driver_gen |53     |127    |27     |
++-------------------------------------------------------------+
+
+RUN-1002 : start command "read_sdc ../../adc_sdc/RGB_to_MIPI_video_mode.sdc"
+RUN-1002 : start command "get_ports byte_clk"
+RUN-1002 : start command "create_clock -name byte_clk -period 8.9 -waveform 0 4.45 "
+RUN-1102 : create_clock: clock name: byte_clk, type: 0, period: 8900, rise: 0, fall: 4450.
+RUN-1002 : start command "get_ports ctrl_clk"
+RUN-1002 : start command "create_clock -name ctrl_clk -period 6.7 -waveform 0 3.35 "
+RUN-1102 : create_clock: clock name: ctrl_clk, type: 0, period: 6700, rise: 0, fall: 3350.
+RUN-1002 : start command "get_clocks byte_clk"
+RUN-1002 : start command "get_clocks ctrl_clk"
+RUN-1002 : start command "set_clock_groups -exclusive -group  -group "
+RUN-1104 : Import SDC file ../../adc_sdc/RGB_to_MIPI_video_mode.sdc finished, there are 0 nets kept by constraints.
+RUN-1002 : start command "export_db RGB_to_MIPI_video_mode_rtl.db"
+RUN-1001 : Exported /
+RUN-1001 : Exported libs
+RUN-1001 : Exported entities
+RUN-1001 : Exported ports
+RUN-1001 : Exported pins
+RUN-1001 : Exported instances
+RUN-1001 : Exported nets
+RUN-1001 : Exported buses
+RUN-1001 : Exported models
+RUN-1001 : Exported congestions
+RUN-1001 : Exported violations
+RUN-1001 : Exported timing constraints
+RUN-1001 : Exported IO constraints
+RUN-1001 : Exported Inst constraints
+RUN-1001 : Exported flow parameters
+RUN-1002 : start command "optimize_gate -maparea RGB_to_MIPI_video_mode_gate.area"
+RUN-1001 : Open license file C:/Anlogic/TD5.0.20734/license/Anlogic.lic
+RUN-1001 : Print Gate Property
+RUN-1001 : ----------------------------------------------------------
+RUN-1001 :          Parameters         |  Settings  |  Default Values  
+RUN-1001 : ----------------------------------------------------------
+RUN-1001 :        auto_partition       |    fine    |       fine       
+RUN-1001 :         cascade_dsp         |     on     |        on        
+RUN-1001 :         cascade_eram        |     on     |        on        
+RUN-1001 :        gate_sim_model       |    off     |       off        
+RUN-1001 :        map_sim_model        |    off     |       off        
+RUN-1001 :           opt_area          |   medium   |      medium      
+RUN-1001 :          opt_timing         |    auto    |       auto       
+RUN-1001 :         pack_effort         |   medium   |      medium      
+RUN-1001 :      pack_lslice_ripple     |     on     |        on        
+RUN-1001 :   pack_lslice_ripple_ratio  |    0.5     |       0.5        
+RUN-1001 :        pack_seq_in_io       |     on     |        on        
+RUN-1001 :            report           |  standard  |     standard     
+RUN-1001 : ----------------------------------------------------------
+SYN-2001 : Map 0 IOs to PADs
+SYN-2501 : Processed 0 LOGIC_BUF instances.
+SYN-2512 : LOGIC BRAM "video_buf_u/inst"
+SYN-2571 : Optimize after map_dsp, round 1
+SYN-2571 : Optimize after map_dsp, round 1, 0 better
+SYN-2501 : Optimize round 1
+SYN-2501 : Optimize round 1, 0 better
+SYN-1032 : 609/1 useful/useless nets, 392/1 useful/useless insts
+SYN-2501 : Processed 0 LOGIC_BUF instances.
+SYN-2571 : Optimize after map_dsp, round 1
+SYN-2571 : Optimize after map_dsp, round 1, 0 better
+SYN-2501 : Optimize round 1
+SYN-1016 : Merged 37 instances.
+SYN-2501 : Optimize round 1, 168 better
+SYN-2501 : Optimize round 2
+SYN-2501 : Optimize round 2, 0 better
+SYN-2501 : Map 13 macro adder
+SYN-3001 : Mapper mapped 31 instances into 1 LUTs, name keeping = 100%.
+SYN-1019 : Optimized 676 mux instances.
+SYN-1016 : Merged 170 instances.
+SYN-1032 : 1014/676 useful/useless nets, 915/0 useful/useless insts
+SYN-3001 : X or Z is treated as constant in optimizing instance _al_const_x.
+SYN-3001 : X or Z is treated as constant in optimizing instance _al_const_x.
+SYN-3001 : X or Z is treated as constant in optimizing instance _al_const_x.
+SYN-1032 : 1171/9 useful/useless nets, 954/9 useful/useless insts
+RUN-1002 : start command "start_timer -prepack"
+TMR-2505 : Start building timing graph for model mipi_driver_tp.
+TMR-2506 : Build timing graph completely. Port num: 12, tpin num: 4055, tnet num: 1201, tinst num: 962, tnode num: 6435, tedge num: 6873.
+TMR-2508 : Levelizing timing graph completed, there are 41 levels in total.
+TMR-2501 : Timing graph initialized successfully.
+TMR-2503 : Start to update net delay, extr mode = 2.
+TMR-2504 : Update delay of 1201 nets completely.
+TMR-2502 : Annotate delay completely, extr mode = 2.
+TMR-3001 : Initiate 2 clocks from SDC.
+TMR-3004 : Start mapping sdc constraints, there are 0 constraints in total.
+TMR-3005 : Start mapping report constraints, there are 0 constraints in total.
+TMR-3003 : Constraints initiated successfully.
+TMR-3501 : Forward propagation: start to calculate arrival time...
+TMR-3502 : Backward propagation: start to calculate required time...
+TMR-3503 : Timing propagation completes.
+SYN-3001 : Running gate level optimization.
+SYN-2581 : Mapping with K=0, #lut = 0 (0.00), #lev = 0 (0.00)
+SYN-2551 : Post LUT mapping optimization.
+SYN-2581 : Mapping with K=0, #lut = 0 (0.00), #lev = 0 (0.00)
+SYN-3001 : Logic optimization runtime opt =   0.00 sec, map =   0.00 sec
+SYN-3001 : Mapper mapped 0 instances into 0 LUTs, name keeping = 0%.
+SYN-3001 : X or Z is treated as constant in optimizing instance _al_const_x.
+SYN-3001 : Running gate level optimization.
+SYN-2581 : Mapping with K=5, #lut = 195 (3.56), #lev = 6 (2.92)
+SYN-2551 : Post LUT mapping optimization.
+SYN-2581 : Mapping with K=5, #lut = 194 (3.63), #lev = 6 (3.18)
+SYN-3001 : Logic optimization runtime opt =   0.09 sec, map = 513.24 sec
+SYN-3001 : Mapper mapped 572 instances into 196 LUTs, name keeping = 54%.
+RUN-1002 : start command "report_area -file RGB_to_MIPI_video_mode_gate.area"
+RUN-1001 : standard
+***Report Model: mipi_driver_tp***
+
+IO Statistics
+#IO                      74
+  #input                 39
+  #output                35
+  #inout                  0
+
+LUT Statistics
+#Total_luts             438
+  #lut4                 243
+  #lut5                  27
+  #lut6                   0
+  #lut5_mx41              0
+  #lut4_alu1b           168
+
+Utilization Statistics
+#lut                    438   out of   4480    9.78%
+#reg                    127   out of   4480    2.83%
+#le                       0
+#dsp                      0   out of     15    0.00%
+#bram                     8   out of     12   66.67%
+  #bram9k                 8
+  #fifo9k                 0
+#bram32k                  0   out of      6    0.00%
+#pad                      0   out of     53    0.00%
+#virtual IO              74
+#pll                      0   out of      1    0.00%
+
+Report Hierarchy Area:
++-------------------------------------------------------------------------------------------+
+|Instance            |Module                        |lut    |ripple |seq    |bram   |dsp    |
++-------------------------------------------------------------------------------------------+
+|top                 |mipi_driver_tp                |270    |168    |127    |8      |0      |
+|  mipi_driver_gen_u |mipi_driver_gen(VBP=6,VFP=30) |233    |168    |127    |0      |0      |
++-------------------------------------------------------------------------------------------+
+
+SYN-1001 : Packing model "mipi_driver_tp" ...
+SYN-4010 : Pack lib has 49 rtl pack models with 21 top pack blocks
+SYN-1014 : Optimize round 1
+SYN-1015 : Optimize round 1, 0 better
+SYN-4002 : Packing 0 DFF/LATCH to SEQ ...
+SYN-4009 : Pack 0 carry chain into lslice
+SYN-4007 : Packing 0 adder to BLE ...
+SYN-4008 : Packed 0 adder and 0 SEQ to BLE.
+SYN-4007 : Packing 0 gate4 to BLE ...
+SYN-4008 : Packed 0 gate4 and 0 SEQ to BLE.
+SYN-4012 : Packed 0 FxMUX
+SYN-1001 : Packing model "mipi_driver_gen(VBP=6,VFP=30)" ...
+SYN-4010 : Pack lib has 49 rtl pack models with 21 top pack blocks
+SYN-1014 : Optimize round 1
+SYN-1015 : Optimize round 1, 0 better
+SYN-4002 : Packing 127 DFF/LATCH to SEQ ...
+SYN-4009 : Pack 6 carry chain into lslice
+SYN-4007 : Packing 96 adder to BLE ...
+SYN-4008 : Packed 96 adder and 0 SEQ to BLE.
+SYN-4007 : Packing 0 gate4 to BLE ...
+SYN-4008 : Packed 0 gate4 and 0 SEQ to BLE.
+SYN-4012 : Packed 0 FxMUX
+RUN-1003 : finish command "optimize_gate -maparea RGB_to_MIPI_video_mode_gate.area" in  2.317707s wall, 2.187500s user + 0.265625s system = 2.453125s CPU (105.8%)
+
+RUN-1004 : used memory is 274 MB, reserved memory is 215 MB, peak memory is 394 MB
+RUN-1002 : start command "legalize_phy_inst"
+SYN-1011 : Flatten model mipi_driver_tp
+SYN-1011 : Flatten model mipi_driver_gen(VBP=6,VFP=30)
+SYN-1016 : Merged 1 instances.
+RUN-1002 : start command "read_sdc ../../adc_sdc/RGB_to_MIPI_video_mode.sdc"
+RUN-1002 : start command "get_ports byte_clk"
+RUN-1002 : start command "create_clock -name byte_clk -period 8.9 -waveform 0 4.45 "
+RUN-1102 : create_clock: clock name: byte_clk, type: 0, period: 8900, rise: 0, fall: 4450.
+RUN-1002 : start command "get_ports ctrl_clk"
+RUN-1002 : start command "create_clock -name ctrl_clk -period 6.7 -waveform 0 3.35 "
+RUN-1102 : create_clock: clock name: ctrl_clk, type: 0, period: 6700, rise: 0, fall: 3350.
+RUN-1002 : start command "get_clocks byte_clk"
+RUN-1002 : start command "get_clocks ctrl_clk"
+RUN-1002 : start command "set_clock_groups -exclusive -group  -group "
+RUN-1104 : Import SDC file ../../adc_sdc/RGB_to_MIPI_video_mode.sdc finished, there are 0 nets kept by constraints.
+RUN-1002 : start command "export_db RGB_to_MIPI_video_mode_gate.db"
+RUN-1001 : Exported /
+RUN-1001 : Exported libs
+RUN-1001 : Exported entities
+RUN-1001 : Exported ports
+RUN-1001 : Exported pins
+RUN-1001 : Exported instances
+RUN-1001 : Exported nets
+RUN-1001 : Exported buses
+RUN-1001 : Exported models
+RUN-1001 : Exported congestions
+RUN-1001 : Exported violations
+RUN-1001 : Exported timing constraints
+RUN-1001 : Exported IO constraints
+RUN-1001 : Exported Inst constraints
+RUN-1001 : Exported flow parameters
+RUN-1002 : start command "place"
+RUN-1001 : Open license file C:/Anlogic/TD5.0.20734/license/Anlogic.lic
+RUN-1001 : Print Place Property
+RUN-1001 : --------------------------------------------
+RUN-1001 :   Parameters  |  Settings  |  Default Values  
+RUN-1001 : --------------------------------------------
+RUN-1001 :     effort    |   medium   |      medium      
+RUN-1001 :   opt_timing  |   medium   |      medium      
+RUN-1001 :   relaxation  |    1.0     |       1.0        
+RUN-1001 :    retiming   |    off     |       off        
+RUN-1001 : --------------------------------------------
+PHY-3001 : Placer runs in 8 thread(s).
+SYN-4024 : Net "byte_clk_pad" drive clk pins.
+SYN-4024 : Net "ctrl_clk_pad" drive clk pins.
+SYN-4024 : Net "mipi_driver_gen_u/n74" drive clk pins.
+SYN-4025 : Tag rtl::Net byte_clk_pad as clock net
+SYN-4025 : Tag rtl::Net ctrl_clk_pad as clock net
+SYN-4025 : Tag rtl::Net mipi_driver_gen_u/n74 as clock net
+SYN-4026 : Tagged 3 rtl::Net as clock net
+SYN-4015 : Create BUFG instance for clk Net byte_clk_pad to drive 113 clock pins.
+SYN-4015 : Create BUFG instance for clk Net ctrl_clk_pad to drive 25 clock pins.
+SYN-4015 : Create BUFG instance for clk Net mipi_driver_gen_u/n74 to drive 5 clock pins.
+PHY-1001 : Populate physical database on model mipi_driver_tp.
+RUN-1001 : There are total 480 instances
+RUN-1001 : 270 luts, 127 seqs, 49 mslices, 20 lslices, 0 pads, 8 brams, 0 dsps
+RUN-1001 : There are total 602 nets
+RUN-1001 : 431 nets have 2 pins
+RUN-1001 : 92 nets have [3 - 5] pins
+RUN-1001 : 44 nets have [6 - 10] pins
+RUN-1001 : 25 nets have [11 - 20] pins
+RUN-1001 : 8 nets have [21 - 99] pins
+RUN-1001 : 2 nets have 100+ pins
+PHY-3001 : Initial placement ...
+PHY-3001 : design contains 478 instances, 270 luts, 127 seqs, 69 slices, 13 macros(69 instances: 49 mslices 20 lslices)
+PHY-3001 : Cell area utilization is 9%
+PHY-3001 : Start timing update ...
+RUN-1002 : start command "start_timer"
+TMR-2505 : Start building timing graph for model mipi_driver_tp.
+TMR-2506 : Build timing graph completely. Port num: 12, tpin num: 2234, tnet num: 600, tinst num: 478, tnode num: 2645, tedge num: 3453.
+TMR-2508 : Levelizing timing graph completed, there are 21 levels in total.
+TMR-2501 : Timing graph initialized successfully.
+TMR-2503 : Start to update net delay, extr mode = 2.
+TMR-2504 : Update delay of 600 nets completely.
+TMR-2502 : Annotate delay completely, extr mode = 2.
+TMR-3001 : Initiate 2 clocks from SDC.
+TMR-3004 : Start mapping sdc constraints, there are 0 constraints in total.
+TMR-3005 : Start mapping report constraints, there are 0 constraints in total.
+TMR-3003 : Constraints initiated successfully.
+TMR-3501 : Forward propagation: start to calculate arrival time...
+TMR-3502 : Backward propagation: start to calculate required time...
+TMR-3503 : Timing propagation completes.
+PHY-3001 : End timing update;  0.101936s wall, 0.093750s user + 0.046875s system = 0.140625s CPU (138.0%)
+
+PHY-3001 : Global placement ...
+PHY-3001 : Initial: Len = 72744.6
+PHY-3001 : Run with size of 3
+PHY-3001 : Cell area utilization is 9%
+PHY-3001 : :::0::: Try harder cell spreading with beta_ = 0
+PHY-3002 : Step(105): len = 54867.3, overlap = 13.5
+PHY-3002 : Step(106): len = 47412.1, overlap = 15.75
+PHY-3002 : Step(107): len = 42133.1, overlap = 15.75
+PHY-3002 : Step(108): len = 36757.7, overlap = 15.75
+PHY-3002 : Step(109): len = 32417.1, overlap = 18
+PHY-3002 : Step(110): len = 28763.2, overlap = 18
+PHY-3002 : Step(111): len = 25039, overlap = 18.5
+PHY-3002 : Step(112): len = 22016.5, overlap = 18
+PHY-3002 : Step(113): len = 19908, overlap = 18
+PHY-3002 : Step(114): len = 17824.9, overlap = 18
+PHY-3002 : Step(115): len = 14917.1, overlap = 18.625
+PHY-3002 : Step(116): len = 13459.1, overlap = 18.9375
+PHY-3002 : Step(117): len = 12342, overlap = 21.5313
+PHY-3002 : Step(118): len = 10935.6, overlap = 21.25
+PHY-3001 : :::1::: Try harder cell spreading with beta_ = 2.06599e-05
+PHY-3002 : Step(119): len = 12705.4, overlap = 12.4375
+PHY-3002 : Step(120): len = 13071.2, overlap = 12.4688
+PHY-3002 : Step(121): len = 12954.4, overlap = 10.0625
+PHY-3002 : Step(122): len = 12072.5, overlap = 12.8125
+PHY-3002 : Step(123): len = 12303.2, overlap = 13.2813
+PHY-3002 : Step(124): len = 12142.3, overlap = 16
+PHY-3002 : Step(125): len = 11526.8, overlap = 16.0938
+PHY-3002 : Step(126): len = 11464.8, overlap = 13.0938
+PHY-3002 : Step(127): len = 11602.4, overlap = 13.2813
+PHY-3002 : Step(128): len = 11024.6, overlap = 13.2188
+PHY-3002 : Step(129): len = 10238.1, overlap = 11.375
+PHY-3002 : Step(130): len = 10236.2, overlap = 11.2188
+PHY-3002 : Step(131): len = 9879.9, overlap = 12.9063
+PHY-3002 : Step(132): len = 9839.3, overlap = 12.8125
+PHY-3002 : Step(133): len = 9648.9, overlap = 12.3438
+PHY-3002 : Step(134): len = 9524.4, overlap = 10.0313
+PHY-3002 : Step(135): len = 9450.9, overlap = 10.7188
+PHY-3001 : :::2::: Try harder cell spreading with beta_ = 4.13197e-05
+PHY-3002 : Step(136): len = 9769.2, overlap = 12.4063
+PHY-3002 : Step(137): len = 9703.9, overlap = 14.875
+PHY-3002 : Step(138): len = 9685, overlap = 14.875
+PHY-3001 : :::3::: Try harder cell spreading with beta_ = 8.26394e-05
+PHY-3002 : Step(139): len = 9946.2, overlap = 14.5938
+PHY-3002 : Step(140): len = 10112.5, overlap = 14.6563
+PHY-3002 : Step(141): len = 10203.1, overlap = 14.7188
+PHY-3001 : Legalization ...
+PHY-3001 : End legalization;  0.018235s wall, 0.015625s user + 0.000000s system = 0.015625s CPU (85.7%)
+
+PHY-3001 : Run with size of 3
+PHY-3001 : Cell area utilization is 11%
+PHY-3001 : Update timing in Manhattan mode ...
+TMR-2503 : Start to update net delay, extr mode = 3.
+TMR-2504 : Update delay of 600 nets completely.
+TMR-2502 : Annotate delay completely, extr mode = 3.
+TMR-3005 : Start mapping report constraints, there are 0 constraints in total.
+TMR-3501 : Forward propagation: start to calculate arrival time...
+TMR-3502 : Backward propagation: start to calculate required time...
+TMR-3503 : Timing propagation completes.
+PHY-3001 : End timing update;  0.038294s wall, 0.062500s user + 0.000000s system = 0.062500s CPU (163.2%)
+
+PHY-3001 : :::0::: Try harder cell spreading with beta_ = 2.11028e-05
+PHY-3002 : Step(142): len = 12220.2, overlap = 8.09375
+PHY-3002 : Step(143): len = 12732.5, overlap = 7.59375
+PHY-3002 : Step(144): len = 12413.5, overlap = 7.46875
+PHY-3002 : Step(145): len = 11901.9, overlap = 7.46875
+PHY-3002 : Step(146): len = 11622, overlap = 7.03125
+PHY-3002 : Step(147): len = 11327.5, overlap = 5.71875
+PHY-3002 : Step(148): len = 10489.1, overlap = 5.28125
+PHY-3002 : Step(149): len = 9837.1, overlap = 4.71875
+PHY-3002 : Step(150): len = 9317.5, overlap = 4.4375
+PHY-3002 : Step(151): len = 9117.3, overlap = 4.6875
+PHY-3002 : Step(152): len = 8559.2, overlap = 4.75
+PHY-3002 : Step(153): len = 8353, overlap = 5.09375
+PHY-3002 : Step(154): len = 8142, overlap = 5.1875
+PHY-3001 : :::1::: Try harder cell spreading with beta_ = 4.22056e-05
+PHY-3002 : Step(155): len = 8017.5, overlap = 5.1875
+PHY-3002 : Step(156): len = 8021.7, overlap = 5.1875
+PHY-3001 : :::2::: Try harder cell spreading with beta_ = 8.44112e-05
+PHY-3002 : Step(157): len = 7997.5, overlap = 5.1875
+PHY-3002 : Step(158): len = 7997.5, overlap = 5.1875
+PHY-3001 : Run with size of 1
+PHY-3001 : Cell area utilization is 11%
+PHY-3001 : Update timing in Manhattan mode ...
+TMR-2503 : Start to update net delay, extr mode = 3.
+TMR-2504 : Update delay of 600 nets completely.
+TMR-2502 : Annotate delay completely, extr mode = 3.
+TMR-3005 : Start mapping report constraints, there are 0 constraints in total.
+TMR-3501 : Forward propagation: start to calculate arrival time...
+TMR-3502 : Backward propagation: start to calculate required time...
+TMR-3503 : Timing propagation completes.
+PHY-3001 : End timing update;  0.027302s wall, 0.015625s user + 0.000000s system = 0.015625s CPU (57.2%)
+
+PHY-3001 : :::0::: Try harder cell spreading with beta_ = 3.30265e-05
+PHY-3002 : Step(159): len = 8229.7, overlap = 42.4063
+PHY-3002 : Step(160): len = 8278.5, overlap = 42.4063
+PHY-3002 : Step(161): len = 8337.2, overlap = 38.75
+PHY-3002 : Step(162): len = 8593, overlap = 37.2188
+PHY-3002 : Step(163): len = 8638.3, overlap = 37.1563
+PHY-3001 : :::1::: Try harder cell spreading with beta_ = 6.6053e-05
+PHY-3002 : Step(164): len = 8690.1, overlap = 37.8438
+PHY-3002 : Step(165): len = 8716, overlap = 37.75
+PHY-3002 : Step(166): len = 8832.6, overlap = 37.3438
+PHY-3001 : :::2::: Try harder cell spreading with beta_ = 0.000132106
+PHY-3002 : Step(167): len = 9338.2, overlap = 34.8438
+PHY-3002 : Step(168): len = 9587.3, overlap = 35.2188
+PHY-3002 : Step(169): len = 9887.7, overlap = 33.8438
+PHY-3002 : Step(170): len = 9829.9, overlap = 33.2188
+PHY-3002 : Step(171): len = 9827.7, overlap = 32.8438
+PHY-3002 : Step(172): len = 9665, overlap = 32.1563
+PHY-3001 : :::3::: Try harder cell spreading with beta_ = 0.000264212
+PHY-3002 : Step(173): len = 9731, overlap = 31.9063
+PHY-3002 : Step(174): len = 9878.9, overlap = 31.75
+PHY-3001 : :::4::: Try harder cell spreading with beta_ = 0.000528424
+PHY-3002 : Step(175): len = 10058.8, overlap = 29.0313
+PHY-3002 : Step(176): len = 10238.6, overlap = 27.8125
+PHY-3002 : Step(177): len = 10422.2, overlap = 27.3438
+PHY-3001 : :::5::: Try harder cell spreading with beta_ = 0.00105685
+PHY-3002 : Step(178): len = 10471, overlap = 26.75
+PHY-3002 : Step(179): len = 10572, overlap = 26.3125
+PHY-3002 : Step(180): len = 10720.9, overlap = 26.0625
+PHY-3001 : :::6::: Try harder cell spreading with beta_ = 0.00181669
+PHY-3002 : Step(181): len = 10757.4, overlap = 26.0625
+PHY-3002 : Step(182): len = 10798.1, overlap = 26.125
+PHY-3001 : :::7::: Try harder cell spreading with beta_ = 0.0029394
+PHY-3002 : Step(183): len = 10861.4, overlap = 26.4063
+PHY-3002 : Step(184): len = 11025.1, overlap = 26.25
+PHY-3001 : :::8::: Try harder cell spreading with beta_ = 0.00475595
+PHY-3002 : Step(185): len = 11051.7, overlap = 26.25
+PHY-3002 : Step(186): len = 11077, overlap = 26.1563
+OPT-1001 : Start physical optimization ...
+OPT-1001 : Total overflow 26.16 peak overflow 1.31
+OPT-1001 : Start high-fanout net optimization ...
+OPT-1001 : Update timing in global mode
+PHY-1001 : Start incremental global routing ...
+RUN-1001 : Generating global routing grids ...
+PHY-1001 : Generate routing nets ...
+PHY-1001 : Global iterations in 8 thread ...
+PHY-1002 : len = 20056, over cnt = 45(0%), over = 64, worst = 2
+PHY-1002 : len = 20344, over cnt = 23(0%), over = 32, worst = 2
+PHY-1002 : len = 20352, over cnt = 10(0%), over = 16, worst = 2
+PHY-1002 : len = 20392, over cnt = 7(0%), over = 12, worst = 2
+PHY-1002 : len = 20168, over cnt = 0(0%), over = 0, worst = 0
+PHY-1001 : End global iterations;  0.069528s wall, 0.093750s user + 0.015625s system = 0.109375s CPU (157.3%)
+
+PHY-1001 : Congestion index: top1 = 31.88, top5 = 18.75, top10 = 10.63, top15 = 5.00.
+PHY-1001 : End incremental global routing;  0.122938s wall, 0.171875s user + 0.015625s system = 0.187500s CPU (152.5%)
+
+TMR-2503 : Start to update net delay, extr mode = 5.
+TMR-2504 : Update delay of 600 nets completely.
+TMR-2502 : Annotate delay completely, extr mode = 5.
+TMR-3005 : Start mapping report constraints, there are 0 constraints in total.
+TMR-3501 : Forward propagation: start to calculate arrival time...
+TMR-3502 : Backward propagation: start to calculate required time...
+TMR-3503 : Timing propagation completes.
+OPT-1001 : End timing update;  0.034685s wall, 0.031250s user + 0.000000s system = 0.031250s CPU (90.1%)
+
+OPT-1001 : 0 high-fanout net processed.
+OPT-1001 : End high-fanout net optimization;  0.200357s wall, 0.250000s user + 0.015625s system = 0.265625s CPU (132.6%)
+
+OPT-1001 : Start global optimization ...
+OPT-1001 : Start congestion update ...
+RUN-1001 : Generating global routing grids ...
+PHY-1001 : Generate routing nets ...
+PHY-1001 : Global iterations in 8 thread ...
+PHY-1002 : len = 20056, over cnt = 45(0%), over = 64, worst = 2
+PHY-1002 : len = 20344, over cnt = 23(0%), over = 32, worst = 2
+PHY-1002 : len = 20352, over cnt = 10(0%), over = 16, worst = 2
+PHY-1002 : len = 20392, over cnt = 7(0%), over = 12, worst = 2
+PHY-1002 : len = 20168, over cnt = 0(0%), over = 0, worst = 0
+PHY-1001 : End global iterations;  0.057567s wall, 0.093750s user + 0.000000s system = 0.093750s CPU (162.9%)
+
+PHY-1001 : Congestion index: top1 = 31.88, top5 = 18.75, top10 = 10.63, top15 = 5.00.
+OPT-1001 : End congestion update;  0.112249s wall, 0.140625s user + 0.000000s system = 0.140625s CPU (125.3%)
+
+OPT-1001 : Update timing in Manhattan mode
+TMR-2503 : Start to update net delay, extr mode = 3.
+TMR-2504 : Update delay of 600 nets completely.
+TMR-2502 : Annotate delay completely, extr mode = 3.
+TMR-3005 : Start mapping report constraints, there are 0 constraints in total.
+TMR-3501 : Forward propagation: start to calculate arrival time...
+TMR-3502 : Backward propagation: start to calculate required time...
+TMR-3503 : Timing propagation completes.
+OPT-1001 : End timing update;  0.031320s wall, 0.031250s user + 0.000000s system = 0.031250s CPU (99.8%)
+
+OPT-1001 : Start: WNS 4436 TNS 0 NUM_FEPS 0
+OPT-1001 : End global optimization;  0.143983s wall, 0.171875s user + 0.000000s system = 0.171875s CPU (119.4%)
+
+OPT-1001 : End physical optimization;  0.348165s wall, 0.421875s user + 0.015625s system = 0.437500s CPU (125.7%)
+
+PHY-3001 : Start packing ...
+SYN-4007 : Packing 0 MUX to BLE ...
+SYN-4008 : Packed 0 MUX and 0 SEQ to BLE.
+SYN-4007 : Packing 270 LUT to BLE ...
+SYN-4008 : Packed 270 LUT and 94 SEQ to BLE.
+SYN-4003 : Packing 33 remaining SEQ's ...
+SYN-4005 : Packed 33 SEQ with LUT/SLICE
+SYN-4006 : 147 single LUT's are left
+SYN-4006 : 0 single SEQ's are left
+SYN-4011 : Packing model "mipi_driver_tp" (AL_USER_NORMAL) with 270/353 primitive instances ...
+PHY-3001 : End packing;  0.075256s wall, 0.078125s user + 0.000000s system = 0.078125s CPU (103.8%)
+
+PHY-1001 : Populate physical database on model mipi_driver_tp.
+RUN-1001 : There are total 224 instances
+RUN-1001 : 105 mslices, 105 lslices, 0 pads, 8 brams, 0 dsps
+RUN-1001 : There are total 508 nets
+RUN-1001 : 337 nets have 2 pins
+RUN-1001 : 93 nets have [3 - 5] pins
+RUN-1001 : 45 nets have [6 - 10] pins
+RUN-1001 : 23 nets have [11 - 20] pins
+RUN-1001 : 9 nets have [21 - 99] pins
+RUN-1001 : 1 nets have 100+ pins
+PHY-3001 : design contains 222 instances, 210 slices, 13 macros(69 instances: 49 mslices 20 lslices)
+PHY-3001 : Cell area utilization is 12%
+PHY-3001 : After packing: Len = 11090.8, Over = 25.5
+PHY-3001 : Run with size of 1
+PHY-3001 : Cell area utilization is 12%
+PHY-3001 : Update timing in Manhattan mode ...
+RUN-1002 : start command "start_timer"
+TMR-2505 : Start building timing graph for model mipi_driver_tp.
+TMR-2506 : Build timing graph completely. Port num: 12, tpin num: 1953, tnet num: 506, tinst num: 222, tnode num: 2271, tedge num: 3126.
+TMR-2508 : Levelizing timing graph completed, there are 19 levels in total.
+TMR-2501 : Timing graph initialized successfully.
+TMR-2503 : Start to update net delay, extr mode = 3.
+TMR-2504 : Update delay of 506 nets completely.
+TMR-2502 : Annotate delay completely, extr mode = 3.
+TMR-3001 : Initiate 2 clocks from SDC.
+TMR-3004 : Start mapping sdc constraints, there are 0 constraints in total.
+TMR-3005 : Start mapping report constraints, there are 0 constraints in total.
+TMR-3003 : Constraints initiated successfully.
+TMR-3501 : Forward propagation: start to calculate arrival time...
+TMR-3502 : Backward propagation: start to calculate required time...
+TMR-3503 : Timing propagation completes.
+PHY-3001 : End timing update;  0.089837s wall, 0.078125s user + 0.031250s system = 0.109375s CPU (121.7%)
+
+PHY-3001 : :::0::: Try harder cell spreading with beta_ = 0.000116069
+PHY-3002 : Step(187): len = 10540.5, overlap = 26.5
+PHY-3002 : Step(188): len = 10253.7, overlap = 25.75
+PHY-3002 : Step(189): len = 10114, overlap = 25.25
+PHY-3002 : Step(190): len = 10057.1, overlap = 26.25
+PHY-3002 : Step(191): len = 9982.8, overlap = 27.75
+PHY-3001 : :::1::: Try harder cell spreading with beta_ = 0.000232137
+PHY-3002 : Step(192): len = 10221.2, overlap = 26
+PHY-3002 : Step(193): len = 10385.1, overlap = 26.5
+PHY-3002 : Step(194): len = 10478.3, overlap = 25.25
+PHY-3001 : :::2::: Try harder cell spreading with beta_ = 0.000464275
+PHY-3002 : Step(195): len = 10742.5, overlap = 25.5
+PHY-3002 : Step(196): len = 10983, overlap = 25
+PHY-3001 : Legalization ...
+PHY-3001 : End legalization;  0.186718s wall, 0.093750s user + 0.156250s system = 0.250000s CPU (133.9%)
+
+PHY-3001 : Trial Legalized: Len = 12931.4
+PHY-3001 : Run with size of 1
+PHY-3001 : Cell area utilization is 11%
+PHY-3001 : Update timing in Manhattan mode ...
+TMR-2503 : Start to update net delay, extr mode = 3.
+TMR-2504 : Update delay of 506 nets completely.
+TMR-2502 : Annotate delay completely, extr mode = 3.
+TMR-3005 : Start mapping report constraints, there are 0 constraints in total.
+TMR-3501 : Forward propagation: start to calculate arrival time...
+TMR-3502 : Backward propagation: start to calculate required time...
+TMR-3503 : Timing propagation completes.
+PHY-3001 : End timing update;  0.024712s wall, 0.031250s user + 0.000000s system = 0.031250s CPU (126.5%)
+
+PHY-3001 : :::0::: Try harder cell spreading with beta_ = 0.000611649
+PHY-3002 : Step(197): len = 12065.2, overlap = 8.75
+PHY-3002 : Step(198): len = 11945.8, overlap = 9
+PHY-3002 : Step(199): len = 11712.6, overlap = 11.25
+PHY-3002 : Step(200): len = 11616.2, overlap = 11.5
+PHY-3002 : Step(201): len = 11586.9, overlap = 12.25
+PHY-3001 : :::1::: Try harder cell spreading with beta_ = 0.0012233
+PHY-3002 : Step(202): len = 11697.2, overlap = 11.25
+PHY-3002 : Step(203): len = 11752.4, overlap = 11.5
+PHY-3002 : Step(204): len = 11741.7, overlap = 11.5
+PHY-3001 : :::2::: Try harder cell spreading with beta_ = 0.0024466
+PHY-3002 : Step(205): len = 11825.8, overlap = 11
+PHY-3002 : Step(206): len = 11825.8, overlap = 11
+PHY-3001 : Legalization ...
+PHY-3001 : End legalization;  0.003956s wall, 0.015625s user + 0.000000s system = 0.015625s CPU (394.9%)
+
+PHY-3001 : Legalized: Len = 12470.2, Over = 0
+PHY-3001 : Spreading special nets. 2 overflows in 750 tiles.
+PHY-3001 : End spreading;  0.002113s wall, 0.000000s user + 0.000000s system = 0.000000s CPU (n/a%)
+
+PHY-3001 : 3 instances has been re-located, deltaX = 2, deltaY = 0, maxDist = 1.
+PHY-3001 : Final: Len = 12464.2, Over = 0
+RUN-1003 : finish command "place" in  7.864477s wall, 8.703125s user + 3.890625s system = 12.593750s CPU (160.1%)
+
+RUN-1004 : used memory is 282 MB, reserved memory is 221 MB, peak memory is 394 MB
+RUN-1002 : start command "report_area -io_info -file RGB_to_MIPI_video_mode_place.area"
+RUN-1001 : standard
+***Report Model: mipi_driver_tp***
+
+IO Statistics
+#IO                      74
+  #input                 39
+  #output                35
+  #inout                  0
+
+Utilization Statistics
+#lut                    408   out of   4480    9.11%
+#reg                    127   out of   4480    2.83%
+#le                     408
+  #lut only             281   out of    408   68.87%
+  #reg only               0   out of    408    0.00%
+  #lut&reg              127   out of    408   31.13%
+#dsp                      0   out of     15    0.00%
+#bram                     8   out of     12   66.67%
+  #bram9k                 8
+  #fifo9k                 0
+#bram32k                  0   out of      6    0.00%
+#pad                      0   out of     53    0.00%
+#virtual IO              74
+#pll                      0   out of      1    0.00%
+
+
+Detailed IO Report
+
+  Name    Direction    Location    IOStandard    DriveStrength    PullType    PackReg  
+
+Report Hierarchy Area:
++------------------------------------------------------------------------+
+|Instance |Module         |le    |lut    |ripple |seq    |bram   |dsp    |
++------------------------------------------------------------------------+
+|top      |mipi_driver_tp |408   |339    |69     |127    |8      |0      |
++------------------------------------------------------------------------+
+
+RUN-1002 : start command "route"
+RUN-1001 : Open license file C:/Anlogic/TD5.0.20734/license/Anlogic.lic
+RUN-1001 : Print Route Property
+RUN-1001 : -----------------------------------------------
+RUN-1001 :    Parameters    |  Settings  |  Default Values  
+RUN-1001 : -----------------------------------------------
+RUN-1001 :      effort      |   medium   |      medium      
+RUN-1001 :     fix_hold     |    off     |       off        
+RUN-1001 :       lcnp       |     5      |        5         
+RUN-1001 :       mcnp       |     10     |        10        
+RUN-1001 :    opt_timing    |   medium   |      medium      
+RUN-1001 :   phy_sim_model  |    off     |       off        
+RUN-1001 :     priority     |   timing   |      timing      
+RUN-1001 :     swap_pin     |     on     |        on        
+RUN-1001 : -----------------------------------------------
+PHY-1001 : Route runs in 8 thread(s)
+RUN-1001 : There are total 224 instances
+RUN-1001 : 105 mslices, 105 lslices, 0 pads, 8 brams, 0 dsps
+RUN-1001 : There are total 508 nets
+RUN-1001 : 337 nets have 2 pins
+RUN-1001 : 93 nets have [3 - 5] pins
+RUN-1001 : 45 nets have [6 - 10] pins
+RUN-1001 : 23 nets have [11 - 20] pins
+RUN-1001 : 9 nets have [21 - 99] pins
+RUN-1001 : 1 nets have 100+ pins
+PHY-1001 : Start global routing ...
+RUN-1001 : Generating global routing grids ...
+PHY-1001 : Generate routing nets ...
+PHY-1001 : Global iterations in 8 thread ...
+PHY-1002 : len = 22248, over cnt = 30(0%), over = 34, worst = 2
+PHY-1002 : len = 22424, over cnt = 21(0%), over = 22, worst = 2
+PHY-1002 : len = 22424, over cnt = 10(0%), over = 11, worst = 2
+PHY-1002 : len = 22256, over cnt = 0(0%), over = 0, worst = 0
+PHY-1001 : End global iterations;  0.052631s wall, 0.078125s user + 0.046875s system = 0.125000s CPU (237.5%)
+
+PHY-1001 : Congestion index: top1 = 33.13, top5 = 18.13, top10 = 11.25, top15 = 5.00.
+PHY-1001 : Timing updates.
+TMR-2503 : Start to update net delay, extr mode = 5.
+TMR-2504 : Update delay of 506 nets completely.
+TMR-2502 : Annotate delay completely, extr mode = 5.
+TMR-3005 : Start mapping report constraints, there are 0 constraints in total.
+TMR-3501 : Forward propagation: start to calculate arrival time...
+TMR-3502 : Backward propagation: start to calculate required time...
+TMR-3503 : Timing propagation completes.
+PHY-1001 : Optimize timing.
+PHY-1001 : Pin swapping for better routability
+PHY-1001 : Pin local connectivity score is improved from 101 to 12
+PHY-1001 : End pin swap;  0.045479s wall, 0.046875s user + 0.000000s system = 0.046875s CPU (103.1%)
+
+PHY-1001 : End global routing;  0.300679s wall, 0.359375s user + 0.046875s system = 0.406250s CPU (135.1%)
+
+PHY-1001 : Start detail routing ...
+PHY-1001 : Generate detailed routing grids ...
+PHY-1001 : Generate nets ...
+PHY-1001 : clock net byte_clk_pad_gclk_net will be merged with clock byte_clk_pad
+PHY-1001 : clock net ctrl_clk_pad_gclk_net will be merged with clock ctrl_clk_pad
+PHY-1001 : clock net mipi_driver_gen_u/n74_gclk_net will be merged with clock mipi_driver_gen_u/n74
+PHY-1001 : Detail Route ...
+PHY-1001 : ===== Detail Route Phase 1 =====
+PHY-1001 : Routed 0% nets.
+PHY-1002 : len = 3744, over cnt = 0(0%), over = 0, worst = 0
+PHY-1001 : End Routed; 0.110877s wall, 0.109375s user + 0.000000s system = 0.109375s CPU (98.6%)
+
+PHY-1001 : ===== Detail Route Phase 2 =====
+PHY-1001 : Routed 1% nets.
+PHY-1002 : len = 3992, over cnt = 0(0%), over = 0, worst = 0
+PHY-1001 : End Routed; 0.005352s wall, 0.000000s user + 0.000000s system = 0.000000s CPU (n/a%)
+
+PHY-1001 : ===== Detail Route Phase 3 =====
+PHY-1001 : Routed 29% nets.
+PHY-1001 : Routed 38% nets.
+PHY-1001 : Routed 45% nets.
+PHY-1001 : Routed 55% nets.
+PHY-1001 : Routed 73% nets.
+PHY-1002 : len = 35680, over cnt = 22(0%), over = 22, worst = 1
+PHY-1001 : End Routed; 0.427456s wall, 0.484375s user + 0.078125s system = 0.562500s CPU (131.6%)
+
+PHY-1001 : Update timing.....
+PHY-1001 : 0/376(0%) critical/total net(s).
+PHY-1001 : End update timing;  0.123651s wall, 0.125000s user + 0.000000s system = 0.125000s CPU (101.1%)
+
+PHY-1001 : ===== DR Iter 1 =====
+PHY-1002 : len = 35456, over cnt = 2(0%), over = 2, worst = 1
+PHY-1001 : End DR Iter 1; 0.017658s wall, 0.015625s user + 0.000000s system = 0.015625s CPU (88.5%)
+
+PHY-1001 : ===== DR Iter 2 =====
+PHY-1002 : len = 35480, over cnt = 0(0%), over = 0, worst = 0
+PHY-1003 : Routed, final wirelength = 35480
+PHY-1001 : End DR Iter 2; 0.009657s wall, 0.015625s user + 0.000000s system = 0.015625s CPU (161.8%)
+
+PHY-1001 : 0 feed throughs used by 0 nets
+PHY-1001 : Generate detailed routing grids ...
+PHY-1001 : Generate nets ...
+PHY-1001 : clock net byte_clk_pad_gclk_net will be merged with clock byte_clk_pad
+PHY-1001 : clock net ctrl_clk_pad_gclk_net will be merged with clock ctrl_clk_pad
+PHY-1001 : clock net mipi_driver_gen_u/n74_gclk_net will be merged with clock mipi_driver_gen_u/n74
+PHY-1001 : eco open net = 0
+PHY-1001 : End detail routing;  1.354301s wall, 1.281250s user + 0.156250s system = 1.437500s CPU (106.1%)
+
+PHY-1001 : Routing violations:
+PHY-1001 : End of Routing Violations.
+RUN-1003 : finish command "route" in  1.827695s wall, 1.812500s user + 0.234375s system = 2.046875s CPU (112.0%)
+
+RUN-1004 : used memory is 296 MB, reserved memory is 235 MB, peak memory is 408 MB
+RUN-1002 : start command "report_area -io_info -file RGB_to_MIPI_video_mode_phy.area"
+RUN-1001 : standard
+***Report Model: mipi_driver_tp***
+
+IO Statistics
+#IO                      74
+  #input                 39
+  #output                35
+  #inout                  0
+
+Utilization Statistics
+#lut                    408   out of   4480    9.11%
+#reg                    127   out of   4480    2.83%
+#le                     408
+  #lut only             281   out of    408   68.87%
+  #reg only               0   out of    408    0.00%
+  #lut&reg              127   out of    408   31.13%
+#dsp                      0   out of     15    0.00%
+#bram                     8   out of     12   66.67%
+  #bram9k                 8
+  #fifo9k                 0
+#bram32k                  0   out of      6    0.00%
+#pad                      0   out of     53    0.00%
+#virtual IO              74
+#pll                      0   out of      1    0.00%
+#gclk                     3   out of     16   18.75%
+
+
+Detailed IO Report
+
+  Name    Direction    Location    IOStandard    DriveStrength    PullType    PackReg  
+
+Report Hierarchy Area:
++------------------------------------------------------------------------+
+|Instance |Module         |le    |lut    |ripple |seq    |bram   |dsp    |
++------------------------------------------------------------------------+
+|top      |mipi_driver_tp |408   |339    |69     |127    |8      |0      |
++------------------------------------------------------------------------+
+
+RUN-1002 : start command "export_db RGB_to_MIPI_video_mode_pr.db"
+RUN-1001 : Exported /
+RUN-1001 : Exported libs
+RUN-1001 : Exported entities
+RUN-1001 : Exported ports
+RUN-1001 : Exported pins
+RUN-1001 : Exported instances
+RUN-1001 : Exported nets
+RUN-1001 : Exported buses
+RUN-1001 : Exported models
+RUN-1001 : Exported congestions
+RUN-1001 : Exported violations
+RUN-1001 : Exported timing constraints
+RUN-1001 : Exported IO constraints
+RUN-1001 : Exported Inst constraints
+RUN-1001 : Exported flow parameters
+RUN-1002 : start command "start_timer"
+TMR-2505 : Start building timing graph for model mipi_driver_tp.
+TMR-2506 : Build timing graph completely. Port num: 12, tpin num: 1953, tnet num: 506, tinst num: 222, tnode num: 2271, tedge num: 3126.
+TMR-2508 : Levelizing timing graph completed, there are 19 levels in total.
+TMR-2501 : Timing graph initialized successfully.
+RUN-1002 : start command "report_timing -mode FINAL -net_info -ep_num 3 -path_num 3 -file RGB_to_MIPI_video_mode_phy.timing"
+TMR-2503 : Start to update net delay, extr mode = 6.
+PHY-1001 : Generate detailed routing grids ...
+PHY-1001 : Generate nets ...
+PHY-1001 : clock net byte_clk_pad_gclk_net will be merged with clock byte_clk_pad
+PHY-1001 : clock net ctrl_clk_pad_gclk_net will be merged with clock ctrl_clk_pad
+PHY-1001 : clock net mipi_driver_gen_u/n74_gclk_net will be merged with clock mipi_driver_gen_u/n74
+PHY-1001 : eco open net = 0
+TMR-2504 : Update delay of 506 nets completely.
+TMR-2502 : Annotate delay completely, extr mode = 6.
+TMR-3001 : Initiate 2 clocks from SDC.
+TMR-3004 : Start mapping sdc constraints, there are 0 constraints in total.
+TMR-3005 : Start mapping report constraints, there are 0 constraints in total.
+TMR-3003 : Constraints initiated successfully.
+TMR-3501 : Forward propagation: start to calculate arrival time...
+TMR-3502 : Backward propagation: start to calculate required time...
+TMR-3503 : Timing propagation completes.
+TMR-3506 : Start to generate timing report.
+TMR-1502 : clock_nets size = 3, clk_num = 2.
+TMR-5009 WARNING: No clock constraint on 1 clock net(s): 
+	mipi_driver_gen_u/n74
+TMR-3508 : Export timing summary.
+TMR-3507 : Timing report generated successfully in RGB_to_MIPI_video_mode_phy.timing, timing summary in RGB_to_MIPI_video_mode_phy.tsm.
+RUN-1002 : start command "bitgen -bit RGB_to_MIPI_video_mode.bit -version 0X00 -g ucode:110111100000000000000000"
+BIT-1003 : Start to generate bitstream. 
+BIT-1002 : Init instances with 8 threads.
+BIT-1002 : Init instances completely, inst num: 224
+BIT-1002 : Init pips with 8 threads.
+BIT-1002 : Init pips completely, net num: 508, pip num: 3891
+BIT-1003 : Multithreading accelaration with 8 threads.
+BIT-1003 : Generate bitstream completely, there are 229 valid insts, and 12637 bits set as '1'.
+BIT-1004 : Generate bits file RGB_to_MIPI_video_mode.bit.
+RUN-1003 : finish command "bitgen -bit RGB_to_MIPI_video_mode.bit -version 0X00 -g ucode:110111100000000000000000" in  1.220329s wall, 4.750000s user + 0.125000s system = 4.875000s CPU (399.5%)
+
+RUN-1004 : used memory is 412 MB, reserved memory is 352 MB, peak memory is 571 MB

@@ -1,0 +1,229 @@
+============================================================
+   Tang Dynasty, V4.6.14756
+   Copyright:   Shanghai Anlogic Infotech Co., Ltd.
+                2011 - 2021
+   Executable = C:/Anlogic/TD4.6.3/bin/td.exe
+   Built at =   17:01:29 Oct 21 2019
+   Run by =     lihon
+   Run Date =   Fri May 15 10:24:41 2020
+
+   Run on =     LAPTOP-P69PQHTO
+============================================================
+RUN-1002 : start command "open_project RGB_to_MIPI_video_mode.al"
+HDL-8007 ERROR: cannot open include file 'te_define.v' in ../../source_code/rtl/mipi_driver_gen.v(1)
+HDL-1007 : analyze verilog file ../../source_code/rtl/mipi_driver_gen.v
+HDL-1007 : analyze included file ../../source_code/include/te_define.v in ../../source_code/rtl/mipi_driver_gen.v(1)
+HDL-1007 : back to file '../../source_code/rtl/mipi_driver_gen.v' in ../../source_code/rtl/mipi_driver_gen.v(1)
+HDL-1007 : analyze verilog file ../../source_code/rtl/mipi_driver_tp.v
+HDL-1007 : analyze verilog file ../../source_code/rtl/al_ip/video_buf.v
+HDL-1007 : analyze verilog file ../../source_code/include/te_define.v
+RUN-1002 : start command "import_device ef2_s4.db -package EF2S45VG81C"
+ARC-1001 : Device Initialization.
+ARC-1001 : -------------------------------------------------
+ARC-1001 :       OPTION       |      IO       |   SETTING   
+ARC-1001 : -------------------------------------------------
+ARC-1001 :   tdi/tms/tck/tdo  |  C6/D7/D8/C9  |  dedicated  
+ARC-1001 : -------------------------------------------------
+ARC-1004 : Device setting, marked 4 dedicate IOs in total.
+HDL-8007 ERROR: cannot open include file 'te_define.v' in ../../source_code/rtl/mipi_driver_gen.v(1)
+HDL-1007 : analyze verilog file ../../source_code/rtl/mipi_driver_gen.v
+HDL-1007 : analyze included file ../../source_code/include/te_define.v in ../../source_code/rtl/mipi_driver_gen.v(1)
+HDL-1007 : back to file '../../source_code/rtl/mipi_driver_gen.v' in ../../source_code/rtl/mipi_driver_gen.v(1)
+HDL-1007 : analyze verilog file ../../source_code/rtl/mipi_driver_tp.v
+HDL-1007 : analyze verilog file ../../source_code/rtl/al_ip/video_buf.v
+HDL-1007 : analyze verilog file ../../source_code/include/te_define.v
+RUN-1002 : start command "elaborate -top mipi_driver_tp"
+HDL-1007 : elaborate module mipi_driver_tp in ../../source_code/rtl/mipi_driver_tp.v(1)
+HDL-1007 : elaborate module video_buf in ../../source_code/rtl/al_ip/video_buf.v(14)
+HDL-1007 : elaborate module EF2_LOGIC_BRAM(DATA_WIDTH_A=32,DATA_WIDTH_B=32,ADDR_WIDTH_A=11,ADDR_WIDTH_B=11,DATA_DEPTH_A=2048,DATA_DEPTH_B=2048,MODE="PDPW") in C:/Anlogic/TD4.6.3/arch/ef2_macro.v(2844)
+HDL-1007 : elaborate module mipi_driver_gen(VBP=6,VFP=30) in ../../source_code/rtl/mipi_driver_gen.v(3)
+HDL-1200 : Current top model is mipi_driver_tp
+HDL-1100 : Inferred 0 RAMs.
+GUI-5001 WARNING: Found no ADC files
+RUN-1002 : start command "optimize_rtl"
+RUN-1001 : Open license file C:/Anlogic/TD4.6.3/license/Anlogic.lic
+SYN-1012 : SanityCheck: Model "mipi_driver_tp"
+SYN-1012 : SanityCheck: Model "mipi_driver_gen(VBP=6,VFP=30)"
+SYN-1012 : SanityCheck: Model "video_buf"
+SYN-5015 WARNING: Found latch in "mipi_driver_gen(VBP=6,VFP=30)", name: "reg5_b0", d: "n69[0]", q: "nstate[0]" // ../../source_code/rtl/mipi_driver_gen.v(699)
+SYN-5015 WARNING: Found latch in "mipi_driver_gen(VBP=6,VFP=30)", name: "reg5_b1", d: "n69[1]", q: "nstate[1]" // ../../source_code/rtl/mipi_driver_gen.v(699)
+SYN-5015 WARNING: Found latch in "mipi_driver_gen(VBP=6,VFP=30)", name: "reg5_b2", d: "n69[2]", q: "nstate[2]" // ../../source_code/rtl/mipi_driver_gen.v(699)
+SYN-5015 WARNING: Found latch in "mipi_driver_gen(VBP=6,VFP=30)", name: "reg5_b3", d: "n69[3]", q: "nstate[3]" // ../../source_code/rtl/mipi_driver_gen.v(699)
+SYN-5015 WARNING: Found latch in "mipi_driver_gen(VBP=6,VFP=30)", name: "reg5_b4", d: "n69[4]", q: "nstate[4]" // ../../source_code/rtl/mipi_driver_gen.v(699)
+SYN-1011 : Flatten model mipi_driver_tp
+SYN-1011 : Flatten model mipi_driver_gen(VBP=6,VFP=30)
+SYN-1011 : Flatten model video_buf
+SYN-1016 : Merged 3 instances.
+SYN-1014 : Optimize round 1
+SYN-1032 : 484/39 useful/useless nets, 354/0 useful/useless insts
+SYN-1019 : Optimized 0 mux instances.
+SYN-1020 : Optimized 21 distributor mux.
+SYN-1016 : Merged 57 instances.
+SYN-1015 : Optimize round 1, 101 better
+SYN-1014 : Optimize round 2
+SYN-1032 : 432/57 useful/useless nets, 302/31 useful/useless insts
+SYN-1019 : Optimized 0 mux instances.
+SYN-1015 : Optimize round 2, 41 better
+SYN-1014 : Optimize round 3
+SYN-1032 : 432/0 useful/useless nets, 302/0 useful/useless insts
+SYN-1019 : Optimized 0 mux instances.
+SYN-1015 : Optimize round 3, 0 better
+RUN-1002 : start command "report_area -file RGB_to_MIPI_video_mode_rtl.area"
+RUN-1001 : standard
+***Report Model: mipi_driver_tp***
+
+IO Statistics
+#IO                    74
+  #input               39
+  #output              35
+  #inout                0
+
+Gate Statistics
+#Basic gates          174
+  #and                 14
+  #nand                 0
+  #or                   4
+  #nor                  0
+  #xor                  0
+  #xnor                 0
+  #buf                  0
+  #not                 16
+  #bufif1               0
+  #MX21                13
+  #FADD                 0
+  #DFF                122
+  #LATCH                5
+#MACRO_ADD             13
+#MACRO_EQ              14
+#MACRO_MUX             97
+
+RUN-1001 : 
+Report Hierarchy Area:
++-------------------------------------------------+
+|Instance |Module         |gates  |seq    |macros |
++-------------------------------------------------+
+|top      |mipi_driver_tp |47     |127    |28     |
++-------------------------------------------------+
+
+RUN-1002 : start command "export_db RGB_to_MIPI_video_mode_rtl.db"
+RUN-1001 : Exported /
+RUN-1001 : Exported libs
+RUN-1001 : Exported entities
+RUN-1001 : Exported ports
+RUN-1001 : Exported pins
+RUN-1001 : Exported instances
+RUN-1001 : Exported nets
+RUN-1001 : Exported buses
+RUN-1001 : Exported models
+RUN-1001 : Exported congestions
+RUN-1001 : Exported violations
+RUN-1001 : Exported IO constraints
+RUN-1001 : Exported Inst constraints
+RUN-1001 : Exported flow parameters
+RUN-1002 : start command "optimize_gate -packarea RGB_to_MIPI_video_mode_gate.area"
+RUN-1001 : Open license file C:/Anlogic/TD4.6.3/license/Anlogic.lic
+SYN-8001 ERROR: Cannot fit all model pins.
+HDL-1007 : analyze verilog file ../../source_code/rtl/mipi_driver_gen.v
+HDL-1007 : analyze included file ../../source_code/rtl/../include/te_define.v in ../../source_code/rtl/mipi_driver_gen.v(1)
+HDL-1007 : back to file '../../source_code/rtl/mipi_driver_gen.v' in ../../source_code/rtl/mipi_driver_gen.v(1)
+HDL-1007 : analyze verilog file ../../source_code/rtl/mipi_driver_tp.v
+HDL-1007 : analyze verilog file ../../source_code/rtl/al_ip/video_buf.v
+HDL-1007 : analyze verilog file ../../source_code/rtl/mipi_driver_gen.v
+HDL-1007 : analyze included file ../../source_code/rtl/../include/te_define.v in ../../source_code/rtl/mipi_driver_gen.v(1)
+HDL-1007 : back to file '../../source_code/rtl/mipi_driver_gen.v' in ../../source_code/rtl/mipi_driver_gen.v(1)
+HDL-1007 : analyze verilog file ../../source_code/rtl/mipi_driver_gen.v
+HDL-1007 : analyze included file ../../source_code/rtl/../include/te_define.v in ../../source_code/rtl/mipi_driver_gen.v(1)
+HDL-1007 : back to file '../../source_code/rtl/mipi_driver_gen.v' in ../../source_code/rtl/mipi_driver_gen.v(1)
+HDL-1007 : analyze verilog file ../../source_code/rtl/mipi_driver_tp.v
+HDL-1007 : analyze verilog file ../../source_code/rtl/al_ip/video_buf.v
+RUN-1002 : start command "elaborate -top mipi_driver_tp"
+HDL-1007 : elaborate module mipi_driver_tp in ../../source_code/rtl/mipi_driver_tp.v(1)
+HDL-1007 : elaborate module video_buf in ../../source_code/rtl/al_ip/video_buf.v(14)
+HDL-1007 : elaborate module EF2_LOGIC_BRAM(DATA_WIDTH_A=32,DATA_WIDTH_B=32,ADDR_WIDTH_A=11,ADDR_WIDTH_B=11,DATA_DEPTH_A=2048,DATA_DEPTH_B=2048,MODE="PDPW") in C:/Anlogic/TD4.6.3/arch/ef2_macro.v(2844)
+HDL-1007 : elaborate module mipi_driver_gen(VBP=6,VFP=30) in ../../source_code/rtl/mipi_driver_gen.v(2)
+HDL-1200 : Current top model is mipi_driver_tp
+HDL-1100 : Inferred 0 RAMs.
+GUI-5001 WARNING: Found no ADC files
+RUN-1002 : start command "optimize_rtl"
+RUN-1001 : Open license file C:/Anlogic/TD4.6.3/license/Anlogic.lic
+SYN-1012 : SanityCheck: Model "mipi_driver_tp"
+SYN-1012 : SanityCheck: Model "mipi_driver_gen(VBP=6,VFP=30)"
+SYN-1012 : SanityCheck: Model "video_buf"
+SYN-5015 WARNING: Found latch in "mipi_driver_gen(VBP=6,VFP=30)", name: "reg5_b0", d: "n69[0]", q: "nstate[0]" // ../../source_code/rtl/mipi_driver_gen.v(698)
+SYN-5015 WARNING: Found latch in "mipi_driver_gen(VBP=6,VFP=30)", name: "reg5_b1", d: "n69[1]", q: "nstate[1]" // ../../source_code/rtl/mipi_driver_gen.v(698)
+SYN-5015 WARNING: Found latch in "mipi_driver_gen(VBP=6,VFP=30)", name: "reg5_b2", d: "n69[2]", q: "nstate[2]" // ../../source_code/rtl/mipi_driver_gen.v(698)
+SYN-5015 WARNING: Found latch in "mipi_driver_gen(VBP=6,VFP=30)", name: "reg5_b3", d: "n69[3]", q: "nstate[3]" // ../../source_code/rtl/mipi_driver_gen.v(698)
+SYN-5015 WARNING: Found latch in "mipi_driver_gen(VBP=6,VFP=30)", name: "reg5_b4", d: "n69[4]", q: "nstate[4]" // ../../source_code/rtl/mipi_driver_gen.v(698)
+SYN-1011 : Flatten model mipi_driver_tp
+SYN-1011 : Flatten model mipi_driver_gen(VBP=6,VFP=30)
+SYN-1011 : Flatten model video_buf
+SYN-1016 : Merged 3 instances.
+SYN-1014 : Optimize round 1
+SYN-1032 : 484/39 useful/useless nets, 354/0 useful/useless insts
+SYN-1019 : Optimized 0 mux instances.
+SYN-1020 : Optimized 21 distributor mux.
+SYN-1016 : Merged 57 instances.
+SYN-1015 : Optimize round 1, 101 better
+SYN-1014 : Optimize round 2
+SYN-1032 : 432/57 useful/useless nets, 302/31 useful/useless insts
+SYN-1019 : Optimized 0 mux instances.
+SYN-1015 : Optimize round 2, 41 better
+SYN-1014 : Optimize round 3
+SYN-1032 : 432/0 useful/useless nets, 302/0 useful/useless insts
+SYN-1019 : Optimized 0 mux instances.
+SYN-1015 : Optimize round 3, 0 better
+RUN-1002 : start command "report_area -file RGB_to_MIPI_video_mode_rtl.area"
+RUN-1001 : standard
+***Report Model: mipi_driver_tp***
+
+IO Statistics
+#IO                    74
+  #input               39
+  #output              35
+  #inout                0
+
+Gate Statistics
+#Basic gates          174
+  #and                 14
+  #nand                 0
+  #or                   4
+  #nor                  0
+  #xor                  0
+  #xnor                 0
+  #buf                  0
+  #not                 16
+  #bufif1               0
+  #MX21                13
+  #FADD                 0
+  #DFF                122
+  #LATCH                5
+#MACRO_ADD             13
+#MACRO_EQ              14
+#MACRO_MUX             97
+
+RUN-1001 : 
+Report Hierarchy Area:
++-------------------------------------------------+
+|Instance |Module         |gates  |seq    |macros |
++-------------------------------------------------+
+|top      |mipi_driver_tp |47     |127    |28     |
++-------------------------------------------------+
+
+RUN-1002 : start command "export_db RGB_to_MIPI_video_mode_rtl.db"
+RUN-1001 : Exported /
+RUN-1001 : Exported libs
+RUN-1001 : Exported entities
+RUN-1001 : Exported ports
+RUN-1001 : Exported pins
+RUN-1001 : Exported instances
+RUN-1001 : Exported nets
+RUN-1001 : Exported buses
+RUN-1001 : Exported models
+RUN-1001 : Exported congestions
+RUN-1001 : Exported violations
+RUN-1001 : Exported IO constraints
+RUN-1001 : Exported Inst constraints
+RUN-1001 : Exported flow parameters
+RUN-1002 : start command "optimize_gate -packarea RGB_to_MIPI_video_mode_gate.area"
+RUN-1001 : Open license file C:/Anlogic/TD4.6.3/license/Anlogic.lic
+SYN-8001 ERROR: Cannot fit all model pins.
