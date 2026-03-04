@@ -1,4 +1,15 @@
 
+
+
+
+
+
+
+
+
+
+## EF2 
+
 set_pin_assignment	{ I_mipi_clk_lane_p      }	{ LOCATION = A5; IOSTANDARD = LVDS25;}
 set_pin_assignment	{ IO_mipi_data_lane_p[0] }	{ LOCATION = A3; }
 set_pin_assignment	{ IO_mipi_data_lane_n[0] }	{ LOCATION = B4; }
@@ -8,6 +19,11 @@ set_pin_assignment	{ IO_mipi_data_lane_p[2] }	{ LOCATION = C8; }
 set_pin_assignment	{ IO_mipi_data_lane_n[2] }	{ LOCATION = A8; }
 set_pin_assignment	{ IO_mipi_data_lane_p[3] }	{ LOCATION = A9; }
 set_pin_assignment	{ IO_mipi_data_lane_n[3] }	{ LOCATION = C9; }
+
+
+
+
+
 
 set_pin_assignment	{ I_rst_n }	                { LOCATION = N6; IOSTANDARD = LVCMOS33; }
 set_pin_assignment	{ I_sys_clk }	            { LOCATION = J1; IOSTANDARD = LVCMOS33; }

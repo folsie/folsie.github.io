@@ -1,12 +1,29 @@
-
-
 module design_top_wrapper (
+
+
+
 	input wire      I_sys_clk,
 	input wire      I_rst_n,
+
+
+
+
+
+
 
     input wire      I_mipi_clk_lane_p,  
     inout wire[3:0] IO_mipi_data_lane_p,
     inout wire[3:0] IO_mipi_data_lane_n,
+
+
+
+
+
+
+
+
+
+
 
     output wire     O_test
 );
