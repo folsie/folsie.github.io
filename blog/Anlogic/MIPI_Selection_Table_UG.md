@@ -32,6 +32,9 @@ toc-location: left
       - [移植注意事项](#移植注意事项)
     - [MIPI IO](#mipi-io)
     - [MIPI LVDS电阻网络](#mipi-lvds电阻网络)
+      - [时钟树设置](#时钟树设置-1)
+      - [接口和引脚设置](#接口和引脚设置-1)
+      - [移植注意事项](#移植注意事项-1)
 - [技术支持](#技术支持)
 
 <!-- /TOC -->
@@ -294,7 +297,26 @@ toc-location: left
 
 ### MIPI LVDS电阻网络 
 
-- 待更新
+####  时钟树设置 
+
+
+####  接口和引脚设置
+
+- 电阻网络搭建MIPI传输电平
+	- MIPI的 时钟 以LVDS信号传输
+	- MIPI的 数据 以LVDS 和 LVCMOS 并连传输，硬件连接 参考上图各种适配方案
+	- LVDS的接口只需设置P端，LVCMOS的接口PN端都得设置 一对MIPI得占用4个管脚
+	
+	
+    - ![](../../pic/MIPI/MIPI_LVDS引脚设置.png)
+
+
+#### 移植注意事项
+
+- LVDS和LVCMOS属于不同bank，注意TX和RX支持不同的电压
+
+
+
 
 
 
