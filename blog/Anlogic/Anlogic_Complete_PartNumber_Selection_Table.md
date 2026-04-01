@@ -74,36 +74,36 @@ toc-location: left
 
 | Family     | Sub-Family         | Device                | 温度等级|备注	| 					
 |------------|--------------------|-----------------------|---------|---------------------------------------------|                     
-| EF2        |L15		| EF2L15LG100B    			| industry		|    带4Mb_Flash                                     |
-| EF2        |L15		| EF2L15LG144B    			| industry		|    带4Mb_Flash                                     |          
-| EF2        |L15		| EF2L15BG256B    			| industry		|    带4Mb_Flash                                     |          
-| EF2        |L15		| EF2L15BG256     			| industry		|    带4Mb_Flash                                     |     
-| EF2        |L25		| EF2L25BG256B    			| industry		|    带4Mb_Flash                                     |          
-| EF2        |L25		| EF2L25AG42P     			| Commercial	|	 带4Mb_Flash<br>支持的温度范围为：-10～85℃。	 |
-| EF2        |L45		| EF2L45LG144B     			| industry		|    带4Mb_Flash                                     |
-| EF2        |L45		| EF2L45LG144I7    			| industry		|    带4Mb_Flash                                     |
-| EF2        |L45		| EF2L45BG256B     			| industry		|    带4Mb_Flash                                     |
-| EF2        |L45		| EF2L45UG132B        		| industry		|    带4Mb_Flash                                     |
-| EF2        |L45		| EF2L45VG81P        		| Commercial	|    带4Mb_Flash                                     |
-| EF2        |M45		| EF2M45LG48B	        	| industry		|    带4Mb_Flash  ,  M3_MCU , 2x4Mx8bit_PSRAM                       |
-| EF2        |M45		| EF2M45LG100B	 			| industry		|    带4Mb_Flash  ,  M3_MCU , 2x4Mx8bit_PSRAM                       |
-| EF2        |M45		| EF2M45LG144B	 			| industry		|    带4Mb_Flash  ,  M3_MCU , 2x4Mx8bit_PSRAM                       |
-| EF2        |M45		| EF2M45VG81C	 			| Commercial	|    带4Mb_Flash  ,  M3_MCU , 2x4Mx8bit_PSRAM                                          		 |
-| EF2        |S45		| EF2S45VG81C	 			| Commercial	|    带4Mb_Flash  ,   2x4Mx8bit_PSRAM                                          		 |
-| EF2        |S45		| EF2S45VG81F	 			| Commercial	|    带4Mb_Flash  ,   2x4Mx8bit_PSRAM                                         		 |
-| EF3        |L15		| EF3L15CG256B  			| industry		|    带4Mb_Flash                                       		 |
-| EF3        |L25		| EF3L25CG256B  			| industry		|    带4Mb_Flash                                      		     |                             
-| EF3        |L45		| EF3L45CG256B  			| industry		|    带4Mb_Flash                              		             |
-| EF3        |L45		| EF3L45CG256BH 			| industry		|    带4Mb_Flash                              		             |
-| EF3        |L40		| EF3L40CG324B  			| industry		|    带8Mb_Flash                                       		 |
-| EF3        |L40		| EF3L40CG332B  			| industry		|    带8Mb_Flash                                       		 |
-| EF3        |L50		| EF3L50CG256B  			| industry		|    带8Mb_Flash  ,    无DSP                                 		 |
-| EF3        |L70		| EF3L70CG256B  			| industry		|    带8Mb_Flash  ,    无DSP                                 		 |
-| EF3        |L90		| EF3L90CG400B  			| industry		|    带8Mb_Flash                                        		 |
-| EF3        |L90		| EF3L90CG324B  			| industry		|    带8Mb_Flash                                        		 |
-| EF3        |LA0		| EF3LA0CG484B  			| industry		|    带8Mb_Flash  ,    无DSP                                 		 |
-| EF3        |LA0		| EF3LA0CG642B  			| industry		|    带8Mb_Flash  ,    无DSP                                 		 |
-| EF4        |L90		| EF4L90CG324A     			| Automotive	|	 带8Mb_Flash                                       		 |
+| EF2        |L15		| [EF2L15LG100B	]    			| industry		|    带4Mb_Flash                                 	|
+| EF2        |L15		| [EF2L15LG144B	]    			| industry		|    带4Mb_Flash                                 	|          
+| EF2        |L15		| [EF2L15BG256B	]    			| industry		|    带4Mb_Flash                                 	|          
+| EF2        |L15		| [EF2L15BG256 	]    			| industry		|    带4Mb_Flash                                 	|     
+| EF2        |L25		| [EF2L25BG256B	]    			| industry		|    带4Mb_Flash                                 	|          
+| EF2        |L25		| [EF2L25AG42P 	]    			| Commercial	|	 带4Mb_Flash <br> 支持的温度范围为：-10～85℃.	|
+| EF2        |L45		| [EF2L45LG144B	]	   			| industry		|    带4Mb_Flash                                	|
+| EF2        |L45		| [EF2L45LG144I7]    			| industry		|    带4Mb_Flash                                	|
+| EF2        |L45		| [EF2L45BG256B ]    			| industry		|    带4Mb_Flash                                	|
+| EF2        |L45		| [EF2L45UG132B ]	    		| industry		|    带4Mb_Flash                                	|
+| EF2        |L45		| [EF2L45VG81P  ]      		| Commercial	|    带4Mb_Flash                                	|
+| EF2        |M45		| [EF2M45LG48B	]	  	| industry		|    带4Mb_Flash  ,  M3_MCU , 2x4Mx8bit_PSRAM		|
+| EF2        |M45		| [EF2M45LG100B	] 			| industry		|    带4Mb_Flash  ,  M3_MCU , 2x4Mx8bit_PSRAM		|
+| EF2        |M45		| [EF2M45LG144B	] 			| industry		|    带4Mb_Flash  ,  M3_MCU , 2x4Mx8bit_PSRAM		|
+| EF2        |M45		| [EF2M45VG81C	]		| Commercial	|    带4Mb_Flash  ,  M3_MCU , 2x4Mx8bit_PSRAM		|
+| EF2        |S45		| [EF2S45VG81C	]		| Commercial	|    带4Mb_Flash  ,   2x4Mx8bit_PSRAM        		|
+| EF2        |S45		| [EF2S45VG81F	]		| Commercial	|    带4Mb_Flash  ,   2x4Mx8bit_PSRAM        		|
+| EF3        |L15		| [EF3L15CG256B ]		| industry		|    带4Mb_Flash                             		|
+| EF3        |L25		| [EF3L25CG256B ]		| industry		|    带4Mb_Flash                             		|
+| EF3        |L45		| [EF3L45CG256B ]		| industry		|    带4Mb_Flash                             		|
+| EF3        |L45		| [EF3L45CG256BH]		| industry		|    带4Mb_Flash                             		|
+| EF3        |L40		| [EF3L40CG324B ]		| industry		|    带8Mb_Flash                             		|
+| EF3        |L40		| [EF3L40CG332B ]		| industry		|    带8Mb_Flash                             		|
+| EF3        |L50		| [EF3L50CG256B ]		| industry		|    带8Mb_Flash  ,    无DSP                 		|
+| EF3        |L70		| [EF3L70CG256B ]		| industry		|    带8Mb_Flash  ,    无DSP                 		|
+| EF3        |L90		| [EF3L90CG400B ]		| industry		|    带8Mb_Flash                             		|
+| EF3        |L90		| [EF3L90CG324B ]		| industry		|    带8Mb_Flash                             		|
+| EF3        |LA0		| [EF3LA0CG484B ]		| industry		|    带8Mb_Flash  ,    无DSP                 		|
+| EF3        |LA0		| [EF3LA0CG642B ]		| industry		|    带8Mb_Flash  ,    无DSP                 		|
+| EF4        |L90		| [EF4L90CG324A ] 			| Automotive	|	 带8Mb_Flash                             		|
 
 
 ### SF1 系列 55nm

@@ -70,7 +70,8 @@ toc-location: left
 - [TCL下载脚本使用指南](./Anlogic/TCL_DOWNLOAD_UG.html)  
 - [Flash选型指南](./Anlogic/Flash_Selection_UG.html)  
 - [MIPI选型指南](./Anlogic/MIPI_Selection_Table_UG.html)  
-- 应用笔记
+- [下载器选择](./Anlogic/Anlogic_DownCable_UG.html) 
+- [PTP方案引脚对比](./Anlogic/Anlogic_PTP_LIST.html) 
 - 参考设计
 
 ## 👥 社区互动

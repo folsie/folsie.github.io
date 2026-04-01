@@ -1,0 +1,329 @@
+Device/package EF3L40CG324B   datasheet:DS600_ELF3_Datasheet_V1.6_CN
+
+pin      name                             bank    type                part     location
+A3       IO_L1P_0                          0      Bidirectional         1        Left
+B4       IO_L1N_0                          0      Bidirectional         1        Left
+C3       IO_L3P_0                          0      Bidirectional         1        Left
+C4       IO_L3N_0                          0      Bidirectional         1        Left
+A2       IO_L5P_0                          0      Bidirectional         1        Left
+B3       IO_L5N_0                          0      Bidirectional         1        Left
+A4       IO_L7P_0                          0      Bidirectional         1        Left
+A5       IO_L7N_0                          0      Bidirectional         1        Left
+B6       IO_L9P_0                          0      Bidirectional         1        Left
+A6       IO_L9N_0                          0      Bidirectional         1        Left
+A7       IO_L11P_0                         0      Bidirectional         1        Left
+B7       IO_L11N_0                         0      Bidirectional         1        Left
+B8       IO_L13P_0                         0      Bidirectional         1        Left
+A8       IO_L13N_0                         0      Bidirectional         1        Left
+A10      IO_L17P_0                         0      Bidirectional         1        Left
+B10      IO_L17N_0                         0      Bidirectional         1        Left
+A9       IO_L18P_0,GCLKIOL_0               0      Bidirectional         1        Left
+B9       IO_L18N_0,GCLKIOL_1               0      Bidirectional         1        Left
+A11      IO_L20P_0                         0      Bidirectional         1        Left
+A12      IO_L20N_0                         0      Bidirectional         1        Left
+C10      IO_L22P_0                         0      Bidirectional         1        Left
+B11      IO_L22N_0                         0      Bidirectional         1        Left
+B12      IO_L24P_0                         0      Bidirectional         1        Left
+C11      IO_L24N_0                         0      Bidirectional         1        Left
+A13      IO_L26P_0                         0      Bidirectional         1        Left
+A14      IO_L26N_0                         0      Bidirectional         1        Left
+C12      IO_L27P_0                         0      Bidirectional         1        Left
+B13      IO_L27N_0                         0      Bidirectional         1        Left
+A15      IO_L29P_0                         0      Bidirectional         1        Left
+A16      IO_L29N_0                         0      Bidirectional         1        Left
+B16      IO_L32P_0                         0      Bidirectional         1        Left
+A17      IO_L32N_0                         0      Bidirectional         1        Left
+B14      IO_L33P_0                         0      Bidirectional         1        Left
+B15      IO_L33N_0                         0      Bidirectional         1        Left
+C14      IO_L35P_0                         0      Bidirectional         1        Left
+C15      IO_L35N_0                         0      Bidirectional         1        Left
+D5       IO_LE2P_0,GPLL0_OUTP              0      Bidirectional         1       Right
+B5       IO_LE2N_0,GPLL0_OUTP              0      Bidirectional         1       Right
+D4       IO_LE4P_0                         0      Bidirectional         1       Right
+E5       IO_LE4N_0                         0      Bidirectional         1       Right
+F7       IO_LE6P_0                         0      Bidirectional         1       Right
+E6       IO_LE6N_0                         0      Bidirectional         1       Right
+C5       IO_LE8P_0                         0      Bidirectional         1       Right
+D6       IO_LE8N_0                         0      Bidirectional         1       Right
+C9       IO_LE10P_0                        0      Bidirectional         1       Right
+D9       IO_LE10N_0                        0      Bidirectional         1       Right
+E8       IO_LE14P_0                        0      Bidirectional         1       Right
+F8       IO_LE14N_0                        0      Bidirectional         1       Right
+D8       IO_LE15P_0                        0      Bidirectional         1       Right
+E7       IO_LE15N_0                        0      Bidirectional         1       Right
+F9       IO_LE19P_0                        0      Bidirectional         1       Right
+F10      IO_LE19N_0                        0      Bidirectional         1       Right
+E9       IO_LE21P_0,GCLKIOL_2              0      Bidirectional         1       Right
+D10      IO_LE21N_0,GCLKIOL_3              0      Bidirectional         1       Right
+E10      IO_LE23P_0                        0      Bidirectional         1       Right
+E11      IO_LE23N_0                        0      Bidirectional         1       Right
+E12      IO_LE28P_0                        0      Bidirectional         1       Right
+F12      IO_LE28N_0                        0      Bidirectional         1       Right
+D14      IO_LE30P_0                        0      Bidirectional         1       Right
+D15      IO_LE30N_0                        0      Bidirectional         1       Right
+F11      IO_LE31P_0                        0      Bidirectional         1       Right
+C13      IO_LE31N_0                        0      Bidirectional         1       Right
+D13      IO_LE34P_0,GPLL1_OUTP             0      Bidirectional         1       Right
+E13      IO_LE34N_0,GPLL1_OUTN             0      Bidirectional         1       Right
+D11      IO_LE25P_0,JTAGEN                 0      Bidirectional         1       Right
+C16      IO_LE36P_0,INITN                  0      Bidirectional         1       Right
+D12      IO_LE25N_0,PROGRAMN               0      Bidirectional         1       Right
+E14      IO_LE36N_0,DONE                   0      Bidirectional         1       Right
+C7       IO_LE16P_0,TCK                    0      Bidirectional         1       Right
+D7       IO_LE12P_0,TDO                    0      Bidirectional         1       Right
+C8       IO_LE16N_0,TMS                    0      Bidirectional         1       Right
+C6       IO_LE12N_0,TDI                    0      Bidirectional         1       Right
+B18      IO_TE1P_1,GPLL1IP_FDB             1      Bidirectional         2        Left
+C17      IO_TE1N_1,GPLL1IN_FDB             1      Bidirectional         2        Left
+F14      IO_TE2P_1                         1      Bidirectional         2        Left
+D16      IO_TE2N_1                         1      Bidirectional         2        Left
+E15      IO_TE3P_1,GPLL1IP_REF             1      Bidirectional         2        Left
+C18      IO_TE3N_1,GPLL1IN_REF             1      Bidirectional         2        Left
+F15      IO_TE4P_1                         1      Bidirectional         2        Left
+D17      IO_TE4N_1                         1      Bidirectional         2        Left
+G13      IO_TE5P_1                         1      Bidirectional         2        Left
+G14      IO_TE5N_1                         1      Bidirectional         2        Left
+H14      IO_TE6P_1                         1      Bidirectional         2        Left
+F17      IO_TE6N_1                         1      Bidirectional         2        Left
+E17      IO_TE7P_1                         1      Bidirectional         2        Left
+D18      IO_TE7N_1                         1      Bidirectional         2        Left
+G15      IO_TE8P_1                         1      Bidirectional         2        Left
+F16      IO_TE8N_1                         1      Bidirectional         2        Left
+J14      IO_TE9P_1                         1      Bidirectional         2        Left
+J12      IO_TE9N_1                         1      Bidirectional         2        Left
+E18      IO_TE10P_1                        1      Bidirectional         2        Left
+G17      IO_TE10N_1                        1      Bidirectional         2        Left
+E16      IO_TE11P_1                        1      Bidirectional         2        Left
+H13      IO_TE11N_1                        1      Bidirectional         2        Left
+G16      IO_TE12P_1                        1      Bidirectional         2        Left
+H15      IO_TE12N_1                        1      Bidirectional         2        Left
+H16      IO_TE13P_1                        1      Bidirectional         2        Left
+F18      IO_TE13N_1                        1      Bidirectional         2        Left
+J13      IO_TE14P_1                        1      Bidirectional         2        Left
+G18      IO_TE14N_1                        1      Bidirectional         2        Left
+J15      IO_TE15P_1                        1      Bidirectional         2        Left
+H17      IO_TE15N_1                        1      Bidirectional         2        Left
+J16      IO_TE16P_1                        1      Bidirectional         2        Left
+J17      IO_TE16N_1                        1      Bidirectional         2        Left
+K18      IO_TE17P_1                        1      Bidirectional         2        Left
+L16      IO_TE17N_1                        1      Bidirectional         2        Left
+H18      IO_TE18P_1,GCLKIOT_0              1      Bidirectional         2       Right
+K15      IO_TE18N_1,GCLKIOT_1              1      Bidirectional         2       Right
+K12      IO_TE19P_1                        1      Bidirectional         2       Right
+K13      IO_TE19N_1                        1      Bidirectional         2       Right
+K16      IO_TE20P_1,GCLKIOT_2              1      Bidirectional         2       Right
+K17      IO_TE20N_1,GCLKIOT_3              1      Bidirectional         2       Right
+L18      IO_TE21P_1,CSON,DOUT              1      Bidirectional         2       Right
+M18      IO_TE21N_1                        1      Bidirectional         2       Right
+K14      IO_TE22P_1,D6                     1      Bidirectional         2       Right
+J18      IO_TE22N_1,D7                     1      Bidirectional         2       Right
+M17      IO_TE23P_1                        1      Bidirectional         2       Right
+N18      IO_TE23N_1                        1      Bidirectional         2       Right
+L17      IO_TE24P_1,D4                     1      Bidirectional         2       Right
+M16      IO_TE24N_1,D5                     1      Bidirectional         2       Right
+M15      IO_TE25P_1                        1      Bidirectional         2       Right
+P18      IO_TE25N_1,USRCLK                 1      Bidirectional         2       Right
+L15      IO_TE26P_1,CSN                    1      Bidirectional         2       Right
+L13      IO_TE26N_1                        1      Bidirectional         2       Right
+P17      IO_TE27P_1,SCLK                   1      Bidirectional         2       Right
+N15      IO_TE27N_1                        1      Bidirectional         2       Right
+L14      IO_TE28P_1,D2                     1      Bidirectional         2       Right
+N17      IO_TE28N_1,D3                     1      Bidirectional         2       Right
+M14      IO_TE29P_1,D0                     1      Bidirectional         2       Right
+N16      IO_TE29N_1,D1                     1      Bidirectional         2       Right
+P16      IO_TE30P_1                        1      Bidirectional         2       Right
+T18      IO_TE30N_1                        1      Bidirectional         2       Right
+R18      IO_TE31P_1                        1      Bidirectional         2       Right
+M13      IO_TE31N_1                        1      Bidirectional         2       Right
+R17      IO_TE32P_1                        1      Bidirectional         2       Right
+N14      IO_TE32N_1                        1      Bidirectional         2       Right
+R16      IO_TE33P_1                        1      Bidirectional         2       Right
+T17      IO_TE33N_1                        1      Bidirectional         2       Right
+P15      IO_TE34P_1                        1      Bidirectional         2       Right
+U18      IO_TE34N_1                        1      Bidirectional         2       Right
+U16      IO_R1P_2                          2      Bidirectional         3        Left
+V17      IO_R1N_2                          2      Bidirectional         3        Left
+T15      IO_R3P_2                          2      Bidirectional         3        Left
+T16      IO_R3N_2                          2      Bidirectional         3        Left
+P14      IO_R5P_2                          2      Bidirectional         3        Left
+U15      IO_R5N_2                          2      Bidirectional         3        Left
+R15      IO_R7P_2                          2      Bidirectional         3        Left
+T14      IO_R7N_2                          2      Bidirectional         3        Left
+R14      IO_R9P_2                          2      Bidirectional         3        Left
+U13      IO_R9N_2                          2      Bidirectional         3        Left
+T12      IO_R12P_2                         2      Bidirectional         3        Left
+N11      IO_R12N_2                         2      Bidirectional         3        Left
+T11      IO_R14P_2                         2      Bidirectional         3        Left
+U14      IO_R14N_2                         2      Bidirectional         3        Left
+V13      IO_R16P_2                         2      Bidirectional         3        Left
+V11      IO_R16N_2                         2      Bidirectional         3        Left
+R10      IO_R18P_2                         2      Bidirectional         3        Left
+V10      IO_R18N_2                         2      Bidirectional         3        Left
+U9       IO_R20P_2                         2      Bidirectional         3        Left
+T8       IO_R20N_2                         2      Bidirectional         3        Left
+U10      IO_R22P_2                         2      Bidirectional         3        Left
+N9       IO_R22N_2                         2      Bidirectional         3        Left
+U8       IO_R25P_2                         2      Bidirectional         3        Left
+V5       IO_R25N_2                         2      Bidirectional         3        Left
+R8       IO_R27P_2                         2      Bidirectional         3        Left
+V3       IO_R27N_2                         2      Bidirectional         3        Left
+P8       IO_R29P_2                         2      Bidirectional         3        Left
+T5       IO_R29N_2                         2      Bidirectional         3        Left
+U6       IO_R31P_2                         2      Bidirectional         3        Left
+T3       IO_R31N_2                         2      Bidirectional         3        Left
+R7       IO_R33P_2                         2      Bidirectional         3        Left
+V2       IO_R33N_2                         2      Bidirectional         3        Left
+R6       IO_R35P_2                         2      Bidirectional         3        Left
+R5       IO_R35N_2                         2      Bidirectional         3        Left
+T4       IO_RE36N_2                        2      Bidirectional         3        Left
+R4       IO_RE36P_2                        2      Bidirectional         3        Left
+P13      IO_RE4N_2                         2      Bidirectional         3       Right
+M2       IO_RE4P_2                         2      Bidirectional         3       Right
+V16      IO_RE6P_2                         2      Bidirectional         3       Right
+R13      IO_RE6N_2                         2      Bidirectional         3       Right
+N12      IO_RE8P_2                         2      Bidirectional         3       Right
+P12      IO_RE8N_2                         2      Bidirectional         3       Right
+V14      IO_RE10P_2                        2      Bidirectional         3       Right
+R12      IO_RE10N_2                        2      Bidirectional         3       Right
+T13      IO_RE11P_2                        2      Bidirectional         3       Right
+P11      IO_RE11N_2                        2      Bidirectional         3       Right
+R11      IO_RE13P_2                        2      Bidirectional         3       Right
+P10      IO_RE13N_2                        2      Bidirectional         3       Right
+V15      IO_RE15P_2                        2      Bidirectional         3       Right
+U12      IO_RE15N_2                        2      Bidirectional         3       Right
+V12      IO_RE17P_2,GCLKIOR_2              2      Bidirectional         3       Right
+T10      IO_RE17N_2,GCLKIOR_3              2      Bidirectional         3       Right
+U11      IO_RE19P_2,GCLKIOR_0              2      Bidirectional         3       Right
+V8       IO_RE19N_2,GCLKIOR_1              2      Bidirectional         3       Right
+T9       IO_RE21P_2                        2      Bidirectional         3       Right
+V9       IO_RE21N_2                        2      Bidirectional         3       Right
+N10      IO_RE23P_2                        2      Bidirectional         3       Right
+R9       IO_RE23N_2                        2      Bidirectional         3       Right
+P9       IO_RE24P_2                        2      Bidirectional         3       Right
+V7       IO_RE24N_2                        2      Bidirectional         3       Right
+V6       IO_RE26P_2                        2      Bidirectional         3       Right
+U7       IO_RE26N_2                        2      Bidirectional         3       Right
+V4       IO_RE28P_2                        2      Bidirectional         3       Right
+T7       IO_RE28N_2                        2      Bidirectional         3       Right
+U5       IO_RE30P_2                        2      Bidirectional         3       Right
+T6       IO_RE30N_2                        2      Bidirectional         3       Right
+U4       IO_RE32P_2                        2      Bidirectional         3       Right
+N8       IO_RE32N_2                        2      Bidirectional         3       Right
+U3       IO_RE34P_2                        2      Bidirectional         3       Right
+P5       IO_RE34N_2                        2      Bidirectional         3       Right
+M6       IO_RE2P_2                         2      Bidirectional         3       Right
+L4       IO_RE2N_2                         2      Bidirectional         3       Right
+P6       IO_BE1P_3                         3      Bidirectional         4        Left
+N7       IO_BE1N_3                         3      Bidirectional         4        Left
+P7       IO_BE2P_3                         3      Bidirectional         4        Left
+M5       IO_BE2N_3                         3      Bidirectional         4        Left
+N3       IO_BE3P_3                         3      Bidirectional         4        Left
+P4       IO_BE3N_3                         3      Bidirectional         4        Left
+R3       IO_BE4P_3                         3      Bidirectional         4        Left
+R1       IO_BE4N_3                         3      Bidirectional         4        Left
+P3       IO_BE5P_3                         3      Bidirectional         4        Left
+N1       IO_BE5N_3                         3      Bidirectional         4        Left
+N2       IO_BE6P_3,GCLKIOB_0               3      Bidirectional         4        Left
+M1       IO_BE6N_3,GCLKIOB_1               3      Bidirectional         4        Left
+L6       IO_BE7P_3                         3      Bidirectional         4        Left
+P1       IO_BE7N_3                         3      Bidirectional         4        Left
+M4       IO_BE8P_3                         3      Bidirectional         4        Left
+M3       IO_BE8N_3                         3      Bidirectional         4        Left
+L5       IO_BE9P_3                         3      Bidirectional         4        Left
+N4       IO_BE9N_3                         3      Bidirectional         4        Left
+T1       IO_BE10P_3                        3      Bidirectional         4        Left
+R2       IO_BE10N_3                        3      Bidirectional         4        Left
+U1       IO_BE11P_3                        3      Bidirectional         4        Left
+T2       IO_BE11N_3                        3      Bidirectional         4        Left
+N5       IO_BE12P_3                        3      Bidirectional         4        Left
+P2       IO_BE12N_3                        3      Bidirectional         4        Left
+K6       IO_BE1P_4                         3      Bidirectional         4        Left
+L3       IO_BE1N_4                         4      Bidirectional         4        Left
+K1       IO_BE2P_4                         4      Bidirectional         4        Left
+L1       IO_BE2N_4                         4      Bidirectional         4        Left
+K7       IO_BE3P_4                         4      Bidirectional         4        Left
+K5       IO_BE3N_4                         4      Bidirectional         4        Left
+K4       IO_BE4P_4                         4      Bidirectional         4        Left
+L2       IO_BE4N_4                         4      Bidirectional         4        Left
+H6       IO_BE1P_5                         5      Bidirectional         4       Right
+J1       IO_BE1N_5                         5      Bidirectional         4       Right
+H2       IO_BE2P_5                         5      Bidirectional         4       Right
+H1       IO_BE2N_5                         5      Bidirectional         4       Right
+F1       IO_BE3P_5                         5      Bidirectional         4       Right
+G6       IO_BE3N_5                         5      Bidirectional         4       Right
+E2       IO_BE4P_5                         5      Bidirectional         4       Right
+E1       IO_BE4N_5                         5      Bidirectional         4       Right
+G2       IO_BE5P_5                         5      Bidirectional         4       Right
+G1       IO_BE5N_5                         5      Bidirectional         4       Right
+H3       IO_BE6P_5                         5      Bidirectional         4       Right
+H4       IO_BE6N_5                         5      Bidirectional         4       Right
+F2       IO_BE7P_5                         5      Bidirectional         4       Right
+H5       IO_BE7N_5                         5      Bidirectional         4       Right
+G4       IO_BE8P_5,GCLKIOB_4               5      Bidirectional         4       Right
+G3       IO_BE8N_5,GCLKIOB_5               5      Bidirectional         4       Right
+F3       IO_BE9P_5                         5      Bidirectional         4       Right
+D1       IO_BE9N_5                         5      Bidirectional         4       Right
+D2       IO_BE10P_5,GPLL0IP_REF            5      Bidirectional         4       Right
+G5       IO_BE10N_5,GPLL0IN_REF            5      Bidirectional         4       Right
+E3       IO_BE11P_5                        5      Bidirectional         4       Right
+F5       IO_BE11N_5                        5      Bidirectional         4       Right
+E4       IO_BE12P_5,GPLL0IP_FDB            5      Bidirectional         4       Right
+F4       IO_BE12N_5,GPLL0IN_FDB            5      Bidirectional         4       Right
+B1       IO_BE13P_5                        5      Bidirectional         4       Right
+C2       IO_BE13N_5                        5      Bidirectional         4       Right
+D3       IO_BE14P_5                        5      Bidirectional         4       Right
+C1       IO_BE14N_5                        5      Bidirectional         4       Right
+K2       IO_BE8P_4,GCLKIOB_2               4      Bidirectional         4       Right
+J6       IO_BE8N_4,GCLKIOB_3               4      Bidirectional         4       Right
+J2       IO_BE7P_4                         4      Bidirectional         4       Right
+J5       IO_BE7N_4                         4      Bidirectional         4       Right
+J4       IO_BE6P_4                         4      Bidirectional         4       Right
+K3       IO_BE6N_4                         4      Bidirectional         4       Right
+J3       IO_BE5P_4                         4      Bidirectional         4       Right
+J7       IO_BE5N_4                         4      Bidirectional         4       Right
+G8       VCCIO1_0                                 Power                 5        Left
+G9       VCCIO2_0                                 Power                 5        Left
+G10      VCCIO3_0                                 Power                 5        Left
+G11      VCCIO4_0                                 Power                 5        Left
+H12      VCCIO1_1                                 Power                 5        Left
+J11      VCCIO2_1                                 Power                 5        Left
+K11      VCCIO3_1                                 Power                 5        Left
+L12      VCCIO4_1                                 Power                 5        Left
+M8       VCCIO1_2                                 Power                 5        Left
+M9       VCCIO2_2                                 Power                 5        Left
+M10      VCCIO3_2                                 Power                 5        Left
+M11      VCCIO4_2                                 Power                 5        Left
+L7       VCCIO1_3                                 Power                 5        Left
+M7       VCCIO2_3                                 Power                 5        Left
+J8       VCCIO1_4                                 Power                 5        Left
+K8       VCCIO2_4                                 Power                 5        Left
+G7       VCCIO1_5                                 Power                 5        Left
+H7       VCCIO2_5                                 Power                 5        Left
+M12      VCCAUX_9                                 Power                 5       Right
+L11      VCCAUX_8                                 Power                 5       Right
+L10      VCCAUX_7                                 Power                 5       Right
+L9       VCCAUX_6                                 Power                 5       Right
+L8       VCCAUX_5                                 Power                 5       Right
+H11      VCCAUX_4                                 Power                 5       Right
+H10      VCCAUX_3                                 Power                 5       Right
+H9       VCCAUX_2                                 Power                 5       Right
+H8       VCCAUX_1                                 Power                 5       Right
+G12      VCCAUX_0                                 Power                 5       Right
+A1       GND0                                     Power                 5       Right
+A18      GND1                                     Power                 5       Right
+B2       GND2                                     Power                 5       Right
+B17      GND3                                     Power                 5       Right
+J9       GND4                                     Power                 5       Right
+J10      GND5                                     Power                 5       Right
+K9       GND6                                     Power                 5       Right
+K10      GND7                                     Power                 5       Right
+N6       GND8                                     Power                 5       Right
+N13      GND9                                     Power                 5       Right
+U2       GND10                                    Power                 5       Right
+U17      GND11                                    Power                 5       Right
+V1       GND12                                    Power                 5       Right
+V18      GND13                                    Power                 5       Right
+F6       GND_PLL0                                 Power                 5       Right
+F13      GND_PLL1                                 Power                 5       Right
+
+Total Number of Pins,324

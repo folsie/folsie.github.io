@@ -1,0 +1,2 @@
+ef2_update_demo_flash_mode.7z：
+flashcache模式下远程升级的方法

@@ -1,0 +1,3 @@
+APUG063_I2C_Slave_Upgrade_FPGA_FLASH_Reference_Design_v1.1：
+1.IIC在线升级模块必须给个复位信号，不能是常量,否则reboot一直是低电平，
+现象是JTAG下载一直失败。
