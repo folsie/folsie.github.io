@@ -6,6 +6,8 @@ layout: default
     <nav class="breadcrumb" aria-label="面包屑导航">
       <a href="{{ '/' | relative_url }}">首页</a>
       <span class="sep">/</span>
+      <a href="{{ site.blog_url | default: '/blog/' | relative_url }}">技术博客</a>
+      <span class="sep">/</span>
       <span>{{ page.title }}</span>
     </nav>
     <h1>{{ page.title }}</h1>

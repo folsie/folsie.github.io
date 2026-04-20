@@ -4,6 +4,8 @@ layout: default
 <div class="container">
   <nav class="breadcrumb" aria-label="面包屑导航">
     <a href="{{ '/' | relative_url }}">首页</a>
+    <span class="sep">/</span>
+    <a href="{{ site.blog_url | default: '/blog/' | relative_url }}">技术博客</a>
     {% if page.column_url %}
     <span class="sep">/</span>
     <a href="{{ page.column_url }}">{{ page.column }}</a>
@@ -32,6 +34,7 @@ layout: default
   </article>
   <nav class="back-nav">
     <a href="{{ '/' | relative_url }}">🏠 返回首页</a>
+    <a href="{{ site.blog_url | default: '/blog/' | relative_url }}">📚 Blog 首页</a>
     {% if page.column_url %}<a href="{{ page.column_url }}">🔙 返回{{ page.column | default: "专栏" }}</a>{% endif %}
   </nav>
 </div>

@@ -1,11 +1,12 @@
 <footer class="site-footer">
   <div class="container">
-    <p>&copy; {{ site.time | date: '%Y' }} {{ site.title }} — {{ site.description }}</p>
+    <p>&copy; {{ site.time | date: '%Y' }} CLDMT 智能计算与系统工程平台</p>
     <p>
       <a href="{{ '/' | relative_url }}">首页</a> ·
-      <a href="{% link blog/Anlogic.md %}">Anlogic</a> ·
-      <a href="{% link blog/Xilinx.md %}">Xilinx</a> ·
-      <a href="https://www.anlogic.com" target="_blank" rel="noopener">安路官网 ↗</a>
+      <a href="{{ site.blog_url | default: '/blog/' | relative_url }}">技术博客</a> ·
+      <a href="{% link blog/Anlogic.md %}">Anlogic 专栏</a> ·
+      <a href="{% link blog/Xilinx.md %}">Xilinx 专栏</a> ·
+      <a href="{% link blog/wtmec.md %}">WTMEC 合作生态</a>
     </p>
   </div>
 </footer>
