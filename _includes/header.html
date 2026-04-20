@@ -3,8 +3,9 @@
     <a href="{{ '/' | relative_url }}" class="site-logo">CLDMT</a>
     <nav class="site-nav">
       <a href="{{ '/' | relative_url }}">首页</a>
+      <a href="{% link core_block/index.md %}">核心业务</a>
       <a href="{{ site.blog_url | default: '/blog/' | relative_url }}">技术博客</a>
-      <a href="{% link blog/wtmec.md %}">合作生态</a>
+      <a href="{% link partners/index.md %}">合作生态</a>
     </nav>
   </div>
 </header>

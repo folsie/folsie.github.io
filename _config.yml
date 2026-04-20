@@ -5,6 +5,8 @@ baseurl: ""
 permalink: pretty
 
 blog_url: "/blog/"
+partners_url: "/partners/"
+core_url: "/core_block/"
 
 markdown: kramdown
 kramdown:
@@ -37,8 +39,16 @@ defaults:
       column: "Xilinx 技术专栏"
       column_url: "/blog/Xilinx/"
   - scope:
-      path: "blog/wtmec/"
+      path: "partners/wtmec/"
     values:
       layout: "article"
       column: "WTMEC 产品方案"
-      column_url: "/blog/wtmec/"
+      column_url: "/partners/wtmec/"
+      section: "partners"
+  - scope:
+      path: "core_block/"
+    values:
+      layout: "article"
+      column: "核心业务"
+      column_url: "/core_block/"
+      section: "core"

@@ -6,7 +6,13 @@ layout: default
     <nav class="breadcrumb" aria-label="面包屑导航">
       <a href="{{ '/' | relative_url }}">首页</a>
       <span class="sep">/</span>
+      {% if page.section == "partners" %}
+      <a href="{{ site.partners_url | default: '/partners/' | relative_url }}">合作生态</a>
+      {% elsif page.section == "core" %}
+      <a href="{{ site.core_url | default: '/core_block/' | relative_url }}">核心业务</a>
+      {% else %}
       <a href="{{ site.blog_url | default: '/blog/' | relative_url }}">技术博客</a>
+      {% endif %}
       <span class="sep">/</span>
       <span>{{ page.title }}</span>
     </nav>

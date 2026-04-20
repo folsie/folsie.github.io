@@ -1,116 +1,96 @@
-# GitHub Pages 页面层级结构说明
+# CLDMT 智能计算与系统工程平台
 
-## 📁 项目结构总览
+> 企业门户网站 — [www.cldmt.com](https://www.cldmt.com)
+
+## 项目结构
 
 ```
 cldmt/
-├── 📄 index.html          # 主站点首页 (Markdown格式)  
-├── 📄 index.md            # 主站点首页 (Markdown格式)  
-├── 📄 README.md           # GitHub仓库说明 + 备用入口
-├── 📄 CNAME               # 自定义域名配置 (www.cldmt.com)
-├── 📁 blog/               # 博客文章主目录
-│   ├── 📄 Anlogic.md      # Anlogic专栏主页
-│   ├── 📄 Xilinx.md       # Xilinx专栏主页
-│   ├── 📁 Anlogic/        # Anlogic技术文章目录
-│   │   ├── 📄 EF2系列硬件设计指导.md    # Anlogic文章1 (Markdown)
-│   │   ├── 📄 EF3系列硬件设计指导.md    # Anlogic文章2 (Markdown)
-│   └── 📁 Xilinx/         # Xilinx技术文章目录
-│       ├── 📄 page3.md    # Xilinx文章1 (Markdown)
-└── 📁 pic/                # 图片资源目录 (如果存在)
+├── index.md                 # 企业门户首页
+├── readme.md                # 本文件 — 仓库说明
+├── CNAME                    # 自定义域名 www.cldmt.com
+├── _config.yml              # Jekyll 配置（站点信息、插件、scope）
+├── _layouts/                # 页面模板
+│   ├── default.html         #   基础 HTML 骨架
+│   ├── home.html            #   首页（Hero + 内容区）
+│   ├── column.html          #   专栏 / 目录页
+│   └── article.html         #   文章详情页
+├── _includes/               # 可复用片段
+│   ├── header.html          #   导航栏（首页 | 核心业务 | 技术博客 | 合作生态）
+│   └── footer.html          #   页脚
+├── assets/css/main.css      # 全站样式（品红光爆主题）
+│
+├── core_block/              # ★ 核心业务
+│   ├── index.md             #   业务总览
+│   ├── ai.md                #   AI 智能计算
+│   ├── robot.md             #   机器人系统集成
+│   └── chip.md              #   芯片与硬件定制
+│
+├── blog/                    # ★ 技术博客
+│   ├── index.md             #   博客首页（Anlogic + Xilinx 入口）
+│   ├── Anlogic.md           #   安路专栏
+│   ├── Xilinx.md            #   赛灵思专栏
+│   ├── Anlogic/             #   安路技术文章（~50 篇）
+│   └── Xilinx/              #   赛灵思技术文章
+│
+├── partners/                # ★ 合作生态
+│   ├── index.md             #   生态总览
+│   └── wtmec/               #   唯特美科合作专区
+│       ├── index.md         #     产品概览
+│       ├── power.md         #     电源管理
+│       ├── industrial.md    #     工业控制
+│       ├── connectivity.md  #     通信与连接
+│       ├── embedded.md      #     嵌入式处理
+│       └── storage.md       #     存储与接口
+│
+├── pdf/                     # 技术文档资源（Pin List、应用笔记等）
+└── pic/                     # 图片资源
 ```
 
+## 导航结构
 
-## 🔗 链接使用规范
+| 导航项 | 路径 | 说明 |
+|--------|------|------|
+| 首页 | `/` | 企业门户 — 核心业务、博客、合作生态入口 |
+| 核心业务 | `/core_block/` | AI · 机器人 · 芯片定制 |
+| 技术博客 | `/blog/` | Anlogic + Xilinx 技术专栏 |
+| 合作生态 | `/partners/` | 合作伙伴产品专区 |
 
-### 1. 站内链接推荐格式
-```markdown
-<!-- 相对路径链接 -->
-[Anlogic专栏](./blog/Anlogic.md)
-[Xilinx文章](./blog/Xilinx.md)
+## 技术栈
 
-<!-- 绝对路径链接 -->
-[首页](/)
-[技术专栏](/blog/)
-```
+- **Jekyll** — GitHub Pages 原生静态站点生成器
+- **jekyll-relative-links** — `.md` 相对路径自动转链接
+- **jekyll-seo-tag** — SEO meta 标签
 
-### 2. 文件对应关系
-- 每个 `.md` 文件都有一个对应的 `.html` 文件
-- GitHub Pages 会自动将 `.md` 渲染为 HTML
-- 建议同时维护两种格式以确保兼容性
+## 如何新增文章
 
-### 3. 图片资源路径
-```markdown
-![图片描述](../pic/image.png)    # 上级目录的pic文件夹
-![图片描述](./assets/image.png)  # 当前目录的assets文件夹
-```
+1. 在对应目录下创建 `.md` 文件（如 `blog/Anlogic/新文章.md`）
+2. 添加 front matter：
+   ```yaml
+   ---
+   title: "文章标题"
+   layout: article
+   ---
+   ```
+3. 正文使用标准 Markdown
+4. 在专栏主页（如 `blog/Anlogic.md`）添加链接指向新文章
 
-## 🚀 GitHub Pages 处理流程
+### 链接规范
 
-1. **文件查找顺序**: 
-   - `index.html` > `index.md` > `README.md`
-   - 对于目录: `index.html` > `index.md` > 自动列表
+- 站内链接统一使用 `.md` 相对路径：`[链接文字](../Anlogic/Flash_Selection_UG.md)`
+- 跨区域链接使用相对路径回溯：`[安路专栏](../../blog/Anlogic.md)`
+- `jekyll-relative-links` 插件会在构建时自动将 `.md` 转为 `.html`
 
-2. **Markdown渲染**:
-   - 所有 `.md` 文件自动转换为 HTML
-   - 支持 GitHub Flavored Markdown
-   - 保持 YAML front matter
+### 区域标识（section）
 
-3. **自定义域名**:
-   - `CNAME` 文件指定 `www.cldmt.com`
-   - SSL 证书自动配置
+`partners/` 和 `core_block/` 下的页面通过 `_config.yml` 的 scope 自动注入 `section` 变量，布局模板据此显示对应的面包屑导航。无需在每篇文章中手动设置。
 
-## 📝 最佳实践
+## 注意事项
 
-### 新建文章步骤:
-1. 在对应品牌目录下创建 `.md` 文件
-2. 添加 YAML front matter
-3. 使用相对路径链接其他内容
-4. 可选: 生成对应的 `.html` 文件
-5. 更新专栏主页的导航链接
-
-### 示例文章结构:
-```markdown
----
-title: "文章标题"
-subtitle: "2024.01.01"
-category: "教程"
----
-
-# 文章标题
-
-正文内容...
-
-[返回专栏](../Anlogic.md)
-```
-
-### 导航菜单示例 (在专栏主页):
-```markdown
-
-
-## 📖 文章列表
-
-- [文章1](./blog/Anlogic/EF2系列硬件设计指导.md)
-- [文章2](./blog/Anlogic/EF3系列硬件设计指导.md)
-
-- [返回首页](index.md)
-```
-
-## ⚠️ 注意事项
-
-1. **路径大小写**: GitHub Pages 路径区分大小写
-2. **缓存问题**: 更新后可能需要清除浏览器缓存
-3. **构建时间**: 更改后需要1-2分钟部署生效
-4. **错误页面**: 不存在的路径显示404页面
-
-## 🔧 故障排查
-
-如果链接不工作:
-1. 检查文件路径是否正确
-2. 验证文件是否提交到仓库
-3. 检查文件名大小写
-4. 等待GitHub Pages构建完成
+- 路径区分大小写
+- 提交后约 1-2 分钟部署生效
+- 浏览器缓存可能需要手动清除
 
 ---
 
-*最后更新: 2026年1月11日*  
-*GitHub Pages 自动部署系统*
+*最后更新: 2026年1月*

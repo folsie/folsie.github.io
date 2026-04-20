@@ -3,10 +3,9 @@
     <p>&copy; {{ site.time | date: '%Y' }} CLDMT 智能计算与系统工程平台</p>
     <p>
       <a href="{{ '/' | relative_url }}">首页</a> ·
+      <a href="{% link core_block/index.md %}">核心业务</a> ·
       <a href="{{ site.blog_url | default: '/blog/' | relative_url }}">技术博客</a> ·
-      <a href="{% link blog/Anlogic.md %}">Anlogic 专栏</a> ·
-      <a href="{% link blog/Xilinx.md %}">Xilinx 专栏</a> ·
-      <a href="{% link blog/wtmec.md %}">WTMEC 合作生态</a>
+      <a href="{% link partners/index.md %}">合作生态</a>
     </p>
   </div>
 </footer>

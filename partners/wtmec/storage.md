@@ -34,7 +34,7 @@ tags: [存储, DDR, Flash, PCIe, USB, 高速接口]
 
 ## 与安路 FPGA 协同
 
-- **配置 Flash**：安路全系列 FPGA 推荐使用 Winbond/ISSI SPI Flash，详见 [Flash 选型指南](../Anlogic/Flash_Selection_UG.md)
+- **配置 Flash**：安路全系列 FPGA 推荐使用 Winbond/ISSI SPI Flash，详见 [Flash 选型指南](../../blog/Anlogic/Flash_Selection_UG.md)
 - **DDR 控制器**：安路 DR1/PH1A 内嵌 DDR3/DDR4 硬核控制器，需匹配 Micron/Samsung 颗粒
 - **PCIe 方案**：安路 PH1A PCIe Gen2 EP/RC 方案，搭配高速 SerDes 实现主机 DMA 通信
 - **HDMI/LVDS 接口**：高速接口 PHY 搭配 FPGA 逻辑实现视频输入输出
