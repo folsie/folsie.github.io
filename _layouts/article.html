@@ -1,0 +1,37 @@
+---
+layout: default
+---
+<div class="container">
+  <nav class="breadcrumb" aria-label="面包屑导航">
+    <a href="{{ '/' | relative_url }}">首页</a>
+    {% if page.column_url %}
+    <span class="sep">/</span>
+    <a href="{{ page.column_url }}">{{ page.column }}</a>
+    {% endif %}
+    <span class="sep">/</span>
+    <span>{{ page.title }}</span>
+  </nav>
+  <article>
+    <header class="article-header">
+      <h1>{{ page.title }}</h1>
+      {% if page.subtitle or page.last_updated or page.tags %}
+      <div class="article-meta">
+        {% if page.subtitle %}<span>{{ page.subtitle }}</span>{% endif %}
+        {% if page.last_updated %}<span> · 更新于 {{ page.last_updated }}</span>{% endif %}
+        {% if page.tags %}
+        <div class="article-tags">
+          {% for tag in page.tags %}<span class="tag">{{ tag }}</span> {% endfor %}
+        </div>
+        {% endif %}
+      </div>
+      {% endif %}
+    </header>
+    <div class="article-content">
+      {{ content }}
+    </div>
+  </article>
+  <nav class="back-nav">
+    <a href="{{ '/' | relative_url }}">🏠 返回首页</a>
+    {% if page.column_url %}<a href="{{ page.column_url }}">🔙 返回{{ page.column | default: "专栏" }}</a>{% endif %}
+  </nav>
+</div>

@@ -1,0 +1,11 @@
+<footer class="site-footer">
+  <div class="container">
+    <p>&copy; {{ site.time | date: '%Y' }} {{ site.title }} — {{ site.description }}</p>
+    <p>
+      <a href="{{ '/' | relative_url }}">首页</a> ·
+      <a href="{% link blog/Anlogic.md %}">Anlogic</a> ·
+      <a href="{% link blog/Xilinx.md %}">Xilinx</a> ·
+      <a href="https://www.anlogic.com" target="_blank" rel="noopener">安路官网 ↗</a>
+    </p>
+  </div>
+</footer>

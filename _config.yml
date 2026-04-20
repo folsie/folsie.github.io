@@ -1,2 +1,36 @@
-name: ""
-title: null
+title: "CLDMT 技术博客"
+description: "专注 FPGA 与嵌入式系统开发技术"
+url: "https://www.cldmt.com"
+baseurl: ""
+permalink: pretty
+
+markdown: kramdown
+kramdown:
+  input: GFM
+  hard_wrap: false
+
+plugins:
+  - jekyll-relative-links
+  - jekyll-seo-tag
+
+relative_links:
+  enabled: true
+  collections: true
+
+defaults:
+  - scope:
+      path: ""
+    values:
+      layout: "default"
+  - scope:
+      path: "blog/Anlogic/"
+    values:
+      layout: "article"
+      column: "Anlogic 技术专栏"
+      column_url: "/blog/Anlogic/"
+  - scope:
+      path: "blog/Xilinx/"
+    values:
+      layout: "article"
+      column: "Xilinx 技术专栏"
+      column_url: "/blog/Xilinx/"

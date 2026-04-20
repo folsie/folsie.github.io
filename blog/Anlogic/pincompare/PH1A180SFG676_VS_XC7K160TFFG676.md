@@ -1,6 +1,6 @@
 ---
 title: "PH1A180SFG676  VS  XC7K160TFFG676 Pinout Table"
-subtitle: "2026.04.01"
+subtitle: "2026.04.09"
 embed-resources: true
 toc: true
 toc-depth: 6
@@ -12,737 +12,750 @@ toc-location: left
 # PH1A180SFG676_VS_XC7K160TFBG676
 
 
-## IO BANK 0
-
-| 引脚编号 | IO BANK | 引脚说明 | Config_Type |
-|----------|---------|----------|-------------|
-| L7 | 0 | VCCIO_0 | - |
-| T6 | 0 | VCCIO_0 | - |
-| C8 | 0 | CCLK_0 | - |
-| G7 | 0 | INITN_0 | - |
-| P6 | 0 | PROGRAMN_0 | - |
-| J7 | 0 | DONE_0 | - |
-| T5 | 0 | M0_0 | - |
-| T2 | 0 | M1_0 | - |
-| P5 | 0 | M2_0 | - |
-| L8 | 0 | TCK_0 | - |
-| R6 | 0 | TDI_0 | - |
-| R7 | 0 | TDO_0 | - |
-| N8 | 0 | TMS_0 | - |
-| P7 | 0 | TRSTN_0 | - |
+**芯片对比**: PH1A180SFG676 VS XC7K160TFFG676
 
 
-## IO BANK 11
+## IO BANK 0, 1, 2
 
-| 引脚编号 | IO BANK | 引脚说明 | Config_Type |
-|----------|---------|----------|-------------|
-| AC21 | 11 | IO_L0P_11 | HR |
-| AD21 | 11 | IO_L0N_11 | HR |
-| AC23 | 11 | IO_L1P_11,GPLL0_11_OUTP | HR |
-| AC22 | 11 | IO_L1N_11,GPLL0_11_OUTN | HR |
-| AB21 | 11 | IO_L2P_11 | HR |
-| AB22 | 11 | IO_L2N_11 | HR |
-| Y23 | 11 | IO_L3P_11,GCLKIOT0_11 | HR |
-| AA23 | 11 | IO_L3N_11,GCLKIOC0_11 | HR |
-| Y21 | 11 | IO_L4P_11,GCLKIOT1_11 | HR |
-| Y22 | 11 | IO_L4N_11,GCLKIOC1_11 | HR |
-| V23 | 11 | IO_L5P_11,GCLKIOT2_11 | HR |
-| W23 | 11 | IO_L5N_11,GCLKIOC2_11 | HR |
-| W21 | 11 | IO_L6P_11,GCLKIOT3_11 | HR |
-| V22 | 11 | IO_L6N_11,GCLKIOC3_11 | HR |
-| AA22 | 11 | IO_L7P_11,GPLL1_11_OUTP | HR |
-| AB23 | 11 | IO_L7N_11,GPLL1_11_OUTN | HR |
-| W20 | 11 | IO_L8P_11 | HR |
-| Y20 | 11 | IO_L8N_11 | HR |
-| U22 | 11 | IO_L9P_11 | HR |
-| V21 | 11 | IO_L9N_11 | HR |
-| U24 | 11 | IO_L10P_11 | HR |
-| V24 | 11 | IO_L10N_11 | HR |
-| U26 | 11 | IO_L11P_11 | HR |
-| U25 | 11 | IO_L11N_11 | HR |
-| U21 | 11 | IO_L12_11 | HR |
-| AA21 | 11 | VCCIO_11 | - |
-| U23 | 11 | VCCIO_11 | - |
-| V20 | 11 | VCCIO_11 | - |
+| PH1A180SFG676 | | | XC7K160TFFG676 | | | |
+| 引脚编号 | IO BANK | 引脚说明 | 引脚编号 | IO BANK | 引脚说明 | 差异备注 |
+|----------|---------|----------|----------|---------|----------|----------|
+| C8 | 0 | CCLK_0 | 0 | 0 | - | - |
+| G7 | 0 | INITN_0 | 0 | 0 | - | - |
+| J7 | 0 | DONE_0 | 0 | 0 | - | - |
+| L7 | 0 | VCCIO_0 | 0 | 0 | - | - |
+| L8 | 0 | TCK_0 | 0 | 0 | - | - |
+| N8 | 0 | TMS_0 | 0 | 0 | - | - |
+| P5 | 0 | M2_0 | 0 | 2 | - | - |
+| P6 | 0 | PROGRAMN_0 | 0 | 0 | - | - |
+| P7 | 0 | TRSTN_0 | 0 | 0 | - | - |
+| R6 | 0 | TDI_0 | 0 | 0 | - | - |
+| R7 | 0 | TDO_0 | 0 | 0 | - | - |
+| T2 | 0 | M1_0 | 0 | 1 | - | - |
+| T5 | 0 | M0_0 | 0 | 0 | - | - |
+| T6 | 0 | VCCIO_0 | 0 | 0 | - | - |
 
 
-## IO BANK 12
+## IO BANK 0, 1, 2, 3, 4, 6, 8, 11, 12, 13, 14, 15, 17, 18, 19, 25
 
-| 引脚编号 | IO BANK | 引脚说明 | Config_Type |
-|----------|---------|----------|-------------|
-| N16 | 12 | IO_L0_12 | HR |
-| K25 | 12 | IO_L1P_12 | HR |
-| K26 | 12 | IO_L1N_12 | HR |
-| R26 | 12 | IO_L2P_12 | HR |
-| P26 | 12 | IO_L2N_12 | HR |
-| M25 | 12 | IO_L3P_12 | HR |
-| L25 | 12 | IO_L3N_12 | HR |
-| P24 | 12 | IO_L4P_12 | HR |
-| N24 | 12 | IO_L4N_12 | HR |
-| N26 | 12 | IO_L5P_12 | HR |
-| M26 | 12 | IO_L5N_12 | HR |
-| R25 | 12 | IO_L6P_12 | HR |
-| P25 | 12 | IO_L6N_12 | HR |
-| N19 | 12 | IO_L7P_12 | HR |
-| M20 | 12 | IO_L7N_12 | HR |
-| M24 | 12 | IO_L8P_12 | HR |
-| L24 | 12 | IO_L8N_12 | HR |
-| P19 | 12 | IO_L9P_12,GPLL1_12_OUTP | HR |
-| P20 | 12 | IO_L9N_12,GPLL1_12_OUTN | HR |
-| M21 | 12 | IO_L10P_12 | HR |
-| M22 | 12 | IO_L10N_12 | HR |
-| P23 | 12 | IO_L11P_12,GCLKIOT3_12 | HR |
-| N23 | 12 | IO_L11N_12,GCLKIOC3_12 | HR |
-| N21 | 12 | IO_L12P_12,GCLKIOT2_12 | HR |
-| N22 | 12 | IO_L12N_12,GCLKIOC2_12 | HR |
-| R21 | 12 | IO_L13P_12,GCLKIOT1_12 | HR |
-| P21 | 12 | IO_L13N_12,GCLKIOC1_12 | HR |
-| R22 | 12 | IO_L14P_12,GCLKIOT0_12 | HR |
-| R23 | 12 | IO_L14N_12,GCLKIOC0_12 | HR |
-| T24 | 12 | IO_L15P_12 | HR |
-| T25 | 12 | IO_L15N_12 | HR |
-| T20 | 12 | IO_L16P_12,GPLL0_12_OUTP | HR |
-| R20 | 12 | IO_L16N_12,GPLL0_12_OUTN | HR |
-| T22 | 12 | IO_L17P_12 | HR |
-| T23 | 12 | IO_L17N_12 | HR |
-| U19 | 12 | IO_L18P_12 | HR |
-| U20 | 12 | IO_L18N_12 | HR |
-| T18 | 12 | IO_L19P_12 | HR |
-| T19 | 12 | IO_L19N_12 | HR |
-| P16 | 12 | IO_L20P_12 | HR |
-| N17 | 12 | IO_L20N_12 | HR |
-| R16 | 12 | IO_L21P_12 | HR |
-| R17 | 12 | IO_L21N_12 | HR |
-| N18 | 12 | IO_L22P_12 | HR |
-| M19 | 12 | IO_L22N_12 | HR |
-| U17 | 12 | IO_L23P_12 | HR |
-| T17 | 12 | IO_L23N_12 | HR |
-| R18 | 12 | IO_L24P_12 | HR |
-| P18 | 12 | IO_L24N_12 | HR |
-| U16 | 12 | IO_L25_12 | HR |
-| K24 | 12 | VCCIO_12 | - |
-| P22 | 12 | VCCIO_12 | - |
-| N25 | 12 | VCCIO_12 | - |
-| T16 | 12 | VCCIO_12 | - |
-| R19 | 12 | VCCIO_12 | - |
-| T26 | 12 | VCCIO_12 | - |
+| PH1A180SFG676 | | | XC7K160TFFG676 | | | |
+| 引脚编号 | IO BANK | 引脚说明 | 引脚编号 | IO BANK | 引脚说明 | 差异备注 |
+|----------|---------|----------|----------|---------|----------|----------|
+| U21 | 11 | IO_L12_11 | 12 | 0 | HR | - |
+| U22 | 11 | IO_L9P_11 | 12 | 1 | HR | - |
+| U23 | 11 | VCCIO_11 | 12 | 12 | - | - |
+| U24 | 11 | IO_L10P_11 | 12 | 2 | HR | - |
+| U25 | 11 | IO_L11N_11 | 12 | 2 | HR | - |
+| U26 | 11 | IO_L11P_11 | 12 | 4 | HR | - |
+| V20 | 11 | VCCIO_11 | 12 | 12 | - | - |
+| V21 | 11 | IO_L9N_11 | 12 | 6 | HR | - |
+| V22 | 11 | IO_L6N_11,GCLKIOC3_11 | 12 | 1 | HR | - |
+| V23 | 11 | IO_L5P_11,GCLKIOT2_11 | 12 | 3 | HR | - |
+| V24 | 11 | IO_L10N_11 | 12 | 3 | HR | - |
+| W20 | 11 | IO_L8P_11 | 12 | 15 | HR | - |
+| W21 | 11 | IO_L6P_11,GCLKIOT3_11 | 12 | 6 | HR | - |
+| W23 | 11 | IO_L5N_11,GCLKIOC2_11 | 12 | 8 | HR | - |
+| Y20 | 11 | IO_L8N_11 | 12 | 25 | HR | - |
+| Y21 | 11 | IO_L4P_11,GCLKIOT1_11 | 12 | 15 | HR | - |
+| Y22 | 11 | IO_L4N_11,GCLKIOC1_11 | 12 | 13 | HR | - |
+| Y23 | 11 | IO_L3P_11,GCLKIOT0_11 | 12 | 12 | HR | - |
+| AA21 | 11 | VCCIO_11 | 12 | 12 | - | - |
+| AA22 | 11 | IO_L7P_11,GPLL1_11_OUTP | 12 | 13 | HR | - |
+| AA23 | 11 | IO_L3N_11,GCLKIOC0_11 | 12 | 11 | HR | - |
+| AB21 | 11 | IO_L2P_11 | 12 | 18 | HR | - |
+| AB22 | 11 | IO_L2N_11 | 12 | 17 | HR | - |
+| AB23 | 11 | IO_L7N_11,GPLL1_11_OUTN | - | - | - | - |
+| AC21 | 11 | IO_L0P_11 | 12 | 18 | HR | - |
+| AC22 | 11 | IO_L1N_11,GPLL0_11_OUTN | 12 | 17 | HR | - |
+| AC23 | 11 | IO_L1P_11,GPLL0_11_OUTP | 12 | 14 | HR | - |
+| AD21 | 11 | IO_L0N_11 | 12 | 19 | HR | - |
 
 
-## IO BANK 13
+## IO BANK 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25
 
-| 引脚编号 | IO BANK | 引脚说明 | Config_Type |
-|----------|---------|----------|-------------|
-| K21 | 13 | IO_L0_13 | HR |
-| B24 | 13 | IO_L1P_13,D0,MOSI | HR |
-| A25 | 13 | IO_L1N_13,D1,DIN,MISO | HR |
-| B22 | 13 | IO_L2P_13,D2,WPN | HR |
-| A22 | 13 | IO_L2N_13,D3,HOLDN | HR |
-| B25 | 13 | IO_L3P_13,HSWAPEN | HR |
-| B26 | 13 | IO_L3N_13,USRCLK | HR |
-| A23 | 13 | IO_L4P_13,D4 | HR |
-| A24 | 13 | IO_L4N_13,D5 | HR |
-| D26 | 13 | IO_L5P_13,D6 | HR |
-| C26 | 13 | IO_L5N_13,D7 | HR |
-| C23 | 13 | IO_L6P_13,SPICSN,BUSY | HR |
-| C24 | 13 | IO_L6N_13,D8 | HR |
-| D21 | 13 | IO_L7P_13,D9 | HR |
-| C22 | 13 | IO_L7N_13,D10 | HR |
-| B20 | 13 | IO_L8P_13,D11 | HR |
-| A20 | 13 | IO_L8N_13,D12 | HR |
-| E21 | 13 | IO_L9P_13 | HR |
-| E22 | 13 | IO_L9N_13,D13 | HR |
-| C21 | 13 | IO_L10P_13,D14 | HR |
-| B21 | 13 | IO_L10N_13,D15 | HR |
-| D23 | 13 | IO_L11P_13,GCLKIOT3_13 | HR |
-| D24 | 13 | IO_L11N_13,GCLKIOC3_13 | HR |
-| F22 | 13 | IO_L12P_13,GCLKIOT2_13 | HR |
-| E23 | 13 | IO_L12N_13,GCLKIOC2_13 | HR |
-| G22 | 13 | IO_L13P_13,GCLKIOT1_13 | HR |
-| F23 | 13 | IO_L13N_13,GCLKIOC1_13 | HR |
-| G24 | 13 | IO_L14P_13,GCLKIOT0_13 | HR |
-| F24 | 13 | IO_L14N_13,GCLKIOC0_13 | HR |
-| E25 | 13 | IO_L15P_13,RDWRN | HR |
-| D25 | 13 | IO_L15N_13,CSON,DOUT | HR |
-| G25 | 13 | IO_L16P_13,CSN | HR |
-| G26 | 13 | IO_L16N_13,D31 | HR |
-| F25 | 13 | IO_L17P_13,D30 | HR |
-| E26 | 13 | IO_L17N_13,D29 | HR |
-| J26 | 13 | IO_L18P_13,D28 | HR |
-| H26 | 13 | IO_L18N_13,D27 | HR |
-| H21 | 13 | IO_L19P_13,D26 | HR |
-| G21 | 13 | IO_L19N_13,D25 | HR |
-| H23 | 13 | IO_L20P_13,D24 | HR |
-| H24 | 13 | IO_L20N_13,D23 | HR |
-| J21 | 13 | IO_L21P_13 | HR |
-| H22 | 13 | IO_L21N_13,D22 | HR |
-| J24 | 13 | IO_L22P_13,D21 | HR |
-| J25 | 13 | IO_L22N_13,D20 | HR |
-| L22 | 13 | IO_L23P_13,D19 | HR |
-| K22 | 13 | IO_L23N_13,D18 | HR |
-| K23 | 13 | IO_L24P_13,D17 | HR |
-| J23 | 13 | IO_L24N_13,D16 | HR |
-| L23 | 13 | IO_L25_13 | HR |
-| A21 | 13 | VCCIO_13 | - |
-| D22 | 13 | VCCIO_13 | - |
-| C25 | 13 | VCCIO_13 | - |
-| G23 | 13 | VCCIO_13 | - |
-| F26 | 13 | VCCIO_13 | - |
-| L21 | 13 | VCCIO_13 | - |
-
-
-## IO BANK 14
-
-| 引脚编号 | IO BANK | 引脚说明 | Config_Type |
-|----------|---------|----------|-------------|
-| K15 | 14 | IO_L0_14 | HR |
-| C16 | 14 | IO_L1P_14 | HR |
-| B16 | 14 | IO_L1N_14 | HR |
-| A18 | 14 | IO_L2P_14 | HR |
-| A19 | 14 | IO_L2N_14 | HR |
-| B17 | 14 | IO_L3P_14 | HR |
-| A17 | 14 | IO_L3N_14 | HR |
-| C19 | 14 | IO_L4P_14 | HR |
-| B19 | 14 | IO_L4N_14 | HR |
-| C17 | 14 | IO_L5P_14 | HR |
-| C18 | 14 | IO_L5N_14 | HR |
-| D15 | 14 | IO_L6P_14 | HR |
-| D16 | 14 | IO_L6N_14 | HR |
-| H16 | 14 | IO_L7P_14 | HR |
-| G16 | 14 | IO_L7N_14 | HR |
-| G15 | 14 | IO_L8P_14 | HR |
-| F15 | 14 | IO_L8N_14 | HR |
-| J15 | 14 | IO_L9P_14,GPLL1_14_OUTP | HR |
-| J16 | 14 | IO_L9N_14,GPLL1_14_OUTN | HR |
-| E15 | 14 | IO_L10P_14 | HR |
-| E16 | 14 | IO_L10N_14 | HR |
-| G17 | 14 | IO_L11P_14,GCLKIOT3_14 | HR |
-| F18 | 14 | IO_L11N_14,GCLKIOC3_14 | HR |
-| F17 | 14 | IO_L12P_14,GCLKIOT2_14 | HR |
-| E17 | 14 | IO_L12N_14,GCLKIOC2_14 | HR |
-| E18 | 14 | IO_L13P_14,GCLKIOT1_14 | HR |
-| D18 | 14 | IO_L13N_14,GCLKIOC1_14 | HR |
-| H17 | 14 | IO_L14P_14,GCLKIOT0_14 | HR |
-| H18 | 14 | IO_L14N_14,GCLKIOC0_14 | HR |
-| D19 | 14 | IO_L15P_14 | HR |
-| D20 | 14 | IO_L15N_14 | HR |
-| G19 | 14 | IO_L16P_14,GPLL0_14_OUTP | HR |
-| F20 | 14 | IO_L16N_14,GPLL0_14_OUTN | HR |
-| F19 | 14 | IO_L17P_14 | HR |
-| E20 | 14 | IO_L17N_14 | HR |
-| H19 | 14 | IO_L18P_14 | HR |
-| G20 | 14 | IO_L18N_14 | HR |
-| K20 | 14 | IO_L19P_14 | HR |
-| J20 | 14 | IO_L19N_14 | HR |
-| J18 | 14 | IO_L20P_14 | HR |
-| J19 | 14 | IO_L20N_14 | HR |
-| L19 | 14 | IO_L21P_14 | HR |
-| L20 | 14 | IO_L21N_14 | HR |
-| K16 | 14 | IO_L22P_14 | HR |
-| K17 | 14 | IO_L22N_14 | HR |
-| M17 | 14 | IO_L23P_14 | HR |
-| L18 | 14 | IO_L23N_14 | HR |
-| L17 | 14 | IO_L24P_14 | HR |
-| K18 | 14 | IO_L24N_14 | HR |
-| M16 | 14 | IO_L25_14 | HR |
-| H20 | 14 | VCCIO_14 | - |
-| B18 | 14 | VCCIO_14 | - |
-| F16 | 14 | VCCIO_14 | - |
-| E19 | 14 | VCCIO_14 | - |
-| J17 | 14 | VCCIO_14 | - |
-| M18 | 14 | VCCIO_14 | - |
+| PH1A180SFG676 | | | XC7K160TFFG676 | | | |
+| 引脚编号 | IO BANK | 引脚说明 | 引脚编号 | IO BANK | 引脚说明 | 差异备注 |
+|----------|---------|----------|----------|---------|----------|----------|
+| K24 | 12 | VCCIO_12 | 13 | 13 | - | - |
+| K25 | 12 | IO_L1P_12 | 13 | 1 | HR | - |
+| K26 | 12 | IO_L1N_12 | 13 | 1 | HR | - |
+| L24 | 12 | IO_L8N_12 | 13 | 8 | HR | - |
+| L25 | 12 | IO_L3N_12 | 13 | 3 | HR | - |
+| M19 | 12 | IO_L22N_12 | 13 | 22 | HR | - |
+| M20 | 12 | IO_L7N_12 | 13 | 7 | HR | - |
+| M21 | 12 | IO_L10P_12 | 13 | 10 | HR | - |
+| M22 | 12 | IO_L10N_12 | 13 | 10 | HR | - |
+| M24 | 12 | IO_L8P_12 | 13 | 8 | HR | - |
+| M25 | 12 | IO_L3P_12 | 13 | 3 | HR | - |
+| M26 | 12 | IO_L5N_12 | 13 | 5 | HR | - |
+| N16 | 12 | IO_L0_12 | 13 | 0 | HR | - |
+| N17 | 12 | IO_L20N_12 | 13 | 20 | HR | - |
+| N18 | 12 | IO_L22P_12 | 13 | 22 | HR | - |
+| N19 | 12 | IO_L7P_12 | 13 | 7 | HR | - |
+| N21 | 12 | IO_L12P_12,GCLKIOT2_12 | 13 | 12 | HR | - |
+| N22 | 12 | IO_L12N_12,GCLKIOC2_12 | 13 | 12 | HR | - |
+| N23 | 12 | IO_L11N_12,GCLKIOC3_12 | 13 | 11 | HR | - |
+| N24 | 12 | IO_L4N_12 | 13 | 4 | HR | - |
+| N25 | 12 | VCCIO_12 | 13 | 13 | - | - |
+| N26 | 12 | IO_L5P_12 | 13 | 5 | HR | - |
+| P16 | 12 | IO_L20P_12 | 13 | 20 | HR | - |
+| P18 | 12 | IO_L24N_12 | 13 | 24 | HR | - |
+| P19 | 12 | IO_L9P_12,GPLL1_12_OUTP | 13 | 9 | HR | - |
+| P20 | 12 | IO_L9N_12,GPLL1_12_OUTN | 13 | 9 | HR | - |
+| P21 | 12 | IO_L13N_12,GCLKIOC1_12 | 13 | 13 | HR | - |
+| P22 | 12 | VCCIO_12 | 13 | 13 | - | - |
+| P23 | 12 | IO_L11P_12,GCLKIOT3_12 | 13 | 11 | HR | - |
+| P24 | 12 | IO_L4P_12 | 13 | 4 | HR | - |
+| P25 | 12 | IO_L6N_12 | 13 | 6 | HR | - |
+| P26 | 12 | IO_L2N_12 | 13 | 2 | HR | - |
+| R16 | 12 | IO_L21P_12 | 13 | 21 | HR | - |
+| R17 | 12 | IO_L21N_12 | 13 | 21 | HR | - |
+| R18 | 12 | IO_L24P_12 | 13 | 24 | HR | - |
+| R19 | 12 | VCCIO_12 | 13 | 13 | - | - |
+| R20 | 12 | IO_L16N_12,GPLL0_12_OUTN | 13 | 16 | HR | - |
+| R21 | 12 | IO_L13P_12,GCLKIOT1_12 | 13 | 13 | HR | - |
+| R22 | 12 | IO_L14P_12,GCLKIOT0_12 | 13 | 14 | HR | - |
+| R23 | 12 | IO_L14N_12,GCLKIOC0_12 | 13 | 14 | HR | - |
+| R25 | 12 | IO_L6P_12 | 13 | 6 | HR | - |
+| R26 | 12 | IO_L2P_12 | 13 | 2 | HR | - |
+| T16 | 12 | VCCIO_12 | 13 | 13 | - | - |
+| T17 | 12 | IO_L23N_12 | 13 | 23 | HR | - |
+| T18 | 12 | IO_L19P_12 | 13 | 19 | HR | - |
+| T19 | 12 | IO_L19N_12 | 13 | 19 | HR | - |
+| T20 | 12 | IO_L16P_12,GPLL0_12_OUTP | 13 | 16 | HR | - |
+| T22 | 12 | IO_L17P_12 | 13 | 17 | HR | - |
+| T23 | 12 | IO_L17N_12 | 13 | 17 | HR | - |
+| T24 | 12 | IO_L15P_12 | 13 | 15 | HR | - |
+| T25 | 12 | IO_L15N_12 | 13 | 15 | HR | - |
+| T26 | 12 | VCCIO_12 | 13 | 13 | - | - |
+| U16 | 12 | IO_L25_12 | 13 | 25 | HR | - |
+| U17 | 12 | IO_L23P_12 | 13 | 23 | HR | - |
+| U19 | 12 | IO_L18P_12 | 13 | 18 | HR | - |
+| U20 | 12 | IO_L18N_12 | 13 | 18 | HR | - |
 
 
-## IO BANK 15
+## IO BANK 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25
 
-| 引脚编号 | IO BANK | 引脚说明 | Config_Type |
-|----------|---------|----------|-------------|
-| J8 | 15 | IO_L0_15 | HR |
-| H9 | 15 | IO_L1P_15 | HR |
-| H8 | 15 | IO_L1N_15 | HR |
-| G10 | 15 | IO_L2P_15 | HR |
-| G9 | 15 | IO_L2N_15 | HR |
-| J13 | 15 | IO_L3P_15 | HR |
-| H13 | 15 | IO_L3N_15 | HR |
-| J11 | 15 | IO_L4P_15 | HR |
-| J10 | 15 | IO_L4N_15 | HR |
-| H14 | 15 | IO_L5P_15 | HR |
-| G14 | 15 | IO_L5N_15 | HR |
-| H12 | 15 | IO_L6P_15 | HR |
-| H11 | 15 | IO_L6N_15 | HR |
-| F9 | 15 | IO_L7P_15 | HR |
-| F8 | 15 | IO_L7N_15 | HR |
-| D9 | 15 | IO_L8P_15 | HR |
-| D8 | 15 | IO_L8N_15 | HR |
-| A9 | 15 | IO_L9P_15,GPLL1_15_OUTP | HR |
-| A8 | 15 | IO_L9N_15,GPLL1_15_OUTN | HR |
-| C9 | 15 | IO_L10P_15 | HR |
-| B9 | 15 | IO_L10N_15 | HR |
-| G11 | 15 | IO_L11P_15,GCLKIOT3_15 | HR |
-| F10 | 15 | IO_L11N_15,GCLKIOC3_15 | HR |
-| E10 | 15 | IO_L12P_15,GCLKIOT2_15 | HR |
-| D10 | 15 | IO_L12N_15,GCLKIOC2_15 | HR |
-| C12 | 15 | IO_L13P_15,GCLKIOT1_15 | HR |
-| C11 | 15 | IO_L13N_15,GCLKIOC1_15 | HR |
-| E11 | 15 | IO_L14P_15,GCLKIOT0_15 | HR |
-| D11 | 15 | IO_L14N_15,GCLKIOC0_15 | HR |
-| F14 | 15 | IO_L15P_15 | HR |
-| F13 | 15 | IO_L15N_15 | HR |
-| G12 | 15 | IO_L16P_15,GPLL0_15_OUTP | HR |
-| F12 | 15 | IO_L16N_15,GPLL0_15_OUTN | HR |
-| D14 | 15 | IO_L17P_15 | HR |
-| D13 | 15 | IO_L17N_15 | HR |
-| E13 | 15 | IO_L18P_15 | HR |
-| E12 | 15 | IO_L18N_15 | HR |
-| C14 | 15 | IO_L19P_15 | HR |
-| C13 | 15 | IO_L19N_15 | HR |
-| B12 | 15 | IO_L20P_15 | HR |
-| B11 | 15 | IO_L20N_15 | HR |
-| B14 | 15 | IO_L21P_15 | HR |
-| A14 | 15 | IO_L21N_15 | HR |
-| B10 | 15 | IO_L22P_15 | HR |
-| A10 | 15 | IO_L22N_15 | HR |
-| B15 | 15 | IO_L23P_15 | HR |
-| A15 | 15 | IO_L23N_15 | HR |
-| A13 | 15 | IO_L24P_15 | HR |
-| A12 | 15 | IO_L24N_15 | HR |
-| J14 | 15 | IO_L25_15 | HR |
-| C15 | 15 | VCCIO_15 | - |
-| H10 | 15 | VCCIO_15 | - |
-| E9 | 15 | VCCIO_15 | - |
-| A11 | 15 | VCCIO_15 | - |
-| D12 | 15 | VCCIO_15 | - |
-| G13 | 15 | VCCIO_15 | - |
-| B8 | 15 | VCCIO_15 | - |
-
-
-## IO BANK 31
-
-| 引脚编号 | IO BANK | 引脚说明 | Config_Type |
-|----------|---------|----------|-------------|
-| V13 | 31 | IO_R0_31 | HP |
-| AE17 | 31 | IO_R1P_31,T0 | HP |
-| AF17 | 31 | IO_R1N_31,T0 | HP |
-| AF14 | 31 | IO_R2P_31,T0 | HP |
-| AF15 | 31 | IO_R2N_31,T0 | HP |
-| AE18 | 31 | IO_R3P_31,T0_DQS_P | HP |
-| AF18 | 31 | IO_R3N_31,T0_DQS_N | HP |
-| AD15 | 31 | IO_R4P_31,T0 | HP |
-| AE15 | 31 | IO_R4N_31,T0 | HP |
-| AF19 | 31 | IO_R5P_31,T0 | HP |
-| AF20 | 31 | IO_R5N_31,T0 | HP |
-| AD16 | 31 | IO_R6P_31,T0 | HP |
-| AE16 | 31 | IO_R6N_31,T0_VREF | HP |
-| AA14 | 31 | IO_R7P_31,T1 | HP |
-| AA15 | 31 | IO_R7N_31,T1 | HP |
-| AC14 | 31 | IO_R8P_31,T1 | HP |
-| AD14 | 31 | IO_R8N_31,T1 | HP |
-| Y15 | 31 | IO_R9P_31,GPLL1_31_OUTP,T1_DQS_P | HP |
-| Y16 | 31 | IO_R9N_31,GPLL1_31_OUTN,T1_DQS_N | HP |
-| AB14 | 31 | IO_R10P_31,T1 | HP |
-| AB15 | 31 | IO_R10N_31,T1 | HP |
-| AA17 | 31 | IO_R11P_31,GCLKIOT3_31,T1 | HP |
-| AA18 | 31 | IO_R11N_31,GCLKIOC3_31,T1 | HP |
-| AB16 | 31 | IO_R12P_31,GCLKIOT2_31,T1 | HP |
-| AC16 | 31 | IO_R12N_31,GCLKIOC2_31,T1 | HP |
-| AC18 | 31 | IO_R13P_31,GCLKIOT1_31,T2 | HP |
-| AD18 | 31 | IO_R13N_31,GCLKIOC1_31,T2 | HP |
-| AB17 | 31 | IO_R14P_31,GCLKIOT0_31,T2 | HP |
-| AC17 | 31 | IO_R14N_31,GCLKIOC0_31,T2 | HP |
-| AD20 | 31 | IO_R15P_31,T2_DQS_P | HP |
-| AE20 | 31 | IO_R15N_31,T2_DQS_N | HP |
-| AA19 | 31 | IO_R16P_31,GPLL0_31_OUTP,T2 | HP |
-| AA20 | 31 | IO_R16N_31,GPLL0_31_OUTN,T2 | HP |
-| AC19 | 31 | IO_R17P_31,T2 | HP |
-| AD19 | 31 | IO_R17N_31,T2 | HP |
-| AB19 | 31 | IO_R18P_31,T2 | HP |
-| AB20 | 31 | IO_R18N_31,T2 | HP |
-| Y17 | 31 | IO_R19P_31,T3 | HP |
-| Y18 | 31 | IO_R19N_31,T3_VREF | HP |
-| V16 | 31 | IO_R20P_31,T3 | HP |
-| V17 | 31 | IO_R20N_31,T3 | HP |
-| W18 | 31 | IO_R21P_31,T3_DQS_P | HP |
-| W19 | 31 | IO_R21N_31,T3_DQS_N | HP |
-| W15 | 31 | IO_R22P_31,T3 | HP |
-| W16 | 31 | IO_R22N_31,T3 | HP |
-| V18 | 31 | IO_R23P_31,T3 | HP |
-| V19 | 31 | IO_R23N_31,T3 | HP |
-| V14 | 31 | IO_R24P_31,T3 | HP |
-| W14 | 31 | IO_R24N_31,T3 | HP |
-| W13 | 31 | IO_R25_31,VRP | HP |
-| Y14 | 31 | VCCIO_31 | - |
-| W17 | 31 | VCCIO_31 | - |
-| AC15 | 31 | VCCIO_31 | - |
-| AB18 | 31 | VCCIO_31 | - |
-| AF16 | 31 | VCCIO_31 | - |
-| AE19 | 31 | VCCIO_31 | - |
+| PH1A180SFG676 | | | XC7K160TFFG676 | | | |
+| 引脚编号 | IO BANK | 引脚说明 | 引脚编号 | IO BANK | 引脚说明 | 差异备注 |
+|----------|---------|----------|----------|---------|----------|----------|
+| A20 | 13 | IO_L8N_13,D12 | 14 | 8 | HR | - |
+| A21 | 13 | VCCIO_13 | 14 | 14 | - | - |
+| A22 | 13 | IO_L2N_13,D3,HOLDN | 14 | 2 | HR | - |
+| A23 | 13 | IO_L4P_13,D4 | 14 | 4 | HR | - |
+| A24 | 13 | IO_L4N_13,D5 | 14 | 4 | HR | - |
+| A25 | 13 | IO_L1N_13,D1,DIN,MISO | 14 | 1 | HR | - |
+| B20 | 13 | IO_L8P_13,D11 | 14 | 8 | HR | - |
+| B21 | 13 | IO_L10N_13,D15 | 14 | 10 | HR | - |
+| B22 | 13 | IO_L2P_13,D2,WPN | 14 | 2 | HR | - |
+| B24 | 13 | IO_L1P_13,D0,MOSI | 14 | 1 | HR | - |
+| B25 | 13 | IO_L3P_13,HSWAPEN | 14 | 3 | HR | - |
+| B26 | 13 | IO_L3N_13,USRCLK | 14 | 3 | HR | - |
+| C21 | 13 | IO_L10P_13,D14 | 14 | 10 | HR | - |
+| C22 | 13 | IO_L7N_13,D10 | 14 | 7 | HR | - |
+| C23 | 13 | IO_L6P_13,SPICSN,BUSY | 14 | 6 | HR | - |
+| C24 | 13 | IO_L6N_13,D8 | 14 | 6 | HR | - |
+| C25 | 13 | VCCIO_13 | 14 | 14 | - | - |
+| C26 | 13 | IO_L5N_13,D7 | 14 | 5 | HR | - |
+| D21 | 13 | IO_L7P_13,D9 | 14 | 7 | HR | - |
+| D22 | 13 | VCCIO_13 | 14 | 14 | - | - |
+| D23 | 13 | IO_L11P_13,GCLKIOT3_13 | 14 | 11 | HR | - |
+| D24 | 13 | IO_L11N_13,GCLKIOC3_13 | 14 | 11 | HR | - |
+| D25 | 13 | IO_L15N_13,CSON,DOUT | 14 | 15 | HR | - |
+| D26 | 13 | IO_L5P_13,D6 | 14 | 5 | HR | - |
+| E21 | 13 | IO_L9P_13 | 14 | 9 | HR | - |
+| E22 | 13 | IO_L9N_13,D13 | 14 | 9 | HR | - |
+| E23 | 13 | IO_L12N_13,GCLKIOC2_13 | 14 | 12 | HR | - |
+| E25 | 13 | IO_L15P_13,RDWRN | 14 | 15 | HR | - |
+| E26 | 13 | IO_L17N_13,D29 | 14 | 17 | HR | - |
+| F22 | 13 | IO_L12P_13,GCLKIOT2_13 | 14 | 12 | HR | - |
+| F23 | 13 | IO_L13N_13,GCLKIOC1_13 | 14 | 13 | HR | - |
+| F24 | 13 | IO_L14N_13,GCLKIOC0_13 | 14 | 14 | HR | - |
+| F25 | 13 | IO_L17P_13,D30 | 14 | 17 | HR | - |
+| F26 | 13 | VCCIO_13 | 14 | 14 | - | - |
+| G21 | 13 | IO_L19N_13,D25 | 14 | 19 | HR | - |
+| G22 | 13 | IO_L13P_13,GCLKIOT1_13 | 14 | 13 | HR | - |
+| G23 | 13 | VCCIO_13 | 14 | 14 | - | - |
+| G24 | 13 | IO_L14P_13,GCLKIOT0_13 | 14 | 14 | HR | - |
+| G25 | 13 | IO_L16P_13,CSN | 14 | 16 | HR | - |
+| G26 | 13 | IO_L16N_13,D31 | 14 | 16 | HR | - |
+| H21 | 13 | IO_L19P_13,D26 | 14 | 19 | HR | - |
+| H22 | 13 | IO_L21N_13,D22 | 14 | 21 | HR | - |
+| H23 | 13 | IO_L20P_13,D24 | 14 | 20 | HR | - |
+| H24 | 13 | IO_L20N_13,D23 | 14 | 20 | HR | - |
+| H26 | 13 | IO_L18N_13,D27 | 14 | 18 | HR | - |
+| J21 | 13 | IO_L21P_13 | 14 | 21 | HR | - |
+| J23 | 13 | IO_L24N_13,D16 | 14 | 24 | HR | - |
+| J24 | 13 | IO_L22P_13,D21 | 14 | 22 | HR | - |
+| J25 | 13 | IO_L22N_13,D20 | 14 | 22 | HR | - |
+| J26 | 13 | IO_L18P_13,D28 | 14 | 18 | HR | - |
+| K21 | 13 | IO_L0_13 | 14 | 0 | HR | - |
+| K22 | 13 | IO_L23N_13,D18 | 14 | 23 | HR | - |
+| K23 | 13 | IO_L24P_13,D17 | 14 | 24 | HR | - |
+| L21 | 13 | VCCIO_13 | 14 | 14 | - | - |
+| L22 | 13 | IO_L23P_13,D19 | 14 | 23 | HR | - |
+| L23 | 13 | IO_L25_13 | 14 | 25 | HR | - |
 
 
-## IO BANK 32
+## IO BANK 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25
 
-| 引脚编号 | IO BANK | 引脚说明 | Config_Type |
-|----------|---------|----------|-------------|
-| U9 | 32 | IO_R0_32 | HP |
-| V11 | 32 | IO_R1P_32,T0 | HP |
-| W11 | 32 | IO_R1N_32,T0 | HP |
-| V8 | 32 | IO_R2P_32,T0 | HP |
-| V7 | 32 | IO_R2N_32,T0 | HP |
-| W10 | 32 | IO_R3P_32,T0_DQS_P | HP |
-| W9 | 32 | IO_R3N_32,T0_DQS_N | HP |
-| Y8 | 32 | IO_R4P_32,T0 | HP |
-| Y7 | 32 | IO_R4N_32,T0 | HP |
-| Y11 | 32 | IO_R5P_32,T0 | HP |
-| Y10 | 32 | IO_R5N_32,T0 | HP |
-| V9 | 32 | IO_R6P_32,T0 | HP |
-| W8 | 32 | IO_R6N_32,T0_VREF | HP |
-| AE7 | 32 | IO_R7P_32,T1 | HP |
-| AF7 | 32 | IO_R7N_32,T1 | HP |
-| AA8 | 32 | IO_R8P_32,T1 | HP |
-| AA7 | 32 | IO_R8N_32,T1 | HP |
-| AC8 | 32 | IO_R9P_32,GPLL1_32_OUTP,T1_DQS_P | HP |
-| AD8 | 32 | IO_R9N_32,GPLL1_32_OUTN,T1_DQS_N | HP |
-| AB7 | 32 | IO_R10P_32,T1 | HP |
-| AC7 | 32 | IO_R10N_32,T1 | HP |
-| AA9 | 32 | IO_R11P_32,GCLKIOT3_32,T1 | HP |
-| AB9 | 32 | IO_R11N_32,GCLKIOC3_32,T1 | HP |
-| AC9 | 32 | IO_R12P_32,GCLKIOT2_32,T1 | HP |
-| AD9 | 32 | IO_R12N_32,GCLKIOC2_32,T1 | HP |
-| AB11 | 32 | IO_R13P_32,GCLKIOT1_32,T2 | HP |
-| AC11 | 32 | IO_R13N_32,GCLKIOC1_32,T2 | HP |
-| AA10 | 32 | IO_R14P_32,GCLKIOT0_32,T2 | HP |
-| AB10 | 32 | IO_R14N_32,GCLKIOC0_32,T2 | HP |
-| AB12 | 32 | IO_R15P_32,T2_DQS_P | HP |
-| AC12 | 32 | IO_R15N_32,T2_DQS_N | HP |
-| AA13 | 32 | IO_R16P_32,GPLL0_32_OUTP,T2 | HP |
-| AA12 | 32 | IO_R16N_32,GPLL0_32_OUTN,T2 | HP |
-| AC13 | 32 | IO_R17P_32,T2 | HP |
-| AD13 | 32 | IO_R17N_32,T2 | HP |
-| Y13 | 32 | IO_R18P_32,T2 | HP |
-| Y12 | 32 | IO_R18N_32,T2 | HP |
-| AD11 | 32 | IO_R19P_32,T3 | HP |
-| AE11 | 32 | IO_R19N_32,T3_VREF | HP |
-| AD10 | 32 | IO_R20P_32,T3 | HP |
-| AE10 | 32 | IO_R20N_32,T3 | HP |
-| AE12 | 32 | IO_R21P_32,T3_DQS_P | HP |
-| AF12 | 32 | IO_R21N_32,T3_DQS_N | HP |
-| AE8 | 32 | IO_R22P_32,T3 | HP |
-| AF8 | 32 | IO_R22N_32,T3 | HP |
-| AE13 | 32 | IO_R23P_32,T3 | HP |
-| AF13 | 32 | IO_R23N_32,T3 | HP |
-| AF10 | 32 | IO_R24P_32,T3 | HP |
-| AF9 | 32 | IO_R24N_32,T3 | HP |
-| V12 | 32 | IO_R25_32,VRP | HP |
-| W7 | 32 | VCCIO_32 | - |
-| V10 | 32 | VCCIO_32 | - |
-| AB8 | 32 | VCCIO_32 | - |
-| AE9 | 32 | VCCIO_32 | - |
-| AA11 | 32 | VCCIO_32 | - |
-| AD12 | 32 | VCCIO_32 | - |
-
-
-## IO BANK 33
-
-| 引脚编号 | IO BANK | 引脚说明 | Config_Type |
-|----------|---------|----------|-------------|
-| U4 | 33 | IO_R0_33 | - |
-| U6 | 33 | IO_R1P_33,GPFUOUTEN,T0 | HP |
-| U5 | 33 | IO_R1N_33,T0 | HP |
-| U2 | 33 | IO_R2P_33,T0 | HP |
-| U1 | 33 | IO_R2N_33,T0 | HP |
-| W6 | 33 | IO_R3P_33,T0_DQS_P | HP |
-| W5 | 33 | IO_R3N_33,T0_DQS_N | HP |
-| V3 | 33 | IO_R4P_33,T0 | HP |
-| W3 | 33 | IO_R4N_33,T0 | HP |
-| U7 | 33 | IO_R5P_33,T0 | HP |
-| V6 | 33 | IO_R5N_33,T0 | HP |
-| V4 | 33 | IO_R6P_33,T0 | HP |
-| W4 | 33 | IO_R6N_33,T0_VREF | HP |
-| Y3 | 33 | IO_R7P_33,T1 | HP |
-| Y2 | 33 | IO_R7N_33,T1 | HP |
-| V2 | 33 | IO_R8P_33,T1 | HP |
-| V1 | 33 | IO_R8N_33,T1 | HP |
-| AB1 | 33 | IO_R9P_33,GPLL1_33_OUTP,T1_DQS_P | HP |
-| AC1 | 33 | IO_R9N_33,GPLL1_33_OUTN,T1_DQS_N | HP |
-| W1 | 33 | IO_R10P_33,T1 | HP |
-| Y1 | 33 | IO_R10N_33,T1 | HP |
-| AB2 | 33 | IO_R11P_33,GCLKIOT3_33,T1 | HP |
-| AC2 | 33 | IO_R11N_33,GCLKIOC3_33,T1 | HP |
-| AA3 | 33 | IO_R12P_33,GCLKIOT2_33,T1 | HP |
-| AA2 | 33 | IO_R12N_33,GCLKIOC2_33,T1 | HP |
-| AA4 | 33 | IO_R13P_33,GCLKIOT1_33,T2 | HP |
-| AB4 | 33 | IO_R13N_33,GCLKIOC1_33,T2 | HP |
-| AC4 | 33 | IO_R14P_33,GCLKIOT0_33,T2 | HP |
-| AC3 | 33 | IO_R14N_33,GCLKIOC0_33,T2 | HP |
-| AA5 | 33 | IO_R15P_33,T2_DQS_P | HP |
-| AB5 | 33 | IO_R15N_33,T2_DQS_N | HP |
-| AB6 | 33 | IO_R16P_33,GPLL0_33_OUTP,T2 | HP |
-| AC6 | 33 | IO_R16N_33,GPLL0_33_OUTN,T2 | HP |
-| Y6 | 33 | IO_R17P_33,T2 | HP |
-| Y5 | 33 | IO_R17N_33,T2 | HP |
-| AD6 | 33 | IO_R18P_33,T2 | HP |
-| AD5 | 33 | IO_R18N_33,T2 | HP |
-| AD4 | 33 | IO_R19P_33,T3 | HP |
-| AD3 | 33 | IO_R19N_33,T3_VREF | HP |
-| AD1 | 33 | IO_R20P_33,T3 | HP |
-| AE1 | 33 | IO_R20N_33,T3 | HP |
-| AF5 | 33 | IO_R21P_33,T3_DQS_P | HP |
-| AF4 | 33 | IO_R21N_33,T3_DQS_N | HP |
-| AE3 | 33 | IO_R22P_33,T3 | HP |
-| AE2 | 33 | IO_R22N_33,T3 | HP |
-| AE6 | 33 | IO_R23P_33,T3 | HP |
-| AE5 | 33 | IO_R23N_33,T3 | HP |
-| AF3 | 33 | IO_R24P_33,T3 | HP |
-| AF2 | 33 | IO_R24N_33,T3 | HP |
-| T7 | 33 | IO_R25_33,VRP | HP |
-| U3 | 33 | VCCIO_33 | - |
-| Y4 | 33 | VCCIO_33 | - |
-| AA1 | 33 | VCCIO_33 | - |
-| AD2 | 33 | VCCIO_33 | - |
-| AC5 | 33 | VCCIO_33 | - |
-| AF6 | 33 | VCCIO_33 | - |
+| PH1A180SFG676 | | | XC7K160TFFG676 | | | |
+| 引脚编号 | IO BANK | 引脚说明 | 引脚编号 | IO BANK | 引脚说明 | 差异备注 |
+|----------|---------|----------|----------|---------|----------|----------|
+| A17 | 14 | IO_L3N_14 | 15 | 3 | HR | - |
+| A18 | 14 | IO_L2P_14 | 15 | 2 | HR | - |
+| A19 | 14 | IO_L2N_14 | 15 | 2 | HR | - |
+| B16 | 14 | IO_L1N_14 | 15 | 1 | HR | - |
+| B17 | 14 | IO_L3P_14 | 15 | 3 | HR | - |
+| B18 | 14 | VCCIO_14 | 15 | 15 | - | - |
+| B19 | 14 | IO_L4N_14 | 15 | 4 | HR | - |
+| C16 | 14 | IO_L1P_14 | 15 | 1 | HR | - |
+| C17 | 14 | IO_L5P_14 | 15 | 5 | HR | - |
+| C18 | 14 | IO_L5N_14 | 15 | 5 | HR | - |
+| C19 | 14 | IO_L4P_14 | 15 | 4 | HR | - |
+| D15 | 14 | IO_L6P_14 | 15 | 6 | HR | - |
+| D16 | 14 | IO_L6N_14 | 15 | 6 | HR | - |
+| D18 | 14 | IO_L13N_14,GCLKIOC1_14 | 15 | 13 | HR | - |
+| D19 | 14 | IO_L15P_14 | 15 | 15 | HR | - |
+| D20 | 14 | IO_L15N_14 | 15 | 15 | HR | - |
+| E15 | 14 | IO_L10P_14 | 15 | 10 | HR | - |
+| E16 | 14 | IO_L10N_14 | 15 | 10 | HR | - |
+| E17 | 14 | IO_L12N_14,GCLKIOC2_14 | 15 | 12 | HR | - |
+| E18 | 14 | IO_L13P_14,GCLKIOT1_14 | 15 | 13 | HR | - |
+| E19 | 14 | VCCIO_14 | 15 | 15 | - | - |
+| E20 | 14 | IO_L17N_14 | 15 | 17 | HR | - |
+| F15 | 14 | IO_L8N_14 | 15 | 8 | HR | - |
+| F16 | 14 | VCCIO_14 | 15 | 15 | - | - |
+| F17 | 14 | IO_L12P_14,GCLKIOT2_14 | 15 | 12 | HR | - |
+| F18 | 14 | IO_L11N_14,GCLKIOC3_14 | 15 | 11 | HR | - |
+| F19 | 14 | IO_L17P_14 | 15 | 17 | HR | - |
+| F20 | 14 | IO_L16N_14,GPLL0_14_OUTN | 15 | 16 | HR | - |
+| G15 | 14 | IO_L8P_14 | 15 | 8 | HR | - |
+| G16 | 14 | IO_L7N_14 | 15 | 7 | HR | - |
+| G17 | 14 | IO_L11P_14,GCLKIOT3_14 | 15 | 11 | HR | - |
+| G19 | 14 | IO_L16P_14,GPLL0_14_OUTP | 15 | 16 | HR | - |
+| G20 | 14 | IO_L18N_14 | 15 | 18 | HR | - |
+| H16 | 14 | IO_L7P_14 | 15 | 7 | HR | - |
+| H17 | 14 | IO_L14P_14,GCLKIOT0_14 | 15 | 14 | HR | - |
+| H18 | 14 | IO_L14N_14,GCLKIOC0_14 | 15 | 14 | HR | - |
+| H19 | 14 | IO_L18P_14 | 15 | 18 | HR | - |
+| H20 | 14 | VCCIO_14 | 15 | 15 | - | - |
+| J15 | 14 | IO_L9P_14,GPLL1_14_OUTP | 15 | 9 | HR | - |
+| J16 | 14 | IO_L9N_14,GPLL1_14_OUTN | 15 | 9 | HR | - |
+| J17 | 14 | VCCIO_14 | 15 | 15 | - | - |
+| J18 | 14 | IO_L20P_14 | 15 | 20 | HR | - |
+| J19 | 14 | IO_L20N_14 | 15 | 20 | HR | - |
+| J20 | 14 | IO_L19N_14 | 15 | 19 | HR | - |
+| K15 | 14 | IO_L0_14 | 15 | 0 | HR | - |
+| K16 | 14 | IO_L22P_14 | 15 | 22 | HR | - |
+| K17 | 14 | IO_L22N_14 | 15 | 22 | HR | - |
+| K18 | 14 | IO_L24N_14 | 15 | 24 | HR | - |
+| K20 | 14 | IO_L19P_14 | 15 | 19 | HR | - |
+| L17 | 14 | IO_L24P_14 | 15 | 24 | HR | - |
+| L18 | 14 | IO_L23N_14 | 15 | 23 | HR | - |
+| L19 | 14 | IO_L21P_14 | 15 | 21 | HR | - |
+| L20 | 14 | IO_L21N_14 | 15 | 21 | HR | - |
+| M16 | 14 | IO_L25_14 | 15 | 25 | HR | - |
+| M17 | 14 | IO_L23P_14 | 15 | 23 | HR | - |
+| M18 | 14 | VCCIO_14 | 15 | 15 | - | - |
 
 
-## IO BANK Other
+## IO BANK 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25
 
-| 引脚编号 | IO BANK | 引脚说明 | Config_Type |
-|----------|---------|----------|-------------|
-| A1 | - | GND | - |
-| A16 | - | GND | - |
-| A2 | - | GND | - |
-| A26 | - | GND | - |
-| A5 | - | GND | - |
-| A6 | - | GND | - |
-| A7 | - | GND | - |
-| AA16 | - | GND | - |
-| AA6 | - | GND | - |
-| AB13 | - | GND | - |
-| AB24 | - | GND | - |
-| AB3 | - | GND | - |
-| AC10 | - | GND | - |
-| AC20 | - | GND | - |
-| AD17 | - | GND | - |
-| AD22 | - | GND | - |
-| AD25 | - | GND | - |
-| AD7 | - | GND | - |
-| AE14 | - | GND | - |
-| AE4 | - | GND | - |
-| AF1 | - | GND | - |
-| AF11 | - | GND | - |
-| AF21 | - | GND | - |
-| AF26 | - | GND | - |
-| B13 | - | GND | - |
-| B23 | - | GND | - |
-| B4 | - | GND | - |
-| B7 | - | GND | - |
-| C1 | - | GND | - |
-| C10 | - | GND | - |
-| C20 | - | GND | - |
-| C5 | - | GND | - |
-| C7 | - | GND | - |
-| D17 | - | GND | - |
-| D4 | - | GND | - |
-| D7 | - | GND | - |
-| E1 | - | GND | - |
-| E14 | - | GND | - |
-| E2 | - | GND | - |
-| E24 | - | GND | - |
-| E5 | - | GND | - |
-| E7 | - | GND | - |
-| F11 | - | GND | - |
-| F21 | - | GND | - |
-| F3 | - | GND | - |
-| F4 | - | GND | - |
-| F7 | - | GND | - |
-| G1 | - | GND | - |
-| G18 | - | GND | - |
-| G5 | - | GND | - |
-| G8 | - | GND | - |
-| H15 | - | GND | - |
-| H25 | - | GND | - |
-| H4 | - | GND | - |
-| H7 | - | GND | - |
-| J1 | - | GND | - |
-| J12 | - | GND | - |
-| J2 | - | GND | - |
-| J22 | - | GND | - |
-| J5 | - | GND | - |
-| K11 | - | GND | - |
-| K13 | - | GND | - |
-| K19 | - | GND | - |
-| K3 | - | GND | - |
-| K4 | - | GND | - |
-| K7 | - | GND | - |
-| K9 | - | GND | - |
-| L1 | - | GND | - |
-| L10 | - | GND | - |
-| L12 | - | GND | - |
-| L14 | - | GND | - |
-| L16 | - | GND | - |
-| L26 | - | GND | - |
-| L5 | - | GND | - |
-| M13 | - | GND | - |
-| M15 | - | GND | - |
-| M23 | - | GND | - |
-| M4 | - | GND | - |
-| M7 | - | GND | - |
-| M9 | - | GND | - |
-| N1 | - | GND | - |
-| N10 | - | GND | - |
-| N14 | - | GND | - |
-| N2 | - | GND | - |
-| N20 | - | GND | - |
-| N5 | - | GND | - |
-| N7 | - | GND | - |
-| P13 | - | GND | - |
-| P15 | - | GND | - |
-| P17 | - | GND | - |
-| P3 | - | GND | - |
-| P4 | - | GND | - |
-| P9 | - | GND | - |
-| R1 | - | GND | - |
-| R10 | - | GND | - |
-| R14 | - | GND | - |
-| R2 | - | GND | - |
-| R24 | - | GND | - |
-| R5 | - | GND | - |
-| R8 | - | GND | - |
-| T1 | - | GND | - |
-| T11 | - | GND | - |
-| T13 | - | GND | - |
-| T15 | - | GND | - |
-| T21 | - | GND | - |
-| T3 | - | GND | - |
-| T4 | - | GND | - |
-| T9 | - | GND | - |
-| U10 | - | GND | - |
-| U12 | - | GND | - |
-| U14 | - | GND | - |
-| U18 | - | GND | - |
-| U8 | - | GND | - |
-| V15 | - | GND | - |
-| V25 | - | GND | - |
-| V5 | - | GND | - |
-| W12 | - | GND | - |
-| W2 | - | GND | - |
-| W22 | - | GND | - |
-| Y19 | - | GND | - |
-| Y24 | - | GND | - |
-| Y9 | - | GND | - |
-| E8 | - | NC | - |
-| M11 | - | NC | - |
-| M12 | - | NC | - |
-| N11 | - | NC | - |
-| N12 | - | NC | - |
-| P11 | - | NC | - |
-| P12 | - | NC | - |
-| R11 | - | NC | - |
-| R12 | - | NC | - |
-| P8 | - | NC | - |
-| M5 | - | NC | - |
-| R9 | - | NC | - |
-| T8 | - | NC | - |
-| AA24 | - | VCCDPHY | - |
-| AC24 | - | VCCDPHY | - |
-| AD23 | - | VCCDPHY | - |
-| AD24 | - | VCCDPHY | - |
-| AE21 | - | VCCDPHY | - |
-| V26 | - | VCCDPHY | - |
-| W24 | - | VCCDPHY | - |
-| AA26 | - | I_0P_DPHY0,CKP_0 | - |
-| AA25 | - | I_0N_DPHY0,CKN_0 | - |
-| Y26 | - | I_1P_DPHY0,DP0_0 | - |
-| Y25 | - | I_1N_DPHY0,DN0_0 | - |
-| AB26 | - | I_2P_DPHY0,DP1_0 | - |
-| AB25 | - | I_2N_DPHY0,DN1_0 | - |
-| W26 | - | I_3P_DPHY0,DP2_0 | - |
-| W25 | - | I_3N_DPHY0,DN2_0 | - |
-| AC26 | - | I_4P_DPHY0,DP3_0 | - |
-| AC25 | - | I_4N_DPHY0,DN3_0 | - |
-| AF24 | - | I_5P_DPHY1,CKP_1 | - |
-| AE24 | - | I_5N_DPHY1,CKN_1 | - |
-| AF25 | - | I_6P_DPHY1,DP0_1 | - |
-| AE25 | - | I_6N_DPHY1,DN0_1 | - |
-| AF23 | - | I_7P_DPHY1,DP1_1 | - |
-| AE23 | - | I_7N_DPHY1,DN1_1 | - |
-| AE26 | - | I_8P_DPHY1,DP2_1 | - |
-| AD26 | - | I_8N_DPHY1,DN2_1 | - |
-| AF22 | - | I_9P_DPHY1,DP3_1 | - |
-| AE22 | - | I_9N_DPHY1,DN3_1 | - |
-| J6 | - | PHYVCCA_80 | - |
-| L6 | - | PHYVCCA_80 | - |
-| N6 | - | PHYVCCA_80 | - |
-| C6 | - | PHYVCCA_82 | - |
-| E6 | - | PHYVCCA_82 | - |
-| G6 | - | PHYVCCA_82 | - |
-| G2 | - | PHYVCCT_80 | - |
-| H3 | - | PHYVCCT_80 | - |
-| L2 | - | PHYVCCT_80 | - |
-| B3 | - | PHYVCCT_82 | - |
-| C2 | - | PHYVCCT_82 | - |
-| D3 | - | PHYVCCT_82 | - |
-| M3 | - | PHYVCCT_80 | - |
-| H6 | - | REFCLKP_80 | - |
-| H5 | - | REFCLKM_80 | - |
-| K6 | - | REFCLKP_81 | - |
-| K5 | - | REFCLKM_81 | - |
-| D6 | - | REFCLKP_82 | - |
-| D5 | - | REFCLKM_82 | - |
-| F6 | - | REFCLKP_83 | - |
-| F5 | - | REFCLKM_83 | - |
-| R4 | - | RXP0_80 | - |
-| R3 | - | RXM0_80 | - |
-| N4 | - | RXP1_80 | - |
-| N3 | - | RXM1_80 | - |
-| P2 | - | TXP0_80 | - |
-| P1 | - | TXM0_80 | - |
-| M2 | - | TXP1_80 | - |
-| M1 | - | TXM1_80 | - |
-| L4 | - | RXP0_81 | - |
-| L3 | - | RXM0_81 | - |
-| J4 | - | RXP1_81 | - |
-| J3 | - | RXM1_81 | - |
-| K2 | - | TXP0_81 | - |
-| K1 | - | TXM0_81 | - |
-| H2 | - | TXP1_81 | - |
-| H1 | - | TXM1_81 | - |
-| G4 | - | RXP0_82 | - |
-| G3 | - | RXM0_82 | - |
-| E4 | - | RXP1_82 | - |
-| E3 | - | RXM1_82 | - |
-| F2 | - | TXP0_82 | - |
-| F1 | - | TXM0_82 | - |
-| D2 | - | TXP1_82 | - |
-| D1 | - | TXM1_82 | - |
-| C4 | - | RXP0_83 | - |
-| C3 | - | RXM0_83 | - |
-| B6 | - | RXP1_83 | - |
-| B5 | - | RXM1_83 | - |
-| B1 | - | TXM0_83 | - |
-| B2 | - | TXP0_83 | - |
-| A3 | - | TXM1_83 | - |
-| A4 | - | TXP1_83 | - |
-| M6 | - | RESREF | - |
-| L11 | - | VCCAUX | - |
-| M10 | - | VCCAUX | - |
-| P10 | - | VCCAUX | - |
-| T10 | - | VCCAUX | - |
-| U11 | - | VCCAUX | - |
-| J9 | - | VCCINT | - |
-| K10 | - | VCCINT | - |
-| K12 | - | VCCINT | - |
-| K14 | - | VCCINT | - |
-| K8 | - | VCCINT | - |
-| L13 | - | VCCINT | - |
-| L15 | - | VCCINT | - |
-| L9 | - | VCCINT | - |
-| M14 | - | VCCINT | - |
-| M8 | - | VCCINT | - |
-| N13 | - | VCCINT | - |
-| N15 | - | VCCINT | - |
-| N9 | - | VCCINT | - |
-| P14 | - | VCCINT | - |
-| R13 | - | VCCINT | - |
-| R15 | - | VCCINT | - |
-| T12 | - | VCCINT | - |
-| T14 | - | VCCINT | - |
-| U13 | - | VCCINT | - |
-| U15 | - | VCCINT | - |
+| PH1A180SFG676 | | | XC7K160TFFG676 | | | |
+| 引脚编号 | IO BANK | 引脚说明 | 引脚编号 | IO BANK | 引脚说明 | 差异备注 |
+|----------|---------|----------|----------|---------|----------|----------|
+| A8 | 15 | IO_L9N_15,GPLL1_15_OUTN | 16 | 9 | HR | - |
+| A9 | 15 | IO_L9P_15,GPLL1_15_OUTP | 16 | 9 | HR | - |
+| B8 | 15 | VCCIO_15 | 16 | 16 | - | - |
+| B9 | 15 | IO_L10N_15 | 16 | 10 | HR | - |
+| C9 | 15 | IO_L10P_15 | 16 | 10 | HR | - |
+| D8 | 15 | IO_L8N_15 | 16 | 8 | HR | - |
+| D9 | 15 | IO_L8P_15 | 16 | 8 | HR | - |
+| E9 | 15 | VCCIO_15 | 16 | 16 | - | - |
+| F8 | 15 | IO_L7N_15 | 16 | 7 | HR | - |
+| F9 | 15 | IO_L7P_15 | 16 | 7 | HR | - |
+| G9 | 15 | IO_L2N_15 | 16 | 2 | HR | - |
+| H8 | 15 | IO_L1N_15 | 16 | 1 | HR | - |
+| H9 | 15 | IO_L1P_15 | 16 | 1 | HR | - |
+| J8 | 15 | IO_L0_15 | 16 | 0 | HR | - |
+| A10 | 15 | IO_L22N_15 | 16 | 22 | HR | - |
+| A11 | 15 | VCCIO_15 | 16 | 16 | - | - |
+| A12 | 15 | IO_L24N_15 | 16 | 24 | HR | - |
+| A13 | 15 | IO_L24P_15 | 16 | 24 | HR | - |
+| A14 | 15 | IO_L21N_15 | 16 | 21 | HR | - |
+| A15 | 15 | IO_L23N_15 | 16 | 23 | HR | - |
+| B10 | 15 | IO_L22P_15 | 16 | 22 | HR | - |
+| B11 | 15 | IO_L20N_15 | 16 | 20 | HR | - |
+| B12 | 15 | IO_L20P_15 | 16 | 20 | HR | - |
+| B14 | 15 | IO_L21P_15 | 16 | 21 | HR | - |
+| B15 | 15 | IO_L23P_15 | 16 | 23 | HR | - |
+| C11 | 15 | IO_L13N_15,GCLKIOC1_15 | 16 | 13 | HR | - |
+| C12 | 15 | IO_L13P_15,GCLKIOT1_15 | 16 | 13 | HR | - |
+| C13 | 15 | IO_L19N_15 | 16 | 19 | HR | - |
+| C14 | 15 | IO_L19P_15 | 16 | 19 | HR | - |
+| C15 | 15 | VCCIO_15 | 16 | 16 | - | - |
+| D10 | 15 | IO_L12N_15,GCLKIOC2_15 | 16 | 12 | HR | - |
+| D11 | 15 | IO_L14N_15,GCLKIOC0_15 | 16 | 14 | HR | - |
+| D12 | 15 | VCCIO_15 | 16 | 16 | - | - |
+| D13 | 15 | IO_L17N_15 | 16 | 17 | HR | - |
+| D14 | 15 | IO_L17P_15 | 16 | 17 | HR | - |
+| E10 | 15 | IO_L12P_15,GCLKIOT2_15 | 16 | 12 | HR | - |
+| E11 | 15 | IO_L14P_15,GCLKIOT0_15 | 16 | 14 | HR | - |
+| E12 | 15 | IO_L18N_15 | 16 | 18 | HR | - |
+| E13 | 15 | IO_L18P_15 | 16 | 18 | HR | - |
+| F10 | 15 | IO_L11N_15,GCLKIOC3_15 | 16 | 11 | HR | - |
+| F12 | 15 | IO_L16N_15,GPLL0_15_OUTN | 16 | 16 | HR | - |
+| F13 | 15 | IO_L15N_15 | 16 | 15 | HR | - |
+| F14 | 15 | IO_L15P_15 | 16 | 15 | HR | - |
+| G10 | 15 | IO_L2P_15 | 16 | 2 | HR | - |
+| G11 | 15 | IO_L11P_15,GCLKIOT3_15 | 16 | 11 | HR | - |
+| G12 | 15 | IO_L16P_15,GPLL0_15_OUTP | 16 | 16 | HR | - |
+| G13 | 15 | VCCIO_15 | 16 | 16 | - | - |
+| G14 | 15 | IO_L5N_15 | 16 | 5 | HR | - |
+| H10 | 15 | VCCIO_15 | 16 | 16 | - | - |
+| H11 | 15 | IO_L6N_15 | 16 | 6 | HR | - |
+| H12 | 15 | IO_L6P_15 | 16 | 6 | HR | - |
+| H13 | 15 | IO_L3N_15 | 16 | 3 | HR | - |
+| H14 | 15 | IO_L5P_15 | 16 | 5 | HR | - |
+| J10 | 15 | IO_L4N_15 | 16 | 4 | HR | - |
+| J11 | 15 | IO_L4P_15 | 16 | 4 | HR | - |
+| J13 | 15 | IO_L3P_15 | 16 | 3 | HR | - |
+| J14 | 15 | IO_L25_15 | 16 | 25 | HR | - |
+
+
+## IO BANK 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 31, 32
+
+| PH1A180SFG676 | | | XC7K160TFFG676 | | | |
+| 引脚编号 | IO BANK | 引脚说明 | 引脚编号 | IO BANK | 引脚说明 | 差异备注 |
+|----------|---------|----------|----------|---------|----------|----------|
+| V13 | 31 | IO_R0_31 | 32 | 0 | HP | - |
+| V14 | 31 | IO_R24P_31,T3 | 32 | 24 | HP | - |
+| V16 | 31 | IO_R20P_31,T3 | 32 | 20 | HP | - |
+| V17 | 31 | IO_R20N_31,T3 | 32 | 20 | HP | - |
+| V18 | 31 | IO_R23P_31,T3 | 32 | 23 | HP | - |
+| V19 | 31 | IO_R23N_31,T3 | 32 | 23 | HP | - |
+| W13 | 31 | IO_R25_31,VRP | 32 | 25 | HP | - |
+| W14 | 31 | IO_R24N_31,T3 | 32 | 24 | HP | - |
+| W15 | 31 | IO_R22P_31,T3 | 32 | 22 | HP | - |
+| W16 | 31 | IO_R22N_31,T3 | 32 | 22 | HP | - |
+| W17 | 31 | VCCIO_31 | 32 | 32 | - | - |
+| W18 | 31 | IO_R21P_31,T3_DQS_P | 32 | 21 | HP | - |
+| W19 | 31 | IO_R21N_31,T3_DQS_N | 32 | 21 | HP | - |
+| Y14 | 31 | VCCIO_31 | 32 | 32 | - | - |
+| Y15 | 31 | IO_R9P_31,GPLL1_31_OUTP,T1_DQS_P | 32 | 9 | HP | - |
+| Y16 | 31 | IO_R9N_31,GPLL1_31_OUTN,T1_DQS_N | 32 | 9 | HP | - |
+| Y17 | 31 | IO_R19P_31,T3 | 32 | 19 | HP | - |
+| Y18 | 31 | IO_R19N_31,T3_VREF | 32 | 19 | HP | - |
+| AA14 | 31 | IO_R7P_31,T1 | 32 | 7 | HP | - |
+| AA15 | 31 | IO_R7N_31,T1 | 32 | 7 | HP | - |
+| AA17 | 31 | IO_R11P_31,GCLKIOT3_31,T1 | 32 | 11 | HP | - |
+| AA18 | 31 | IO_R11N_31,GCLKIOC3_31,T1 | 32 | 11 | HP | - |
+| AA19 | 31 | IO_R16P_31,GPLL0_31_OUTP,T2 | 32 | 16 | HP | - |
+| AA20 | 31 | IO_R16N_31,GPLL0_31_OUTN,T2 | 32 | 16 | HP | - |
+| AB14 | 31 | IO_R10P_31,T1 | 32 | 10 | HP | - |
+| AB15 | 31 | IO_R10N_31,T1 | 32 | 10 | HP | - |
+| AB16 | 31 | IO_R12P_31,GCLKIOT2_31,T1 | 32 | 12 | HP | - |
+| AB17 | 31 | IO_R14P_31,GCLKIOT0_31,T2 | 32 | 14 | HP | - |
+| AB18 | 31 | VCCIO_31 | 32 | 32 | - | - |
+| AB19 | 31 | IO_R18P_31,T2 | 32 | 18 | HP | - |
+| AB20 | 31 | IO_R18N_31,T2 | 32 | 18 | HP | - |
+| AC14 | 31 | IO_R8P_31,T1 | 32 | 8 | HP | - |
+| AC15 | 31 | VCCIO_31 | 32 | 32 | - | - |
+| AC16 | 31 | IO_R12N_31,GCLKIOC2_31,T1 | 32 | 12 | HP | - |
+| AC17 | 31 | IO_R14N_31,GCLKIOC0_31,T2 | 32 | 14 | HP | - |
+| AC18 | 31 | IO_R13P_31,GCLKIOT1_31,T2 | 32 | 13 | HP | - |
+| AC19 | 31 | IO_R17P_31,T2 | 32 | 17 | HP | - |
+| AD14 | 31 | IO_R8N_31,T1 | 32 | 8 | HP | - |
+| AD15 | 31 | IO_R4P_31,T0 | 32 | 4 | HP | - |
+| AD16 | 31 | IO_R6P_31,T0 | 32 | 6 | HP | - |
+| AD18 | 31 | IO_R13N_31,GCLKIOC1_31,T2 | 32 | 13 | HP | - |
+| AD19 | 31 | IO_R17N_31,T2 | 32 | 17 | HP | - |
+| AD20 | 31 | IO_R15P_31,T2_DQS_P | 32 | 15 | HP | - |
+| AE15 | 31 | IO_R4N_31,T0 | 32 | 4 | HP | - |
+| AE16 | 31 | IO_R6N_31,T0_VREF | 32 | 6 | HP | - |
+| AE17 | 31 | IO_R1P_31,T0 | 32 | 1 | HP | - |
+| AE18 | 31 | IO_R3P_31,T0_DQS_P | 32 | 3 | HP | - |
+| AE19 | 31 | VCCIO_31 | 32 | 32 | - | - |
+| AE20 | 31 | IO_R15N_31,T2_DQS_N | 32 | 15 | HP | - |
+| AF14 | 31 | IO_R2P_31,T0 | 32 | 2 | HP | - |
+| AF15 | 31 | IO_R2N_31,T0 | 32 | 2 | HP | - |
+| AF16 | 31 | VCCIO_31 | 32 | 32 | - | - |
+| AF17 | 31 | IO_R1N_31,T0 | 32 | 1 | HP | - |
+| AF18 | 31 | IO_R3N_31,T0_DQS_N | 32 | 3 | HP | - |
+| AF19 | 31 | IO_R5P_31,T0 | 32 | 5 | HP | - |
+| AF20 | 31 | IO_R5N_31,T0 | 32 | 5 | HP | - |
+
+
+## IO BANK 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 32, 33
+
+| PH1A180SFG676 | | | XC7K160TFFG676 | | | |
+| 引脚编号 | IO BANK | 引脚说明 | 引脚编号 | IO BANK | 引脚说明 | 差异备注 |
+|----------|---------|----------|----------|---------|----------|----------|
+| U9 | 32 | IO_R0_32 | 33 | 0 | HP | - |
+| V7 | 32 | IO_R2N_32,T0 | 33 | 2 | HP | - |
+| V8 | 32 | IO_R2P_32,T0 | 33 | 2 | HP | - |
+| V9 | 32 | IO_R6P_32,T0 | 33 | 6 | HP | - |
+| W7 | 32 | VCCIO_32 | 33 | 33 | - | - |
+| W8 | 32 | IO_R6N_32,T0_VREF | 33 | 6 | HP | - |
+| W9 | 32 | IO_R3N_32,T0_DQS_N | 33 | 3 | HP | - |
+| Y7 | 32 | IO_R4N_32,T0 | 33 | 4 | HP | - |
+| Y8 | 32 | IO_R4P_32,T0 | 33 | 4 | HP | - |
+| AA7 | 32 | IO_R8N_32,T1 | 33 | 8 | HP | - |
+| AA8 | 32 | IO_R8P_32,T1 | 33 | 8 | HP | - |
+| AA9 | 32 | IO_R11P_32,GCLKIOT3_32,T1 | 33 | 11 | HP | - |
+| AB7 | 32 | IO_R10P_32,T1 | 33 | 10 | HP | - |
+| AB8 | 32 | VCCIO_32 | 33 | 33 | - | - |
+| AB9 | 32 | IO_R11N_32,GCLKIOC3_32,T1 | 33 | 11 | HP | - |
+| AC7 | 32 | IO_R10N_32,T1 | 33 | 10 | HP | - |
+| AC8 | 32 | IO_R9P_32,GPLL1_32_OUTP,T1_DQS_P | 33 | 9 | HP | - |
+| AC9 | 32 | IO_R12P_32,GCLKIOT2_32,T1 | 33 | 12 | HP | - |
+| AD8 | 32 | IO_R9N_32,GPLL1_32_OUTN,T1_DQS_N | 33 | 9 | HP | - |
+| AD9 | 32 | IO_R12N_32,GCLKIOC2_32,T1 | 33 | 12 | HP | - |
+| AE7 | 32 | IO_R7P_32,T1 | 33 | 7 | HP | - |
+| AE8 | 32 | IO_R22P_32,T3 | 33 | 22 | HP | - |
+| AE9 | 32 | VCCIO_32 | 33 | 33 | - | - |
+| AF7 | 32 | IO_R7N_32,T1 | 33 | 7 | HP | - |
+| AF8 | 32 | IO_R22N_32,T3 | 33 | 22 | HP | - |
+| AF9 | 32 | IO_R24N_32,T3 | 33 | 24 | HP | - |
+| V10 | 32 | VCCIO_32 | 33 | 33 | - | - |
+| V11 | 32 | IO_R1P_32,T0 | 33 | 1 | HP | - |
+| V12 | 32 | IO_R25_32,VRP | 33 | 25 | HP | - |
+| W10 | 32 | IO_R3P_32,T0_DQS_P | 33 | 3 | HP | - |
+| W11 | 32 | IO_R1N_32,T0 | 33 | 1 | HP | - |
+| Y10 | 32 | IO_R5N_32,T0 | 33 | 5 | HP | - |
+| Y11 | 32 | IO_R5P_32,T0 | 33 | 5 | HP | - |
+| Y12 | 32 | IO_R18N_32,T2 | 33 | 18 | HP | - |
+| Y13 | 32 | IO_R18P_32,T2 | 33 | 18 | HP | - |
+| AA10 | 32 | IO_R14P_32,GCLKIOT0_32,T2 | 33 | 14 | HP | - |
+| AA11 | 32 | VCCIO_32 | 33 | 33 | - | - |
+| AA12 | 32 | IO_R16N_32,GPLL0_32_OUTN,T2 | 33 | 16 | HP | - |
+| AA13 | 32 | IO_R16P_32,GPLL0_32_OUTP,T2 | 33 | 16 | HP | - |
+| AB10 | 32 | IO_R14N_32,GCLKIOC0_32,T2 | 33 | 14 | HP | - |
+| AB11 | 32 | IO_R13P_32,GCLKIOT1_32,T2 | 33 | 13 | HP | - |
+| AB12 | 32 | IO_R15P_32,T2_DQS_P | 33 | 15 | HP | - |
+| AC11 | 32 | IO_R13N_32,GCLKIOC1_32,T2 | 33 | 13 | HP | - |
+| AC12 | 32 | IO_R15N_32,T2_DQS_N | 33 | 15 | HP | - |
+| AC13 | 32 | IO_R17P_32,T2 | 33 | 17 | HP | - |
+| AD10 | 32 | IO_R20P_32,T3 | 33 | 20 | HP | - |
+| AD11 | 32 | IO_R19P_32,T3 | 33 | 19 | HP | - |
+| AD12 | 32 | VCCIO_32 | 33 | 33 | - | - |
+| AD13 | 32 | IO_R17N_32,T2 | 33 | 17 | HP | - |
+| AE10 | 32 | IO_R20N_32,T3 | 33 | 20 | HP | - |
+| AE11 | 32 | IO_R19N_32,T3_VREF | 33 | 19 | HP | - |
+| AE12 | 32 | IO_R21P_32,T3_DQS_P | 33 | 21 | HP | - |
+| AE13 | 32 | IO_R23P_32,T3 | 33 | 23 | HP | - |
+| AF10 | 32 | IO_R24P_32,T3 | 33 | 24 | HP | - |
+| AF12 | 32 | IO_R21N_32,T3_DQS_N | 33 | 21 | HP | - |
+| AF13 | 32 | IO_R23N_32,T3 | 33 | 23 | HP | - |
+
+
+## IO BANK 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 33, 34
+
+| PH1A180SFG676 | | | XC7K160TFFG676 | | | |
+| 引脚编号 | IO BANK | 引脚说明 | 引脚编号 | IO BANK | 引脚说明 | 差异备注 |
+|----------|---------|----------|----------|---------|----------|----------|
+| T7 | 33 | IO_R25_33,VRP | 34 | 25 | HP | - |
+| U1 | 33 | IO_R2N_33,T0 | 34 | 2 | HP | - |
+| U2 | 33 | IO_R2P_33,T0 | 34 | 2 | HP | - |
+| U3 | 33 | VCCIO_33 | 34 | 34 | - | - |
+| U4 | 33 | IO_R0_33 | 34 | 0 | HP | - |
+| U5 | 33 | IO_R1N_33,T0 | 34 | 1 | HP | - |
+| U6 | 33 | IO_R1P_33,GPFUOUTEN,T0 | 34 | 1 | HP | - |
+| U7 | 33 | IO_R5P_33,T0 | 34 | 5 | HP | - |
+| V1 | 33 | IO_R8N_33,T1 | 34 | 8 | HP | - |
+| V2 | 33 | IO_R8P_33,T1 | 34 | 8 | HP | - |
+| V3 | 33 | IO_R4P_33,T0 | 34 | 4 | HP | - |
+| V4 | 33 | IO_R6P_33,T0 | 34 | 6 | HP | - |
+| V6 | 33 | IO_R5N_33,T0 | 34 | 5 | HP | - |
+| W1 | 33 | IO_R10P_33,T1 | 34 | 10 | HP | - |
+| W3 | 33 | IO_R4N_33,T0 | 34 | 4 | HP | - |
+| W4 | 33 | IO_R6N_33,T0_VREF | 34 | 6 | HP | - |
+| W5 | 33 | IO_R3N_33,T0_DQS_N | 34 | 3 | HP | - |
+| W6 | 33 | IO_R3P_33,T0_DQS_P | 34 | 3 | HP | - |
+| Y1 | 33 | IO_R10N_33,T1 | 34 | 10 | HP | - |
+| Y2 | 33 | IO_R7N_33,T1 | 34 | 7 | HP | - |
+| Y3 | 33 | IO_R7P_33,T1 | 34 | 7 | HP | - |
+| Y4 | 33 | VCCIO_33 | 34 | 34 | - | - |
+| Y5 | 33 | IO_R17N_33,T2 | 34 | 17 | HP | - |
+| Y6 | 33 | IO_R17P_33,T2 | 34 | 17 | HP | - |
+| AA1 | 33 | VCCIO_33 | 34 | 34 | - | - |
+| AA2 | 33 | IO_R12N_33,GCLKIOC2_33,T1 | 34 | 12 | HP | - |
+| AA3 | 33 | IO_R12P_33,GCLKIOT2_33,T1 | 34 | 12 | HP | - |
+| AA4 | 33 | IO_R13P_33,GCLKIOT1_33,T2 | 34 | 13 | HP | - |
+| AA5 | 33 | IO_R15P_33,T2_DQS_P | 34 | 15 | HP | - |
+| AB1 | 33 | IO_R9P_33,GPLL1_33_OUTP,T1_DQS_P | 34 | 9 | HP | - |
+| AB2 | 33 | IO_R11P_33,GCLKIOT3_33,T1 | 34 | 11 | HP | - |
+| AB4 | 33 | IO_R13N_33,GCLKIOC1_33,T2 | 34 | 13 | HP | - |
+| AB5 | 33 | IO_R15N_33,T2_DQS_N | 34 | 15 | HP | - |
+| AB6 | 33 | IO_R16P_33,GPLL0_33_OUTP,T2 | 34 | 16 | HP | - |
+| AC1 | 33 | IO_R9N_33,GPLL1_33_OUTN,T1_DQS_N | 34 | 9 | HP | - |
+| AC2 | 33 | IO_R11N_33,GCLKIOC3_33,T1 | 34 | 11 | HP | - |
+| AC3 | 33 | IO_R14N_33,GCLKIOC0_33,T2 | 34 | 14 | HP | - |
+| AC4 | 33 | IO_R14P_33,GCLKIOT0_33,T2 | 34 | 14 | HP | - |
+| AC5 | 33 | VCCIO_33 | 34 | 34 | - | - |
+| AC6 | 33 | IO_R16N_33,GPLL0_33_OUTN,T2 | 34 | 16 | HP | - |
+| AD1 | 33 | IO_R20P_33,T3 | 34 | 20 | HP | - |
+| AD2 | 33 | VCCIO_33 | 34 | 34 | - | - |
+| AD3 | 33 | IO_R19N_33,T3_VREF | 34 | 19 | HP | - |
+| AD4 | 33 | IO_R19P_33,T3 | 34 | 19 | HP | - |
+| AD5 | 33 | IO_R18N_33,T2 | 34 | 18 | HP | - |
+| AD6 | 33 | IO_R18P_33,T2 | 34 | 18 | HP | - |
+| AE1 | 33 | IO_R20N_33,T3 | 34 | 20 | HP | - |
+| AE2 | 33 | IO_R22N_33,T3 | 34 | 22 | HP | - |
+| AE3 | 33 | IO_R22P_33,T3 | 34 | 22 | HP | - |
+| AE5 | 33 | IO_R23N_33,T3 | 34 | 23 | HP | - |
+| AE6 | 33 | IO_R23P_33,T3 | 34 | 23 | HP | - |
+| AF2 | 33 | IO_R24N_33,T3 | 34 | 24 | HP | - |
+| AF3 | 33 | IO_R24P_33,T3 | 34 | 24 | HP | - |
+| AF4 | 33 | IO_R21N_33,T3_DQS_N | 34 | 21 | HP | - |
+| AF5 | 33 | IO_R21P_33,T3_DQS_P | 34 | 21 | HP | - |
+| AF6 | 33 | VCCIO_33 | 34 | 34 | - | - |
+
+
+## IO BANK 0, 1, 2, 3, 4, 5, 7, 8, 9, 10, 11, 12, 14, 16, 19, 20, 21, 22, 23, 24, 115, MGTAVCC, MGTAVTT, MGTVCCAUX, VCCAUX, VCCBRAM
+
+| PH1A180SFG676 | | | XC7K160TFFG676 | | | |
+| 引脚编号 | IO BANK | 引脚说明 | 引脚编号 | IO BANK | 引脚说明 | 差异备注 |
+|----------|---------|----------|----------|---------|----------|----------|
+| A1 | - | GND | - | - | - | - |
+| A2 | - | GND | - | - | - | - |
+| A3 | - | TXM1_83 | - | 3 | - | - |
+| A4 | - | TXP1_83 | - | 3 | - | - |
+| A5 | - | GND | - | - | - | - |
+| A6 | - | GND | - | - | - | - |
+| A7 | - | GND | - | - | - | - |
+| B1 | - | TXM0_83 | - | 2 | - | - |
+| B2 | - | TXP0_83 | - | 2 | - | - |
+| B3 | - | PHYVCCT_82 | - | MGTAVTT | - | - |
+| B4 | - | GND | - | - | - | - |
+| B5 | - | RXM1_83 | - | 3 | - | - |
+| B6 | - | RXP1_83 | - | 3 | - | - |
+| B7 | - | GND | - | - | - | - |
+| C1 | - | GND | - | - | - | - |
+| C2 | - | PHYVCCT_82 | - | MGTAVTT | - | - |
+| C3 | - | RXM0_83 | - | 2 | - | - |
+| C4 | - | RXP0_83 | - | 2 | - | - |
+| C5 | - | GND | - | - | - | - |
+| C6 | - | PHYVCCA_82 | - | MGTAVCC | - | - |
+| C7 | - | GND | - | - | - | - |
+| D1 | - | TXM1_82 | - | 1 | - | - |
+| D2 | - | TXP1_82 | - | 1 | - | - |
+| D3 | - | PHYVCCT_82 | - | MGTAVTT | - | - |
+| D4 | - | GND | - | - | - | - |
+| D5 | - | REFCLKM_82 | - | 0 | - | - |
+| D6 | - | REFCLKP_82 | - | 0 | - | - |
+| D7 | - | GND | - | - | - | - |
+| E1 | - | GND | - | - | - | - |
+| E2 | - | GND | - | - | - | - |
+| E3 | - | RXM1_82 | - | 1 | - | - |
+| E4 | - | RXP1_82 | - | 1 | - | - |
+| E5 | - | GND | - | - | - | - |
+| E6 | - | PHYVCCA_82 | - | MGTAVCC | - | - |
+| E7 | - | GND | - | - | - | - |
+| E8 | - | NC | - | 0 | - | - |
+| F1 | - | TXM0_82 | - | 0 | - | - |
+| F2 | - | TXP0_82 | - | 0 | - | - |
+| F3 | - | GND | - | - | - | - |
+| F4 | - | GND | - | - | - | - |
+| F5 | - | REFCLKM_83 | - | 1 | - | - |
+| F6 | - | REFCLKP_83 | - | 1 | - | - |
+| F7 | - | GND | - | - | - | - |
+| G1 | - | GND | - | - | - | - |
+| G2 | - | PHYVCCT_80 | - | MGTAVTT | - | - |
+| G3 | - | RXM0_82 | - | 0 | - | - |
+| G4 | - | RXP0_82 | - | 0 | - | - |
+| G5 | - | GND | - | - | - | - |
+| G6 | - | PHYVCCA_82 | - | MGTAVCC | - | - |
+| G8 | - | GND | - | - | - | - |
+| H1 | - | TXM1_81 | - | 3 | - | - |
+| H2 | - | TXP1_81 | - | 3 | - | - |
+| H3 | - | PHYVCCT_80 | - | MGTAVTT | - | - |
+| H4 | - | GND | - | - | - | - |
+| H5 | - | REFCLKM_80 | - | 0 | - | - |
+| H6 | - | REFCLKP_80 | - | 0 | - | - |
+| H7 | - | GND | - | - | - | - |
+| J1 | - | GND | - | - | - | - |
+| J2 | - | GND | - | - | - | - |
+| J3 | - | RXM1_81 | - | 3 | - | - |
+| J4 | - | RXP1_81 | - | 3 | - | - |
+| J5 | - | GND | - | - | - | - |
+| J6 | - | PHYVCCA_80 | - | MGTAVCC | - | - |
+| J9 | - | VCCINT | - | - | - | - |
+| K1 | - | TXM0_81 | - | 2 | - | - |
+| K2 | - | TXP0_81 | - | 2 | - | - |
+| K3 | - | GND | - | - | - | - |
+| K4 | - | GND | - | - | - | - |
+| K5 | - | REFCLKM_81 | - | 1 | - | - |
+| K6 | - | REFCLKP_81 | - | 1 | - | - |
+| K7 | - | GND | - | - | - | - |
+| K8 | - | VCCINT | - | - | - | - |
+| K9 | - | GND | - | - | - | - |
+| L1 | - | GND | - | - | - | - |
+| L2 | - | PHYVCCT_80 | - | MGTAVTT | - | - |
+| L3 | - | RXM0_81 | - | 2 | - | - |
+| L4 | - | RXP0_81 | - | 2 | - | - |
+| L5 | - | GND | - | - | - | - |
+| L6 | - | PHYVCCA_80 | - | MGTAVCC | - | - |
+| L9 | - | VCCINT | - | - | - | - |
+| M1 | - | TXM1_80 | - | 1 | - | - |
+| M2 | - | TXP1_80 | - | 1 | - | - |
+| M3 | - | PHYVCCT_80 | - | MGTAVTT | - | - |
+| M4 | - | GND | - | - | - | - |
+| M5 | - | NC | - | 115 | - | - |
+| M6 | - | RESREF | - | 115 | - | - |
+| M7 | - | GND | - | - | - | - |
+| M8 | - | VCCINT | - | - | - | - |
+| M9 | - | GND | - | - | - | - |
+| N1 | - | GND | - | - | - | - |
+| N2 | - | GND | - | - | - | - |
+| N3 | - | RXM1_80 | - | 1 | - | - |
+| N4 | - | RXP1_80 | - | 1 | - | - |
+| N5 | - | GND | - | - | - | - |
+| N6 | - | PHYVCCA_80 | - | MGTVCCAUX | - | - |
+| N7 | - | GND | - | - | - | - |
+| N9 | - | VCCINT | - | - | - | - |
+| P1 | - | TXM0_80 | - | 0 | - | - |
+| P2 | - | TXP0_80 | - | 0 | - | - |
+| P3 | - | GND | - | - | - | - |
+| P4 | - | GND | - | - | - | - |
+| P8 | - | NC | - | 0 | - | - |
+| P9 | - | GND | - | - | - | - |
+| R1 | - | GND | - | - | - | - |
+| R2 | - | GND | - | - | - | - |
+| R3 | - | RXM0_80 | - | 0 | - | - |
+| R4 | - | RXP0_80 | - | 0 | - | - |
+| R5 | - | GND | - | - | - | - |
+| R8 | - | GND | - | - | - | - |
+| R9 | - | NC | - | 0 | - | - |
+| T1 | - | GND | - | - | - | - |
+| T3 | - | GND | - | - | - | - |
+| T4 | - | GND | - | - | - | - |
+| T8 | - | NC | - | 0 | - | - |
+| T9 | - | GND | - | - | - | - |
+| U8 | - | GND | - | - | - | - |
+| V5 | - | GND | - | - | - | - |
+| W2 | - | GND | - | - | - | - |
+| Y9 | - | GND | - | - | - | - |
+| A16 | - | GND | - | - | - | - |
+| A26 | - | GND | - | - | - | - |
+| AA6 | - | GND | - | - | - | - |
+| AB3 | - | GND | - | - | - | - |
+| AD7 | - | GND | - | - | - | - |
+| AE4 | - | GND | - | - | - | - |
+| AF1 | - | GND | - | - | - | - |
+| B13 | - | GND | - | - | - | - |
+| B23 | - | GND | - | - | - | - |
+| C10 | - | GND | - | - | - | - |
+| C20 | - | GND | - | - | - | - |
+| D17 | - | GND | - | - | - | - |
+| E14 | - | GND | - | - | - | - |
+| E24 | - | GND | - | - | - | - |
+| F11 | - | GND | - | - | - | - |
+| F21 | - | GND | - | - | - | - |
+| G18 | - | GND | - | - | - | - |
+| H15 | - | GND | - | - | - | - |
+| H25 | - | GND | - | - | - | - |
+| J12 | - | GND | - | - | - | - |
+| J22 | - | GND | - | - | - | - |
+| K10 | - | VCCINT | - | - | - | - |
+| K11 | - | GND | - | - | - | - |
+| K12 | - | VCCINT | - | - | - | - |
+| K13 | - | GND | - | - | - | - |
+| K14 | - | VCCINT | - | - | - | - |
+| K19 | - | GND | - | - | - | - |
+| L10 | - | GND | - | - | - | - |
+| L11 | - | VCCAUX | - | VCCAUX | - | - |
+| L12 | - | GND | - | - | - | - |
+| L13 | - | VCCINT | - | - | - | - |
+| L14 | - | GND | - | - | - | - |
+| L15 | - | VCCINT | - | - | - | - |
+| L16 | - | GND | - | - | - | - |
+| L26 | - | GND | - | - | - | - |
+| M10 | - | VCCAUX | - | VCCAUX | - | - |
+| M11 | - | NC | - | 0 | - | - |
+| M12 | - | NC | - | 0 | - | - |
+| M13 | - | GND | - | - | - | - |
+| M14 | - | VCCINT | - | - | - | - |
+| M15 | - | GND | - | - | - | - |
+| M23 | - | GND | - | - | - | - |
+| N10 | - | GND | - | - | - | - |
+| N11 | - | NC | - | 0 | - | - |
+| N12 | - | NC | - | 0 | - | - |
+| N13 | - | VCCINT | - | VCCBRAM | - | - |
+| N14 | - | GND | - | - | - | - |
+| N15 | - | VCCINT | - | - | - | - |
+| N20 | - | GND | - | - | - | - |
+| P10 | - | VCCAUX | - | VCCAUX | - | - |
+| P11 | - | NC | - | 0 | - | - |
+| P12 | - | NC | - | 0 | - | - |
+| P13 | - | GND | - | - | - | - |
+| P14 | - | VCCINT | - | - | - | - |
+| P15 | - | GND | - | - | - | - |
+| P17 | - | GND | - | - | - | - |
+| R10 | - | GND | - | - | - | - |
+| R11 | - | NC | - | 0 | - | - |
+| R12 | - | NC | - | 0 | - | - |
+| R13 | - | VCCINT | - | VCCBRAM | - | - |
+| R14 | - | GND | - | - | - | - |
+| R15 | - | VCCINT | - | - | - | - |
+| R24 | - | GND | - | - | - | - |
+| T10 | - | VCCAUX | - | VCCAUX | - | - |
+| T11 | - | GND | - | - | - | - |
+| T12 | - | VCCINT | - | VCCBRAM | - | - |
+| T13 | - | GND | - | - | - | - |
+| T14 | - | VCCINT | - | - | - | - |
+| T15 | - | GND | - | - | - | - |
+| T21 | - | GND | - | - | - | - |
+| U10 | - | GND | - | - | - | - |
+| U11 | - | VCCAUX | - | VCCAUX | - | - |
+| U12 | - | GND | - | - | - | - |
+| U13 | - | VCCINT | - | VCCBRAM | - | - |
+| U14 | - | GND | - | - | - | - |
+| U15 | - | VCCINT | - | - | - | - |
+| U18 | - | GND | - | - | - | - |
+| V15 | - | GND | - | - | - | - |
+| V25 | - | GND | - | - | - | - |
+| V26 | - | VCCDPHY | 12 | 4 | HR | - |
+| W12 | - | GND | - | - | - | - |
+| W22 | - | GND | - | - | - | - |
+| W24 | - | VCCDPHY | 12 | 8 | HR | - |
+| W25 | - | I_3N_DPHY0,DN2_0 | 12 | 5 | HR | - |
+| W26 | - | I_3P_DPHY0,DP2_0 | 12 | 5 | HR | - |
+| Y19 | - | GND | - | - | - | - |
+| Y24 | - | GND | - | 12 | - | - |
+| Y25 | - | I_1N_DPHY0,DN0_0 | 12 | 10 | HR | - |
+| Y26 | - | I_1P_DPHY0,DP0_0 | 12 | 10 | HR | - |
+| AA16 | - | GND | - | - | - | - |
+| AA24 | - | VCCDPHY | 12 | 12 | HR | - |
+| AA25 | - | I_0N_DPHY0,CKN_0 | 12 | 7 | HR | - |
+| AA26 | - | I_0P_DPHY0,CKP_0 | - | - | - | - |
+| AB13 | - | GND | - | - | - | - |
+| AB24 | - | GND | 12 | 11 | HR | - |
+| AB25 | - | I_2N_DPHY0,DN1_0 | 12 | 7 | HR | - |
+| AB26 | - | I_2P_DPHY0,DP1_0 | 12 | 9 | HR | - |
+| AC10 | - | GND | - | - | - | - |
+| AC20 | - | GND | - | - | - | - |
+| AC24 | - | VCCDPHY | 12 | 14 | HR | - |
+| AC25 | - | I_4N_DPHY0,DN3_0 | 12 | 12 | - | - |
+| AC26 | - | I_4P_DPHY0,DP3_0 | 12 | 9 | HR | - |
+| AD17 | - | GND | - | - | - | - |
+| AD22 | - | GND | - | 12 | - | - |
+| AD23 | - | VCCDPHY | 12 | 16 | HR | - |
+| AD24 | - | VCCDPHY | 12 | 16 | HR | - |
+| AD25 | - | GND | 12 | 23 | HR | - |
+| AD26 | - | I_8N_DPHY1,DN2_1 | 12 | 21 | HR | - |
+| AE14 | - | GND | - | - | - | - |
+| AE21 | - | VCCDPHY | 12 | 19 | HR | - |
+| AE22 | - | I_9N_DPHY1,DN3_1 | 12 | 24 | HR | - |
+| AE23 | - | I_7N_DPHY1,DN1_1 | 12 | 22 | HR | - |
+| AE24 | - | I_5N_DPHY1,CKN_1 | - | - | - | - |
+| AE25 | - | I_6N_DPHY1,DN0_1 | 12 | 23 | HR | - |
+| AE26 | - | I_8P_DPHY1,DP2_1 | 12 | 21 | HR | - |
+| AF11 | - | GND | - | - | - | - |
+| AF21 | - | GND | - | - | - | - |
+| AF22 | - | I_9P_DPHY1,DP3_1 | 12 | 24 | HR | - |
+| AF23 | - | I_7P_DPHY1,DP1_1 | 12 | 22 | HR | - |
+| AF24 | - | I_5P_DPHY1,CKP_1 | 12 | 20 | HR | - |
+| AF25 | - | I_6P_DPHY1,DP0_1 | 12 | 20 | HR | - |
+| AF26 | - | GND | - | 12 | - | - |

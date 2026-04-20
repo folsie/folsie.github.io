@@ -1,6 +1,6 @@
 ---
 title: "AL3A10 VS EP4CE10 BGA256 Pinout Table"
-subtitle: "2026.04.01"
+subtitle: "2026.04.09"
 embed-resources: true
 toc: true
 toc-depth: 6
@@ -16,310 +16,310 @@ toc-location: left
 
 | 引脚编号 | IO BANK | 引脚说明 | Config_Type |
 |----------|---------|----------|-------------|
+| B1 | 1 | IO,DIFFIO_L5p | - |
+| C1 | 1 | IO,D1,MOSI,DIFFIO_L4n | SPI |
+| C2 | 1 | IO,DIFFIO_L4p | - |
+| C3 | 1 | IO,DIFFIO_L2n | - |
+| D1 | 1 | IO,DIFFIO_L6n | - |
+| D2 | 1 | IO,SPICSN,BUSY,DIFFIO_L6p | SPI |
+| D3 | 1 | IO,DIFFIO_L2p | - |
 | D4 | 1 | IO,DIFFIO_L1n | - |
 | E1 | 1 | IO,GCLK1n,DIFFIO_L11n | - |
 | E2 | 1 | IO,GCLK1p,DIFFIO_L11p | - |
 | E5 | 1 | IO,DIFFIO_L1p | - |
-| C3 | 1 | IO,DIFFIO_L2n | - |
-| D3 | 1 | IO,DIFFIO_L2p | - |
-| G5 | 1 | IO,DIFFIO_L3n | - |
-| F5 | 1 | IO,DIFFIO_L3p | - |
-| C1 | 1 | IO,D1,MOSI,DIFFIO_L4n | SPI |
-| C2 | 1 | IO,DIFFIO_L4p | - |
+| F1 | 1 | IO,DIFFIO_L9n | - |
+| F2 | 1 | IO,DIFFIO_L9p | - |
 | F3 | 1 | IO,DIFFIO_L5n | - |
-| B1 | 1 | IO,DIFFIO_L5p | - |
-| D1 | 1 | IO,DIFFIO_L6n | - |
-| D2 | 1 | IO,SPICSN,BUSY,DIFFIO_L6p | SPI |
+| F4 | 1 | INITN | Config_Dedicated |
+| F5 | 1 | IO,DIFFIO_L3p | - |
 | G1 | 1 | IO,DIFFIO_L7n | - |
 | G2 | 1 | IO,DPCLK1,DIFFIO_L7p | - |
 | G4 | 1 | IO,DIFFIO_L8n | - |
+| G5 | 1 | IO,DIFFIO_L3n | - |
+| H1 | 1 | CCLK | Config_Dedicated |
 | H2 | 1 | IO,D0,DIFFIO_L8p,MISO | SPI |
-| F1 | 1 | IO,DIFFIO_L9n | - |
-| F2 | 1 | IO,DIFFIO_L9p | - |
 | H3 | 1 | TCK | JTAG |
 | H4 | 1 | TDI | JTAG |
-| J4 | 1 | TDO | JTAG |
-| H1 | 1 | CCLK | Config_Dedicated |
 | H5 | 1 | PROGRAMN | Config_Dedicated |
-| J5 | 1 | TMS | JTAG |
 | J3 | 1 | CSN | Config_Dedicated |
-| F4 | 1 | INITN | Config_Dedicated |
+| J4 | 1 | TDO | JTAG |
+| J5 | 1 | TMS | JTAG |
 
 
 ## IO BANK 2
 
 | 引脚编号 | IO BANK | 引脚说明 | Config_Type |
 |----------|---------|----------|-------------|
-| M1 | 2 | IO,GCLK2n,DIFFIO_L12n | - |
-| M2 | 2 | IO,GCLK2p,DIFFIO_L12p | - |
 | J1 | 2 | IO,DIFFIO_L13n | - |
 | J2 | 2 | IO,DIFFIO_L13p | - |
+| J6 | 2 | IO,DIFFIO_L16p | - |
 | K1 | 2 | IO,DIFFIO_L14n | - |
 | K2 | 2 | IO,DIFFIO_L14p | - |
-| L4 | 2 | IO,DIFFIO_L15n | - |
 | K5 | 2 | IO,DIFFIO_L15p | - |
+| K6 | 2 | IO,DIFFIO_L21p | - |
 | K7 | 2 | IO,DIFFIO_L16n | - |
-| J6 | 2 | IO,DIFFIO_L16p | - |
-| N1 | 2 | IO,DIFFIO_L17n | - |
-| N2 | 2 | IO,DIFFIO_L17p | - |
 | L1 | 2 | IO,DIFFIO_L18n | - |
 | L2 | 2 | IO,DPCLK2,DIFFIO_L18p | - |
+| L3 | 2 | IO,DIFFIO_L20p | - |
+| L4 | 2 | IO,DIFFIO_L15n | - |
+| L6 | 2 | IO,DIFFIO_L21n | - |
+| M1 | 2 | IO,GCLK2n,DIFFIO_L12n | - |
+| M2 | 2 | IO,GCLK2p,DIFFIO_L12p | - |
+| N1 | 2 | IO,DIFFIO_L17n | - |
+| N2 | 2 | IO,DIFFIO_L17p | - |
+| N5 | 2 | IO,PLL0_OUT2p,DIFFIO_L22p | - |
+| N6 | 2 | IO,PLL0_OUT2n,DIFFIO_L22n | - |
 | P1 | 2 | IO,DIFFIO_L19n | - |
 | P2 | 2 | IO,DIFFIO_L19p | - |
 | R1 | 2 | IO,DIFFIO_L20n | - |
-| L3 | 2 | IO,DIFFIO_L20p | - |
-| L6 | 2 | IO,DIFFIO_L21n | - |
-| K6 | 2 | IO,DIFFIO_L21p | - |
-| N6 | 2 | IO,PLL0_OUT2n,DIFFIO_L22n | - |
-| N5 | 2 | IO,PLL0_OUT2p,DIFFIO_L22p | - |
 
 
 ## IO BANK 3
 
 | 引脚编号 | IO BANK | 引脚说明 | Config_Type |
 |----------|---------|----------|-------------|
-| P3 | 3 | IO,PLL0_CLKINn,EDIFFIO_B1n | - |
-| N3 | 3 | IO,PLL0_CLKINp,EDIFFIO_B1p | - |
-| T3 | 3 | IO,EDIFFIO_B2n | - |
-| R3 | 3 | IO,EDIFFIO_B2p | - |
 | K8 | 3 | IO,EDIFFIO_B3n | - |
-| M7 | 3 | IO,EDIFFIO_B3p | - |
-| P6 | 3 | IO,EDIFFIO_B4n | - |
-| T2 | 3 | IO,DPCLK3,EDIFFIO_B4p | - |
-| T4 | 3 | IO,PLL0_OUT1n,EDIFFIO_B5n | - |
-| R4 | 3 | IO,PLL0_OUT1p,EDIFFIO_B5p | - |
-| M6 | 3 | IO,EDIFFIO_B6n | - |
 | L7 | 3 | IO,EDIFFIO_B6p | - |
-| T5 | 3 | IO,EDIFFIO_B7n | - |
-| R5 | 3 | IO,EDIFFIO_B7p | - |
-| T6 | 3 | IO,EDIFFIO_B8n | - |
-| R6 | 3 | IO,EDIFFIO_B8p | - |
-| T7 | 3 | IO,EDIFFIO_B9n | - |
-| R7 | 3 | IO,EDIFFIO_B9p | - |
-| M8 | 3 | IO,EDIFFIO_B10n | - |
 | L8 | 3 | IO,EDIFFIO_B10p | - |
-| P8 | 3 | IO,EDIFFIO_B11n | - |
+| M6 | 3 | IO,EDIFFIO_B6n | - |
+| M7 | 3 | IO,EDIFFIO_B3p | - |
+| M8 | 3 | IO,EDIFFIO_B10n | - |
+| N3 | 3 | IO,PLL0_CLKINp,EDIFFIO_B1p | - |
 | N8 | 3 | IO,EDIFFIO_B11p | - |
-| T8 | 3 | IO,GCLK3n,EDIFFIO_B12n | - |
+| P3 | 3 | IO,PLL0_CLKINn,EDIFFIO_B1n | - |
+| P6 | 3 | IO,EDIFFIO_B4n | - |
+| P8 | 3 | IO,EDIFFIO_B11n | - |
+| R3 | 3 | IO,EDIFFIO_B2p | - |
+| R4 | 3 | IO,PLL0_OUT1p,EDIFFIO_B5p | - |
+| R5 | 3 | IO,EDIFFIO_B7p | - |
+| R6 | 3 | IO,EDIFFIO_B8p | - |
+| R7 | 3 | IO,EDIFFIO_B9p | - |
 | R8 | 3 | IO,GCLK3p,EDIFFIO_B12p | - |
+| T2 | 3 | IO,DPCLK3,EDIFFIO_B4p | - |
+| T3 | 3 | IO,EDIFFIO_B2n | - |
+| T4 | 3 | IO,PLL0_OUT1n,EDIFFIO_B5n | - |
+| T5 | 3 | IO,EDIFFIO_B7n | - |
+| T6 | 3 | IO,EDIFFIO_B8n | - |
+| T7 | 3 | IO,EDIFFIO_B9n | - |
+| T8 | 3 | IO,GCLK3n,EDIFFIO_B12n | - |
 
 
 ## IO BANK 4
 
 | 引脚编号 | IO BANK | 引脚说明 | Config_Type |
 |----------|---------|----------|-------------|
-| T9 | 4 | IO,GCLK4n,EDIFFIO_B13n | - |
-| R9 | 4 | IO,GCLK4p,EDIFFIO_B13p | - |
-| L9 | 4 | IO,EDIFFIO_B14n | - |
 | K9 | 4 | IO,EDIFFIO_B14p | - |
-| N9 | 4 | IO,EDIFFIO_B15n | - |
+| L9 | 4 | IO,EDIFFIO_B14n | - |
 | M9 | 4 | IO,EDIFFIO_B15p | - |
-| P11 | 4 | IO,EDIFFIO_B16n | - |
+| N9 | 4 | IO,EDIFFIO_B15n | - |
 | P9 | 4 | IO,EDIFFIO_B16p | - |
-| T10 | 4 | IO,EDIFFIO_B17n | - |
-| R10 | 4 | IO,EDIFFIO_B17p | - |
-| T11 | 4 | IO,EDIFFIO_B18n | - |
-| R11 | 4 | IO,EDIFFIO_B18p | - |
-| N11 | 4 | IO,EDIFFIO_B19n | - |
-| M10 | 4 | IO,EDIFFIO_B19p | - |
-| T12 | 4 | IO,EDIFFIO_B20n | - |
-| R12 | 4 | IO,EDIFFIO_B20p | - |
-| T15 | 4 | IO,DPCLK4,EDIFFIO_B21n | - |
-| T14 | 4 | IO,EDIFFIO_B21p | - |
-| N12 | 4 | IO,EDIFFIO_B22n | - |
-| M11 | 4 | IO,EDIFFIO_B22p | - |
-| T13 | 4 | IO,EDIFFIO_B23n | - |
-| R13 | 4 | IO,EDIFFIO_B23p | - |
+| R9 | 4 | IO,GCLK4p,EDIFFIO_B13p | - |
+| T9 | 4 | IO,GCLK4n,EDIFFIO_B13n | - |
 | L11 | 4 | IO,EDIFFIO_B24n | - |
+| M10 | 4 | IO,EDIFFIO_B19p | - |
+| M11 | 4 | IO,EDIFFIO_B22p | - |
+| N11 | 4 | IO,EDIFFIO_B19n | - |
+| N12 | 4 | IO,EDIFFIO_B22n | - |
+| P11 | 4 | IO,EDIFFIO_B16n | - |
 | P14 | 4 | IO,EDIFFIO_B24p | - |
+| R10 | 4 | IO,EDIFFIO_B17p | - |
+| R11 | 4 | IO,EDIFFIO_B18p | - |
+| R12 | 4 | IO,EDIFFIO_B20p | - |
+| R13 | 4 | IO,EDIFFIO_B23p | - |
+| T10 | 4 | IO,EDIFFIO_B17n | - |
+| T11 | 4 | IO,EDIFFIO_B18n | - |
+| T12 | 4 | IO,EDIFFIO_B20n | - |
+| T13 | 4 | IO,EDIFFIO_B23n | - |
+| T14 | 4 | IO,EDIFFIO_B21p | - |
+| T15 | 4 | IO,DPCLK4,EDIFFIO_B21n | - |
 
 
 ## IO BANK 5
 
 | 引脚编号 | IO BANK | 引脚说明 | Config_Type |
 |----------|---------|----------|-------------|
-| L10 | 5 | IO,DIFFIO_R1n | - |
-| K10 | 5 | IO,DIFFIO_R1p | - |
-| R14 | 5 | IO,DIFFIO_R2n | - |
-| P15 | 5 | IO,DIFFIO_R2p | - |
-| M12 | 5 | IO,DIFFIO_R3n | - |
-| L12 | 5 | IO,DIFFIO_R3p | - |
-| N13 | 5 | IO,DIFFIO_R4n | - |
-| N14 | 5 | IO,DIFFIO_R4p | - |
-| P16 | 5 | IO,DIFFIO_R5n | - |
-| R16 | 5 | IO,DIFFIO_R5p | - |
-| N16 | 5 | IO,DIFFIO_R6n | - |
-| N15 | 5 | IO,DIFFIO_R6p | - |
-| K11 | 5 | IO,DIFFIO_R7n | - |
 | J11 | 5 | IO,DIFFIO_R7p | - |
+| J13 | 5 | IO,DIFFIO_R11n | - |
+| K10 | 5 | IO,DIFFIO_R1p | - |
+| K11 | 5 | IO,DIFFIO_R7n | - |
+| K12 | 5 | IO,DIFFIO_R11p | - |
+| K15 | 5 | IO,DPCLK5,DIFFIO_R9p | - |
+| K16 | 5 | IO,DIFFIO_R9n | - |
+| L10 | 5 | IO,DIFFIO_R1n | - |
+| L12 | 5 | IO,DIFFIO_R3p | - |
 | L13 | 5 | IO,DIFFIO_R8n | - |
 | L14 | 5 | IO,DIFFIO_R8p | - |
-| K16 | 5 | IO,DIFFIO_R9n | - |
-| K15 | 5 | IO,DPCLK5,DIFFIO_R9p | - |
-| L16 | 5 | IO,DIFFIO_R10n | - |
 | L15 | 5 | IO,DIFFIO_R10p | - |
-| J13 | 5 | IO,DIFFIO_R11n | - |
-| K12 | 5 | IO,DIFFIO_R11p | - |
-| M16 | 5 | IO,GCLK5n,DIFFIO_R12n | - |
+| L16 | 5 | IO,DIFFIO_R10n | - |
+| M12 | 5 | IO,DIFFIO_R3n | - |
 | M15 | 5 | IO,GCLK5p,DIFFIO_R12p | - |
+| M16 | 5 | IO,GCLK5n,DIFFIO_R12n | - |
+| N13 | 5 | IO,DIFFIO_R4n | - |
+| N14 | 5 | IO,DIFFIO_R4p | - |
+| N15 | 5 | IO,DIFFIO_R6p | - |
+| N16 | 5 | IO,DIFFIO_R6n | - |
+| P15 | 5 | IO,DIFFIO_R2p | - |
+| P16 | 5 | IO,DIFFIO_R5n | - |
+| R14 | 5 | IO,DIFFIO_R2n | - |
+| R16 | 5 | IO,DIFFIO_R5p | - |
 
 
 ## IO BANK 6
 
 | 引脚编号 | IO BANK | 引脚说明 | Config_Type |
 |----------|---------|----------|-------------|
-| E16 | 6 | IO,GCLK6n,DIFFIO_R13n | - |
-| E15 | 6 | IO,GCLK6p,DIFFIO_R13p | - |
-| J14 | 6 | IO,DIFFIO_R14n | - |
-| J12 | 6 | IO,DIFFIO_R14p | - |
-| J16 | 6 | IO,DIFFIO_R15n | - |
-| J15 | 6 | IO,DIFFIO_R15p | - |
-| H16 | 6 | IO,DIFFIO_R16n | - |
-| H15 | 6 | IO,DIFFIO_R16p | - |
-| G16 | 6 | IO,DIFFIO_R17n | - |
-| G15 | 6 | IO,DIFFIO_R17p | - |
-| D16 | 6 | IO,DIFFIO_R18n | - |
-| D15 | 6 | IO,DIFFIO_R18p | - |
-| F16 | 6 | IO,CSON,DOUT,DIFFIO_R19n | Config_Option |
-| F15 | 6 | IO,USRCLK,DIFFIO_R19p | - |
-| C16 | 6 | IO,DIFFIO_R20n | - |
-| C15 | 6 | IO,DIFFIO_R20p | - |
 | B16 | 6 | IO,DPCLK6,DIFFIO_R21n | - |
-| F14 | 6 | IO,DIFFIO_R21p | - |
-| G11 | 6 | IO,DIFFIO_R22n | - |
-| F13 | 6 | IO,DIFFIO_R22p | - |
 | C14 | 6 | IO,PLL2_OUT2n,DIFFIO_R23n | - |
+| C15 | 6 | IO,DIFFIO_R20p | - |
+| C16 | 6 | IO,DIFFIO_R20n | - |
 | D14 | 6 | IO,PLL2_OUT2p,DIFFIO_R23p | - |
-| H13 | 6 | MSEL0 | Config_Dedicated |
-| H12 | 6 | MSEL1 | Config_Dedicated |
+| D15 | 6 | IO,DIFFIO_R18p | - |
+| D16 | 6 | IO,DIFFIO_R18n | - |
+| E15 | 6 | IO,GCLK6p,DIFFIO_R13p | - |
+| E16 | 6 | IO,GCLK6n,DIFFIO_R13n | - |
+| F13 | 6 | IO,DIFFIO_R22p | - |
+| F14 | 6 | IO,DIFFIO_R21p | - |
+| F15 | 6 | IO,USRCLK,DIFFIO_R19p | - |
+| F16 | 6 | IO,CSON,DOUT,DIFFIO_R19n | Config_Option |
+| G11 | 6 | IO,DIFFIO_R22n | - |
 | G12 | 6 | MSEL2 | Config_Dedicated |
+| G15 | 6 | IO,DIFFIO_R17p | - |
+| G16 | 6 | IO,DIFFIO_R17n | - |
+| H12 | 6 | MSEL1 | Config_Dedicated |
+| H13 | 6 | MSEL0 | Config_Dedicated |
 | H14 | 6 | DONE | Config_Dedicated |
+| H15 | 6 | IO,DIFFIO_R16p | - |
+| H16 | 6 | IO,DIFFIO_R16n | - |
+| J12 | 6 | IO,DIFFIO_R14p | - |
+| J14 | 6 | IO,DIFFIO_R14n | - |
+| J15 | 6 | IO,DIFFIO_R15p | - |
+| J16 | 6 | IO,DIFFIO_R15n | - |
 
 
 ## IO BANK 7
 
 | 引脚编号 | IO BANK | 引脚说明 | Config_Type |
 |----------|---------|----------|-------------|
-| D11 | 7 | IO,EDIFFIO_T1n | - |
-| D12 | 7 | IO,DPCLK7,EDIFFIO_T1p | - |
-| F11 | 7 | IO,PLL2_CLKI1n,EDIFFIO_T2n | - |
-| A15 | 7 | IO,PLL2_CLKIN0,EDIFFIO_T2p | - |
-| A14 | 7 | IO,PLL2_OUT1n,EDIFFIO_T3n | - |
-| B14 | 7 | IO,PLL2_OUT1p,EDIFFIO_T3p | - |
-| A13 | 7 | IO,EDIFFIO_T4n | - |
-| B13 | 7 | IO,EDIFFIO_T4p | - |
-| A12 | 7 | IO,EDIFFIO_T5n | - |
-| B12 | 7 | IO,EDIFFIO_T5p | - |
-| E11 | 7 | IO,EDIFFIO_T6n | - |
-| C11 | 7 | IO,EDIFFIO_T6p | - |
-| F10 | 7 | IO,EDIFFIO_T7n | - |
-| F9 | 7 | IO,EDIFFIO_T7p | - |
-| E10 | 7 | IO,EDIFFIO_T8n | - |
-| E9 | 7 | IO,EDIFFIO_T8p | - |
-| A11 | 7 | IO,EDIFFIO_T9n | - |
-| B11 | 7 | IO,EDIFFIO_T9p | - |
-| A10 | 7 | IO,EDIFFIO_T10n | - |
-| B10 | 7 | IO,EDIFFIO_T10p | - |
-| C9 | 7 | IO,EDIFFIO_T11n | - |
-| D9 | 7 | IO,EDIFFIO_T11p | - |
 | A9 | 7 | IO,GCLK7n,EDIFFIO_T12n | - |
 | B9 | 7 | IO,GCLK7p,EDIFFIO_T12p | - |
+| C9 | 7 | IO,EDIFFIO_T11n | - |
+| D9 | 7 | IO,EDIFFIO_T11p | - |
+| E9 | 7 | IO,EDIFFIO_T8p | - |
+| F9 | 7 | IO,EDIFFIO_T7p | - |
+| A10 | 7 | IO,EDIFFIO_T10n | - |
+| A11 | 7 | IO,EDIFFIO_T9n | - |
+| A12 | 7 | IO,EDIFFIO_T5n | - |
+| A13 | 7 | IO,EDIFFIO_T4n | - |
+| A14 | 7 | IO,PLL2_OUT1n,EDIFFIO_T3n | - |
+| A15 | 7 | IO,PLL2_CLKIN0,EDIFFIO_T2p | - |
+| B10 | 7 | IO,EDIFFIO_T10p | - |
+| B11 | 7 | IO,EDIFFIO_T9p | - |
+| B12 | 7 | IO,EDIFFIO_T5p | - |
+| B13 | 7 | IO,EDIFFIO_T4p | - |
+| B14 | 7 | IO,PLL2_OUT1p,EDIFFIO_T3p | - |
+| C11 | 7 | IO,EDIFFIO_T6p | - |
+| D11 | 7 | IO,EDIFFIO_T1n | - |
+| D12 | 7 | IO,DPCLK7,EDIFFIO_T1p | - |
+| E10 | 7 | IO,EDIFFIO_T8n | - |
+| E11 | 7 | IO,EDIFFIO_T6n | - |
+| F10 | 7 | IO,EDIFFIO_T7n | - |
+| F11 | 7 | IO,PLL2_CLKI1n,EDIFFIO_T2n | - |
 
 
 ## IO BANK 8
 
 | 引脚编号 | IO BANK | 引脚说明 | Config_Type |
 |----------|---------|----------|-------------|
-| A8 | 8 | IO,GCLK8n,EDIFFIO_T13n | - |
-| B8 | 8 | IO,GCLK8p,EDIFFIO_T13p | - |
-| C8 | 8 | IO,EDIFFIO_T14n | - |
-| D8 | 8 | IO,EDIFFIO_T14p | - |
-| A6 | 8 | IO,EDIFFIO_T15n | - |
-| B6 | 8 | IO,EDIFFIO_T15p | - |
-| E8 | 8 | IO,D2,EDIFFIO_T16n | Config_Option |
-| F8 | 8 | IO,D3,EDIFFIO_T16p | Config_Option |
-| F6 | 8 | IO,EDIFFIO_T17n | - |
-| F7 | 8 | IO,EDIFFIO_T17p | - |
+| A2 | 8 | IO,D13,EDIFFIO_T21n | - |
+| A3 | 8 | IO,D9,EDIFFIO_T24n | - |
+| A4 | 8 | IO,D11,EDIFFIO_T22n | - |
 | A5 | 8 | IO,D7,EDIFFIO_T18n | Config_Option |
+| A6 | 8 | IO,EDIFFIO_T15n | - |
+| A7 | 8 | IO,D8,EDIFFIO_T24p | - |
+| A8 | 8 | IO,GCLK8n,EDIFFIO_T13n | - |
+| B3 | 8 | IO,DPCLK8,EDIFFIO_T23p | - |
+| B4 | 8 | IO,D10,EDIFFIO_T22p | - |
+| B5 | 8 | IO,D12,EDIFFIO_T21p | - |
+| B6 | 8 | IO,EDIFFIO_T15p | - |
+| B7 | 8 | IO,D4,EDIFFIO_T23n | Config_Option |
+| B8 | 8 | IO,GCLK8p,EDIFFIO_T13p | - |
 | C6 | 8 | IO,EDIFFIO_T18p | - |
-| E7 | 8 | IO,D5,EDIFFIO_T19n | Config_Option |
-| E6 | 8 | IO,D6,EDIFFIO_T19p | Config_Option |
+| C8 | 8 | IO,EDIFFIO_T14n | - |
 | D5 | 8 | IO,D15,EDIFFIO_T20n | - |
 | D6 | 8 | IO,D14,EDIFFIO_T20p | - |
-| A2 | 8 | IO,D13,EDIFFIO_T21n | - |
-| B5 | 8 | IO,D12,EDIFFIO_T21p | - |
-| A4 | 8 | IO,D11,EDIFFIO_T22n | - |
-| B4 | 8 | IO,D10,EDIFFIO_T22p | - |
-| B7 | 8 | IO,D4,EDIFFIO_T23n | Config_Option |
-| B3 | 8 | IO,DPCLK8,EDIFFIO_T23p | - |
-| A3 | 8 | IO,D9,EDIFFIO_T24n | - |
-| A7 | 8 | IO,D8,EDIFFIO_T24p | - |
+| D8 | 8 | IO,EDIFFIO_T14p | - |
+| E6 | 8 | IO,D6,EDIFFIO_T19p | Config_Option |
+| E7 | 8 | IO,D5,EDIFFIO_T19n | Config_Option |
+| E8 | 8 | IO,D2,EDIFFIO_T16n | Config_Option |
+| F6 | 8 | IO,EDIFFIO_T17n | - |
+| F7 | 8 | IO,EDIFFIO_T17p | - |
+| F8 | 8 | IO,D3,EDIFFIO_T16p | Config_Option |
 
 
 ## IO BANK Other
 
 | 引脚编号 | IO BANK | 引脚说明 | Config_Type |
 |----------|---------|----------|-------------|
+| A1 | - | VCCIO8 | - |
 | B2 | - | GND | - |
-| B15 | - | GND | - |
+| C4 | - | VCCIO8 | - |
 | C5 | - | GND | - |
-| C12 | - | GND | - |
+| C7 | - | VCCIO8 | - |
 | D7 | - | GND | - |
-| D10 | - | GND | - |
+| E3 | - | VCCIO1 | - |
 | E4 | - | GND | - |
-| E13 | - | GND | - |
-| G13 | - | GND | - |
-| H7 | - | GND | - |
-| H8 | - | GND | - |
-| H9 | - | GND | - |
-| H10 | - | GND | - |
-| J7 | - | GND | - |
-| J8 | - | GND | - |
-| J9 | - | GND | - |
-| J10 | - | GND | - |
-| K4 | - | GND | - |
-| K13 | - | GND | - |
-| M4 | - | GND | - |
-| M13 | - | GND | - |
-| N7 | - | GND | - |
-| N10 | - | GND | - |
-| P5 | - | GND | - |
-| P12 | - | GND | - |
-| R2 | - | GND | - |
-| R15 | - | GND | - |
-| M5 | - | GND_PLLA0 | - |
-| E12 | - | GND_PLLA2 | - |
-| N4 | - | VCC_PLLA0 | - |
-| D13 | - | VCC_PLLA2 | - |
-| F12 | - | VCCAUX | - |
-| L5 | - | VCCAUX | - |
+| G3 | - | VCCIO1 | - |
 | G6 | - | VCCINT | - |
 | G7 | - | VCCINT | - |
 | G8 | - | VCCINT | - |
 | G9 | - | VCCINT | - |
-| G10 | - | VCCINT | - |
 | H6 | - | VCCINT | - |
-| H11 | - | VCCINT | - |
-| E3 | - | VCCIO1 | - |
-| G3 | - | VCCIO1 | - |
+| H7 | - | GND | - |
+| H8 | - | GND | - |
+| H9 | - | GND | - |
+| J7 | - | GND | - |
+| J8 | - | GND | - |
+| J9 | - | GND | - |
 | K3 | - | VCCIO2 | - |
+| K4 | - | GND | - |
+| L5 | - | VCCAUX | - |
 | M3 | - | VCCIO2 | - |
+| M4 | - | GND | - |
+| M5 | - | GND_PLLA0 | - |
+| N4 | - | VCC_PLLA0 | - |
+| N7 | - | GND | - |
 | P4 | - | VCCIO3 | - |
+| P5 | - | GND | - |
 | P7 | - | VCCIO3 | - |
+| R2 | - | GND | - |
 | T1 | - | VCCIO3 | - |
-| P10 | - | VCCIO4 | - |
-| P13 | - | VCCIO4 | - |
-| T16 | - | VCCIO4 | - |
-| K14 | - | VCCIO5 | - |
-| M14 | - | VCCIO5 | - |
-| E14 | - | VCCIO6 | - |
-| G14 | - | VCCIO6 | - |
 | A16 | - | VCCIO7 | - |
+| B15 | - | GND | - |
 | C10 | - | VCCIO7 | - |
+| C12 | - | GND | - |
 | C13 | - | VCCIO7 | - |
-| C4 | - | VCCIO8 | - |
-| C7 | - | VCCIO8 | - |
-| A1 | - | VCCIO8 | - |
+| D10 | - | GND | - |
+| D13 | - | VCC_PLLA2 | - |
+| E12 | - | GND_PLLA2 | - |
+| E13 | - | GND | - |
+| E14 | - | VCCIO6 | - |
+| F12 | - | VCCAUX | - |
+| G10 | - | VCCINT | - |
+| G13 | - | GND | - |
+| G14 | - | VCCIO6 | - |
+| H10 | - | GND | - |
+| H11 | - | VCCINT | - |
+| J10 | - | GND | - |
+| K13 | - | GND | - |
+| K14 | - | VCCIO5 | - |
+| M13 | - | GND | - |
+| M14 | - | VCCIO5 | - |
+| N10 | - | GND | - |
+| P10 | - | VCCIO4 | - |
+| P12 | - | GND | - |
+| P13 | - | VCCIO4 | - |
+| R15 | - | GND | - |
+| T16 | - | VCCIO4 | - |
 
 
 # TQFP144
@@ -407,7 +407,6 @@ toc-location: left
 | 58 | 4 | IO,EDIFFIO_B16p | - |
 | 59 | 4 | IO,EDIFFIO_B17p | - |
 | 60 | 4 | IO,EDIFFIO_B17n | - |
-| ﻿61 | 4 | VCCINT | - |
 | 62 | 4 | VCCIO4 | - |
 | 63 | 4 | GND | - |
 | 64 | 4 | IO,EDIFFIO_B19p | - |
@@ -419,6 +418,7 @@ toc-location: left
 | 70 | 4 | IO,EDIFFIO_B23p | - |
 | 71 | 4 | IO,EDIFFIO_B23n | - |
 | 72 | 4 | IO,EDIFFIO_B24n | - |
+| ﻿61 | 4 | VCCINT | - |
 
 
 ## IO BANK 5
@@ -485,13 +485,13 @@ toc-location: left
 | 118 | 7 | GND | - |
 | 119 | 7 | IO,EDIFFIO_T7p | - |
 | 120 | 7 | IO,EDIFFIO_T8n | - |
-| ﻿121 | 7 | IO,EDIFFIO_T8p | - |
 | 122 | 7 | VCCIO7 | - |
 | 123 | 7 | GND | - |
 | 124 | 7 | IO,EDIFFIO_T10p | - |
 | 125 | 7 | IO,EDIFFIO_T11p | - |
 | 126 | 7 | IO,GCLK7n,EDIFFIO_T12n | - |
 | 127 | 7 | IO,GCLK7p,EDIFFIO_T12p | - |
+| ﻿121 | 7 | IO,EDIFFIO_T8p | - |
 
 
 ## IO BANK 8
@@ -524,622 +524,634 @@ toc-location: left
 
 | 引脚编号 | IO BANK | 引脚说明 | Config_Type |
 |----------|---------|----------|-------------|
-| D4 | 1 | IO_L1P_1 | - |
-| E5 | 1 | IO_L1N_1 | - |
-| F5 | 1 | IO_L3P_1 | - |
-| G5 | 1 | IO_L3N_1 | - |
+| B1 | 1 | IO,DIFFIO_L5p | - |
 | C1 | 1 | IO,D1,MOSI,DIFFIO_L4n | SPI |
 | C2 | 1 | IO,DIFFIO_L4p | - |
-| F3 | 1 | IO,DIFFIO_L5n | - |
-| B1 | 1 | IO,DIFFIO_L5p | - |
+| C3 | 1 | IO,DIFFIO_L2n | - |
 | D1 | 1 | IO,DIFFIO_L6n | - |
 | D2 | 1 | IO,SPICSN,BUSY,DIFFIO_L6p | SPI |
+| D3 | 1 | IO,DIFFIO_L2p | - |
+| D4 | 1 | IO_L1P_1 | - |
+| E1 | 1 | IO,GCLK1n,DIFFIO_L11n | - |
+| E2 | 1 | IO,GCLK1n,DIFFIO_L11p | - |
+| E5 | 1 | IO_L1N_1 | - |
+| F1 | 1 | IO,DIFFIO_L9n | - |
+| F2 | 1 | IO,DIFFIO_L9p | - |
+| F3 | 1 | IO,DIFFIO_L5n | - |
+| F4 | 1 | INITN | Config_Dedicated |
+| F5 | 1 | IO_L3P_1 | - |
 | G1 | 1 | IO,DIFFIO_L7n | - |
 | G2 | 1 | IO,DPCLK1,DIFFIO_L7p | - |
 | G4 | 1 | IO,DIFFIO_L8n | - |
+| G5 | 1 | IO_L3N_1 | - |
+| H1 | 1 | CCLK | Config_Dedicated |
 | H2 | 1 | IO,D0,DIFFIO_L8p,MISO | SPI |
-| F1 | 1 | IO,DIFFIO_L9n | - |
-| F2 | 1 | IO,DIFFIO_L9p | - |
 | H3 | 1 | TCK | JTAG |
 | H4 | 1 | TDI | JTAG |
-| J4 | 1 | TDO | JTAG |
-| H1 | 1 | CCLK | Config_Dedicated |
 | H5 | 1 | PROGRAMN | Config_Dedicated |
-| J5 | 1 | TMS | JTAG |
 | J3 | 1 | CSN | Config_Dedicated |
-| F4 | 1 | INITN | Config_Dedicated |
-| E1 | 1 | IO,GCLK1n,DIFFIO_L11n | - |
-| E2 | 1 | IO,GCLK1n,DIFFIO_L11p | - |
-| C3 | 1 | IO,DIFFIO_L2n | - |
-| D3 | 1 | IO,DIFFIO_L2p | - |
+| J4 | 1 | TDO | JTAG |
+| J5 | 1 | TMS | JTAG |
 
 
 ## IO BANK 2
 
 | 引脚编号 | IO BANK | 引脚说明 | Config_Type |
 |----------|---------|----------|-------------|
-| M1 | 2 | IO,GCLK2n,DIFFIO_L12n | - |
-| M2 | 2 | IO,GCLK2p,DIFFIO_L12p | - |
 | J1 | 2 | IO,DIFFIO_L13n | - |
 | J2 | 2 | IO,DIFFIO_L13p | - |
+| J6 | 2 | IO,DIFFIO_L16p | - |
 | K1 | 2 | IO,DIFFIO_L14n | - |
 | K2 | 2 | IO,DIFFIO_L14p | - |
-| L4 | 2 | IO,DIFFIO_L15n | - |
 | K5 | 2 | IO,DIFFIO_L15p | - |
+| K6 | 2 | IO,DIFFIO_L21p | - |
 | K7 | 2 | IO,DIFFIO_L16n | - |
-| J6 | 2 | IO,DIFFIO_L16p | - |
-| N1 | 2 | IO,DIFFIO_L17n | - |
-| N2 | 2 | IO,DIFFIO_L17p | - |
 | L1 | 2 | IO,DIFFIO_L18n | - |
 | L2 | 2 | IO,DPCLK2,DIFFIO_L18p | - |
+| L3 | 2 | IO,DIFFIO_L20p | - |
+| L4 | 2 | IO,DIFFIO_L15n | - |
+| L6 | 2 | IO,DIFFIO_L21n | - |
+| M1 | 2 | IO,GCLK2n,DIFFIO_L12n | - |
+| M2 | 2 | IO,GCLK2p,DIFFIO_L12p | - |
+| N1 | 2 | IO,DIFFIO_L17n | - |
+| N2 | 2 | IO,DIFFIO_L17p | - |
+| N5 | 2 | IO,PLL0_OUT2p,DIFFIO_L22p | - |
+| N6 | 2 | IO,PLL0_OUT2n,DIFFIO_L22n | - |
 | P1 | 2 | IO,DIFFIO_L19n | - |
 | P2 | 2 | IO,DIFFIO_L19p | - |
 | R1 | 2 | IO,DIFFIO_L20n | - |
-| L3 | 2 | IO,DIFFIO_L20p | - |
-| L6 | 2 | IO,DIFFIO_L21n | - |
-| K6 | 2 | IO,DIFFIO_L21p | - |
-| N6 | 2 | IO,PLL0_OUT2n,DIFFIO_L22n | - |
-| N5 | 2 | IO,PLL0_OUT2p,DIFFIO_L22p | - |
 
 
 ## IO BANK 3
 
 | 引脚编号 | IO BANK | 引脚说明 | Config_Type |
 |----------|---------|----------|-------------|
-| P3 | 3 | IO,PLL0_CLKINn,EDIFFIO_B1n | - |
-| N3 | 3 | IO,PLL0_CLKINp,EDIFFIO_B1p | - |
-| T3 | 3 | IO,EDIFFIO_B2n | - |
-| R3 | 3 | IO,EDIFFIO_B2p | - |
 | K8 | 3 | IO,EDIFFIO_B3n | - |
-| M7 | 3 | IO,EDIFFIO_B3p | - |
-| P6 | 3 | IO,EDIFFIO_B4n | - |
-| T2 | 3 | IO,DPCLK3,EDIFFIO_B4p | - |
-| T4 | 3 | IO,PLL0_OUT1n,EDIFFIO_B5n | - |
-| R4 | 3 | IO,PLL0_OUT1p,EDIFFIO_B5p | - |
-| M6 | 3 | IO,EDIFFIO_B6n | - |
 | L7 | 3 | IO,EDIFFIO_B6p | - |
-| T5 | 3 | IO,EDIFFIO_B7n | - |
-| R5 | 3 | IO,EDIFFIO_B7p | - |
-| T6 | 3 | IO,EDIFFIO_B8n | - |
-| R6 | 3 | IO,EDIFFIO_B8p | - |
-| T7 | 3 | IO,EDIFFIO_B9n | - |
-| R7 | 3 | IO,EDIFFIO_B9p | - |
-| M8 | 3 | IO,EDIFFIO_B10n | - |
 | L8 | 3 | IO,EDIFFIO_B10p | - |
-| P8 | 3 | IO,EDIFFIO_B11n | - |
+| M6 | 3 | IO,EDIFFIO_B6n | - |
+| M7 | 3 | IO,EDIFFIO_B3p | - |
+| M8 | 3 | IO,EDIFFIO_B10n | - |
+| N3 | 3 | IO,PLL0_CLKINp,EDIFFIO_B1p | - |
 | N8 | 3 | IO,EDIFFIO_B11p | - |
-| T8 | 3 | IO,GCLK3n,EDIFFIO_B12n | - |
+| P3 | 3 | IO,PLL0_CLKINn,EDIFFIO_B1n | - |
+| P6 | 3 | IO,EDIFFIO_B4n | - |
+| P8 | 3 | IO,EDIFFIO_B11n | - |
+| R3 | 3 | IO,EDIFFIO_B2p | - |
+| R4 | 3 | IO,PLL0_OUT1p,EDIFFIO_B5p | - |
+| R5 | 3 | IO,EDIFFIO_B7p | - |
+| R6 | 3 | IO,EDIFFIO_B8p | - |
+| R7 | 3 | IO,EDIFFIO_B9p | - |
 | R8 | 3 | IO,GCLK3p,EDIFFIO_B12p | - |
+| T2 | 3 | IO,DPCLK3,EDIFFIO_B4p | - |
+| T3 | 3 | IO,EDIFFIO_B2n | - |
+| T4 | 3 | IO,PLL0_OUT1n,EDIFFIO_B5n | - |
+| T5 | 3 | IO,EDIFFIO_B7n | - |
+| T6 | 3 | IO,EDIFFIO_B8n | - |
+| T7 | 3 | IO,EDIFFIO_B9n | - |
+| T8 | 3 | IO,GCLK3n,EDIFFIO_B12n | - |
 
 
 ## IO BANK 4
 
 | 引脚编号 | IO BANK | 引脚说明 | Config_Type |
 |----------|---------|----------|-------------|
-| T9 | 4 | IO,GCLK4n,EDIFFIO_B13n | - |
-| R9 | 4 | IO,GCLK4p,EDIFFIO_B13p | - |
-| L9 | 4 | IO,EDIFFIO_B14n | - |
 | K9 | 4 | IO,EDIFFIO_B14p | - |
-| N9 | 4 | IO,EDIFFIO_B15n | - |
+| L9 | 4 | IO,EDIFFIO_B14n | - |
 | M9 | 4 | IO,EDIFFIO_B15p | - |
-| P11 | 4 | IO,EDIFFIO_B16n | - |
+| N9 | 4 | IO,EDIFFIO_B15n | - |
 | P9 | 4 | IO,EDIFFIO_B16p | - |
-| T10 | 4 | IO,EDIFFIO_B17n | - |
-| R10 | 4 | IO,EDIFFIO_B17p | - |
-| T11 | 4 | IO,EDIFFIO_B18n | - |
-| R11 | 4 | IO,EDIFFIO_B18p | - |
-| N11 | 4 | IO,EDIFFIO_B19n | - |
-| M10 | 4 | IO,EDIFFIO_B19p | - |
-| T12 | 4 | IO,EDIFFIO_B20n | - |
-| R12 | 4 | IO,EDIFFIO_B20p | - |
-| T15 | 4 | IO,DPCLK4,EDIFFIO_B21n | - |
-| T14 | 4 | IO,EDIFFIO_B21p | - |
-| N12 | 4 | IO,EDIFFIO_B22n | - |
-| M11 | 4 | IO,EDIFFIO_B22p | - |
-| T13 | 4 | IO,EDIFFIO_B23n | - |
-| R13 | 4 | IO,EDIFFIO_B23p | - |
+| R9 | 4 | IO,GCLK4p,EDIFFIO_B13p | - |
+| T9 | 4 | IO,GCLK4n,EDIFFIO_B13n | - |
 | L11 | 4 | IO,EDIFFIO_B24n | - |
+| M10 | 4 | IO,EDIFFIO_B19p | - |
+| M11 | 4 | IO,EDIFFIO_B22p | - |
+| N11 | 4 | IO,EDIFFIO_B19n | - |
+| N12 | 4 | IO,EDIFFIO_B22n | - |
+| P11 | 4 | IO,EDIFFIO_B16n | - |
 | P14 | 4 | IO,EDIFFIO_B24p | - |
+| R10 | 4 | IO,EDIFFIO_B17p | - |
+| R11 | 4 | IO,EDIFFIO_B18p | - |
+| R12 | 4 | IO,EDIFFIO_B20p | - |
+| R13 | 4 | IO,EDIFFIO_B23p | - |
+| T10 | 4 | IO,EDIFFIO_B17n | - |
+| T11 | 4 | IO,EDIFFIO_B18n | - |
+| T12 | 4 | IO,EDIFFIO_B20n | - |
+| T13 | 4 | IO,EDIFFIO_B23n | - |
+| T14 | 4 | IO,EDIFFIO_B21p | - |
+| T15 | 4 | IO,DPCLK4,EDIFFIO_B21n | - |
 
 
 ## IO BANK 5
 
 | 引脚编号 | IO BANK | 引脚说明 | Config_Type |
 |----------|---------|----------|-------------|
-| L10 | 5 | IO,DIFFIO_R1n | - |
-| K10 | 5 | IO,DIFFIO_R1p | - |
-| R14 | 5 | IO,DIFFIO_R2n | - |
-| P15 | 5 | IO,DIFFIO_R2p | - |
-| M12 | 5 | IO,DIFFIO_R3n | - |
-| L12 | 5 | IO,DIFFIO_R3p | - |
-| N13 | 5 | IO,DIFFIO_R4n | - |
-| N14 | 5 | IO,DIFFIO_R4p | - |
-| P16 | 5 | IO,DIFFIO_R5n | - |
-| R16 | 5 | IO,DIFFIO_R5p | - |
-| N16 | 5 | IO,DIFFIO_R6n | - |
-| N15 | 5 | IO,DIFFIO_R6p | - |
-| K11 | 5 | IO,DIFFIO_R7n | - |
 | J11 | 5 | IO,DIFFIO_R7p | - |
+| J13 | 5 | IO,DIFFIO_R11n | - |
+| K10 | 5 | IO,DIFFIO_R1p | - |
+| K11 | 5 | IO,DIFFIO_R7n | - |
+| K12 | 5 | IO,DIFFIO_R11p | - |
+| K15 | 5 | IO,DPCLK5,DIFFIO_R9p | - |
+| K16 | 5 | IO,DIFFIO_R9n | - |
+| L10 | 5 | IO,DIFFIO_R1n | - |
+| L12 | 5 | IO,DIFFIO_R3p | - |
 | L13 | 5 | IO,DIFFIO_R8n | - |
 | L14 | 5 | IO,DIFFIO_R8p | - |
-| K16 | 5 | IO,DIFFIO_R9n | - |
-| K15 | 5 | IO,DPCLK5,DIFFIO_R9p | - |
-| L16 | 5 | IO,DIFFIO_R10n | - |
 | L15 | 5 | IO,DIFFIO_R10p | - |
-| J13 | 5 | IO,DIFFIO_R11n | - |
-| K12 | 5 | IO,DIFFIO_R11p | - |
-| M16 | 5 | IO,GCLK5n,DIFFIO_R12n | - |
+| L16 | 5 | IO,DIFFIO_R10n | - |
+| M12 | 5 | IO,DIFFIO_R3n | - |
 | M15 | 5 | IO,GCLK5p,DIFFIO_R12p | - |
+| M16 | 5 | IO,GCLK5n,DIFFIO_R12n | - |
+| N13 | 5 | IO,DIFFIO_R4n | - |
+| N14 | 5 | IO,DIFFIO_R4p | - |
+| N15 | 5 | IO,DIFFIO_R6p | - |
+| N16 | 5 | IO,DIFFIO_R6n | - |
+| P15 | 5 | IO,DIFFIO_R2p | - |
+| P16 | 5 | IO,DIFFIO_R5n | - |
+| R14 | 5 | IO,DIFFIO_R2n | - |
+| R16 | 5 | IO,DIFFIO_R5p | - |
 
 
 ## IO BANK 6
 
 | 引脚编号 | IO BANK | 引脚说明 | Config_Type |
 |----------|---------|----------|-------------|
-| E16 | 6 | IO,GCLK6n,DIFFIO_R13n | - |
-| E15 | 6 | IO,GCLK6p,DIFFIO_R13p | - |
-| J14 | 6 | IO,DIFFIO_R14n | - |
-| J12 | 6 | IO,DIFFIO_R14p | - |
-| J16 | 6 | IO,DIFFIO_R15n | - |
-| J15 | 6 | IO,DIFFIO_R15p | - |
-| H16 | 6 | IO,DIFFIO_R16n | - |
-| H15 | 6 | IO,DIFFIO_R16p | - |
-| G16 | 6 | IO,DIFFIO_R17n | - |
-| G15 | 6 | IO,DIFFIO_R17p | - |
-| D16 | 6 | IO,DIFFIO_R18n | - |
-| D15 | 6 | IO,DIFFIO_R18p | - |
-| F16 | 6 | IO,CSON,DOUT,DIFFIO_R19n | Config_Option |
-| F15 | 6 | IO,USRCLK,DIFFIO_R19p | - |
-| C16 | 6 | IO,DIFFIO_R20n | - |
-| C15 | 6 | IO,DIFFIO_R20p | - |
 | B16 | 6 | IO,DPCLK6,DIFFIO_R21n | - |
-| F14 | 6 | IO,DIFFIO_R21p | - |
-| G11 | 6 | IO,DIFFIO_R22n | - |
-| F13 | 6 | IO,DIFFIO_R22p | - |
 | C14 | 6 | IO,PLL2_OUT2n,DIFFIO_R23n | - |
+| C15 | 6 | IO,DIFFIO_R20p | - |
+| C16 | 6 | IO,DIFFIO_R20n | - |
 | D14 | 6 | IO,PLL2_OUT2p,DIFFIO_R23p | - |
-| H13 | 6 | MSEL0 | Config_Dedicated |
-| H12 | 6 | MSEL1 | Config_Dedicated |
+| D15 | 6 | IO,DIFFIO_R18p | - |
+| D16 | 6 | IO,DIFFIO_R18n | - |
+| E15 | 6 | IO,GCLK6p,DIFFIO_R13p | - |
+| E16 | 6 | IO,GCLK6n,DIFFIO_R13n | - |
+| F13 | 6 | IO,DIFFIO_R22p | - |
+| F14 | 6 | IO,DIFFIO_R21p | - |
+| F15 | 6 | IO,USRCLK,DIFFIO_R19p | - |
+| F16 | 6 | IO,CSON,DOUT,DIFFIO_R19n | Config_Option |
+| G11 | 6 | IO,DIFFIO_R22n | - |
 | G12 | 6 | MSEL2 | Config_Dedicated |
+| G15 | 6 | IO,DIFFIO_R17p | - |
+| G16 | 6 | IO,DIFFIO_R17n | - |
+| H12 | 6 | MSEL1 | Config_Dedicated |
+| H13 | 6 | MSEL0 | Config_Dedicated |
 | H14 | 6 | DONE | Config_Dedicated |
+| H15 | 6 | IO,DIFFIO_R16p | - |
+| H16 | 6 | IO,DIFFIO_R16n | - |
+| J12 | 6 | IO,DIFFIO_R14p | - |
+| J14 | 6 | IO,DIFFIO_R14n | - |
+| J15 | 6 | IO,DIFFIO_R15p | - |
+| J16 | 6 | IO,DIFFIO_R15n | - |
 
 
 ## IO BANK 7
 
 | 引脚编号 | IO BANK | 引脚说明 | Config_Type |
 |----------|---------|----------|-------------|
-| D11 | 7 | IO,EDIFFIO_T1n | - |
-| D12 | 7 | IO,DPCLK7,EDIFFIO_T1p | - |
-| F11 | 7 | IO,PLL2_CLKI1n,EDIFFIO_T2n | - |
-| A15 | 7 | IO,PLL2_CLKIN0,EDIFFIO_T2p | - |
-| A14 | 7 | IO,PLL2_OUT1n,EDIFFIO_T3n | - |
-| B14 | 7 | IO,PLL2_OUT1p,EDIFFIO_T3p | - |
-| A13 | 7 | IO,EDIFFIO_T4n | - |
-| B13 | 7 | IO,EDIFFIO_T4p | - |
-| A12 | 7 | IO,EDIFFIO_T5n | - |
-| B12 | 7 | IO,EDIFFIO_T5p | - |
-| E11 | 7 | IO,EDIFFIO_T6n | - |
-| C11 | 7 | IO,EDIFFIO_T6p | - |
-| F10 | 7 | IO,EDIFFIO_T7n | - |
-| F9 | 7 | IO,EDIFFIO_T7p | - |
-| E10 | 7 | IO,EDIFFIO_T8n | - |
-| E9 | 7 | IO,EDIFFIO_T8p | - |
-| A11 | 7 | IO,EDIFFIO_T9n | - |
-| B11 | 7 | IO,EDIFFIO_T9p | - |
-| A10 | 7 | IO,EDIFFIO_T10n | - |
-| B10 | 7 | IO,EDIFFIO_T10p | - |
-| C9 | 7 | IO,EDIFFIO_T11n | - |
-| D9 | 7 | IO,EDIFFIO_T11p | - |
 | A9 | 7 | IO,GCLK7n,EDIFFIO_T12n | - |
 | B9 | 7 | IO,GCLK7p,EDIFFIO_T12p | - |
+| C9 | 7 | IO,EDIFFIO_T11n | - |
+| D9 | 7 | IO,EDIFFIO_T11p | - |
+| E9 | 7 | IO,EDIFFIO_T8p | - |
+| F9 | 7 | IO,EDIFFIO_T7p | - |
+| A10 | 7 | IO,EDIFFIO_T10n | - |
+| A11 | 7 | IO,EDIFFIO_T9n | - |
+| A12 | 7 | IO,EDIFFIO_T5n | - |
+| A13 | 7 | IO,EDIFFIO_T4n | - |
+| A14 | 7 | IO,PLL2_OUT1n,EDIFFIO_T3n | - |
+| A15 | 7 | IO,PLL2_CLKIN0,EDIFFIO_T2p | - |
+| B10 | 7 | IO,EDIFFIO_T10p | - |
+| B11 | 7 | IO,EDIFFIO_T9p | - |
+| B12 | 7 | IO,EDIFFIO_T5p | - |
+| B13 | 7 | IO,EDIFFIO_T4p | - |
+| B14 | 7 | IO,PLL2_OUT1p,EDIFFIO_T3p | - |
+| C11 | 7 | IO,EDIFFIO_T6p | - |
+| D11 | 7 | IO,EDIFFIO_T1n | - |
+| D12 | 7 | IO,DPCLK7,EDIFFIO_T1p | - |
+| E10 | 7 | IO,EDIFFIO_T8n | - |
+| E11 | 7 | IO,EDIFFIO_T6n | - |
+| F10 | 7 | IO,EDIFFIO_T7n | - |
+| F11 | 7 | IO,PLL2_CLKI1n,EDIFFIO_T2n | - |
 
 
 ## IO BANK 8
 
 | 引脚编号 | IO BANK | 引脚说明 | Config_Type |
 |----------|---------|----------|-------------|
-| A8 | 8 | IO,GCLK8n,EDIFFIO_T13n | - |
-| B8 | 8 | IO,GCLK8p,EDIFFIO_T13p | - |
-| C8 | 8 | IO,EDIFFIO_T14n | - |
-| D8 | 8 | IO,EDIFFIO_T14p | - |
-| A6 | 8 | IO,EDIFFIO_T15n | - |
-| B6 | 8 | IO,EDIFFIO_T15p | - |
-| E8 | 8 | IO,D2,EDIFFIO_T16n | Config_Option |
-| F8 | 8 | IO,D3,EDIFFIO_T16p | Config_Option |
-| F6 | 8 | IO,EDIFFIO_T17n | - |
-| F7 | 8 | IO,EDIFFIO_T17p | - |
+| A2 | 8 | IO,D13,EDIFFIO_T21n | - |
+| A3 | 8 | IO,D9,EDIFFIO_T24n | - |
+| A4 | 8 | IO,D11,EDIFFIO_T22n | - |
 | A5 | 8 | IO,D7,EDIFFIO_T18n | Config_Option |
+| A6 | 8 | IO,EDIFFIO_T15n | - |
+| A7 | 8 | IO,D8,EDIFFIO_T24p | - |
+| A8 | 8 | IO,GCLK8n,EDIFFIO_T13n | - |
+| B3 | 8 | IO,DPCLK8,EDIFFIO_T23p | - |
+| B4 | 8 | IO,D10,EDIFFIO_T22p | - |
+| B5 | 8 | IO,D12,EDIFFIO_T21p | - |
+| B6 | 8 | IO,EDIFFIO_T15p | - |
+| B7 | 8 | IO,D4,EDIFFIO_T23n | Config_Option |
+| B8 | 8 | IO,GCLK8p,EDIFFIO_T13p | - |
 | C6 | 8 | IO,EDIFFIO_T18p | - |
-| E7 | 8 | IO,D5,EDIFFIO_T19n | Config_Option |
-| E6 | 8 | IO,D6,EDIFFIO_T19p | Config_Option |
+| C8 | 8 | IO,EDIFFIO_T14n | - |
 | D5 | 8 | IO,D15,EDIFFIO_T20n | - |
 | D6 | 8 | IO,D14,EDIFFIO_T20p | - |
-| A2 | 8 | IO,D13,EDIFFIO_T21n | - |
-| B5 | 8 | IO,D12,EDIFFIO_T21p | - |
-| A4 | 8 | IO,D11,EDIFFIO_T22n | - |
-| B4 | 8 | IO,D10,EDIFFIO_T22p | - |
-| B7 | 8 | IO,D4,EDIFFIO_T23n | Config_Option |
-| B3 | 8 | IO,DPCLK8,EDIFFIO_T23p | - |
-| A3 | 8 | IO,D9,EDIFFIO_T24n | - |
-| A7 | 8 | IO,D8,EDIFFIO_T24p | - |
+| D8 | 8 | IO,EDIFFIO_T14p | - |
+| E6 | 8 | IO,D6,EDIFFIO_T19p | Config_Option |
+| E7 | 8 | IO,D5,EDIFFIO_T19n | Config_Option |
+| E8 | 8 | IO,D2,EDIFFIO_T16n | Config_Option |
+| F6 | 8 | IO,EDIFFIO_T17n | - |
+| F7 | 8 | IO,EDIFFIO_T17p | - |
+| F8 | 8 | IO,D3,EDIFFIO_T16p | Config_Option |
 
 
 ## IO BANK Other
 
 | 引脚编号 | IO BANK | 引脚说明 | Config_Type |
 |----------|---------|----------|-------------|
+| A1 | - | VCCIO8 | - |
 | B2 | - | GND | - |
-| B15 | - | GND | - |
+| C4 | - | VCCIO8 | - |
 | C5 | - | GND | - |
-| C12 | - | GND | - |
+| C7 | - | VCCIO8 | - |
 | D7 | - | GND | - |
-| D10 | - | GND | - |
+| E3 | - | VCCIO1 | - |
 | E4 | - | GND | - |
-| E13 | - | GND | - |
-| G13 | - | GND | - |
-| H7 | - | GND | - |
-| H8 | - | GND | - |
-| H9 | - | GND | - |
-| H10 | - | GND | - |
-| J7 | - | GND | - |
-| J8 | - | GND | - |
-| J9 | - | GND | - |
-| J10 | - | GND | - |
-| K4 | - | GND | - |
-| K13 | - | GND | - |
-| M4 | - | GND | - |
-| M13 | - | GND | - |
-| N7 | - | GND | - |
-| N10 | - | GND | - |
-| P5 | - | GND | - |
-| P12 | - | GND | - |
-| R2 | - | GND | - |
-| R15 | - | GND | - |
-| M5 | - | GND_PLLA0 | - |
-| E12 | - | GND_PLLA2 | - |
-| N4 | - | VCC_PLLA0 | - |
-| D13 | - | VCC_PLLA2 | - |
-| F12 | - | VCCAUX (2.5V~3.3V) | - |
-| L5 | - | VCCAUX (2.5V~3.3V) | - |
+| G3 | - | VCCIO1 | - |
 | G6 | - | VCCINT | - |
 | G7 | - | VCCINT | - |
 | G8 | - | VCCINT | - |
 | G9 | - | VCCINT | - |
-| G10 | - | VCCINT | - |
 | H6 | - | VCCINT | - |
-| H11 | - | VCCINT | - |
-| E3 | - | VCCIO1 | - |
-| G3 | - | VCCIO1 | - |
+| H7 | - | GND | - |
+| H8 | - | GND | - |
+| H9 | - | GND | - |
+| J7 | - | GND | - |
+| J8 | - | GND | - |
+| J9 | - | GND | - |
 | K3 | - | VCCIO2 | - |
+| K4 | - | GND | - |
+| L5 | - | VCCAUX (2.5V~3.3V) | - |
 | M3 | - | VCCIO2 | - |
+| M4 | - | GND | - |
+| M5 | - | GND_PLLA0 | - |
+| N4 | - | VCC_PLLA0 | - |
+| N7 | - | GND | - |
 | P4 | - | VCCIO3 | - |
+| P5 | - | GND | - |
 | P7 | - | VCCIO3 | - |
+| R2 | - | GND | - |
 | T1 | - | VCCIO3 | - |
-| P10 | - | VCCIO4 | - |
-| P13 | - | VCCIO4 | - |
-| T16 | - | VCCIO4 | - |
-| K14 | - | VCCIO5 | - |
-| M14 | - | VCCIO5 | - |
-| E14 | - | VCCIO6 | - |
-| G14 | - | VCCIO6 | - |
 | A16 | - | VCCIO7 | - |
+| B15 | - | GND | - |
 | C10 | - | VCCIO7 | - |
+| C12 | - | GND | - |
 | C13 | - | VCCIO7 | - |
-| C4 | - | VCCIO8 | - |
-| C7 | - | VCCIO8 | - |
-| A1 | - | VCCIO8 | - |
+| D10 | - | GND | - |
+| D13 | - | VCC_PLLA2 | - |
+| E12 | - | GND_PLLA2 | - |
+| E13 | - | GND | - |
+| E14 | - | VCCIO6 | - |
+| F12 | - | VCCAUX (2.5V~3.3V) | - |
+| G10 | - | VCCINT | - |
+| G13 | - | GND | - |
+| G14 | - | VCCIO6 | - |
+| H10 | - | GND | - |
+| H11 | - | VCCINT | - |
+| J10 | - | GND | - |
+| K13 | - | GND | - |
+| K14 | - | VCCIO5 | - |
+| M13 | - | GND | - |
+| M14 | - | VCCIO5 | - |
+| N10 | - | GND | - |
+| P10 | - | VCCIO4 | - |
+| P12 | - | GND | - |
+| P13 | - | VCCIO4 | - |
+| R15 | - | GND | - |
+| T16 | - | VCCIO4 | - |
 
 
 # EG4A20
 
 
-## IO BANK 1
-
-| 引脚编号 | IO BANK | 引脚说明 | Config_Type |
-|----------|---------|----------|-------------|
-| D4 | 1 | IO_L1P_1 | - |
-| B1 | 1 | IO_L1N_1 | - |
-| C1 | 1 | IO_L2P_MOSI_1 | SPI |
-| C2 | 1 | IO_L2N_1 | - |
-| E5 | 1 | IO_L3P_1 | - |
-| F5 | 1 | IO_L3N_1 | - |
-| D1 | 1 | IO_L4P_1 | - |
-| D2 | 1 | IO_L4N_SPICSN_1 | SPI |
-| G5 | 1 | IO_L5P_1 | - |
-| G4 | 1 | IO_L5N_1 | - |
-| F4 | 1 | IO_L6N_INITN_1 | - |
-| F3 | 1 | IO_L6P_VREF_1 | - |
-| F2 | 1 | IO_L7P_1 | - |
-| F1 | 1 | IO_L7N_1 | - |
-| H3 | 1 | IO_L8P_TCK_1 | JTAG |
-| H4 | 1 | IO_L8N_TDI_1 | JTAG |
-| H5 | 1 | IO_L9N_PROGRAMN_1 | - |
-| J5 | 1 | IO_L9P_TMS_1 | JTAG |
-| H2 | 1 | IO_L10P_DATA0_1 | SPI |
-| H1 | 1 | IO_L10N_CCLK_1 | SPI |
-| J3 | 1 | IO_L11N_nCE_1 | - |
-| J4 | 1 | IO_L11P_TDO_1 | JTAG |
-| G2 | 1 | IO_L8P_GCLKIOL_3_1 | - |
-| G1 | 1 | IO_L8N_GCLKIOL_2_1 | - |
-| E1 | 1 | IO_L9N_GCLKIOL_0_1 | - |
+**芯片对比**: Anlogic EG4A20 VS Altera EP4CE10
 
 
-## IO BANK 2
+## IO BANK 0, 1,    CCLK,    TDO,    TMS,    nCE,   IO,   NCONFIG,   TCK,   TDI, NSTATUS
 
-| 引脚编号 | IO BANK | 引脚说明 | Config_Type |
-|----------|---------|----------|-------------|
-| M2 | 2 | IO_L1P_GCLKIOL_5_2 | - |
-| M1 | 2 | IO_L1N_GCLKIOL_4_2 | - |
-| J1 | 2 | UI_L2N_GCLKIOL_6_2 | - |
-| J2 | 2 | IO_L2P_GCLKIOL_7_2 | - |
-| K1 | 2 | IO_L3N_2 | - |
-| K2 | 2 | IO_L3P_2 | - |
-| J6 | 2 | IO_L_2 | - |
-| L1 | 2 | IO_L4N_2 | - |
-| L2 | 2 | IO_L4P_2 | - |
-| L3 | 2 | IO_L5N_VREF_2 | - |
-| R1 | 2 | IO_L5P_2 | - |
-| K5 | 2 | IO_L6N_2 | - |
-| L4 | 2 | IO_L6P_2 | - |
-| N1 | 2 | IO_L7N_2 | - |
-| N2 | 2 | IO_L7P_2 | - |
-| L6 | 2 | IO_L8N_2 | - |
-| K6 | 2 | IO_L8P_2 | - |
-| N4 | 2 | IO_L_2 | - |
-| P2 | 2 | IO_L9P_2 | - |
-| P1 | 2 | IO_L9N_2 | - |
-
-
-## IO BANK 3
-
-| 引脚编号 | IO BANK | 引脚说明 | Config_Type |
-|----------|---------|----------|-------------|
-| P3 | 3 | IO_BE1N_GPLL0_CLKIN1_3 | - |
-| N3 | 3 | IO_BE1P_GPLL0_CLKIN0_3 | - |
-| M6 | 3 | IO_BE2P_3 | - |
-| L7 | 3 | IO_BE2N_3 | - |
-| P6 | 3 | IO_BE3N_3 | - |
-| T2 | 3 | IO_BE3P_3 | - |
-| R3 | 3 | IO_BE4P_3 | - |
-| T3 | 3 | IO_BE4N_3 | - |
-| T4 | 3 | IO_BE5N_GPLL0_OUTN_3 | - |
-| R4 | 3 | IO_BE5P_GPLL0_OUTP_3 | - |
-| N6 | 3 | IO_BE6N_3 | - |
-| N5 | 3 | IO_BE6P_3 | - |
-| R5 | 3 | IO_BE7P_3 | - |
-| T5 | 3 | IO_BE7N_3 | - |
-| T6 | 3 | IO_BE8N_3 | - |
-| R6 | 3 | IO_BE8P_3 | - |
-| R7 | 3 | IO_BE9P_3 | - |
-| T7 | 3 | IO_BE9N_3 | - |
-| K8 | 3 | IO_BE10N_3 | - |
-| M7 | 3 | IO_BE10P_3 | - |
-| N8 | 3 | IO_BE11P_GCLKIOB_1_3 | - |
-| P8 | 3 | IO_BE11N_GCLKIOB_0_3 | - |
-| M8 | 3 | IO_BE12N_GCLKIOB_4_3 | - |
-| L8 | 3 | IO_BE12P_GCLKIOB_5_3 | - |
+| Anlogic EG4A20 | | | Altera EP4CE10 | | | |
+| 引脚编号 | IO BANK | 引脚说明 | 引脚编号 | IO BANK | 引脚说明 | 差异备注 |
+|----------|---------|----------|----------|---------|----------|----------|
+| B1 | 1 | IO_L1N_1 | B1 |   IO | - | - |
+| C1 | 1 | IO_L2P_MOSI_1 | B1 |   IO | DIFFIO_L1n | - |
+| C2 | 1 | IO_L2N_1 | B1 |   IO | DIFFIO_L1p | - |
+| D1 | 1 | IO_L4P_1 | B1 |   IO | DIFFIO_L2n | - |
+| D2 | 1 | IO_L4N_SPICSN_1 | B1 |   IO | DIFFIO_L2p | - |
+| D4 | 1 | IO_L1P_1 | B1 |   IO |  | - |
+| E1 | 1 | IO_L9N_GCLKIOL_0_1 | B1 | 1 | CLK1 | - |
+| E5 | 1 | IO_L3P_1 | B1 |   IO | - | - |
+| F1 | 1 | IO_L7N_1 | B1 |   IO | DIFFIO_L3n | - |
+| F2 | 1 | IO_L7P_1 | B1 |   IO | DIFFIO_L3p | - |
+| F3 | 1 | IO_L6P_VREF_1 | B1 |   IO |  | - |
+| F4 | 1 | IO_L6N_INITN_1 | B1 | NSTATUS | NSTATUS | - |
+| F5 | 1 | IO_L3N_1 | B1 |   IO | - | - |
+| G1 | 1 | IO_L8N_GCLKIOL_2_1 | B1 |   IO | DIFFIO_L4n | - |
+| G2 | 1 | IO_L8P_GCLKIOL_3_1 | B1 |   IO | DIFFIO_L4p | - |
+| G4 | 1 | IO_L5N_1 | B1 | - | - | - |
+| G5 | 1 | IO_L5P_1 | B1 |   IO | - | - |
+| H1 | 1 | IO_L10N_CCLK_1 | B1 |    CCLK | - | - |
+| H2 | 1 | IO_L10P_DATA0_1 | B1 | 0 | - | - |
+| H3 | 1 | IO_L8P_TCK_1 | B1 |   TCK | - | - |
+| H4 | 1 | IO_L8N_TDI_1 | B1 |   TDI | - | - |
+| H5 | 1 | IO_L9N_PROGRAMN_1 | B1 |   NCONFIG |  | - |
+| J3 | 1 | IO_L11N_nCE_1 | B1 |    nCE |  | - |
+| J4 | 1 | IO_L11P_TDO_1 | B1 |    TDO |  | - |
+| J5 | 1 | IO_L9P_TMS_1 | B1 |    TMS |  | - |
 
 
-## IO BANK 4
+## IO BANK 2, 3,   ,   IO
 
-| 引脚编号 | IO BANK | 引脚说明 | Config_Type |
-|----------|---------|----------|-------------|
-| R8 | 4 | IO_BE1P_GCLKIOB_7_4 | - |
-| T8 | 4 | IO_BE1N_GCLKIOB_6_4 | - |
-| T9 | 4 | IO_BE2N_GCLKIOB_2_4 | - |
-| R9 | 4 | IO_BE2P_GCLKIOB_3_4 | - |
-| R10 | 4 | IO_BE3N_4 | - |
-| T10 | 4 | IO_BE3P_4 | - |
-| P9 | 4 | IO_BE4N_4 | - |
-| P11 | 4 | IO_BE4P_4 | - |
-| M9 | 4 | IO_BE5P_4 | - |
-| N9 | 4 | IO_BE5N_4 | - |
-| L9 | 4 | IO_BE6N_4 | - |
-| K9 | 4 | IO_BE6P_4 | - |
-| T11 | 4 | IO_BE7N_4 | - |
-| R11 | 4 | IO_BE7P_4 | - |
-| M10 | 4 | IO_BE8P_4 | - |
-| N11 | 4 | IO_BE8N_4 | - |
-| L10 | 4 | IO_BE9N_4 | - |
-| K10 | 4 | IO_BE9P_4 | - |
-| T12 | 4 | IO_BE10N_GPLL3_OUTN_4 | - |
+| Anlogic EG4A20 | | | Altera EP4CE10 | | | |
+| 引脚编号 | IO BANK | 引脚说明 | 引脚编号 | IO BANK | 引脚说明 | 差异备注 |
+|----------|---------|----------|----------|---------|----------|----------|
+| J1 | 2 | UI_L2N_GCLKIOL_6_2 | B1 |   IO | DIFFIO_L5n | - |
+| J2 | 2 | IO_L2P_GCLKIOL_7_2 | B2 |   IO | DIFFIO_L5p | - |
+| J6 | 2 | IO_L_2 | B2 |   IO | - | - |
+| K1 | 2 | IO_L3N_2 | B2 |   IO | DIFFIO_L7n | - |
+| K2 | 2 | IO_L3P_2 | B2 |   IO | DIFFIO_L7p | - |
+| K5 | 2 | IO_L6N_2 | B2 |   IO | RUP1 | - |
+| K6 | 2 | IO_L8P_2 | B2 |   IO | DIFFIO_L6p | - |
+| L1 | 2 | IO_L4N_2 | B2 |   IO | DIFFIO_L8n | - |
+| L2 | 2 | IO_L4P_2 | B2 |   IO | DIFFIO_L8p | - |
+| L3 | 2 | IO_L5N_VREF_2 | B2 |   IO | VREFB2N0 | - |
+| L4 | 2 | IO_L6P_2 | B2 |   IO | RDN1 | - |
+| L6 | 2 | IO_L8N_2 | B2 |   IO | DIFFIO_L6n | - |
+| M1 | 2 | IO_L1N_GCLKIOL_4_2 | B1 | 3 | CLK3 | - |
+| M2 | 2 | IO_L1P_GCLKIOL_5_2 | B1 | 2 | CLK2 | - |
+| N1 | 2 | IO_L7N_2 | B2 |   IO | DIFFIO_L9n | - |
+| N2 | 2 | IO_L7P_2 | B2 |   IO | DIFFIO_L9p | - |
+| N4 | 2 | IO_L_2 | B2 |    | VCCD_PLL1 | - |
+| P1 | 2 | IO_L9N_2 | B2 |   IO | DIFFIO_L10n | - |
+| P2 | 2 | IO_L9P_2 | B2 |   IO | DIFFIO_L10p | - |
+| R1 | 2 | IO_L5P_2 | B2 |   IO | - | - |
+
+
+## IO BANK 3,   IO
+
+| Anlogic EG4A20 | | | Altera EP4CE10 | | | |
+| 引脚编号 | IO BANK | 引脚说明 | 引脚编号 | IO BANK | 引脚说明 | 差异备注 |
+|----------|---------|----------|----------|---------|----------|----------|
+| K8 | 3 | IO_BE10N_3 | B3 |   IO | DIFFIO_B5n | - |
+| L7 | 3 | IO_BE2N_3 | B3 |   IO | - | - |
+| L8 | 3 | IO_BE12P_GCLKIOB_5_3 | B3 |   IO | DIFFIO_B9p | - |
+| M6 | 3 | IO_BE2P_3 | B3 |   IO | - | - |
+| M7 | 3 | IO_BE10P_3 | B3 |   IO | DIFFIO_B5p | - |
+| M8 | 3 | IO_BE12N_GCLKIOB_4_3 | B3 |   IO | DIFFIO_B9n | - |
+| N3 | 3 | IO_BE1P_GPLL0_CLKIN0_3 | B3 |   IO | DIFFIO_B1p | - |
+| N5 | 3 | IO_BE6P_3 | B3 |   IO | DIFFIO_B4p | - |
+| N6 | 3 | IO_BE6N_3 | B3 |   IO | DIFFIO_B4n | - |
+| N8 | 3 | IO_BE11P_GCLKIOB_1_3 | B3 |   IO | DIFFIO_B10p | - |
+| P3 | 3 | IO_BE1N_GPLL0_CLKIN1_3 | B3 |   IO | DIFFIO_B1n | - |
+| P6 | 3 | IO_BE3N_3 | B3 |   IO | VREFB3N0 | - |
+| P8 | 3 | IO_BE11N_GCLKIOB_0_3 | B3 |   IO | DIFFIO_B10n | - |
+| R3 | 3 | IO_BE4P_3 | B3 |   IO | DIFFIO_B2p | - |
+| R4 | 3 | IO_BE5P_GPLL0_OUTP_3 | B3 |   IO | PLL1_CLKOUTp | - |
+| R5 | 3 | IO_BE7P_3 | B3 |   IO | DIFFIO_B6p | - |
+| R6 | 3 | IO_BE8P_3 | B3 |   IO | DIFFIO_B7p | - |
+| R7 | 3 | IO_BE9P_3 | B3 |   IO | DIFFIO_B8p | - |
+| T2 | 3 | IO_BE3P_3 | B3 |   IO | - | - |
+| T3 | 3 | IO_BE4N_3 | B3 |   IO | DIFFIO_B2n | - |
+| T4 | 3 | IO_BE5N_GPLL0_OUTN_3 | B3 |   IO | PLL1_CLKOUTn | - |
+| T5 | 3 | IO_BE7N_3 | B3 |   IO | DIFFIO_B6n | - |
+| T6 | 3 | IO_BE8N_3 | B3 |   IO | DIFFIO_B7n | - |
+| T7 | 3 | IO_BE9N_3 | B3 |   IO | DIFFIO_B8n | - |
+
+
+## IO BANK 4,   IO
+
+| Anlogic EG4A20 | | | Altera EP4CE10 | | | |
+| 引脚编号 | IO BANK | 引脚说明 | 引脚编号 | IO BANK | 引脚说明 | 差异备注 |
+|----------|---------|----------|----------|---------|----------|----------|
+| K9 | 4 | IO_BE6P_4 | B4 |   IO | DIFFIO_B13p | - |
+| L9 | 4 | IO_BE6N_4 | B4 |   IO | DIFFIO_B13n | - |
+| M9 | 4 | IO_BE5P_4 | B4 |   IO | DIFFIO_B14p | - |
+| N9 | 4 | IO_BE5N_4 | B4 |   IO | DIFFIO_B14n | - |
+| P9 | 4 | IO_BE4N_4 | B4 |   IO | - | - |
+| R8 | 4 | IO_BE1P_GCLKIOB_7_4 | B3 |   IO | DIFFIO_B11p | - |
+| R9 | 4 | IO_BE2P_GCLKIOB_3_4 | B3 |   IO | DIFFIO_B12p | - |
+| T8 | 4 | IO_BE1N_GCLKIOB_6_4 | B3 |   IO | DIFFIO_B11n | - |
+| T9 | 4 | IO_BE2N_GCLKIOB_2_4 | B3 |   IO | DIFFIO_B12n | - |
+| K10 | 4 | IO_BE9P_4 | B4 |   IO | DIFFIO_B18p | - |
+| L10 | 4 | IO_BE9N_4 | B4 |   IO | DIFFIO_B18n | - |
+| L11 | 4 | IO_BE14N_4 | B4 |   IO | DIFFIO_B21n | - |
+| M10 | 4 | IO_BE8P_4 | B4 |   IO | RUP2 | - |
+| M11 | 4 | IO_BE12P_4 | B4 |   IO | DIFFIO_B22p | - |
+| N11 | 4 | IO_BE8N_4 | B4 |   IO | RDN2 | - |
+| N12 | 4 | IO_BE12N_4 | B4 |   IO | DIFFIO_B22n | - |
+| P11 | 4 | IO_BE4P_4 | B4 |   IO | - | - |
+| P14 | 4 | IO_BE14P_4 | B4 |   IO | DIFFIO_B21p | - |
+| R10 | 4 | IO_BE3N_4 | B3 |   IO | DIFFIO_B15p | - |
+| R11 | 4 | IO_BE7P_4 | B4 |   IO | DIFFIO_B16p | - |
 | R12 | 4 | 4
-IO_BE10P_GPLL3_OUTP_4 | - |
-| R13 | 4 | IO_BE11P_4 | - |
-| T13 | 4 | IO_BE11N_4 | - |
-| N12 | 4 | IO_BE12N_4 | - |
-| M11 | 4 | IO_BE12P_4 | - |
-| T14 | 4 | IO_BE13P_4 | - |
-| T15 | 4 | IO_BE13N_4 | - |
-| L11 | 4 | IO_BE14N_4 | - |
-| P14 | 4 | IO_BE14P_4 | - |
+IO_BE10P_GPLL3_OUTP_4 | B4 |   IO | DIFFIO_B17p | - |
+| R13 | 4 | IO_BE11P_4 | B4 |   IO | DIFFIO_B19p | - |
+| T10 | 4 | IO_BE3P_4 | B4 |   IO | DIFFIO_B15n | - |
+| T11 | 4 | IO_BE7N_4 | B4 |   IO | DIFFIO_B16n | - |
+| T12 | 4 | IO_BE10N_GPLL3_OUTN_4 | B4 |   IO | DIFFIO_B17n | - |
+| T13 | 4 | IO_BE11N_4 | B4 |   IO | DIFFIO_B19n | - |
+| T14 | 4 | IO_BE13P_4 | B4 |   IO | DIFFIO_B20p | - |
+| T15 | 4 | IO_BE13N_4 | B4 |   IO | DIFFIO_B20n | - |
 
 
-## IO BANK 5
+## IO BANK 5, 6, 7,   IO
 
-| 引脚编号 | IO BANK | 引脚说明 | Config_Type |
-|----------|---------|----------|-------------|
-| R14 | 5 | IO_R1N_GPLL3_CLKIN1_5 | - |
-| P15 | 5 | IO_R1P_GPLL3_CLKIN0_5 | - |
-| R16 | 5 | IO_R2P_5 | - |
-| P16 | 5 | IO_R2N_5 | - |
-| N13 | 5 | IO_R3N_5 | - |
-| N14 | 5 | IO_R3P_5 | - |
-| N15 | 5 | IO_R4P_5 | - |
-| N16 | 5 | IO_R4N_5 | - |
-| M12 | 5 | IO_R5P_5 | - |
-| L12 | 5 | IO_R5N_5 | - |
-| L13 | 5 | IO_R6P_5 | - |
-| L14 | 5 | IO_R6N_5 | - |
-| L15 | 5 | IO_R7P_5 | - |
-| L16 | 5 | IO_R7N_5 | - |
-| K15 | 5 | IO_R8P_5 | - |
+| Anlogic EG4A20 | | | Altera EP4CE10 | | | |
+| 引脚编号 | IO BANK | 引脚说明 | 引脚编号 | IO BANK | 引脚说明 | 差异备注 |
+|----------|---------|----------|----------|---------|----------|----------|
+| J11 | 5 | IO_R9P_5 | B5 |   IO | - | - |
+| J12 | 5 | IO_R11P_5 | B5 |   IO | DIFFIO_R6p | - |
+| J13 | 5 | IO_R10N_5 | B5 |   IO | - | - |
+| J14 | 5 | IO_R11N_5 | B5 |   IO | DIFFIO_R6n | - |
+| J15 | 5 | IO_R12P_GCLKIOR_7_5 | B5 |   IO | DIFFIO_R7p | - |
+| J16 | 5 | IO_R12N_GCLKIOR_6_5 | B5 | 7 | DIFFIO_R7n | - |
+| K11 | 5 | IO_R9N_5 | B5 |   IO | - | - |
+| K12 | 5 | IO_R10P_5 | B5 |   IO | - | - |
+| K15 | 5 | IO_R8P_5 | B5 |   IO | DIFFIO_R8p | - |
 | K16 | 5 | 5
-IO_R8N_5 | - |
-| J11 | 5 | IO_R9P_5 | - |
-| K11 | 5 | IO_R9N_5 | - |
-| K12 | 5 | IO_R10P_5 | - |
-| J13 | 5 | IO_R10N_5 | - |
-| J12 | 5 | IO_R11P_5 | - |
-| J14 | 5 | IO_R11N_5 | - |
-| J15 | 5 | IO_R12P_GCLKIOR_7_5 | - |
-| J16 | 5 | IO_R12N_GCLKIOR_6_5 | - |
-| M16 | 5 | IO_R13N_GCLKIOR_0_5 | - |
-| M15 | 5 | IO_R13P_GCLKIOR_1_5 | - |
+IO_R8N_5 | B5 |   IO | DIFFIO_R8n | - |
+| L12 | 5 | IO_R5N_5 | B5 |   IO | - | - |
+| L13 | 5 | IO_R6P_5 | B5 |   IO | - | - |
+| L14 | 5 | IO_R6N_5 | B5 |   IO | VREFB5N0 | - |
+| L15 | 5 | IO_R7P_5 | B5 |   IO | DIFFIO_R9p | - |
+| L16 | 5 | IO_R7N_5 | B5 |   IO | DIFFIO_R9n | - |
+| M12 | 5 | IO_R5P_5 | B5 |   IO | - | - |
+| M15 | 5 | IO_R13P_GCLKIOR_1_5 | B5 | 5 | DIFFCLK_3p | - |
+| M16 | 5 | IO_R13N_GCLKIOR_0_5 | B5 | 6 | DIFFCLK_3n | - |
+| N13 | 5 | IO_R3N_5 | B5 |   IO |  | - |
+| N14 | 5 | IO_R3P_5 | B5 |   IO | RUP3 | - |
+| N15 | 5 | IO_R4P_5 | B5 |   IO | DIFFIO_R10p | - |
+| N16 | 5 | IO_R4N_5 | B5 |   IO | DIFFIO_R10n | - |
+| P15 | 5 | IO_R1P_GPLL3_CLKIN0_5 | B5 |   IO | RDN3 | - |
+| P16 | 5 | IO_R2N_5 | B5 |   IO | DIFFIO_R11n | - |
+| R14 | 5 | IO_R1N_GPLL3_CLKIN1_5 | B4 |   IO | - | - |
+| R16 | 5 | IO_R2P_5 | B5 |   IO | DIFFIO_R11p | - |
 
 
-## IO BANK 6
+## IO BANK 0, 1, 2, 6,   IO,  CONF_DONE
 
-| 引脚编号 | IO BANK | 引脚说明 | Config_Type |
-|----------|---------|----------|-------------|
-| H15 | 6 | IO_R1P_GCLKIOR_3_6 | - |
-| H16 | 6 | IO_R1N_GCLKIOR_2_6 | - |
-| E16 | 6 | IO_R2N_GCLKIOR_4_6 | - |
-| E15 | 6 | IO_R2P_GCLKIOR_5_6 | - |
-| G15 | 6 | IO_R3P_6 | - |
-| G16 | 6 | IO_R3N_6 | - |
-| H13 | 6 | IO_R4P_MSEL0_6 | Config_Option |
-| H14 | 6 | IO_R4N_DONE_6 | - |
-| G12 | 6 | IO_R5P_MSEL2_6 | Config_Option |
-| H12 | 6 | IO_R5N_MSEL1_6 | Config_Option |
-| F15 | 6 | IO_R6P_6 | - |
-| F16 | 6 | IO_R6N_DOUT_6 | - |
-| F13 | 6 | IO_R7P_6 | - |
-| G11 | 6 | IO_R7N_6 | - |
-| D16 | 6 | IO_R8N_6 | - |
-| D15 | 6 | IO_R8P_6 | - |
-| C16 | 6 | IO_R9N_6 | - |
-| C15 | 6 | IO_R9P_6 | - |
-| B16 | 6 | IO_R10N_6 | - |
-| F14 | 6 | IO_R10P_VREF_6 | - |
-| D13 | 6 | IO_R_6 | - |
-| A15 | 6 | IO_R11P_GPLL2_CLKIN0_6 | - |
-| F11 | 6 | IO_R11N_GPLL2_CLKIN1_6 | - |
-
-
-## IO BANK 7
-
-| 引脚编号 | IO BANK | 引脚说明 | Config_Type |
-|----------|---------|----------|-------------|
-| D14 | 7 | IO_TE1P_7 | - |
-| C14 | 7 | IO_TE1N_7 | - |
-| A14 | 7 | IO_TE2N_GPLL2_OUTN_7 | - |
-| B14 | 7 | IO_TE2P_GPLL2_OUTP_7 | - |
-| B13 | 7 | IO_TE3P_7 | - |
-| A13 | 7 | IO_TE3N_7 | - |
-| D11 | 7 | IO_TE4N_7 | - |
-| D12 | 7 | IO_TE4P_7 | - |
-| B12 | 7 | IO_TE5P_7 | - |
-| A12 | 7 | IO_TE5N_7 | - |
-| C11 | 7 | IO_TE6P_VREF_7 | - |
-| E11 | 7 | IO_TE6N_7 | - |
-| A11 | 7 | IO_TE7N_7 | - |
-| B11 | 7 | IO_TE7P_7 | - |
-| B10 | 7 | IO_TE8P_7 | - |
-| A10 | 7 | IO_TE8N_7 | - |
-| F10 | 7 | IO_TE9N_7 | - |
-| F9 | 7 | IO_TE9P_7 | - |
-| E10 | 7 | IO_TE10P_7 | - |
-| E9 | 7 | IO_TE10N_7 | - |
-| C9 | 7 | IO_TE11N_7 | - |
-| D9 | 7 | IO_TE11P_7 | - |
-| B7 | 7 | IO_TE12P_D4_7 | - |
-| A7 | 7 | IO_TE12N_7 | - |
-| C8 | 7 | IO_TE13N_7 | - |
-| D8 | 7 | IO_TE13P_7 | - |
-| B9 | 7 | IO_TE14P_GCLKIOT_7_7 | - |
-| A9 | 7 | IO_TE14N_GCLKIOT_6_7 | - |
-| A8 | 7 | IO_TE15N_GCLKIOT_4_7 | - |
-| B8 | 7 | IO_TE15P_GCLKIOT_5_6 | - |
+| Anlogic EG4A20 | | | Altera EP4CE10 | | | |
+| 引脚编号 | IO BANK | 引脚说明 | 引脚编号 | IO BANK | 引脚说明 | 差异备注 |
+|----------|---------|----------|----------|---------|----------|----------|
+| A15 | 6 | IO_R11P_GPLL2_CLKIN0_6 | B7 |   IO | DIFFIO_T15p | - |
+| B16 | 6 | IO_R10N_6 | B6 |   IO |  | - |
+| C15 | 6 | IO_R9P_6 | B6 |   IO | DIFFIO_R1p | - |
+| C16 | 6 | IO_R9N_6 | B6 |   IO | DIFFIO_R1n | - |
+| D13 | 6 | IO_R_6 | - | - | VCCD_PLL2 | - |
+| D15 | 6 | IO_R8P_6 | B6 |   IO | DIFFIO_R2p | - |
+| D16 | 6 | IO_R8N_6 | B6 |   IO | DIFFIO_R2n | - |
+| E15 | 6 | IO_R2P_GCLKIOR_5_6 | B6 |   IO | DIFFCLK_2p | - |
+| E16 | 6 | IO_R2N_GCLKIOR_4_6 | B6 |   IO | DIFFCLK_2n | - |
+| F11 | 6 | IO_R11N_GPLL2_CLKIN1_6 | B7 |   IO | DIFFIO_T15n | - |
+| F13 | 6 | IO_R7P_6 | B6 |   IO | - | - |
+| F14 | 6 | IO_R10P_VREF_6 | B6 |   IO | VREFB6N0 | - |
+| F15 | 6 | IO_R6P_6 | B6 |   IO | DIFFIO_R3p | - |
+| F16 | 6 | IO_R6N_DOUT_6 | B6 |   IO | DIFFIO_R3n | - |
+| G11 | 6 | IO_R7N_6 | B6 |   IO | - | - |
+| G12 | 6 | IO_R5P_MSEL2_6 | B6 | 2 | - | - |
+| G15 | 6 | IO_R3P_6 | B6 |   IO | DIFFIO_R4p | - |
+| G16 | 6 | IO_R3N_6 | B6 |   IO | DIFFIO_R4n | - |
+| H12 | 6 | IO_R5N_MSEL1_6 | B6 | 1 | - | - |
+| H13 | 6 | IO_R4P_MSEL0_6 | B6 | 0 |  | - |
+| H14 | 6 | IO_R4N_DONE_6 | B6 |  CONF_DONE | - | - |
+| H15 | 6 | IO_R1P_GCLKIOR_3_6 | B6 | - | - | - |
+| H16 | 6 | IO_R1N_GCLKIOR_2_6 | B6 | - | - | - |
 
 
-## IO BANK 8
+## IO BANK 7,   IO
 
-| 引脚编号 | IO BANK | 引脚说明 | Config_Type |
-|----------|---------|----------|-------------|
-| B6 | 8 | IO_TE16P_GCLKIOT_1_7 | - |
-| A6 | 8 | IO_TE16N_GCLKIOT_0_7 | - |
-| E8 | 8 | IO_TE17N_D2_GCLKIOT_2_7 | - |
-| F8 | 8 | IO_TE17P_D3_GCLKIOT_3_7 | - |
-| A5 | 8 | IO_TE1P_D7_8 | - |
-| C6 | 8 | IO_TE1N_8 | - |
-| E7 | 8 | IO_TE2N_D5_8 | - |
-| E6 | 8 | IO_TE2P_D6_8 | - |
-| D6 | 8 | IO_TE3P_8 | - |
-| D5 | 8 | IO_TE3N_8 | - |
-| F6 | 8 | IO_TE4N_GPLL1_OUTN_8 | - |
-| F7 | 8 | IO_TE4P_GPLL1_OUTP_8 | - |
-| B4 | 8 | IO_TE5P_ADC_CH1_8 | - |
-| A4 | 8 | IO_TE5N_ADC_CH3_8 | - |
-| A3 | 8 | IO_TE6N_ADC_CH2_8 | - |
-| B3 | 8 | IO_TE6P_ADC_CH4_8 | - |
-| B5 | 8 | IO_TE7P_ADC_CH5_8 | - |
-| A2 | 8 | IO_TE7N_ADC_CH7_8 | - |
-| C3 | 8 | IO_TE8N_GPLL1_CLKIN1_ADC_CH6_8 | - |
-| D3 | 8 | IO_TE8P_GPLL1_CLKIN0_ADC_CH4_8 | - |
+| Anlogic EG4A20 | | | Altera EP4CE10 | | | |
+| 引脚编号 | IO BANK | 引脚说明 | 引脚编号 | IO BANK | 引脚说明 | 差异备注 |
+|----------|---------|----------|----------|---------|----------|----------|
+| A7 | 7 | IO_TE12N_7 | B7 |   IO | DIFFIO_T9n | - |
+| A8 | 7 | IO_TE15N_GCLKIOT_4_7 | B8 |   IO | DIFFIO_T11n | - |
+| A9 | 7 | IO_TE14N_GCLKIOT_6_7 | B7 |   IO | DIFFIO_T12n | - |
+| B7 | 7 | IO_TE12P_D4_7 | B7 |   IO | DIFFIO_T9p | - |
+| B8 | 7 | IO_TE15P_GCLKIOT_5_6 | B8 |   IO | DIFFIO_T11p | - |
+| B9 | 7 | IO_TE14P_GCLKIOT_7_7 | B7 |   IO | DIFFIO_T12p | - |
+| C8 | 7 | IO_TE13N_7 | B7 |   IO | - | - |
+| C9 | 7 | IO_TE11N_7 | B7 |   IO | DIFFIO_T13n | - |
+| D8 | 7 | IO_TE13P_7 | B7 |   IO | - | - |
+| D9 | 7 | IO_TE11P_7 | B7 |   IO | DIFFIO_T13p | - |
+| E9 | 7 | IO_TE10N_7 | B7 |   IO | - | - |
+| F9 | 7 | IO_TE9P_7 | B7 |   IO | DIFFIO_T16p | - |
+| A10 | 7 | IO_TE8N_7 | B7 |   IO | DIFFIO_T14n | - |
+| A11 | 7 | IO_TE7N_7 | B7 |   IO | DIFFIO_T17n | - |
+| A12 | 7 | IO_TE5N_7 | B7 |   IO | DIFFIO_T18n | - |
+| A13 | 7 | IO_TE3N_7 | B7 |   IO | DIFFIO_T19n | - |
+| A14 | 7 | IO_TE2N_GPLL2_OUTN_7 | B7 |   IO | PLL2_CLKOUTn | - |
+| B10 | 7 | IO_TE8P_7 | B7 |   IO | DIFFIO_T14p | - |
+| B11 | 7 | IO_TE7P_7 | B7 |   IO | DIFFIO_T17p | - |
+| B12 | 7 | IO_TE5P_7 | B7 |   IO | DIFFIO_T18p | - |
+| B13 | 7 | IO_TE3P_7 | B7 |   IO | DIFFIO_T19p | - |
+| B14 | 7 | IO_TE2P_GPLL2_OUTP_7 | B7 |   IO | PLL2_CLKOUTp | - |
+| C11 | 7 | IO_TE6P_VREF_7 | B7 |   IO | VREFB7N0 | - |
+| C14 | 7 | IO_TE1N_7 | B7 |   IO | DIFFIO_T21n | - |
+| D11 | 7 | IO_TE4N_7 | B7 |   IO | DIFFIO_T20n | - |
+| D12 | 7 | IO_TE4P_7 | B7 |   IO | DIFFIO_T20p | - |
+| D14 | 7 | IO_TE1P_7 | B7 |   IO | DIFFIO_T21p | - |
+| E10 | 7 | IO_TE10P_7 | B7 |   IO | RUP4 | - |
+| E11 | 7 | IO_TE6N_7 | B7 |   IO | RUP4 | - |
+| F10 | 7 | IO_TE9N_7 | B7 |   IO | DIFFIO_T16n | - |
 
 
-## IO BANK Other
+## IO BANK 8,   IO
 
-| 引脚编号 | IO BANK | 引脚说明 | Config_Type |
-|----------|---------|----------|-------------|
-| B2 | - | GND | - |
-| B15 | - | GND | - |
-| C5 | - | GND_PLLA1 | - |
-| C12 | - | GND | - |
-| D7 | - | ADC_VSSA | - |
-| D10 | - | GND | - |
-| E4 | - | GND | - |
-| E13 | - | GND | - |
-| G13 | - | GND | - |
-| H7 | - | GND | - |
-| H8 | - | GND | - |
-| H9 | - | GND | - |
-| H10 | - | GND | - |
-| J7 | - | GND | - |
-| J8 | - | GND | - |
-| J9 | - | GND | - |
-| J10 | - | GND | - |
-| K4 | - | GND | - |
-| K13 | - | GND | - |
-| M4 | - | GND | - |
-| M13 | - | GND_PLLA3 | - |
-| N7 | - | GND | - |
-| N10 | - | GND | - |
-| P5 | - | GND | - |
-| P12 | - | GND | - |
-| R2 | - | GND | - |
-| R15 | - | GND | - |
-| M5 | - | GND_PLLA0 | - |
-| E12 | - | GND_PLLA2 | - |
-| F12 | - | VCCAUX (2.5V~3.3V) | - |
-| L5 | - | VCCAUX (2.5V~3.3V) | - |
-| G6 | - | VCCINT | - |
-| G7 | - | VCCINT | - |
-| G8 | - | VCCINT | - |
-| G9 | - | VCCINT | - |
-| G10 | - | VCCINT | - |
-| H6 | - | VCCINT | - |
-| H11 | - | VCCINT | - |
-| K7 | - | VCCINT | - |
-| E3 | - | VCCIO1 | - |
-| G3 | - | VCCIO1 | - |
-| K3 | - | VCCIO2 | - |
-| M3 | - | VCCIO2 | - |
-| P4 | - | VCCIO3 | - |
-| P7 | - | VCCIO3 | - |
-| T1 | - | VCCIO3 | - |
-| P10 | - | VCCIO4 | - |
-| P13 | - | VCCIO4 | - |
-| T16 | - | VCCIO4 | - |
-| K14 | - | VCCIO5 | - |
-| M14 | - | VCCIO5 | - |
-| E14 | - | VCCIO6 | - |
-| G14 | - | VCCIO6 | - |
-| A16 | - | VCCIO7 | - |
-| C10 | - | VCCIO7 | - |
-| C13 | - | VCCIO7 | - |
-| C4 | - | VCCIO8 | - |
-| C7 | - | VCCIO8 | - |
-| E2 | - | ADC_VREF | - |
-| A1 | - | ADC_VDDA | - |
+| Anlogic EG4A20 | | | Altera EP4CE10 | | | |
+| 引脚编号 | IO BANK | 引脚说明 | 引脚编号 | IO BANK | 引脚说明 | 差异备注 |
+|----------|---------|----------|----------|---------|----------|----------|
+| A2 | 8 | IO_TE7N_ADC_CH7_8 | B8 |   IO | DIFFIO_T5n | - |
+| A3 | 8 | IO_TE6N_ADC_CH2_8 | B8 |   IO | DIFFIO_T2n | - |
+| A4 | 8 | IO_TE5N_ADC_CH3_8 | B8 |   IO | DIFFIO_T4n | - |
+| A5 | 8 | IO_TE1P_D7_8 | B8 |   IO | DIFFIO_T6n | - |
+| A6 | 8 | IO_TE16N_GCLKIOT_0_7 | B8 |   IO | DIFFIO_T7p | - |
+| B3 | 8 | IO_TE6P_ADC_CH4_8 | B8 |   IO | DIFFIO_T2p | - |
+| B4 | 8 | IO_TE5P_ADC_CH1_8 | B8 |   IO | DIFFIO_T4p | - |
+| B5 | 8 | IO_TE7P_ADC_CH5_8 | B8 |   IO | DIFFIO_T5p | - |
+| B6 | 8 | IO_TE16P_GCLKIOT_1_7 | B8 |   IO | DIFFIO_T7n | - |
+| C3 | 8 | IO_TE8N_GPLL1_CLKIN1_ADC_CH6_8 | B8 |   IO | DIFFIO_T1n | - |
+| C6 | 8 | IO_TE1N_8 | B8 |   IO | VREFB8N0 | - |
+| D3 | 8 | IO_TE8P_GPLL1_CLKIN0_ADC_CH4_8 | B8 |   IO | DIFFIO_T1p | - |
+| D5 | 8 | IO_TE3N_8 | B8 |   IO | DIFFIO_T3n | - |
+| D6 | 8 | IO_TE3P_8 | B8 |   IO | DIFFIO_T3p | - |
+| E6 | 8 | IO_TE2P_D6_8 | B8 |   IO | - | - |
+| E7 | 8 | IO_TE2N_D5_8 | B8 |   IO | - | - |
+| E8 | 8 | IO_TE17N_D2_GCLKIOT_2_7 | B8 |   IO | DIFFIO_T10n | - |
+| F6 | 8 | IO_TE4N_GPLL1_OUTN_8 | B8 |   IO | DIFFIO_T8n | - |
+| F7 | 8 | IO_TE4P_GPLL1_OUTP_8 | B8 |   IO | DIFFIO_T8p | - |
+| F8 | 8 | IO_TE17P_D3_GCLKIOT_3_7 | B8 |   IO | DIFFIO_T10p | - |
+
+
+## IO BANK 1, 2, 3, 4, 5, 6, 7, 8
+
+| Anlogic EG4A20 | | | Altera EP4CE10 | | | |
+| 引脚编号 | IO BANK | 引脚说明 | 引脚编号 | IO BANK | 引脚说明 | 差异备注 |
+|----------|---------|----------|----------|---------|----------|----------|
+| A1 | - | ADC_VDDA | - | 8 |  | - |
+| B2 | - | GND | - | - |  | - |
+| C4 | - | VCCIO8 | - | 8 |  | - |
+| C5 | - | GND_PLLA1 | - | - |  | - |
+| C7 | - | VCCIO8 | - | 8 |  | - |
+| D7 | - | ADC_VSSA | - | - |  | - |
+| E2 | - | ADC_VREF | - | - | - | - |
+| E3 | - | VCCIO1 | - | 1 |  | - |
+| E4 | - | GND | - | - |  | - |
+| G3 | - | VCCIO1 | - | 1 |  | - |
+| G6 | - | VCCINT | - | - |  | - |
+| G7 | - | VCCINT | - | - |  | - |
+| G8 | - | VCCINT | - | - |  | - |
+| G9 | - | VCCINT | - | - |  | - |
+| H6 | - | VCCINT | - | - |  | - |
+| H7 | - | GND | - | - |  | - |
+| H8 | - | GND | - | - |  | - |
+| H9 | - | GND | - | - |  | - |
+| J7 | - | GND | - | - |  | - |
+| J8 | - | GND | - | - |  | - |
+| J9 | - | GND | - | - |  | - |
+| K3 | - | VCCIO2 | - | 2 |  | - |
+| K4 | - | GND | - | - |  | - |
+| K7 | - | VCCINT | - | - | - | - |
+| L5 | - | VCCAUX (2.5V~3.3V) | - | 1 |  | - |
+| M3 | - | VCCIO2 | - | 2 |  | - |
+| M4 | - | GND | - | - |  | - |
+| M5 | - | GND_PLLA0 | - | 1 |  | - |
+| N7 | - | GND | - | - |  | - |
+| P4 | - | VCCIO3 | - | 3 |  | - |
+| P5 | - | GND | - | - |  | - |
+| P7 | - | VCCIO3 | - | 3 |  | - |
+| R2 | - | GND | - | - |  | - |
+| T1 | - | VCCIO3 | - | 3 |  | - |
+| A16 | - | VCCIO7 | - | 7 |  | - |
+| B15 | - | GND | - | - |  | - |
+| C10 | - | VCCIO7 | - | 7 |  | - |
+| C12 | - | GND | - | - |  | - |
+| C13 | - | VCCIO7 | - | 7 |  | - |
+| D10 | - | GND | - | - |  | - |
+| E12 | - | GND_PLLA2 | - | 2 |  | - |
+| E13 | - | GND | - | - |  | - |
+| E14 | - | VCCIO6 | - | 6 |  | - |
+| F12 | - | VCCAUX (2.5V~3.3V) | - | 2 |  | - |
+| G10 | - | VCCINT | - | - |  | - |
+| G13 | - | GND | - | - |  | - |
+| G14 | - | VCCIO6 | - | 6 |  | - |
+| H10 | - | GND | - | - |  | - |
+| H11 | - | VCCINT | - | - |  | - |
+| J10 | - | GND | - | - |  | - |
+| K13 | - | GND | - | - |  | - |
+| K14 | - | VCCIO5 | - | 5 |  | - |
+| M13 | - | GND_PLLA3 | - | - |  | - |
+| M14 | - | VCCIO5 | - | 5 |  | - |
+| N10 | - | GND | - | - |  | - |
+| P10 | - | VCCIO4 | - | 4 |  | - |
+| P12 | - | GND | - | - |  | - |
+| P13 | - | VCCIO4 | - | 4 |  | - |
+| R15 | - | GND | - | - |  | - |
+| T16 | - | VCCIO4 | - | 4 |  | - |

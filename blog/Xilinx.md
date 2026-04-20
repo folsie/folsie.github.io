@@ -1,79 +1,35 @@
 ---
-title: " 广告位待租 "
-subtitle:  "2026.01.01"
-embed-resources: true
+layout: column
+title: "Xilinx 技术专栏"
+description: "Xilinx / AMD FPGA 开发技术 — Vivado · IP 核 · 系统集成"
 ---
 
+<h2 class="section-title">📚 开发环境</h2>
 
-# 🚀 Anlogic 技术专栏
+<div class="card-grid">
+  <a href="{% link blog/Xilinx/page3.md %}" class="card card--accent-left">
+    <h3>Vivado 软件安装指南</h3>
+    <p>Vivado 开发环境安装与配置教程</p>
+  </a>
+</div>
 
-![](../pic/testccc.png)
+<h2 class="section-title">📐 硬件设计指导</h2>
 
-欢迎来到Xilinx技术专栏！这里专注于Xilinx科技FPGA开发技术，提供全面的技术文档、开发教程和实战案例。
+<div class="card card--coming">
+  <p>Xilinx 系列硬件设计指导文档正在整理中，敬请期待。</p>
+  <span class="badge badge--coming">即将上线</span>
+</div>
 
-## 📚 技术文档
+<h2 class="section-title">🛠️ 实战项目</h2>
 
-### [🔧 开发环境搭建]
-- [Vivado软件安装指南](./Xilinx/page3.html)
-- [开发环境配置]
-- 常见问题解决
+<div class="card card--coming">
+  <p>实战项目案例正在整理中，敬请期待。</p>
+  <span class="badge badge--coming">即将上线</span>
+</div>
 
-### [� 基础教程]
-- HDL语言基础
-- 设计流程介绍
-- 仿真验证方法
+<h2 class="section-title">📥 资源下载</h2>
 
-### [⚡ 高级应用]
-- 时序优化技巧
-- 资源利用率提升
-- 系统集成方案
-
-## 🛠️ 实战项目
-
-### [🏗️ 项目案例一]
-![](../pic/testaaa.png)
-- 项目需求分析
-- 架构设计思路
-- 实现效果展示
-
-    ### [� 项目案例二]
-![](../pic/testbbb.png)  
-- 技术难点突破
-- 性能优化方案
-- 经验总结分享
-
-## 📊 资源下载
-
-### [💾 工具软件]
-- TD开发工具
-- 驱动和插件
-- 实用脚本工具
-
-### [📃 文档资料]
-- 数据手册
-- 应用笔记
-- 参考设计
-
-## 👥 社区互动
-
-### [💬 技术讨论]                       
-- 问题交流区
-- 经验分享
-- 最新动态
-
-### [❓ 常见问题]
-- 安装问题
-- 使用技巧
-- 故障排除
-
----
-
-## 🧭 快速导航
-
-[🏠 返回首页](https://www.cldmt.com) | [🔙 返回上级](../index.md)
-
----
-
-*© 2026 CLDMT技术博客 - 专注Xilinx FPGA技术分享*                                
-*📧 联系我们: contact@cldmt.com*  
-*🔗 官方资源: [Xilinx官网](https://www.xilinx.com)* 
+<div class="card card--coming">
+  <p>工具资料与参考设计文档正在整理中，敬请期待。</p>
+  <span class="badge badge--coming">即将上线</span>
+</div>

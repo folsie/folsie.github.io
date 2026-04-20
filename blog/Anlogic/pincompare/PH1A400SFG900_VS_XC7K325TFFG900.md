@@ -1,6 +1,6 @@
 ---
 title: "PH1A400SFG900 VS XC7K325TFFG900 Pinout Table"
-subtitle: "2026.04.01"
+subtitle: "2026.04.09"
 embed-resources: true
 toc: true
 toc-depth: 6
@@ -12,1021 +12,1057 @@ toc-location: left
 # PH1A400SFG900&XC7K325TFFG900
 
 
-## IO BANK 0
-
-| 引脚编号 | IO BANK | 引脚说明 | Config_Type |
-|----------|---------|----------|-------------|
-| B10 | 0 | CCLK_0 | - |
-| M10 | 0 | DONE_0 | - |
-| A10 | 0 | INITN_0 | - |
-| K10 | 0 | PROGRAMN_0 | - |
-| AB5 | 0 | M0_0 | - |
-| AB2 | 0 | M1_0 | - |
-| AB1 | 0 | M2_0 | - |
-| E10 | 0 | TCK_0 | - |
-| H10 | 0 | TDI_0 | - |
-| G10 | 0 | TDO_0 | - |
-| F10 | 0 | TMS_0 | - |
-| L10 | 0 | TRSTN_0 | - |
-| T9 | 0 | VCCIO_0 | - |
-| AB6 | 0 | VCCIO_0 | - |
+**芯片对比**: 注： PH1A400的HR IO不支持连接DDR3；7K325的HR IO支持连接DDR3。 VS XC7K325TFFG900
 
 
-## IO BANK 11
+## IO BANK 0, 1, 2, 5, 6, 9, 10
 
-| 引脚编号 | IO BANK | 引脚说明 | Config_Type |
-|----------|---------|----------|-------------|
-| Y20 | 11 | IO_L0_11 | HRE |
-| AE21 | 11 | IO_L10N_11 | HRE |
-| AD21 | 11 | IO_L10P_11 | HRE |
-| AF23 | 11 | IO_L11N_11,GCLKIOC3_11 | HRE |
-| AE23 | 11 | IO_L11P_11,GCLKIOT3_11 | HRE |
-| AE24 | 11 | IO_L12N_11,GCLKIOC2_11 | HRE |
-| AD23 | 11 | IO_L12P_11,GCLKIOT2_11 | HRE |
-| AG23 | 11 | IO_L13N_11,GCLKIOC1_11 | HRE |
-| AF22 | 11 | IO_L13P_11,GCLKIOT1_11 | HRE |
-| AH24 | 11 | IO_L14N_11,GCLKIOC0_11 | HRE |
-| AG24 | 11 | IO_L14P_11,GCLKIOT0_11 | HRE |
-| AK25 | 11 | IO_L15N_11 | HRE |
-| AJ24 | 11 | IO_L15P_11 | HRE |
-| AF25 | 11 | IO_L16N_11,GPLL0_11_OUTN | HRE |
-| AE25 | 11 | IO_L16P_11,GPLL0_11_OUTP | HRE |
-| AK24 | 11 | IO_L17N_11 | HRE |
-| AK23 | 11 | IO_L17P_11 | HRE |
-| AH25 | 11 | IO_L18N_11 | HRE |
-| AG25 | 11 | IO_L18P_11 | HRE |
-| AF21 | 11 | IO_L19N_11 | HRE |
-| AF20 | 11 | IO_L19P_11 | HRE |
-| Y24 | 11 | IO_L1N_11 | HRE |
-| Y23 | 11 | IO_L1P_11 | HRE |
-| AH22 | 11 | IO_L20N_11 | HRE |
-| AG22 | 11 | IO_L20P_11 | HRE |
-| AJ23 | 11 | IO_L21N_11 | HRE |
-| AJ22 | 11 | IO_L21P_11 | HRE |
-| AH20 | 11 | IO_L22N_11 | HRE |
-| AG20 | 11 | IO_L22P_11 | HRE |
-| AJ21 | 11 | IO_L23N_11 | HRE |
-| AH21 | 11 | IO_L23P_11 | HRE |
-| AK21 | 11 | IO_L24N_11 | HRE |
-| AK20 | 11 | IO_L24P_11 | HRE |
-| AE20 | 11 | IO_L25_11 | HRE |
-| AA21 | 11 | IO_L2N_11 | HRE |
-| Y21 | 11 | IO_L2P_11 | HRE |
-| AB23 | 11 | IO_L3N_11 | HRE |
-| AB22 | 11 | IO_L3P_11 | HRE |
-| AA23 | 11 | IO_L4N_11 | HRE |
-| AA22 | 11 | IO_L4P_11 | HRE |
-| AC21 | 11 | IO_L5N_11 | HRE |
-| AC20 | 11 | IO_L5P_11 | HRE |
-| AB20 | 11 | IO_L6N_11 | HRE |
-| AA20 | 11 | IO_L6P_11 | HRE |
-| AC25 | 11 | IO_L7N_11 | HRE |
-| AB24 | 11 | IO_L7P_11 | HRE |
-| AD22 | 11 | IO_L8N_11 | HRE |
-| AC22 | 11 | IO_L8P_11 | HRE |
-| AD24 | 11 | IO_L9N_11,GPLL1_11_OUTN | HRE |
-| AC24 | 11 | IO_L9P_11,GPLL1_11_OUTP | HRE |
-| Y22 | 11 | VCCIO_11 | - |
-| AC23 | 11 | VCCIO_11 | - |
-| AD20 | 11 | VCCIO_11 | - |
-| AF24 | 11 | VCCIO_11 | - |
-| AG21 | 11 | VCCIO_11 | - |
-| AK22 | 11 | VCCIO_11 | - |
+| 注： PH1A400的HR IO不支持连接DDR3；7K325的HR IO支持连接DDR3。 | | | XC7K325TFFG900 | | | |
+| 引脚编号 | IO BANK | 引脚说明 | 引脚编号 | IO BANK | 引脚说明 | 差异备注 |
+|----------|---------|----------|----------|---------|----------|----------|
+| T9 | 0 | VCCIO_0 | - | 9 | VCCO_0 | PH1A400要求配置和HR IO BANK供电范围是1.425V-3.465V;
+XC7K325支持1.14V-3.465V |
+| A10 | 0 | INITN_0 | - | 10 | INIT_B_0 | PH1A400和7K325的该引脚都需要外接上拉电阻，推荐使用小于等于4.7K电阻。 |
+| AB1 | 0 | M2_0 | - | 1 | M2_0 | - |
+| AB2 | 0 | M1_0 | - | 2 | M1_0 | - |
+| AB5 | 0 | M0_0 | - | 5 | M0_0 | - |
+| AB6 | 0 | VCCIO_0 | - | 6 | VCCO_0 | - |
+| B10 | 0 | CCLK_0 | - | 10 | CCLK_0 | - |
+| E10 | 0 | TCK_0 | - | 10 | TCK_0 | PH1A400的JTAG相关引脚TDI,TDO,TCK,TMS均需通过4.7K电阻上拉。7K325的TCK,TMS需通过外接上拉电阻（10k）保持弱上拉状态 |
+| F10 | 0 | TMS_0 | - | 10 | TMS_0 | - |
+| G10 | 0 | TDO_0 | - | 10 | TDO_0 | - |
+| H10 | 0 | TDI_0 | - | 10 | TDI_0 | - |
+| K10 | 0 | PROGRAMN_0 | - | 10 | PROGRAM_B_0 | 配置复位，PH1A400和7K325都需要通过一个外部小于等于4.7K的电阻上拉到VCCO_0 |
+| L10 | 0 | TRSTN_0 | - | 10 | CFGBVS_0 | PH1A400的JTAG模式选择引脚。TRSTN=0, JTAG连接到配置模块；TRSTN=1, 内部测试使用。
+7K325用来控制多个CONFIG BANK的电压配置，当VCCO_0电压为2.5V或者3.3V时，该引脚上拉到VCCO_0，当VCCO_0电压等于或者小于1.8V时，该引脚需接地。建议分别预留上拉和下拉电阻，使用时选择焊接。 |
+| M10 | 0 | DONE_0 | - | 10 | DONE_0 | PH1A400需通过连接外部4.7K电阻上拉到VCCIO;
+7K325该引脚带有10K内部上拉电阻 |
 
 
-## IO BANK 12
+## IO BANK 11, 20, 21, 22, 23, 24, 25
 
-| 引脚编号 | IO BANK | 引脚说明 | Config_Type |
-|----------|---------|----------|-------------|
-| Y25 | 12 | IO_L0_12 | HRE |
-| AB30 | 12 | IO_L10N_12 | HRE |
-| AB29 | 12 | IO_L10P_12 | HRE |
-| AD28 | 12 | IO_L11N_12,GCLKIOC3_12 | HRE |
-| AD27 | 12 | IO_L11P_12,GCLKIOT3_12 | HRE |
-| AC27 | 12 | IO_L12N_12,GCLKIOC2_12 | HRE |
-| AB27 | 12 | IO_L12P_12,GCLKIOT2_12 | HRE |
-| AH29 | 12 | IO_L13N_12,GCLKIOC1_12 | HRE |
-| AG29 | 12 | IO_L13P_12,GCLKIOT1_12 | HRE |
-| AF28 | 12 | IO_L14N_12,GCLKIOC0_12 | HRE |
-| AE28 | 12 | IO_L14P_12,GCLKIOT0_12 | HRE |
-| AK30 | 12 | IO_L15N_12 | HRE |
-| AK29 | 12 | IO_L15P_12 | HRE |
-| AF30 | 12 | IO_L16N_12,GPLL0_12_OUTN | HRE |
-| AE30 | 12 | IO_L16P_12,GPLL0_12_OUTP | HRE |
-| AJ29 | 12 | IO_L17N_12 | HRE |
-| AJ28 | 12 | IO_L17P_12 | HRE |
-| AH30 | 12 | IO_L18N_12 | HRE |
-| AG30 | 12 | IO_L18P_12 | HRE |
-| AD26 | 12 | IO_L19N_12 | HRE |
-| AC26 | 12 | IO_L19P_12 | HRE |
-| AA26 | 12 | IO_L1N_12 | HRE |
-| Y26 | 12 | IO_L1P_12 | HRE |
-| AK28 | 12 | IO_L20N_12 | HRE |
-| AJ27 | 12 | IO_L20P_12 | HRE |
-| AG28 | 12 | IO_L21N_12 | HRE |
-| AG27 | 12 | IO_L21P_12 | HRE |
-| AH27 | 12 | IO_L22N_12 | HRE |
-| AH26 | 12 | IO_L22P_12 | HRE |
-| AF27 | 12 | IO_L23N_12 | HRE |
-| AF26 | 12 | IO_L23P_12 | HRE |
-| AK26 | 12 | IO_L24N_12 | HRE |
-| AJ26 | 12 | IO_L24P_12 | HRE |
-| AE26 | 12 | IO_L25_12 | HRE |
-| W28 | 12 | IO_L2N_12 | HRE |
-| W27 | 12 | IO_L2P_12 | HRE |
-| AA28 | 12 | IO_L3N_12 | HRE |
-| Y28 | 12 | IO_L3P_12 | HRE |
-| Y29 | 12 | IO_L4N_12 | HRE |
-| W29 | 12 | IO_L4P_12 | HRE |
-| AB28 | 12 | IO_L5N_12 | HRE |
-| AA27 | 12 | IO_L5P_12 | HRE |
-| AB25 | 12 | IO_L6N_12 | HRE |
-| AA25 | 12 | IO_L6P_12 | HRE |
-| AC30 | 12 | IO_L7N_12 | HRE |
-| AC29 | 12 | IO_L7P_12 | HRE |
-| AA30 | 12 | IO_L8N_12 | HRE |
-| Y30 | 12 | IO_L8P_12 | HRE |
-| AE29 | 12 | IO_L9N_12,GPLL1_12_OUTN | HRE |
-| AD29 | 12 | IO_L9P_12,GPLL1_12_OUTP | HRE |
-| AA29 | 12 | VCCIO_12 | - |
-| AB26 | 12 | VCCIO_12 | - |
-| AD30 | 12 | VCCIO_12 | - |
-| AE27 | 12 | VCCIO_12 | - |
-| AH28 | 12 | VCCIO_12 | - |
-| AJ25 | 12 | VCCIO_12 | - |
-
-
-## IO BANK 13
-
-| 引脚编号 | IO BANK | 引脚说明 | Config_Type |
-|----------|---------|----------|-------------|
-| R19 | 13 | IO_L0_13 | HRE |
-| R26 | 13 | IO_L10N_13,D15 | HRE |
-| P26 | 13 | IO_L10P_13,D14 | HRE |
-| T28 | 13 | IO_L11N_13,GCLKIOC3_13 | HRE |
-| R28 | 13 | IO_L11P_13,GCLKIOT3_13 | HRE |
-| T27 | 13 | IO_L12N_13,GCLKIOC2_13 | HRE |
-| T26 | 13 | IO_L12P_13,GCLKIOT2_13 | HRE |
-| U28 | 13 | IO_L13N_13,GCLKIOC1_13 | HRE |
-| U27 | 13 | IO_L13P_13,GCLKIOT1_13 | HRE |
-| U25 | 13 | IO_L14N_13,GCLKIOC0_13 | HRE |
-| T25 | 13 | IO_L14P_13,GCLKIOT0_13 | HRE |
-| U30 | 13 | IO_L15N_13,CSON,DOUT | HRE |
-| U29 | 13 | IO_L15P_13,RDWRN | HRE |
-| V27 | 13 | IO_L16N_13,D31 | HRE |
-| V26 | 13 | IO_L16P_13,CSN | HRE |
-| V30 | 13 | IO_L17N_13,D29 | HRE |
-| V29 | 13 | IO_L17P_13,D30 | HRE |
-| W26 | 13 | IO_L18N_13,D27 | HRE |
-| V25 | 13 | IO_L18P_13,D28 | HRE |
-| V20 | 13 | IO_L19N_13,D25 | HRE |
-| V19 | 13 | IO_L19P_13,D26 | HRE |
-| R25 | 13 | IO_L1N_13,D1,DIN,MISO | HRE |
-| P24 | 13 | IO_L1P_13,D0,MOSI | HRE |
-| W24 | 13 | IO_L20N_13,D23 | HRE |
-| W23 | 13 | IO_L20P_13,D24 | HRE |
-| U23 | 13 | IO_L21N_13,D22 | HRE |
-| U22 | 13 | IO_L21P_13 | HRE |
-| V22 | 13 | IO_L22N_13,D20 | HRE |
-| V21 | 13 | IO_L22P_13,D21 | HRE |
-| V24 | 13 | IO_L23N_13,D18 | HRE |
-| U24 | 13 | IO_L23P_13,D19 | HRE |
-| W22 | 13 | IO_L24N_13,D16 | HRE |
-| W21 | 13 | IO_L24P_13,D17 | HRE |
-| W19 | 13 | IO_L25_13 | HRE |
-| R21 | 13 | IO_L2N_13,D3,HOLDN | HRE |
-| R20 | 13 | IO_L2P_13,D2,WPN | HRE |
-| R24 | 13 | IO_L3N_13,USRCLK | HRE |
-| R23 | 13 | IO_L3P_13,HSWAPEN | HRE |
-| T21 | 13 | IO_L4N_13,D5 | HRE |
-| T20 | 13 | IO_L4P_13,D4 | HRE |
-| T23 | 13 | IO_L5N_13,D7 | HRE |
-| T22 | 13 | IO_L5P_13,D6 | HRE |
-| U20 | 13 | IO_L6N_13,D8 | HRE |
-| U19 | 13 | IO_L6P_13,SPICSN,BUSY | HRE |
-| R29 | 13 | IO_L7N_13,D10 | HRE |
-| P29 | 13 | IO_L7P_13,D9 | HRE |
-| P28 | 13 | IO_L8N_13,D12 | HRE |
-| P27 | 13 | IO_L8P_13,D11 | HRE |
-| T30 | 13 | IO_L9N_13,D13 | HRE |
-| R30 | 13 | IO_L9P_13 | HRE |
-| P30 | 13 | VCCIO_13 | - |
-| R27 | 13 | VCCIO_13 | - |
-| T24 | 13 | VCCIO_13 | - |
-| U21 | 13 | VCCIO_13 | - |
-| V28 | 13 | VCCIO_13 | - |
-| W25 | 13 | VCCIO_13 | - |
+| 注： PH1A400的HR IO不支持连接DDR3；7K325的HR IO支持连接DDR3。 | | | XC7K325TFFG900 | | | |
+| 引脚编号 | IO BANK | 引脚说明 | 引脚编号 | IO BANK | 引脚说明 | 差异备注 |
+|----------|---------|----------|----------|---------|----------|----------|
+| Y20 | 11 | IO_L0_11 | - | 20 | IO_0_12 | - |
+| Y21 | 11 | IO_L2P_11 | - | 21 | IO_L2P_T0_12 | - |
+| Y22 | 11 | VCCIO_11 | - | 22 | VCCO_12 | - |
+| Y23 | 11 | IO_L1P_11 | - | 23 | IO_L1P_T0_12 | - |
+| Y24 | 11 | IO_L1N_11 | - | 24 | IO_L1N_T0_12 | - |
+| AA20 | 11 | IO_L6P_11 | - | 20 | IO_L6P_T0_12 | - |
+| AA21 | 11 | IO_L2N_11 | - | 21 | IO_L2N_T0_12 | - |
+| AA22 | 11 | IO_L4P_11 | - | 22 | IO_L4P_T0_12 | - |
+| AA23 | 11 | IO_L4N_11 | - | 23 | IO_L4N_T0_12 | - |
+| AB20 | 11 | IO_L6N_11 | - | 20 | IO_L6N_T0_VREF_12 | - |
+| AB22 | 11 | IO_L3P_11 | - | 22 | IO_L3P_T0_DQS_12 | - |
+| AB23 | 11 | IO_L3N_11 | - | 23 | IO_L3N_T0_DQS_12 | - |
+| AB24 | 11 | IO_L7P_11 | - | 24 | IO_L7P_T1_12 | - |
+| AC20 | 11 | IO_L5P_11 | - | 20 | IO_L5P_T0_12 | - |
+| AC21 | 11 | IO_L5N_11 | - | 21 | IO_L5N_T0_12 | - |
+| AC22 | 11 | IO_L8P_11 | - | 22 | IO_L8P_T1_12 | - |
+| AC23 | 11 | VCCIO_11 | - | 23 | VCCO_12 | - |
+| AC24 | 11 | IO_L9P_11,GPLL1_11_OUTP | - | 24 | IO_L9P_T1_DQS_12 | - |
+| AC25 | 11 | IO_L7N_11 | - | 25 | IO_L7N_T1_12 | - |
+| AD20 | 11 | VCCIO_11 | - | 20 | VCCO_12 | - |
+| AD21 | 11 | IO_L10P_11 | - | 21 | IO_L10P_T1_12 | - |
+| AD22 | 11 | IO_L8N_11 | - | 22 | IO_L8N_T1_12 | - |
+| AD23 | 11 | IO_L12P_11,GCLKIOT2_11 | - | 23 | IO_L12P_T1_MRCC_12 | - |
+| AD24 | 11 | IO_L9N_11,GPLL1_11_OUTN | - | 24 | IO_L9N_T1_DQS_12 | - |
+| AE20 | 11 | IO_L25_11 | - | 20 | IO_25_12 | - |
+| AE21 | 11 | IO_L10N_11 | - | 21 | IO_L10N_T1_12 | - |
+| AE23 | 11 | IO_L11P_11,GCLKIOT3_11 | - | 23 | IO_L11P_T1_SRCC_12 | - |
+| AE24 | 11 | IO_L12N_11,GCLKIOC2_11 | - | 24 | IO_L12N_T1_MRCC_12 | PH1A400的全局输入时钟引脚，当为差分时钟输入时分别接P(T)端和N(C)端，当为单端时钟输入时只能接P(T)端。
+7K325的多区域输入时钟引脚，当为差分时钟输入时分别接P端和N端，当为单端时钟输入时只能接P端。 |
+| AE25 | 11 | IO_L16P_11,GPLL0_11_OUTP | - | 25 | IO_L16P_T2_12 | - |
+| AF20 | 11 | IO_L19P_11 | - | 20 | IO_L19P_T3_12 | - |
+| AF21 | 11 | IO_L19N_11 | - | 21 | IO_L19N_T3_VREF_12 | - |
+| AF22 | 11 | IO_L13P_11,GCLKIOT1_11 | - | 22 | IO_L13P_T2_MRCC_12 | - |
+| AF23 | 11 | IO_L11N_11,GCLKIOC3_11 | - | 23 | IO_L11N_T1_SRCC_12 | PH1A400的全局输入时钟引脚，当为差分时钟输入时分别接P(T)端和N(C)端，当为单端时钟输入时只能接P(T)端。
+7K325的单区域输入时钟引脚，当为差分时钟输入时分别接P端和N端，当为单端时钟输入时只能接P端。 |
+| AF24 | 11 | VCCIO_11 | - | 24 | VCCO_12 | - |
+| AF25 | 11 | IO_L16N_11,GPLL0_11_OUTN | - | 25 | IO_L16N_T2_12 | - |
+| AG20 | 11 | IO_L22P_11 | - | 20 | IO_L22P_T3_12 | - |
+| AG21 | 11 | VCCIO_11 | - | 21 | VCCO_12 | - |
+| AG22 | 11 | IO_L20P_11 | - | 22 | IO_L20P_T3_12 | - |
+| AG23 | 11 | IO_L13N_11,GCLKIOC1_11 | - | 23 | IO_L13N_T2_MRCC_12 | - |
+| AG24 | 11 | IO_L14P_11,GCLKIOT0_11 | - | 24 | IO_L14P_T2_SRCC_12 | - |
+| AG25 | 11 | IO_L18P_11 | - | 25 | IO_L18P_T2_12 | - |
+| AH20 | 11 | IO_L22N_11 | - | 20 | IO_L22N_T3_12 | - |
+| AH21 | 11 | IO_L23P_11 | - | 21 | IO_L23P_T3_12 | - |
+| AH22 | 11 | IO_L20N_11 | - | 22 | IO_L20N_T3_12 | - |
+| AH24 | 11 | IO_L14N_11,GCLKIOC0_11 | - | 24 | IO_L14N_T2_SRCC_12 | PH1A400的全局输入时钟引脚，当为差分时钟输入时分别接P(T)端和N(C)端，当为单端时钟输入时只能接P(T)端。
+7K325的单区域输入时钟引脚，当为差分时钟输入时分别接P端和N端，当为单端时钟输入时只能接P端。 |
+| AH25 | 11 | IO_L18N_11 | - | 25 | IO_L18N_T2_12 | - |
+| AJ21 | 11 | IO_L23N_11 | - | 21 | IO_L23N_T3_12 | - |
+| AJ22 | 11 | IO_L21P_11 | - | 22 | IO_L21P_T3_DQS_12 | - |
+| AJ23 | 11 | IO_L21N_11 | - | 23 | IO_L21N_T3_DQS_12 | - |
+| AJ24 | 11 | IO_L15P_11 | - | 24 | IO_L15P_T2_DQS_12 | - |
+| AK20 | 11 | IO_L24P_11 | - | 20 | IO_L24P_T3_12 | - |
+| AK21 | 11 | IO_L24N_11 | - | 21 | IO_L24N_T3_12 | - |
+| AK22 | 11 | VCCIO_11 | - | 22 | VCCO_12 | - |
+| AK23 | 11 | IO_L17P_11 | - | 23 | IO_L17P_T2_12 | - |
+| AK24 | 11 | IO_L17N_11 | - | 24 | IO_L17N_T2_12 | - |
+| AK25 | 11 | IO_L15N_11 | - | 25 | IO_L15N_T2_DQS_12 | - |
 
 
-## IO BANK 14
+## IO BANK 12, 25, 26, 27, 28, 29, 30
 
-| 引脚编号 | IO BANK | 引脚说明 | Config_Type |
-|----------|---------|----------|-------------|
-| M19 | 14 | IO_L0_14 | HRE |
-| J26 | 14 | IO_L10N_14 | HRE |
-| K26 | 14 | IO_L10P_14 | HRE |
-| L27 | 14 | IO_L11N_14,GCLKIOC3_14 | HRE |
-| L26 | 14 | IO_L11P_14,GCLKIOT3_14 | HRE |
-| K25 | 14 | IO_L12N_14,GCLKIOC2_14 | HRE |
-| L25 | 14 | IO_L12P_14,GCLKIOT2_14 | HRE |
-| K29 | 14 | IO_L13N_14,GCLKIOC1_14 | HRE |
-| K28 | 14 | IO_L13P_14,GCLKIOT1_14 | HRE |
-| L28 | 14 | IO_L14N_14,GCLKIOC0_14 | HRE |
-| M28 | 14 | IO_L14P_14,GCLKIOT0_14 | HRE |
-| M30 | 14 | IO_L15N_14 | HRE |
-| M29 | 14 | IO_L15P_14 | HRE |
-| M27 | 14 | IO_L16N_14,GPLL0_14_OUTN | HRE |
-| N27 | 14 | IO_L16P_14,GPLL0_14_OUTP | HRE |
-| N30 | 14 | IO_L17N_14 | HRE |
-| N29 | 14 | IO_L17P_14 | HRE |
-| N26 | 14 | IO_L18N_14 | HRE |
-| N25 | 14 | IO_L18P_14 | HRE |
-| N20 | 14 | IO_L19N_14 | HRE |
-| N19 | 14 | IO_L19P_14 | HRE |
-| J24 | 14 | IO_L1N_14 | HRE |
-| J23 | 14 | IO_L1P_14 | HRE |
-| N22 | 14 | IO_L20N_14 | HRE |
-| N21 | 14 | IO_L20P_14 | HRE |
-| N24 | 14 | IO_L21N_14 | HRE |
-| P23 | 14 | IO_L21P_14 | HRE |
-| P22 | 14 | IO_L22N_14 | HRE |
-| P21 | 14 | IO_L22P_14 | HRE |
-| M25 | 14 | IO_L23N_14 | HRE |
-| M24 | 14 | IO_L23P_14 | HRE |
-| M23 | 14 | IO_L24N_14 | HRE |
-| M22 | 14 | IO_L24P_14 | HRE |
-| P19 | 14 | IO_L25_14 | HRE |
-| L23 | 14 | IO_L2N_14 | HRE |
-| L22 | 14 | IO_L2P_14 | HRE |
-| K24 | 14 | IO_L3N_14 | HRE |
-| K23 | 14 | IO_L3P_14 | HRE |
-| K21 | 14 | IO_L4N_14 | HRE |
-| L21 | 14 | IO_L4P_14 | HRE |
-| J22 | 14 | IO_L5N_14 | HRE |
-| J21 | 14 | IO_L5P_14 | HRE |
-| L20 | 14 | IO_L6N_14 | HRE |
-| M20 | 14 | IO_L6P_14 | HRE |
-| H29 | 14 | IO_L7N_14 | HRE |
-| J29 | 14 | IO_L7P_14 | HRE |
-| J28 | 14 | IO_L8N_14 | HRE |
-| J27 | 14 | IO_L8P_14 | HRE |
-| K30 | 14 | IO_L9N_14,GPLL1_14_OUTN | HRE |
-| L30 | 14 | IO_L9P_14,GPLL1_14_OUTP | HRE |
-| J25 | 14 | VCCIO_14 | - |
-| K22 | 14 | VCCIO_14 | - |
-| L29 | 14 | VCCIO_14 | - |
-| M26 | 14 | VCCIO_14 | - |
-| N23 | 14 | VCCIO_14 | - |
-| P20 | 14 | VCCIO_14 | - |
-
-
-## IO BANK 15
-
-| 引脚编号 | IO BANK | 引脚说明 | Config_Type |
-|----------|---------|----------|-------------|
-| F23 | 15 | IO_L0_15 | HRE |
-| A26 | 15 | IO_L10N_15 | HRE |
-| A25 | 15 | IO_L10P_15 | HRE |
-| C26 | 15 | IO_L11N_15,GCLKIOC3_15 | HRE |
-| D26 | 15 | IO_L11P_15,GCLKIOT3_15 | HRE |
-| B25 | 15 | IO_L12N_15,GCLKIOC2_15 | HRE |
-| C25 | 15 | IO_L12P_15,GCLKIOT2_15 | HRE |
-| C27 | 15 | IO_L13N_15,GCLKIOC1_15 | HRE |
-| D27 | 15 | IO_L13P_15,GCLKIOT1_15 | HRE |
-| D28 | 15 | IO_L14N_15,GCLKIOC0_15 | HRE |
-| E28 | 15 | IO_L14P_15,GCLKIOT0_15 | HRE |
-| B29 | 15 | IO_L15N_15 | HRE |
-| C29 | 15 | IO_L15P_15 | HRE |
-| C30 | 15 | IO_L16N_15,GPLL0_15_OUTN | HRE |
-| D29 | 15 | IO_L16P_15,GPLL0_15_OUTP | HRE |
-| A30 | 15 | IO_L17N_15 | HRE |
-| B30 | 15 | IO_L17P_15 | HRE |
-| E30 | 15 | IO_L18N_15 | HRE |
-| E29 | 15 | IO_L18P_15 | HRE |
-| H25 | 15 | IO_L19N_15 | HRE |
-| H24 | 15 | IO_L19P_15 | HRE |
-| A23 | 15 | IO_L1N_15 | HRE |
-| B23 | 15 | IO_L1P_15 | HRE |
-| F28 | 15 | IO_L20N_15 | HRE |
-| G28 | 15 | IO_L20P_15 | HRE |
-| F27 | 15 | IO_L21N_15 | HRE |
-| G27 | 15 | IO_L21P_15 | HRE |
-| F30 | 15 | IO_L22N_15 | HRE |
-| G29 | 15 | IO_L22P_15 | HRE |
-| H27 | 15 | IO_L23N_15 | HRE |
-| H26 | 15 | IO_L23P_15 | HRE |
-| G30 | 15 | IO_L24N_15 | HRE |
-| H30 | 15 | IO_L24P_15 | HRE |
-| G25 | 15 | IO_L25_15 | HRE |
-| D23 | 15 | IO_L2N_15 | HRE |
-| E23 | 15 | IO_L2P_15 | HRE |
-| E25 | 15 | IO_L3N_15 | HRE |
-| F25 | 15 | IO_L3P_15 | HRE |
-| D24 | 15 | IO_L4N_15 | HRE |
-| E24 | 15 | IO_L4P_15 | HRE |
-| E26 | 15 | IO_L5N_15 | HRE |
-| F26 | 15 | IO_L5P_15 | HRE |
-| G24 | 15 | IO_L6N_15 | HRE |
-| G23 | 15 | IO_L6P_15 | HRE |
-| A27 | 15 | IO_L7N_15 | HRE |
-| B27 | 15 | IO_L7P_15 | HRE |
-| B24 | 15 | IO_L8N_15 | HRE |
-| C24 | 15 | IO_L8P_15 | HRE |
-| A28 | 15 | IO_L9N_15,GPLL1_15_OUTN | HRE |
-| B28 | 15 | IO_L9P_15,GPLL1_15_OUTP | HRE |
-| A29 | 15 | VCCIO_15 | - |
-| B26 | 15 | VCCIO_15 | - |
-| C23 | 15 | VCCIO_15 | - |
-| D30 | 15 | VCCIO_15 | - |
-| E27 | 15 | VCCIO_15 | - |
-| F24 | 15 | VCCIO_15 | - |
-| H28 | 15 | VCCIO_15 | - |
+| 注： PH1A400的HR IO不支持连接DDR3；7K325的HR IO支持连接DDR3。 | | | XC7K325TFFG900 | | | |
+| 引脚编号 | IO BANK | 引脚说明 | 引脚编号 | IO BANK | 引脚说明 | 差异备注 |
+|----------|---------|----------|----------|---------|----------|----------|
+| W27 | 12 | IO_L2P_12 | - | 27 | IO_L2P_T0_13 | - |
+| W28 | 12 | IO_L2N_12 | - | 28 | IO_L2N_T0_13 | - |
+| W29 | 12 | IO_L4P_12 | - | 29 | IO_L4P_T0_13 | - |
+| Y25 | 12 | IO_L0_12 | - | 25 | IO_0_13 | - |
+| Y26 | 12 | IO_L1P_12 | - | 26 | IO_L1P_T0_13 | - |
+| Y28 | 12 | IO_L3P_12 | - | 28 | IO_L3P_T0_DQS_13 | - |
+| Y29 | 12 | IO_L4N_12 | - | 29 | IO_L4N_T0_13 | - |
+| Y30 | 12 | IO_L8P_12 | - | 30 | IO_L8P_T1_13 | - |
+| AA25 | 12 | IO_L6P_12 | - | 25 | IO_L6P_T0_13 | - |
+| AA26 | 12 | IO_L1N_12 | - | 26 | IO_L1N_T0_13 | - |
+| AA27 | 12 | IO_L5P_12 | - | 27 | IO_L5P_T0_13 | - |
+| AA28 | 12 | IO_L3N_12 | - | 28 | IO_L3N_T0_DQS_13 | - |
+| AA29 | 12 | VCCIO_12 | - | 29 | VCCO_13 | - |
+| AA30 | 12 | IO_L8N_12 | - | 30 | IO_L8N_T1_13 | - |
+| AB25 | 12 | IO_L6N_12 | - | 25 | IO_L6N_T0_VREF_13 | - |
+| AB26 | 12 | VCCIO_12 | - | 26 | VCCO_13 | - |
+| AB27 | 12 | IO_L12P_12,GCLKIOT2_12 | - | 27 | IO_L12P_T1_MRCC_13 | - |
+| AB28 | 12 | IO_L5N_12 | - | 28 | IO_L5N_T0_13 | - |
+| AB29 | 12 | IO_L10P_12 | - | 29 | IO_L10P_T1_13 | - |
+| AB30 | 12 | IO_L10N_12 | - | 30 | IO_L10N_T1_13 | - |
+| AC26 | 12 | IO_L19P_12 | - | 26 | IO_L19P_T3_13 | - |
+| AC27 | 12 | IO_L12N_12,GCLKIOC2_12 | - | 27 | IO_L12N_T1_MRCC_13 | - |
+| AC29 | 12 | IO_L7P_12 | - | 29 | IO_L7P_T1_13 | - |
+| AC30 | 12 | IO_L7N_12 | - | 30 | IO_L7N_T1_13 | - |
+| AD26 | 12 | IO_L19N_12 | - | 26 | IO_L19N_T3_VREF_13 | - |
+| AD27 | 12 | IO_L11P_12,GCLKIOT3_12 | - | 27 | IO_L11P_T1_SRCC_13 | - |
+| AD28 | 12 | IO_L11N_12,GCLKIOC3_12 | - | 28 | IO_L11N_T1_SRCC_13 | - |
+| AD29 | 12 | IO_L9P_12,GPLL1_12_OUTP | - | 29 | IO_L9P_T1_DQS_13 | - |
+| AD30 | 12 | VCCIO_12 | - | 30 | VCCO_13 | - |
+| AE26 | 12 | IO_L25_12 | - | 26 | IO_25_13 | - |
+| AE27 | 12 | VCCIO_12 | - | 27 | VCCO_13 | - |
+| AE28 | 12 | IO_L14P_12,GCLKIOT0_12 | - | 28 | IO_L14P_T2_SRCC_13 | - |
+| AE29 | 12 | IO_L9N_12,GPLL1_12_OUTN | - | 29 | IO_L9N_T1_DQS_13 | - |
+| AE30 | 12 | IO_L16P_12,GPLL0_12_OUTP | - | 30 | IO_L16P_T2_13 | - |
+| AF26 | 12 | IO_L23P_12 | - | 26 | IO_L23P_T3_13 | - |
+| AF27 | 12 | IO_L23N_12 | - | 27 | IO_L23N_T3_13 | - |
+| AF28 | 12 | IO_L14N_12,GCLKIOC0_12 | - | 28 | IO_L14N_T2_SRCC_13 | - |
+| AF30 | 12 | IO_L16N_12,GPLL0_12_OUTN | - | 30 | IO_L16N_T2_13 | - |
+| AG27 | 12 | IO_L21P_12 | - | 27 | IO_L21P_T3_DQS_13 | - |
+| AG28 | 12 | IO_L21N_12 | - | 28 | IO_L21N_T3_DQS_13 | - |
+| AG29 | 12 | IO_L13P_12,GCLKIOT1_12 | - | 29 | IO_L13P_T2_MRCC_13 | - |
+| AG30 | 12 | IO_L18P_12 | - | 30 | IO_L18P_T2_13 | - |
+| AH26 | 12 | IO_L22P_12 | - | 26 | IO_L22P_T3_13 | - |
+| AH27 | 12 | IO_L22N_12 | - | 27 | IO_L22N_T3_13 | - |
+| AH28 | 12 | VCCIO_12 | - | 28 | VCCO_13 | - |
+| AH29 | 12 | IO_L13N_12,GCLKIOC1_12 | - | 29 | IO_L13N_T2_MRCC_13 | - |
+| AH30 | 12 | IO_L18N_12 | - | 30 | IO_L18N_T2_13 | - |
+| AJ25 | 12 | VCCIO_12 | - | 25 | VCCO_13 | - |
+| AJ26 | 12 | IO_L24P_12 | - | 26 | IO_L24P_T3_13 | - |
+| AJ27 | 12 | IO_L20P_12 | - | 27 | IO_L20P_T3_13 | - |
+| AJ28 | 12 | IO_L17P_12 | - | 28 | IO_L17P_T2_13 | - |
+| AJ29 | 12 | IO_L17N_12 | - | 29 | IO_L17N_T2_13 | - |
+| AK26 | 12 | IO_L24N_12 | - | 26 | IO_L24N_T3_13 | - |
+| AK28 | 12 | IO_L20N_12 | - | 28 | IO_L20N_T3_13 | - |
+| AK29 | 12 | IO_L15P_12 | - | 29 | IO_L15P_T2_DQS_13 | - |
+| AK30 | 12 | IO_L15N_12 | - | 30 | IO_L15N_T2_DQS_13 | - |
 
 
-## IO BANK 16
+## IO BANK 13, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30
 
-| 引脚编号 | IO BANK | 引脚说明 | Config_Type |
-|----------|---------|----------|-------------|
-| G19 | 16 | IO_L0_16 | HRE |
-| C22 | 16 | IO_L10N_16 | HRE |
-| D22 | 16 | IO_L10P_16 | HRE |
-| E21 | 16 | IO_L11N_16,GCLKIOC3_16 | HRE |
-| F21 | 16 | IO_L11P_16,GCLKIOT3_16 | HRE |
-| E20 | 16 | IO_L12N_16,GCLKIOC2_16 | HRE |
-| F20 | 16 | IO_L12P_16,GCLKIOT2_16 | HRE |
-| D18 | 16 | IO_L13N_16,GCLKIOC1_16 | HRE |
-| D17 | 16 | IO_L13P_16,GCLKIOT1_16 | HRE |
-| D19 | 16 | IO_L14N_16,GCLKIOC0_16 | HRE |
-| E19 | 16 | IO_L14P_16,GCLKIOT0_16 | HRE |
-| C16 | 16 | IO_L15N_16 | HRE |
-| D16 | 16 | IO_L15P_16 | HRE |
-| F18 | 16 | IO_L16N_16,GPLL0_16_OUTN | HRE |
-| G18 | 16 | IO_L16P_16,GPLL0_16_OUTP | HRE |
-| B17 | 16 | IO_L17N_16 | HRE |
-| C17 | 16 | IO_L17P_16 | HRE |
-| F17 | 16 | IO_L18N_16 | HRE |
-| G17 | 16 | IO_L18P_16 | HRE |
-| B20 | 16 | IO_L19N_16 | HRE |
-| C20 | 16 | IO_L19P_16 | HRE |
-| J18 | 16 | IO_L1N_16 | HRE |
-| K18 | 16 | IO_L1P_16 | HRE |
-| A17 | 16 | IO_L20N_16 | HRE |
-| A16 | 16 | IO_L20P_16 | HRE |
-| A21 | 16 | IO_L21N_16 | HRE |
-| A20 | 16 | IO_L21P_16 | HRE |
-| A18 | 16 | IO_L22N_16 | HRE |
-| B18 | 16 | IO_L22P_16 | HRE |
-| A22 | 16 | IO_L23N_16 | HRE |
-| B22 | 16 | IO_L23P_16 | HRE |
-| B19 | 16 | IO_L24N_16 | HRE |
-| C19 | 16 | IO_L24P_16 | HRE |
-| E18 | 16 | IO_L25_16 | HRE |
-| G20 | 16 | IO_L2N_16 | HRE |
-| H20 | 16 | IO_L2P_16 | HRE |
-| H17 | 16 | IO_L3N_16 | HRE |
-| J17 | 16 | IO_L3P_16 | HRE |
-| H19 | 16 | IO_L4N_16 | HRE |
-| J19 | 16 | IO_L4P_16 | HRE |
-| L18 | 16 | IO_L5N_16 | HRE |
-| L17 | 16 | IO_L5P_16 | HRE |
-| K20 | 16 | IO_L6N_16 | HRE |
-| K19 | 16 | IO_L6P_16 | HRE |
-| H22 | 16 | IO_L7N_16 | HRE |
-| H21 | 16 | IO_L7P_16 | HRE |
-| C21 | 16 | IO_L8N_16 | HRE |
-| D21 | 16 | IO_L8P_16 | HRE |
-| F22 | 16 | IO_L9N_16,GPLL1_16_OUTN | HRE |
-| G22 | 16 | IO_L9P_16,GPLL1_16_OUTP | HRE |
-| A19 | 16 | VCCIO_16 | - |
-| B16 | 16 | VCCIO_16 | - |
-| D20 | 16 | VCCIO_16 | - |
-| E17 | 16 | VCCIO_16 | - |
-| G21 | 16 | VCCIO_16 | - |
-| H18 | 16 | VCCIO_16 | - |
-| L19 | 16 | VCCIO_16 | - |
-
-
-## IO BANK 17
-
-| 引脚编号 | IO BANK | 引脚说明 | Config_Type |
-|----------|---------|----------|-------------|
-| G12 | 17 | IO_L0_17 | HRE |
-| H12 | 17 | IO_L10N_17 | HRE |
-| H11 | 17 | IO_L10P_17 | HRE |
-| G14 | 17 | IO_L11N_17,GCLKIOC3_17 | HRE |
-| H14 | 17 | IO_L11P_17,GCLKIOT3_17 | HRE |
-| F13 | 17 | IO_L12N_17,GCLKIOC2_17 | HRE |
-| G13 | 17 | IO_L12P_17,GCLKIOT2_17 | HRE |
-| D13 | 17 | IO_L13N_17,GCLKIOC1_17 | HRE |
-| D12 | 17 | IO_L13P_17,GCLKIOT1_17 | HRE |
-| E13 | 17 | IO_L14N_17,GCLKIOC0_17 | HRE |
-| F12 | 17 | IO_L14P_17,GCLKIOT0_17 | HRE |
-| B12 | 17 | IO_L15N_17 | HRE |
-| C12 | 17 | IO_L15P_17 | HRE |
-| E11 | 17 | IO_L16N_17,GPLL0_17_OUTN | HRE |
-| F11 | 17 | IO_L16P_17,GPLL0_17_OUTP | HRE |
-| A12 | 17 | IO_L17N_17 | HRE |
-| A11 | 17 | IO_L17P_17 | HRE |
-| C11 | 17 | IO_L18N_17 | HRE |
-| D11 | 17 | IO_L18P_17 | HRE |
-| E16 | 17 | IO_L19N_17 | HRE |
-| F15 | 17 | IO_L19P_17 | HRE |
-| K16 | 17 | IO_L1N_17 | HRE |
-| L16 | 17 | IO_L1P_17 | HRE |
-| E15 | 17 | IO_L20N_17 | HRE |
-| E14 | 17 | IO_L20P_17 | HRE |
-| C14 | 17 | IO_L21N_17 | HRE |
-| D14 | 17 | IO_L21P_17 | HRE |
-| A13 | 17 | IO_L22N_17 | HRE |
-| B13 | 17 | IO_L22P_17 | HRE |
-| B15 | 17 | IO_L23N_17 | HRE |
-| C15 | 17 | IO_L23P_17 | HRE |
-| A15 | 17 | IO_L24N_17 | HRE |
-| B14 | 17 | IO_L24P_17 | HRE |
-| F16 | 17 | IO_L25_17 | HRE |
-| K15 | 17 | IO_L2N_17 | HRE |
-| L15 | 17 | IO_L2P_17 | HRE |
-| L13 | 17 | IO_L3N_17 | HRE |
-| L12 | 17 | IO_L3P_17 | HRE |
-| J13 | 17 | IO_L4N_17 | HRE |
-| K13 | 17 | IO_L4P_17 | HRE |
-| J14 | 17 | IO_L5N_17 | HRE |
-| K14 | 17 | IO_L5P_17 | HRE |
-| K11 | 17 | IO_L6N_17 | HRE |
-| L11 | 17 | IO_L6P_17 | HRE |
-| G15 | 17 | IO_L7N_17 | HRE |
-| H15 | 17 | IO_L7P_17 | HRE |
-| J12 | 17 | IO_L8N_17 | HRE |
-| J11 | 17 | IO_L8P_17 | HRE |
-| H16 | 17 | IO_L9N_17,GPLL1_17_OUTN | HRE |
-| J16 | 17 | IO_L9P_17,GPLL1_17_OUTP | HRE |
-| C13 | 17 | VCCIO_17 | - |
-| D10 | 17 | VCCIO_17 | - |
-| F14 | 17 | VCCIO_17 | - |
-| G11 | 17 | VCCIO_17 | - |
-| J15 | 17 | VCCIO_17 | - |
-| K12 | 17 | VCCIO_17 | - |
+| 注： PH1A400的HR IO不支持连接DDR3；7K325的HR IO支持连接DDR3。 | | | XC7K325TFFG900 | | | |
+| 引脚编号 | IO BANK | 引脚说明 | 引脚编号 | IO BANK | 引脚说明 | 差异备注 |
+|----------|---------|----------|----------|---------|----------|----------|
+| P24 | 13 | IO_L1P_13,D0,MOSI | - | 24 | IO_L1P_T0_D00_MOSI_14 | - |
+| P26 | 13 | IO_L10P_13,D14 | - | 26 | IO_L10P_T1_D14_14 | - |
+| P27 | 13 | IO_L8P_13,D11 | - | 27 | IO_L8P_T1_D11_14 | - |
+| P28 | 13 | IO_L8N_13,D12 | - | 28 | IO_L8N_T1_D12_14 | - |
+| P29 | 13 | IO_L7P_13,D9 | - | 29 | IO_L7P_T1_D09_14 | - |
+| P30 | 13 | VCCIO_13 | - | 30 | VCCO_14 | - |
+| R19 | 13 | IO_L0_13 | - | 19 | IO_0_14 | - |
+| R20 | 13 | IO_L2P_13,D2,WPN | - | 20 | IO_L2P_T0_D02_14 | - |
+| R21 | 13 | IO_L2N_13,D3,HOLDN | - | 21 | IO_L2N_T0_D03_14 | - |
+| R23 | 13 | IO_L3P_13,HSWAPEN | - | 23 | IO_L3P_T0_DQS_PUDC_B_14 | PH1A400为加载过程I/O上拉使能选择 HSWAPEN=0,使能内部上拉；HSWAPEN=1, 关闭内部上拉。 
+XC7K325T加载过程I/O上拉使能选择 PUDC_B =0,使能内部上拉；PUDC_B =1, 关闭内部上拉。 |
+| R24 | 13 | IO_L3N_13,USRCLK | - | 24 | IO_L3N_T0_DQS_EMCCLK_14 | PH1A400为内部测试时钟；XC7K325T为外部主模式配置时钟 |
+| R25 | 13 | IO_L1N_13,D1,DIN,MISO | - | 25 | IO_L1N_T0_D01_DIN_14 | - |
+| R26 | 13 | IO_L10N_13,D15 | - | 26 | IO_L10N_T1_D15_14 | - |
+| R27 | 13 | VCCIO_13 | - | 27 | VCCO_14 | - |
+| R28 | 13 | IO_L11P_13,GCLKIOT3_13 | - | 28 | IO_L11P_T1_SRCC_14 | - |
+| R29 | 13 | IO_L7N_13,D10 | - | 29 | IO_L7N_T1_D10_14 | - |
+| R30 | 13 | IO_L9P_13 | - | 30 | IO_L9P_T1_DQS_14 | - |
+| T20 | 13 | IO_L4P_13,D4 | - | 20 | IO_L4P_T0_D04_14 | - |
+| T21 | 13 | IO_L4N_13,D5 | - | 21 | IO_L4N_T0_D05_14 | - |
+| T22 | 13 | IO_L5P_13,D6 | - | 22 | IO_L5P_T0_D06_14 | - |
+| T23 | 13 | IO_L5N_13,D7 | - | 23 | IO_L5N_T0_D07_14 | - |
+| T24 | 13 | VCCIO_13 | - | 24 | VCCO_14 | - |
+| T25 | 13 | IO_L14P_13,GCLKIOT0_13 | - | 25 | IO_L14P_T2_SRCC_14 | - |
+| T26 | 13 | IO_L12P_13,GCLKIOT2_13 | - | 26 | IO_L12P_T1_MRCC_14 | - |
+| T27 | 13 | IO_L12N_13,GCLKIOC2_13 | - | 27 | IO_L12N_T1_MRCC_14 | - |
+| T28 | 13 | IO_L11N_13,GCLKIOC3_13 | - | 28 | IO_L11N_T1_SRCC_14 | - |
+| T30 | 13 | IO_L9N_13,D13 | - | 30 | IO_L9N_T1_DQS_D13_14 | - |
+| U19 | 13 | IO_L6P_13,SPICSN,BUSY | - | 19 | IO_L6P_T0_FCS_B_14 |  |
+| U20 | 13 | IO_L6N_13,D8 | - | 20 | IO_L6N_T0_D08_VREF_14 | - |
+| U21 | 13 | VCCIO_13 | - | 21 | VCCO_14 | - |
+| U22 | 13 | IO_L21P_13 | - | 22 | IO_L21P_T3_DQS_14 | - |
+| U23 | 13 | IO_L21N_13,D22 | - | 23 | IO_L21N_T3_DQS_A06_D22_14 | - |
+| U24 | 13 | IO_L23P_13,D19 | - | 24 | IO_L23P_T3_A03_D19_14 | - |
+| U25 | 13 | IO_L14N_13,GCLKIOC0_13 | - | 25 | IO_L14N_T2_SRCC_14 | - |
+| U27 | 13 | IO_L13P_13,GCLKIOT1_13 | - | 27 | IO_L13P_T2_MRCC_14 | - |
+| U28 | 13 | IO_L13N_13,GCLKIOC1_13 | - | 28 | IO_L13N_T2_MRCC_14 | - |
+| U29 | 13 | IO_L15P_13,RDWRN | - | 29 | IO_L15P_T2_DQS_RDWR_B_14 | - |
+| U30 | 13 | IO_L15N_13,CSON,DOUT | - | 30 | IO_L15N_T2_DQS_DOUT_CSO_B_14 | - |
+| V19 | 13 | IO_L19P_13,D26 | - | 19 | IO_L19P_T3_A10_D26_14 | - |
+| V20 | 13 | IO_L19N_13,D25 | - | 20 | IO_L19N_T3_A09_D25_VREF_14 | - |
+| V21 | 13 | IO_L22P_13,D21 | - | 21 | IO_L22P_T3_A05_D21_14 | - |
+| V22 | 13 | IO_L22N_13,D20 | - | 22 | IO_L22N_T3_A04_D20_14 | - |
+| V24 | 13 | IO_L23N_13,D18 | - | 24 | IO_L23N_T3_A02_D18_14 | - |
+| V25 | 13 | IO_L18P_13,D28 | - | 25 | IO_L18P_T2_A12_D28_14 | - |
+| V26 | 13 | IO_L16P_13,CSN | - | 26 | IO_L16P_T2_CSI_B_14 | - |
+| V27 | 13 | IO_L16N_13,D31 | - | 27 | IO_L16N_T2_A15_D31_14 | - |
+| V28 | 13 | VCCIO_13 | - | 28 | VCCO_14 | - |
+| V29 | 13 | IO_L17P_13,D30 | - | 29 | IO_L17P_T2_A14_D30_14 | - |
+| V30 | 13 | IO_L17N_13,D29 | - | 30 | IO_L17N_T2_A13_D29_14 | - |
+| W19 | 13 | IO_L25_13 | - | 19 | IO_25_14 | - |
+| W21 | 13 | IO_L24P_13,D17 | - | 21 | IO_L24P_T3_A01_D17_14 | - |
+| W22 | 13 | IO_L24N_13,D16 | - | 22 | IO_L24N_T3_A00_D16_14 | - |
+| W23 | 13 | IO_L20P_13,D24 | - | 23 | IO_L20P_T3_A08_D24_14 | - |
+| W24 | 13 | IO_L20N_13,D23 | - | 24 | IO_L20N_T3_A07_D23_14 | - |
+| W25 | 13 | VCCIO_13 | - | 25 | VCCO_14 | - |
+| W26 | 13 | IO_L18N_13,D27 | - | 26 | IO_L18N_T2_A11_D27_14 | - |
 
 
-## IO BANK 31
+## IO BANK 14, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30
 
-| 引脚编号 | IO BANK | 引脚说明 | Config_Type |
-|----------|---------|----------|-------------|
-| Y14 | 31 | IO_R0_31 | HP |
-| AE19 | 31 | IO_R10N_31,T1 | HP |
-| AD19 | 31 | IO_R10P_31,T1 | HP |
-| AG18 | 31 | IO_R11N_31,GCLKIOC3_31,T1 | HP |
-| AF18 | 31 | IO_R11P_31,GCLKIOT3_31,T1 | HP |
-| AG17 | 31 | IO_R12N_31,GCLKIOC2_31,T1 | HP |
-| AF17 | 31 | IO_R12P_31,GCLKIOT2_31,T1 | HP |
-| AE18 | 31 | IO_R13N_31,GCLKIOC1_31,T2 | HP |
-| AD18 | 31 | IO_R13P_31,GCLKIOT1_31,T2 | HP |
-| AD16 | 31 | IO_R14N_31,GCLKIOC0_31,T2 | HP |
-| AD17 | 31 | IO_R14P_31,GCLKIOT0_31,T2 | HP |
-| Y18 | 31 | IO_R15N_31,T2_DQS_N_31 | HP |
-| Y19 | 31 | IO_R15P_31,T2_DQS_P_31 | HP |
-| AB18 | 31 | IO_R16N_31,GPLL0_31_OUTN,T2 | HP |
-| AA18 | 31 | IO_R16P_31,GPLL0_31_OUTP,T2 | HP |
-| AC19 | 31 | IO_R17N_31,T2 | HP |
-| AB19 | 31 | IO_R17P_31,T2 | HP |
-| AC17 | 31 | IO_R18N_31,T2 | HP |
-| AB17 | 31 | IO_R18P_31,T2 | HP |
-| AE14 | 31 | IO_R19N_31,T3_VREF_31 | HP |
-| AE15 | 31 | IO_R19P_31,T3 | HP |
-| AK15 | 31 | IO_R1N_31,T0 | HP |
-| AK16 | 31 | IO_R1P_31,T0 | HP |
-| AB15 | 31 | IO_R20N_31,T3 | HP |
-| AA15 | 31 | IO_R20P_31,T3 | HP |
-| AC15 | 31 | IO_R21N_31,T3_DQS_N_31 | HP |
-| AC16 | 31 | IO_R21P_31,T3_DQS_P_31 | HP |
-| AD14 | 31 | IO_R22N_31,T3 | HP |
-| AC14 | 31 | IO_R22P_31,T3 | HP |
-| AA16 | 31 | IO_R23N_31,T3 | HP |
-| AA17 | 31 | IO_R23P_31,T3 | HP |
-| Y15 | 31 | IO_R24N_31,T3 | HP |
-| Y16 | 31 | IO_R24P_31,T3 | HP |
-| AB14 | 31 | IO_R25_31,VRP_31 | HP |
-| AH15 | 31 | IO_R2N_31,T0 | HP |
-| AG15 | 31 | IO_R2P_31,T0 | HP |
-| AJ16 | 31 | IO_R3N_31,T0_DQS_N_31 | HP |
-| AH16 | 31 | IO_R3P_31,T0_DQS_P_31 | HP |
-| AG14 | 31 | IO_R4N_31,T0 | HP |
-| AF15 | 31 | IO_R4P_31,T0 | HP |
-| AJ17 | 31 | IO_R5N_31,T0 | HP |
-| AH17 | 31 | IO_R5P_31,T0 | HP |
-| AF16 | 31 | IO_R6N_31,T0_VREF_31 | HP |
-| AE16 | 31 | IO_R6P_31,T0 | HP |
-| AK19 | 31 | IO_R7N_31,T1 | HP |
-| AJ19 | 31 | IO_R7P_31,T1 | HP |
-| AH19 | 31 | IO_R8N_31,T1 | HP |
-| AG19 | 31 | IO_R8P_31,T1 | HP |
-| AK18 | 31 | IO_R9N_31,GPLL1_31_OUTN,T1_DQS_N_31 | HP |
-| AJ18 | 31 | IO_R9P_31,GPLL1_31_OUTP,T1_DQS_P_31 | HP |
-| AA19 | 31 | VCCIO_31 | - |
-| AB16 | 31 | VCCIO_31 | - |
-| AE17 | 31 | VCCIO_31 | - |
-| AF14 | 31 | VCCIO_31 | - |
-| AH18 | 31 | VCCIO_31 | - |
-| AJ15 | 31 | VCCIO_31 | - |
-
-
-## IO BANK 32
-
-| 引脚编号 | IO BANK | 引脚说明 | Config_Type |
-|----------|---------|----------|-------------|
-| Y13 | 32 | IO_R0_32 | HP |
-| AE9 | 32 | IO_R10N_32,T1 | HP |
-| AD9 | 32 | IO_R10P_32,T1 | HP |
-| AF11 | 32 | IO_R11N_32,GCLKIOC3_32,T1 | HP |
-| AE11 | 32 | IO_R11P_32,GCLKIOT3_32,T1 | HP |
-| AD11 | 32 | IO_R12N_32,GCLKIOC2_32,T1 | HP |
-| AD12 | 32 | IO_R12P_32,GCLKIOT2_32,T1 | HP |
-| AH10 | 32 | IO_R13N_32,GCLKIOC1_32,T2 | HP |
-| AG10 | 32 | IO_R13P_32,GCLKIOT1_32,T2 | HP |
-| AF10 | 32 | IO_R14N_32,GCLKIOC0_32,T2 | HP |
-| AE10 | 32 | IO_R14P_32,GCLKIOT0_32,T2 | HP |
-| AK9 | 32 | IO_R15N_32,T2_DQS_N_32 | HP |
-| AJ9 | 32 | IO_R15P_32,T2_DQS_P_32 | HP |
-| AH9 | 32 | IO_R16N_32,GPLL0_32_OUTN,T2 | HP |
-| AG9 | 32 | IO_R16P_32,GPLL0_32_OUTP,T2 | HP |
-| AK10 | 32 | IO_R17N_32,T2 | HP |
-| AK11 | 32 | IO_R17P_32,T2 | HP |
-| AJ11 | 32 | IO_R18N_32,T2 | HP |
-| AH11 | 32 | IO_R18P_32,T2 | HP |
-| AF13 | 32 | IO_R19N_32,T3_VREF_32 | HP |
-| AE13 | 32 | IO_R19P_32,T3 | HP |
-| AB12 | 32 | IO_R1N_32,T0 | HP |
-| AA12 | 32 | IO_R1P_32,T0 | HP |
-| AK13 | 32 | IO_R20N_32,T3 | HP |
-| AK14 | 32 | IO_R20P_32,T3 | HP |
-| AJ14 | 32 | IO_R21N_32,T3_DQS_N_32 | HP |
-| AH14 | 32 | IO_R21P_32,T3_DQS_P_32 | HP |
-| AJ12 | 32 | IO_R22N_32,T3 | HP |
-| AJ13 | 32 | IO_R22P_32,T3 | HP |
-| AG12 | 32 | IO_R23N_32,T3 | HP |
-| AF12 | 32 | IO_R23P_32,T3 | HP |
-| AH12 | 32 | IO_R24N_32,T3 | HP |
-| AG13 | 32 | IO_R24P_32,T3 | HP |
-| AD13 | 32 | IO_R25_32,VRP_32 | HP |
-| AB8 | 32 | IO_R2N_32,T0 | HP |
-| AA8 | 32 | IO_R2P_32,T0 | HP |
-| AC9 | 32 | IO_R3N_32,T0_DQS_N_32 | HP |
-| AB9 | 32 | IO_R3P_32,T0_DQS_P_32 | HP |
-| Y10 | 32 | IO_R4N_32,T0 | HP |
-| Y11 | 32 | IO_R4P_32,T0 | HP |
-| AA10 | 32 | IO_R5N_32,T0 | HP |
-| AA11 | 32 | IO_R5P_32,T0 | HP |
-| AB13 | 32 | IO_R6N_32,T0_VREF_32 | HP |
-| AA13 | 32 | IO_R6P_32,T0 | HP |
-| AC10 | 32 | IO_R7N_32,T1 | HP |
-| AB10 | 32 | IO_R7P_32,T1 | HP |
-| AE8 | 32 | IO_R8N_32,T1 | HP |
-| AD8 | 32 | IO_R8P_32,T1 | HP |
-| AC11 | 32 | IO_R9N_32,GPLL1_32_OUTN,T1_DQS_N_32 | HP |
-| AC12 | 32 | IO_R9P_32,GPLL1_32_OUTP,T1_DQS_P_32 | HP |
-| Y12 | 32 | VCCIO_32 | - |
-| AA9 | 32 | VCCIO_32 | - |
-| AC13 | 32 | VCCIO_32 | - |
-| AD10 | 32 | VCCIO_32 | - |
-| AG11 | 32 | VCCIO_32 | - |
-| AK12 | 32 | VCCIO_32 | - |
+| 注： PH1A400的HR IO不支持连接DDR3；7K325的HR IO支持连接DDR3。 | | | XC7K325TFFG900 | | | |
+| 引脚编号 | IO BANK | 引脚说明 | 引脚编号 | IO BANK | 引脚说明 | 差异备注 |
+|----------|---------|----------|----------|---------|----------|----------|
+| H29 | 14 | IO_L7N_14 | - | 29 | IO_L7N_T1_AD10N_15 | - |
+| J21 | 14 | IO_L5P_14 | - | 21 | IO_L5P_T0_AD2P_15 | - |
+| J22 | 14 | IO_L5N_14 | - | 22 | IO_L5N_T0_AD2N_15 | - |
+| J23 | 14 | IO_L1P_14 | - | 23 | IO_L1P_T0_AD0P_15 | - |
+| J24 | 14 | IO_L1N_14 | - | 24 | IO_L1N_T0_AD0N_15 | - |
+| J25 | 14 | VCCIO_14 | - | 25 | VCCO_15 | - |
+| J26 | 14 | IO_L10N_14 | - | 26 | IO_L10N_T1_AD4N_15 | - |
+| J27 | 14 | IO_L8P_14 | - | 27 | IO_L8P_T1_AD3P_15 | - |
+| J28 | 14 | IO_L8N_14 | - | 28 | IO_L8N_T1_AD3N_15 | - |
+| J29 | 14 | IO_L7P_14 | - | 29 | IO_L7P_T1_AD10P_15 | - |
+| K21 | 14 | IO_L4N_14 | - | 21 | IO_L4N_T0_AD9N_15 | - |
+| K22 | 14 | VCCIO_14 | - | 22 | VCCO_15 | - |
+| K23 | 14 | IO_L3P_14 | - | 23 | IO_L3P_T0_DQS_AD1P_15 | - |
+| K24 | 14 | IO_L3N_14 | - | 24 | IO_L3N_T0_DQS_AD1N_15 | - |
+| K25 | 14 | IO_L12N_14,GCLKIOC2_14 | - | 25 | IO_L12N_T1_MRCC_AD5N_15 | - |
+| K26 | 14 | IO_L10P_14 | - | 26 | IO_L10P_T1_AD4P_15 | - |
+| K28 | 14 | IO_L13P_14,GCLKIOT1_14 | - | 28 | IO_L13P_T2_MRCC_15 | - |
+| K29 | 14 | IO_L13N_14,GCLKIOC1_14 | - | 29 | IO_L13N_T2_MRCC_15 | - |
+| K30 | 14 | IO_L9N_14,GPLL1_14_OUTN | - | 30 | IO_L9N_T1_DQS_AD11N_15 | - |
+| L20 | 14 | IO_L6N_14 | - | 20 | IO_L6N_T0_VREF_15 | - |
+| L21 | 14 | IO_L4P_14 | - | 21 | IO_L4P_T0_AD9P_15 | - |
+| L22 | 14 | IO_L2P_14 | - | 22 | IO_L2P_T0_AD8P_15 | - |
+| L23 | 14 | IO_L2N_14 | - | 23 | IO_L2N_T0_AD8N_15 | - |
+| L25 | 14 | IO_L12P_14,GCLKIOT2_14 | - | 25 | IO_L12P_T1_MRCC_AD5P_15 | - |
+| L26 | 14 | IO_L11P_14,GCLKIOT3_14 | - | 26 | IO_L11P_T1_SRCC_AD12P_15 | - |
+| L27 | 14 | IO_L11N_14,GCLKIOC3_14 | - | 27 | IO_L11N_T1_SRCC_AD12N_15 | - |
+| L28 | 14 | IO_L14N_14,GCLKIOC0_14 | - | 28 | IO_L14N_T2_SRCC_15 | - |
+| L29 | 14 | VCCIO_14 | - | 29 | VCCO_15 | - |
+| L30 | 14 | IO_L9P_14,GPLL1_14_OUTP | - | 30 | IO_L9P_T1_DQS_AD11P_15 | - |
+| M19 | 14 | IO_L0_14 | - | 19 | IO_0_15 | - |
+| M20 | 14 | IO_L6P_14 | - | 20 | IO_L6P_T0_15 | - |
+| M22 | 14 | IO_L24P_14 | - | 22 | IO_L24P_T3_RS1_15 | - |
+| M23 | 14 | IO_L24N_14 | - | 23 | IO_L24N_T3_RS0_15 | - |
+| M24 | 14 | IO_L23P_14 | - | 24 | IO_L23P_T3_FOE_B_15 | - |
+| M25 | 14 | IO_L23N_14 | - | 25 | IO_L23N_T3_FWE_B_15 | - |
+| M26 | 14 | VCCIO_14 | - | 26 | VCCO_15 | - |
+| M27 | 14 | IO_L16N_14,GPLL0_14_OUTN | - | 27 | IO_L16N_T2_A27_15 | - |
+| M28 | 14 | IO_L14P_14,GCLKIOT0_14 | - | 28 | IO_L14P_T2_SRCC_15 | - |
+| M29 | 14 | IO_L15P_14 | - | 29 | IO_L15P_T2_DQS_15 | - |
+| M30 | 14 | IO_L15N_14 | - | 30 | IO_L15N_T2_DQS_ADV_B_15 | - |
+| N19 | 14 | IO_L19P_14 | - | 19 | IO_L19P_T3_A22_15 | - |
+| N20 | 14 | IO_L19N_14 | - | 20 | IO_L19N_T3_A21_VREF_15 | - |
+| N21 | 14 | IO_L20P_14 | - | 21 | IO_L20P_T3_A20_15 | - |
+| N22 | 14 | IO_L20N_14 | - | 22 | IO_L20N_T3_A19_15 | - |
+| N23 | 14 | VCCIO_14 | - | 23 | VCCO_15 | - |
+| N24 | 14 | IO_L21N_14 | - | 24 | IO_L21N_T3_DQS_A18_15 | - |
+| N25 | 14 | IO_L18P_14 | - | 25 | IO_L18P_T2_A24_15 | - |
+| N26 | 14 | IO_L18N_14 | - | 26 | IO_L18N_T2_A23_15 | - |
+| N27 | 14 | IO_L16P_14,GPLL0_14_OUTP | - | 27 | IO_L16P_T2_A28_15 | - |
+| N29 | 14 | IO_L17P_14 | - | 29 | IO_L17P_T2_A26_15 | - |
+| N30 | 14 | IO_L17N_14 | - | 30 | IO_L17N_T2_A25_15 | - |
+| P19 | 14 | IO_L25_14 | - | 19 | IO_25_15 | - |
+| P20 | 14 | VCCIO_14 | - | 20 | VCCO_15 | - |
+| P21 | 14 | IO_L22P_14 | - | 21 | IO_L22P_T3_A17_15 | - |
+| P22 | 14 | IO_L22N_14 | - | 22 | IO_L22N_T3_A16_15 | - |
+| P23 | 14 | IO_L21P_14 | - | 23 | IO_L21P_T3_DQS_15 | - |
 
 
-## IO BANK 33
+## IO BANK 15, 23, 24, 25, 26, 27, 28, 29, 30
 
-| 引脚编号 | IO BANK | 引脚说明 | Config_Type |
-|----------|---------|----------|-------------|
-| AC6 | 33 | IO_R0_33 | HP |
-| AE3 | 33 | IO_R10N_33,T1 | HP |
-| AE4 | 33 | IO_R10P_33,T1 | HP |
-| AF5 | 33 | IO_R11N_33,GCLKIOC3_33,T1 | HP |
-| AE5 | 33 | IO_R11P_33,GCLKIOT3_33,T1 | HP |
-| AG5 | 33 | IO_R12N_33,GCLKIOC2_33,T1 | HP |
-| AF6 | 33 | IO_R12P_33,GCLKIOT2_33,T1 | HP |
-| AJ4 | 33 | IO_R13N_33,GCLKIOC1_33,T2 | HP |
-| AH4 | 33 | IO_R13P_33,GCLKIOT1_33,T2 | HP |
-| AH5 | 33 | IO_R14N_33,GCLKIOC0_33,T2 | HP |
-| AH6 | 33 | IO_R14P_33,GCLKIOT0_33,T2 | HP |
-| AH1 | 33 | IO_R15N_33,T2_DQS_N_33 | HP |
-| AG2 | 33 | IO_R15P_33,T2_DQS_P_33 | HP |
-| AJ2 | 33 | IO_R16N_33,GPLL0_33_OUTN,T2 | HP |
-| AH2 | 33 | IO_R16P_33,GPLL0_33_OUTP,T2 | HP |
-| AK1 | 33 | IO_R17N_33,T2 | HP |
-| AJ1 | 33 | IO_R17P_33,T2 | HP |
-| AK3 | 33 | IO_R18N_33,T2 | HP |
-| AJ3 | 33 | IO_R18P_33,T2 | HP |
-| AG8 | 33 | IO_R19N_33,T3_VREF_33 | HP |
-| AF8 | 33 | IO_R19P_33,T3 | HP |
-| AD3 | 33 | IO_R1N_33,T0 | HP |
-| AD4 | 33 | IO_R1P_33,GPFUOUTEN,T0 | HP |
-| AG7 | 33 | IO_R20N_33,T3 | HP |
-| AF7 | 33 | IO_R20P_33,T3 | HP |
-| AJ7 | 33 | IO_R21N_33,T3_DQS_N_33 | HP |
-| AH7 | 33 | IO_R21P_33,T3_DQS_P_33 | HP |
-| AK6 | 33 | IO_R22N_33,T3 | HP |
-| AJ6 | 33 | IO_R22P_33,T3 | HP |
-| AK8 | 33 | IO_R23N_33,T3 | HP |
-| AJ8 | 33 | IO_R23P_33,T3 | HP |
-| AK4 | 33 | IO_R24N_33,T3 | HP |
-| AK5 | 33 | IO_R24P_33,T3 | HP |
-| AB7 | 33 | IO_R25_33,VRP_33 | HP |
-| AC1 | 33 | IO_R2N_33,T0 | HP |
-| AC2 | 33 | IO_R2P_33,T0 | HP |
-| AD1 | 33 | IO_R3N_33,T0_DQS_N_33 | HP |
-| AD2 | 33 | IO_R3P_33,T0_DQS_P_33 | HP |
-| AC4 | 33 | IO_R4N_33,T0 | HP |
-| AC5 | 33 | IO_R4P_33,T0 | HP |
-| AE6 | 33 | IO_R5N_33,T0 | HP |
-| AD6 | 33 | IO_R5P_33,T0 | HP |
-| AD7 | 33 | IO_R6N_33,T0_VREF_33 | HP |
-| AC7 | 33 | IO_R6P_33,T0 | HP |
-| AF2 | 33 | IO_R7N_33,T1 | HP |
-| AF3 | 33 | IO_R7P_33,T1 | HP |
-| AF1 | 33 | IO_R8N_33,T1 | HP |
-| AE1 | 33 | IO_R8P_33,GPLL1_33_DIGOUT,T1 | HP |
-| AG3 | 33 | IO_R9N_33,GPLL1_33_OUTN,T1_DQS_N_33 | HP |
-| AG4 | 33 | IO_R9P_33,GPLL1_33_OUTP,T1_DQS_P_33 | HP |
-| AC3 | 33 | VCCIO_33 | - |
-| AE7 | 33 | VCCIO_33 | - |
-| AF4 | 33 | VCCIO_33 | - |
-| AG1 | 33 | VCCIO_33 | - |
-| AH8 | 33 | VCCIO_33 | - |
-| AJ5 | 33 | VCCIO_33 | - |
-| AK2 | 33 | VCCIO_33 | - |
-
-
-## IO BANK 80
-
-| 引脚编号 | IO BANK | 引脚说明 | Config_Type |
-|----------|---------|----------|-------------|
-| R7 | 80 | REFCLKM_80 | - |
-| R8 | 80 | REFCLKP_80 | - |
-| AA3 | 80 | RXM0_80 | - |
-| Y5 | 80 | RXM1_80 | - |
-| AA4 | 80 | RXP0_80 | - |
-| Y6 | 80 | RXP1_80 | - |
-| Y1 | 80 | TXM0_80 | - |
-| V1 | 80 | TXM1_80 | - |
-| Y2 | 80 | TXP0_80 | - |
-| V2 | 80 | TXP1_80 | - |
+| 注： PH1A400的HR IO不支持连接DDR3；7K325的HR IO支持连接DDR3。 | | | XC7K325TFFG900 | | | |
+| 引脚编号 | IO BANK | 引脚说明 | 引脚编号 | IO BANK | 引脚说明 | 差异备注 |
+|----------|---------|----------|----------|---------|----------|----------|
+| A23 | 15 | IO_L1N_15 | - | 23 | IO_L1N_T0_16 | - |
+| A25 | 15 | IO_L10P_15 | - | 25 | IO_L10P_T1_16 | - |
+| A26 | 15 | IO_L10N_15 | - | 26 | IO_L10N_T1_16 | - |
+| A27 | 15 | IO_L7N_15 | - | 27 | IO_L7N_T1_16 | - |
+| A28 | 15 | IO_L9N_15,GPLL1_15_OUTN | - | 28 | IO_L9N_T1_DQS_16 | - |
+| A29 | 15 | VCCIO_15 | - | 29 | VCCO_16 | - |
+| A30 | 15 | IO_L17N_15 | - | 30 | IO_L17N_T2_16 | - |
+| B23 | 15 | IO_L1P_15 | - | 23 | IO_L1P_T0_16 | - |
+| B24 | 15 | IO_L8N_15 | - | 24 | IO_L8N_T1_16 | - |
+| B25 | 15 | IO_L12N_15,GCLKIOC2_15 | - | 25 | IO_L12N_T1_MRCC_16 | - |
+| B26 | 15 | VCCIO_15 | - | 26 | VCCO_16 | - |
+| B27 | 15 | IO_L7P_15 | - | 27 | IO_L7P_T1_16 | - |
+| B28 | 15 | IO_L9P_15,GPLL1_15_OUTP | - | 28 | IO_L9P_T1_DQS_16 | - |
+| B29 | 15 | IO_L15N_15 | - | 29 | IO_L15N_T2_DQS_16 | - |
+| B30 | 15 | IO_L17P_15 | - | 30 | IO_L17P_T2_16 | - |
+| C23 | 15 | VCCIO_15 | - | 23 | VCCO_16 | - |
+| C24 | 15 | IO_L8P_15 | - | 24 | IO_L8P_T1_16 | - |
+| C25 | 15 | IO_L12P_15,GCLKIOT2_15 | - | 25 | IO_L12P_T1_MRCC_16 | - |
+| C26 | 15 | IO_L11N_15,GCLKIOC3_15 | - | 26 | IO_L11N_T1_SRCC_16 | - |
+| C27 | 15 | IO_L13N_15,GCLKIOC1_15 | - | 27 | IO_L13N_T2_MRCC_16 | - |
+| C29 | 15 | IO_L15P_15 | - | 29 | IO_L15P_T2_DQS_16 | - |
+| C30 | 15 | IO_L16N_15,GPLL0_15_OUTN | - | 30 | IO_L16N_T2_16 | - |
+| D23 | 15 | IO_L2N_15 | - | 23 | IO_L2N_T0_16 | - |
+| D24 | 15 | IO_L4N_15 | - | 24 | IO_L4N_T0_16 | - |
+| D26 | 15 | IO_L11P_15,GCLKIOT3_15 | - | 26 | IO_L11P_T1_SRCC_16 | - |
+| D27 | 15 | IO_L13P_15,GCLKIOT1_15 | - | 27 | IO_L13P_T2_MRCC_16 | - |
+| D28 | 15 | IO_L14N_15,GCLKIOC0_15 | - | 28 | IO_L14N_T2_SRCC_16 | - |
+| D29 | 15 | IO_L16P_15,GPLL0_15_OUTP | - | 29 | IO_L16P_T2_16 | - |
+| D30 | 15 | VCCIO_15 | - | 30 | VCCO_16 | - |
+| E23 | 15 | IO_L2P_15 | - | 23 | IO_L2P_T0_16 | - |
+| E24 | 15 | IO_L4P_15 | - | 24 | IO_L4P_T0_16 | - |
+| E25 | 15 | IO_L3N_15 | - | 25 | IO_L3N_T0_DQS_16 | - |
+| E26 | 15 | IO_L5N_15 | - | 26 | IO_L5N_T0_16 | - |
+| E27 | 15 | VCCIO_15 | - | 27 | VCCO_16 | - |
+| E28 | 15 | IO_L14P_15,GCLKIOT0_15 | - | 28 | IO_L14P_T2_SRCC_16 | - |
+| E29 | 15 | IO_L18P_15 | - | 29 | IO_L18P_T2_16 | - |
+| E30 | 15 | IO_L18N_15 | - | 30 | IO_L18N_T2_16 | - |
+| F23 | 15 | IO_L0_15 | - | 23 | IO_0_16 | - |
+| F24 | 15 | VCCIO_15 | - | 24 | VCCO_16 | - |
+| F25 | 15 | IO_L3P_15 | - | 25 | IO_L3P_T0_DQS_16 | - |
+| F26 | 15 | IO_L5P_15 | - | 26 | IO_L5P_T0_16 | - |
+| F27 | 15 | IO_L21N_15 | - | 27 | IO_L21N_T3_DQS_16 | - |
+| F28 | 15 | IO_L20N_15 | - | 28 | IO_L20N_T3_16 | - |
+| F30 | 15 | IO_L22N_15 | - | 30 | IO_L22N_T3_16 | - |
+| G23 | 15 | IO_L6P_15 | - | 23 | IO_L6P_T0_16 | - |
+| G24 | 15 | IO_L6N_15 | - | 24 | IO_L6N_T0_VREF_16 | - |
+| G25 | 15 | IO_L25_15 | - | 25 | IO_25_16 | - |
+| G27 | 15 | IO_L21P_15 | - | 27 | IO_L21P_T3_DQS_16 | - |
+| G28 | 15 | IO_L20P_15 | - | 28 | IO_L20P_T3_16 | - |
+| G29 | 15 | IO_L22P_15 | - | 29 | IO_L22P_T3_16 | - |
+| G30 | 15 | IO_L24N_15 | - | 30 | IO_L24N_T3_16 | - |
+| H24 | 15 | IO_L19P_15 | - | 24 | IO_L19P_T3_16 | - |
+| H25 | 15 | IO_L19N_15 | - | 25 | IO_L19N_T3_VREF_16 | - |
+| H26 | 15 | IO_L23P_15 | - | 26 | IO_L23P_T3_16 | - |
+| H27 | 15 | IO_L23N_15 | - | 27 | IO_L23N_T3_16 | - |
+| H28 | 15 | VCCIO_15 | - | 28 | VCCO_16 | - |
+| H30 | 15 | IO_L24P_15 | - | 30 | IO_L24P_T3_16 | - |
 
 
-## IO BANK 81
+## IO BANK 16, 17, 18, 19, 20, 21, 22
 
-| 引脚编号 | IO BANK | 引脚说明 | Config_Type |
-|----------|---------|----------|-------------|
-| U7 | 81 | REFCLKM_81 | - |
-| U8 | 81 | REFCLKP_81 | - |
-| W3 | 81 | RXM0_81 | - |
-| V5 | 81 | RXM1_81 | - |
-| W4 | 81 | RXP0_81 | - |
-| V6 | 81 | RXP1_81 | - |
-| U3 | 81 | TXM0_81 | - |
-| T1 | 81 | TXM1_81 | - |
-| U4 | 81 | TXP0_81 | - |
-| T2 | 81 | TXP1_81 | - |
-
-
-## IO BANK 82
-
-| 引脚编号 | IO BANK | 引脚说明 | Config_Type |
-|----------|---------|----------|-------------|
-| L7 | 82 | REFCLKM_82 | - |
-| L8 | 82 | REFCLKP_82 | - |
-| T5 | 82 | RXM0_82 | - |
-| R3 | 82 | RXM1_82 | - |
-| T6 | 82 | RXP0_82 | - |
-| R4 | 82 | RXP1_82 | - |
-| P1 | 82 | TXM0_82 | - |
-| N3 | 82 | TXM1_82 | - |
-| P2 | 82 | TXP0_82 | - |
-| N4 | 82 | TXP1_82 | - |
-
-
-## IO BANK 83
-
-| 引脚编号 | IO BANK | 引脚说明 | Config_Type |
-|----------|---------|----------|-------------|
-| N7 | 83 | REFCLKM_83 | - |
-| N8 | 83 | REFCLKP_83 | - |
-| P5 | 83 | RXM0_83 | - |
-| M5 | 83 | RXM1_83 | - |
-| P6 | 83 | RXP0_83 | - |
-| M6 | 83 | RXP1_83 | - |
-| M1 | 83 | TXM0_83 | - |
-| L3 | 83 | TXM1_83 | - |
-| M2 | 83 | TXP0_83 | - |
-| L4 | 83 | TXP1_83 | - |
-
-
-## IO BANK 84
-
-| 引脚编号 | IO BANK | 引脚说明 | Config_Type |
-|----------|---------|----------|-------------|
-| G7 | 84 | REFCLKM_84 | - |
-| G8 | 84 | REFCLKP_84 | - |
-| K5 | 84 | RXM0_84 | - |
-| H5 | 84 | RXM1_84 | - |
-| K6 | 84 | RXP0_84 | - |
-| H6 | 84 | RXP1_84 | - |
-| K1 | 84 | TXM0_84 | - |
-| J3 | 84 | TXM1_84 | - |
-| K2 | 84 | TXP0_84 | - |
-| J4 | 84 | TXP1_84 | - |
-
-
-## IO BANK 85
-
-| 引脚编号 | IO BANK | 引脚说明 | Config_Type |
-|----------|---------|----------|-------------|
-| J7 | 85 | REFCLKM_85 | - |
-| J8 | 85 | REFCLKP_85 | - |
-| G3 | 85 | RXM0_85 | - |
-| F5 | 85 | RXM1_85 | - |
-| G4 | 85 | RXP0_85 | - |
-| F6 | 85 | RXP1_85 | - |
-| H1 | 85 | TXM0_85 | - |
-| F1 | 85 | TXM1_85 | - |
-| H2 | 85 | TXP0_85 | - |
-| F2 | 85 | TXP1_85 | - |
+| 注： PH1A400的HR IO不支持连接DDR3；7K325的HR IO支持连接DDR3。 | | | XC7K325TFFG900 | | | |
+| 引脚编号 | IO BANK | 引脚说明 | 引脚编号 | IO BANK | 引脚说明 | 差异备注 |
+|----------|---------|----------|----------|---------|----------|----------|
+| A16 | 16 | IO_L20P_16 | - | 16 | IO_L20P_T3_17 | - |
+| A17 | 16 | IO_L20N_16 | - | 17 | IO_L20N_T3_17 | - |
+| A18 | 16 | IO_L22N_16 | - | 18 | IO_L22N_T3_17 | - |
+| A19 | 16 | VCCIO_16 | - | 19 | VCCO_17 | - |
+| A20 | 16 | IO_L21P_16 | - | 20 | IO_L21P_T3_DQS_17 | - |
+| A21 | 16 | IO_L21N_16 | - | 21 | IO_L21N_T3_DQS_17 | - |
+| A22 | 16 | IO_L23N_16 | - | 22 | IO_L23N_T3_17 | - |
+| B16 | 16 | VCCIO_16 | - | 16 | VCCO_17 | - |
+| B17 | 16 | IO_L17N_16 | - | 17 | IO_L17N_T2_17 | - |
+| B18 | 16 | IO_L22P_16 | - | 18 | IO_L22P_T3_17 | - |
+| B19 | 16 | IO_L24N_16 | - | 19 | IO_L24N_T3_17 | - |
+| B20 | 16 | IO_L19N_16 | - | 20 | IO_L19N_T3_VREF_17 | - |
+| B22 | 16 | IO_L23P_16 | - | 22 | IO_L23P_T3_17 | - |
+| C16 | 16 | IO_L15N_16 | - | 16 | IO_L15N_T2_DQS_17 | - |
+| C17 | 16 | IO_L17P_16 | - | 17 | IO_L17P_T2_17 | - |
+| C19 | 16 | IO_L24P_16 | - | 19 | IO_L24P_T3_17 | - |
+| C20 | 16 | IO_L19P_16 | - | 20 | IO_L19P_T3_17 | - |
+| C21 | 16 | IO_L8N_16 | - | 21 | IO_L8N_T1_17 | - |
+| C22 | 16 | IO_L10N_16 | - | 22 | IO_L10N_T1_17 | - |
+| D16 | 16 | IO_L15P_16 | - | 16 | IO_L15P_T2_DQS_17 | - |
+| D17 | 16 | IO_L13P_16,GCLKIOT1_16 | - | 17 | IO_L13P_T2_MRCC_17 | - |
+| D18 | 16 | IO_L13N_16,GCLKIOC1_16 | - | 18 | IO_L13N_T2_MRCC_17 | - |
+| D19 | 16 | IO_L14N_16,GCLKIOC0_16 | - | 19 | IO_L14N_T2_SRCC_17 | - |
+| D20 | 16 | VCCIO_16 | - | 20 | VCCO_17 | - |
+| D21 | 16 | IO_L8P_16 | - | 21 | IO_L8P_T1_17 | - |
+| D22 | 16 | IO_L10P_16 | - | 22 | IO_L10P_T1_17 | - |
+| E17 | 16 | VCCIO_16 | - | 17 | VCCO_17 | - |
+| E18 | 16 | IO_L25_16 | - | 18 | IO_25_17 | - |
+| E19 | 16 | IO_L14P_16,GCLKIOT0_16 | - | 19 | IO_L14P_T2_SRCC_17 | - |
+| E20 | 16 | IO_L12N_16,GCLKIOC2_16 | - | 20 | IO_L12N_T1_MRCC_17 | - |
+| E21 | 16 | IO_L11N_16,GCLKIOC3_16 | - | 21 | IO_L11N_T1_SRCC_17 | - |
+| F17 | 16 | IO_L18N_16 | - | 17 | IO_L18N_T2_17 | - |
+| F18 | 16 | IO_L16N_16,GPLL0_16_OUTN | - | 18 | IO_L16N_T2_17 | - |
+| F20 | 16 | IO_L12P_16,GCLKIOT2_16 | - | 20 | IO_L12P_T1_MRCC_17 | - |
+| F21 | 16 | IO_L11P_16,GCLKIOT3_16 | - | 21 | IO_L11P_T1_SRCC_17 | - |
+| F22 | 16 | IO_L9N_16,GPLL1_16_OUTN | - | 22 | IO_L9N_T1_DQS_17 | - |
+| G17 | 16 | IO_L18P_16 | - | 17 | IO_L18P_T2_17 | - |
+| G18 | 16 | IO_L16P_16,GPLL0_16_OUTP | - | 18 | IO_L16P_T2_17 | - |
+| G19 | 16 | IO_L0_16 | - | 19 | IO_0_17 | - |
+| G20 | 16 | IO_L2N_16 | - | 20 | IO_L2N_T0_17 | - |
+| G21 | 16 | VCCIO_16 | - | 21 | VCCO_17 | - |
+| G22 | 16 | IO_L9P_16,GPLL1_16_OUTP | - | 22 | IO_L9P_T1_DQS_17 | - |
+| H17 | 16 | IO_L3N_16 | - | 17 | IO_L3N_T0_DQS_17 | - |
+| H18 | 16 | VCCIO_16 | - | 18 | VCCO_17 | - |
+| H19 | 16 | IO_L4N_16 | - | 19 | IO_L4N_T0_17 | - |
+| H20 | 16 | IO_L2P_16 | - | 20 | IO_L2P_T0_17 | - |
+| H21 | 16 | IO_L7P_16 | - | 21 | IO_L7P_T1_17 | - |
+| H22 | 16 | IO_L7N_16 | - | 22 | IO_L7N_T1_17 | - |
+| J17 | 16 | IO_L3P_16 | - | 17 | IO_L3P_T0_DQS_17 | - |
+| J18 | 16 | IO_L1N_16 | - | 18 | IO_L1N_T0_17 | - |
+| J19 | 16 | IO_L4P_16 | - | 19 | IO_L4P_T0_17 | - |
+| K18 | 16 | IO_L1P_16 | - | 18 | IO_L1P_T0_17 | - |
+| K19 | 16 | IO_L6P_16 | - | 19 | IO_L6P_T0_17 | - |
+| K20 | 16 | IO_L6N_16 | - | 20 | IO_L6N_T0_VREF_17 | - |
+| L17 | 16 | IO_L5P_16 | - | 17 | IO_L5P_T0_17 | - |
+| L18 | 16 | IO_L5N_16 | - | 18 | IO_L5N_T0_17 | - |
+| L19 | 16 | VCCIO_16 | - | 19 | VCCO_17 | - |
 
 
-## IO BANK 86
+## IO BANK 10, 11, 12, 13, 14, 15, 16, 17
 
-| 引脚编号 | IO BANK | 引脚说明 | Config_Type |
-|----------|---------|----------|-------------|
-| C7 | 86 | REFCLKM_86 | - |
-| C8 | 86 | REFCLKP_86 | - |
-| E3 | 86 | RXM0_86 | - |
-| D5 | 86 | RXM1_86 | - |
-| E4 | 86 | RXP0_86 | - |
-| D6 | 86 | RXP1_86 | - |
-| D1 | 86 | TXM0_86 | - |
-| C3 | 86 | TXM1_86 | - |
-| D2 | 86 | TXP0_86 | - |
-| C4 | 86 | TXP1_86 | - |
+| 注： PH1A400的HR IO不支持连接DDR3；7K325的HR IO支持连接DDR3。 | | | XC7K325TFFG900 | | | |
+| 引脚编号 | IO BANK | 引脚说明 | 引脚编号 | IO BANK | 引脚说明 | 差异备注 |
+|----------|---------|----------|----------|---------|----------|----------|
+| A11 | 17 | IO_L17P_17 | - | 11 | IO_L17P_T2_18 | - |
+| A12 | 17 | IO_L17N_17 | - | 12 | IO_L17N_T2_18 | - |
+| A13 | 17 | IO_L22N_17 | - | 13 | IO_L22N_T3_18 | - |
+| A15 | 17 | IO_L24N_17 | - | 15 | IO_L24N_T3_18 | - |
+| B12 | 17 | IO_L15N_17 | - | 12 | IO_L15N_T2_DQS_18 | - |
+| B13 | 17 | IO_L22P_17 | - | 13 | IO_L22P_T3_18 | - |
+| B14 | 17 | IO_L24P_17 | - | 14 | IO_L24P_T3_18 | - |
+| B15 | 17 | IO_L23N_17 | - | 15 | IO_L23N_T3_18 | - |
+| C11 | 17 | IO_L18N_17 | - | 11 | IO_L18N_T2_18 | - |
+| C12 | 17 | IO_L15P_17 | - | 12 | IO_L15P_T2_DQS_18 | - |
+| C13 | 17 | VCCIO_17 | - | 13 | VCCO_18 | - |
+| C14 | 17 | IO_L21N_17 | - | 14 | IO_L21N_T3_DQS_18 | - |
+| C15 | 17 | IO_L23P_17 | - | 15 | IO_L23P_T3_18 | - |
+| D10 | 17 | VCCIO_17 | - | 10 | VCCO_18 | - |
+| D11 | 17 | IO_L18P_17 | - | 11 | IO_L18P_T2_18 | - |
+| D12 | 17 | IO_L13P_17,GCLKIOT1_17 | - | 12 | IO_L13P_T2_MRCC_18 | - |
+| D13 | 17 | IO_L13N_17,GCLKIOC1_17 | - | 13 | IO_L13N_T2_MRCC_18 | - |
+| D14 | 17 | IO_L21P_17 | - | 14 | IO_L21P_T3_DQS_18 | - |
+| E11 | 17 | IO_L16N_17,GPLL0_17_OUTN | - | 11 | IO_L16N_T2_18 | - |
+| E13 | 17 | IO_L14N_17,GCLKIOC0_17 | - | 13 | IO_L14N_T2_SRCC_18 | - |
+| E14 | 17 | IO_L20P_17 | - | 14 | IO_L20P_T3_18 | - |
+| E15 | 17 | IO_L20N_17 | - | 15 | IO_L20N_T3_18 | - |
+| E16 | 17 | IO_L19N_17 | - | 16 | IO_L19N_T3_VREF_18 | - |
+| F11 | 17 | IO_L16P_17,GPLL0_17_OUTP | - | 11 | IO_L16P_T2_18 | - |
+| F12 | 17 | IO_L14P_17,GCLKIOT0_17 | - | 12 | IO_L14P_T2_SRCC_18 | - |
+| F13 | 17 | IO_L12N_17,GCLKIOC2_17 | - | 13 | IO_L12N_T1_MRCC_18 | - |
+| F14 | 17 | VCCIO_17 | - | 14 | VCCO_18 | - |
+| F15 | 17 | IO_L19P_17 | - | 15 | IO_L19P_T3_18 | - |
+| F16 | 17 | IO_L25_17 | - | 16 | IO_25_18 | - |
+| G11 | 17 | VCCIO_17 | - | 11 | VCCO_18 | - |
+| G12 | 17 | IO_L0_17 | - | 12 | IO_0_18 | - |
+| G13 | 17 | IO_L12P_17,GCLKIOT2_17 | - | 13 | IO_L12P_T1_MRCC_18 | - |
+| G14 | 17 | IO_L11N_17,GCLKIOC3_17 | - | 14 | IO_L11N_T1_SRCC_18 | - |
+| G15 | 17 | IO_L7N_17 | - | 15 | IO_L7N_T1_18 | - |
+| H11 | 17 | IO_L10P_17 | - | 11 | IO_L10P_T1_18 | - |
+| H12 | 17 | IO_L10N_17 | - | 12 | IO_L10N_T1_18 | - |
+| H14 | 17 | IO_L11P_17,GCLKIOT3_17 | - | 14 | IO_L11P_T1_SRCC_18 | - |
+| H15 | 17 | IO_L7P_17 | - | 15 | IO_L7P_T1_18 | - |
+| H16 | 17 | IO_L9N_17,GPLL1_17_OUTN | - | 16 | IO_L9N_T1_DQS_18 | - |
+| J11 | 17 | IO_L8P_17 | - | 11 | IO_L8P_T1_18 | - |
+| J12 | 17 | IO_L8N_17 | - | 12 | IO_L8N_T1_18 | - |
+| J13 | 17 | IO_L4N_17 | - | 13 | IO_L4N_T0_18 | - |
+| J14 | 17 | IO_L5N_17 | - | 14 | IO_L5N_T0_18 | - |
+| J15 | 17 | VCCIO_17 | - | 15 | VCCO_18 | - |
+| J16 | 17 | IO_L9P_17,GPLL1_17_OUTP | - | 16 | IO_L9P_T1_DQS_18 | - |
+| K11 | 17 | IO_L6N_17 | - | 11 | IO_L6N_T0_VREF_18 | - |
+| K12 | 17 | VCCIO_17 | - | 12 | VCCO_18 | - |
+| K13 | 17 | IO_L4P_17 | - | 13 | IO_L4P_T0_18 | - |
+| K14 | 17 | IO_L5P_17 | - | 14 | IO_L5P_T0_18 | - |
+| K15 | 17 | IO_L2N_17 | - | 15 | IO_L2N_T0_18 | - |
+| K16 | 17 | IO_L1N_17 | - | 16 | IO_L1N_T0_18 | - |
+| L11 | 17 | IO_L6P_17 | - | 11 | IO_L6P_T0_18 | - |
+| L12 | 17 | IO_L3P_17 | - | 12 | IO_L3P_T0_DQS_18 | - |
+| L13 | 17 | IO_L3N_17 | - | 13 | IO_L3N_T0_DQS_18 | - |
+| L15 | 17 | IO_L2P_17 | - | 15 | IO_L2P_T0_18 | - |
+| L16 | 17 | IO_L1P_17 | - | 16 | IO_L1P_T0_18 | - |
 
 
-## IO BANK 87
+## IO BANK 14, 15, 16, 17, 18, 19, 31
 
-| 引脚编号 | IO BANK | 引脚说明 | Config_Type |
-|----------|---------|----------|-------------|
-| E7 | 87 | REFCLKM_87 | - |
-| E8 | 87 | REFCLKP_87 | - |
-| B5 | 87 | RXM0_87 | - |
-| A7 | 87 | RXM1_87 | - |
-| B6 | 87 | RXP0_87 | - |
-| A8 | 87 | RXP1_87 | - |
-| B1 | 87 | TXM0_87 | - |
-| A3 | 87 | TXM1_87 | - |
-| B2 | 87 | TXP0_87 | - |
-| A4 | 87 | TXP1_87 | - |
+| 注： PH1A400的HR IO不支持连接DDR3；7K325的HR IO支持连接DDR3。 | | | XC7K325TFFG900 | | | |
+| 引脚编号 | IO BANK | 引脚说明 | 引脚编号 | IO BANK | 引脚说明 | 差异备注 |
+|----------|---------|----------|----------|---------|----------|----------|
+| Y14 | 31 | IO_R0_31 | - | 14 | IO_0_VRN_32 | 使用DDR3时，PH1A400不需要VRN信号，该类引脚可作为普通IO使用；7K325T要求VRN接电阻到电源。如果使用PH1A400时将该引脚通过电阻接到电源，则该引脚不推荐再分配为IO使用。 |
+| Y15 | 31 | IO_R24N_31,T3 | - | 15 | IO_L24N_T3_32 | - |
+| Y16 | 31 | IO_R24P_31,T3 | - | 16 | IO_L24P_T3_32 | - |
+| Y18 | 31 | IO_R15N_31,T2_DQS_N_31 | - | 18 | IO_L15N_T2_DQS_32 | - |
+| Y19 | 31 | IO_R15P_31,T2_DQS_P_31 | - | 19 | IO_L15P_T2_DQS_32 | - |
+| AA15 | 31 | IO_R20P_31,T3 | - | 15 | IO_L20P_T3_32 | - |
+| AA16 | 31 | IO_R23N_31,T3 | - | 16 | IO_L23N_T3_32 | - |
+| AA17 | 31 | IO_R23P_31,T3 | - | 17 | IO_L23P_T3_32 | - |
+| AA18 | 31 | IO_R16P_31,GPLL0_31_OUTP,T2 | - | 18 | IO_L16P_T2_32 | - |
+| AA19 | 31 | VCCIO_31 | - | 19 | VCCO_32 | PH1A400和7K325要求HP IO的VCCIO供电范围为1.14V-1.89V |
+| AB14 | 31 | IO_R25_31,VRP_31 | - | 14 | IO_25_VRP_32 | 使用DDR3/DDR4时，PH1A400要求VRP固定接240欧电阻到地，7K325在使用DDR3时要求VRP接80.6欧电阻到地。 |
+| AB15 | 31 | IO_R20N_31,T3 | - | 15 | IO_L20N_T3_32 | - |
+| AB16 | 31 | VCCIO_31 | - | 16 | VCCO_32 | - |
+| AB17 | 31 | IO_R18P_31,T2 | - | 17 | IO_L18P_T2_32 | - |
+| AB18 | 31 | IO_R16N_31,GPLL0_31_OUTN,T2 | - | 18 | IO_L16N_T2_32 | - |
+| AB19 | 31 | IO_R17P_31,T2 | - | 19 | IO_L17P_T2_32 | - |
+| AC14 | 31 | IO_R22P_31,T3 | - | 14 | IO_L22P_T3_32 | - |
+| AC15 | 31 | IO_R21N_31,T3_DQS_N_31 | - | 15 | IO_L21N_T3_DQS_32 | - |
+| AC16 | 31 | IO_R21P_31,T3_DQS_P_31 | - | 16 | IO_L21P_T3_DQS_32 | - |
+| AC17 | 31 | IO_R18N_31,T2 | - | 17 | IO_L18N_T2_32 | - |
+| AC19 | 31 | IO_R17N_31,T2 | - | 19 | IO_L17N_T2_32 | - |
+| AD14 | 31 | IO_R22N_31,T3 | - | 14 | IO_L22N_T3_32 | - |
+| AD16 | 31 | IO_R14N_31,GCLKIOC0_31,T2 | - | 16 | IO_L14N_T2_SRCC_32 | PH1A400的全局输入时钟引脚，当为差分时钟输入时分别接P(T)端和N(C)端，当为单端时钟输入时只能接P(T)端。7K325的单区域输入时钟引脚，当为差分时钟输入时分别接P端和N端，当为单端时钟输入时只能接P端。 |
+| AD17 | 31 | IO_R14P_31,GCLKIOT0_31,T2 | - | 17 | IO_L14P_T2_SRCC_32 | - |
+| AD18 | 31 | IO_R13P_31,GCLKIOT1_31,T2 | - | 18 | IO_L13P_T2_MRCC_32 | - |
+| AD19 | 31 | IO_R10P_31,T1 | - | 19 | IO_L10P_T1_32 | - |
+| AE14 | 31 | IO_R19N_31,T3_VREF_31 | - | 14 | IO_L19N_T3_VREF_32 | - |
+| AE15 | 31 | IO_R19P_31,T3 | - | 15 | IO_L19P_T3_32 | - |
+| AE16 | 31 | IO_R6P_31,T0 | - | 16 | IO_L6P_T0_32 | - |
+| AE17 | 31 | VCCIO_31 | - | 17 | VCCO_32 | - |
+| AE18 | 31 | IO_R13N_31,GCLKIOC1_31,T2 | - | 18 | IO_L13N_T2_MRCC_32 | - |
+| AE19 | 31 | IO_R10N_31,T1 | - | 19 | IO_L10N_T1_32 | - |
+| AF14 | 31 | VCCIO_31 | - | 14 | VCCO_32 | - |
+| AF15 | 31 | IO_R4P_31,T0 | - | 15 | IO_L4P_T0_32 | - |
+| AF16 | 31 | IO_R6N_31,T0_VREF_31 | - | 16 | IO_L6N_T0_VREF_32 | - |
+| AF17 | 31 | IO_R12P_31,GCLKIOT2_31,T1 | - | 17 | IO_L12P_T1_MRCC_32 | - |
+| AF18 | 31 | IO_R11P_31,GCLKIOT3_31,T1 | - | 18 | IO_L11P_T1_SRCC_32 | - |
+| AG14 | 31 | IO_R4N_31,T0 | - | 14 | IO_L4N_T0_32 | - |
+| AG15 | 31 | IO_R2P_31,T0 | - | 15 | IO_L2P_T0_32 | - |
+| AG17 | 31 | IO_R12N_31,GCLKIOC2_31,T1 | - | 17 | IO_L12N_T1_MRCC_32 | PH1A400的全局输入时钟引脚，当为差分时钟输入时分别接P(T)端和N(C)端，当为单端时钟输入时只能接P(T)端。7K325的多区域输入时钟引脚，当为差分时钟输入时分别接P端和N端，当为单端时钟输入时只能接P端。 |
+| AG18 | 31 | IO_R11N_31,GCLKIOC3_31,T1 | - | 18 | IO_L11N_T1_SRCC_32 | PH1A400的全局输入时钟引脚，当为差分时钟输入时分别接P(T)端和N(C)端，当为单端时钟输入时只能接P(T)端。7K325的单区域输入时钟引脚，当为差分时钟输入时分别接P端和N端，当为单端时钟输入时只能接P端。 |
+| AG19 | 31 | IO_R8P_31,T1 | - | 19 | IO_L8P_T1_32 | - |
+| AH15 | 31 | IO_R2N_31,T0 | - | 15 | IO_L2N_T0_32 | - |
+| AH16 | 31 | IO_R3P_31,T0_DQS_P_31 | - | 16 | IO_L3P_T0_DQS_32 | - |
+| AH17 | 31 | IO_R5P_31,T0 | - | 17 | IO_L5P_T0_32 | - |
+| AH18 | 31 | VCCIO_31 | - | 18 | VCCO_32 | - |
+| AH19 | 31 | IO_R8N_31,T1 | - | 19 | IO_L8N_T1_32 | - |
+| AJ15 | 31 | VCCIO_31 | - | 15 | VCCO_32 | - |
+| AJ16 | 31 | IO_R3N_31,T0_DQS_N_31 | - | 16 | IO_L3N_T0_DQS_32 | - |
+| AJ17 | 31 | IO_R5N_31,T0 | - | 17 | IO_L5N_T0_32 | - |
+| AJ18 | 31 | IO_R9P_31,GPLL1_31_OUTP,T1_DQS_P_31 | - | 18 | IO_L9P_T1_DQS_32 | - |
+| AJ19 | 31 | IO_R7P_31,T1 | - | 19 | IO_L7P_T1_32 | - |
+| AK15 | 31 | IO_R1N_31,T0 | - | 15 | IO_L1N_T0_32 | - |
+| AK16 | 31 | IO_R1P_31,T0 | - | 16 | IO_L1P_T0_32 | - |
+| AK18 | 31 | IO_R9N_31,GPLL1_31_OUTN,T1_DQS_N_31 | - | 18 | IO_L9N_T1_DQS_32 | - |
+| AK19 | 31 | IO_R7N_31,T1 | - | 19 | IO_L7N_T1_32 | - |
 
 
-## IO BANK Other
+## IO BANK 8, 9, 10, 11, 12, 13, 14, 32
 
-| 引脚编号 | IO BANK | 引脚说明 | Config_Type |
-|----------|---------|----------|-------------|
-| V12 | - | GND | - |
-| W11 | - | GND | - |
-| A1 | - | GND | - |
-| A2 | - | GND | - |
-| A5 | - | GND | - |
-| A6 | - | GND | - |
-| A9 | - | GND | - |
-| A14 | - | GND | - |
-| A24 | - | GND | - |
-| B4 | - | GND | - |
-| B8 | - | GND | - |
-| B9 | - | GND | - |
-| B11 | - | GND | - |
-| B21 | - | GND | - |
-| C1 | - | GND | - |
-| C2 | - | GND | - |
-| C6 | - | GND | - |
-| C9 | - | GND | - |
-| C18 | - | GND | - |
-| C28 | - | GND | - |
-| D4 | - | GND | - |
-| D8 | - | GND | - |
-| D9 | - | GND | - |
-| D15 | - | GND | - |
-| D25 | - | GND | - |
-| E1 | - | GND | - |
-| E2 | - | GND | - |
-| E6 | - | GND | - |
-| E9 | - | GND | - |
-| E12 | - | GND | - |
-| E22 | - | GND | - |
-| F4 | - | GND | - |
-| F8 | - | GND | - |
-| F9 | - | GND | - |
-| F19 | - | GND | - |
-| F29 | - | GND | - |
-| G1 | - | GND | - |
-| G2 | - | GND | - |
-| G6 | - | GND | - |
-| G9 | - | GND | - |
-| G16 | - | GND | - |
-| G26 | - | GND | - |
-| H4 | - | GND | - |
-| H8 | - | GND | - |
-| H9 | - | GND | - |
-| H13 | - | GND | - |
-| H23 | - | GND | - |
-| J1 | - | GND | - |
-| J2 | - | GND | - |
-| J6 | - | GND | - |
-| J9 | - | GND | - |
-| J10 | - | GND | - |
-| J20 | - | GND | - |
-| J30 | - | GND | - |
-| K4 | - | GND | - |
-| K8 | - | GND | - |
-| K17 | - | GND | - |
-| K27 | - | GND | - |
-| L1 | - | GND | - |
-| L2 | - | GND | - |
-| L6 | - | GND | - |
-| L9 | - | GND | - |
-| L14 | - | GND | - |
-| L24 | - | GND | - |
-| M4 | - | GND | - |
-| M8 | - | GND | - |
-| M9 | - | GND | - |
-| M12 | - | GND | - |
-| M14 | - | GND | - |
-| M16 | - | GND | - |
-| M18 | - | GND | - |
-| M21 | - | GND | - |
-| N1 | - | GND | - |
-| N2 | - | GND | - |
-| N6 | - | GND | - |
-| N9 | - | GND | - |
-| N11 | - | GND | - |
-| N13 | - | GND | - |
-| N15 | - | GND | - |
-| N17 | - | GND | - |
-| N28 | - | GND | - |
-| P4 | - | GND | - |
-| P8 | - | GND | - |
-| P9 | - | RXRECCLKM_84 | - |
-| P10 | - | RXRECCLKP_84 | - |
-| P12 | - | GND | - |
-| P16 | - | GND | - |
-| P18 | - | GND | - |
-| P25 | - | GND | - |
-| R1 | - | GND | - |
-| R2 | - | GND | - |
-| R6 | - | GND | - |
-| R9 | - | GND | - |
-| R11 | - | GND | - |
-| R13 | - | GND | - |
-| R17 | - | GND | - |
-| R22 | - | GND | - |
-| T4 | - | GND | - |
-| T8 | - | GND | - |
-| T10 | - | GND | - |
-| T12 | - | GND | - |
-| T16 | - | GND | - |
-| T18 | - | GND | - |
-| T19 | - | GND | - |
-| T29 | - | GND | - |
-| U1 | - | GND | - |
-| U2 | - | GND | - |
-| U6 | - | GND | - |
-| U9 | - | GND | - |
-| U11 | - | GND | - |
-| U13 | - | GND | - |
-| U17 | - | GND | - |
-| U26 | - | GND | - |
-| V4 | - | GND | - |
-| V8 | - | GND | - |
-| V9 | - | RXRECCLKM_80 | - |
-| V10 | - | RXRECCLKP_80 | - |
-| V14 | - | GND | - |
-| V16 | - | GND | - |
-| V18 | - | GND | - |
-| V23 | - | GND | - |
-| W1 | - | GND | - |
-| W2 | - | GND | - |
-| W6 | - | GND | - |
-| W9 | - | GND | - |
-| W13 | - | GND | - |
-| W15 | - | GND | - |
-| W17 | - | GND | - |
-| W20 | - | GND | - |
-| W30 | - | GND | - |
-| Y3 | - | GND | - |
-| Y4 | - | GND | - |
-| Y7 | - | GND | - |
-| Y8 | - | GND | - |
-| Y9 | - | GND | - |
-| Y17 | - | GND | - |
-| Y27 | - | GND | - |
-| AA1 | - | GND | - |
-| AA2 | - | GND | - |
-| AA5 | - | GND | - |
-| AA6 | - | GND | - |
-| AA7 | - | GND | - |
-| AA14 | - | GND | - |
-| AA24 | - | GND | - |
-| AB3 | - | GND | - |
-| AB4 | - | GND | - |
-| AB11 | - | GND | - |
-| AB21 | - | GND | - |
-| AC8 | - | GND | - |
-| AC18 | - | GND | - |
-| AC28 | - | GND | - |
-| AD5 | - | GND | - |
-| AD15 | - | GND | - |
-| AD25 | - | GND | - |
-| AE2 | - | GND | - |
-| AE12 | - | GND | - |
-| AE22 | - | GND | - |
-| AF9 | - | GND | - |
-| AF19 | - | GND | - |
-| AF29 | - | GND | - |
-| AG6 | - | GND | - |
-| AG16 | - | GND | - |
-| AG26 | - | GND | - |
-| AH3 | - | GND | - |
-| AH13 | - | GND | - |
-| AH23 | - | GND | - |
-| AJ10 | - | GND | - |
-| AJ20 | - | GND | - |
-| AJ30 | - | GND | - |
-| AK7 | - | GND | - |
-| AK17 | - | GND | - |
-| AK27 | - | GND | - |
-| C10 | - | NC | - |
-| P14 | - | NC | - |
-| P15 | - | NC | - |
-| R14 | - | NC | - |
-| R15 | - | NC | - |
-| T14 | - | NC | - |
-| T15 | - | NC | - |
-| U14 | - | NC | - |
-| U15 | - | NC | - |
-| V11 | - | NC | - |
-| W7 | - | NC | - |
-| W10 | - | NC | - |
-| W12 | - | NC | - |
-| T7 | - | PHYVCCA_80 | - |
-| V7 | - | PHYVCCA_80 | - |
-| M7 | - | PHYVCCA_82 | - |
-| P7 | - | PHYVCCA_82 | - |
-| H7 | - | PHYVCCA_84 | - |
-| K7 | - | PHYVCCA_84 | - |
-| B7 | - | PHYVCCA_86 | - |
-| D7 | - | PHYVCCA_86 | - |
-| F7 | - | PHYVCCA_86 | - |
-| T3 | - | PHYVCCT_80 | - |
-| U5 | - | PHYVCCT_80 | - |
-| V3 | - | PHYVCCT_80 | - |
-| W5 | - | PHYVCCT_80 | - |
-| L5 | - | PHYVCCT_82 | - |
-| M3 | - | PHYVCCT_82 | - |
-| N5 | - | PHYVCCT_82 | - |
-| P3 | - | PHYVCCT_82 | - |
-| R5 | - | PHYVCCT_82 | - |
-| F3 | - | PHYVCCT_84 | - |
-| G5 | - | PHYVCCT_84 | - |
-| H3 | - | PHYVCCT_84 | - |
-| J5 | - | PHYVCCT_84 | - |
-| K3 | - | PHYVCCT_84 | - |
-| B3 | - | PHYVCCT_86 | - |
-| C5 | - | PHYVCCT_86 | - |
-| D3 | - | PHYVCCT_86 | - |
-| E5 | - | PHYVCCT_86 | - |
-| W8 | - | RESREF_1 | - |
-| K9 | - | RESREF_2 | - |
-| P13 | - | VCCAUX | - |
-| T13 | - | VCCAUX | - |
-| V13 | - | VCCAUX | - |
-| V15 | - | VCCAUX | - |
-| W14 | - | VCCAUX | - |
-| M11 | - | VCCINT | - |
-| M13 | - | VCCINT | - |
-| M15 | - | VCCINT | - |
-| M17 | - | VCCINT | - |
-| N10 | - | VCCINT | - |
-| N12 | - | VCCINT | - |
-| N14 | - | VCCINT | - |
-| N16 | - | VCCINT | - |
-| N18 | - | VCCINT | - |
-| P11 | - | VCCINT | - |
-| P17 | - | VCCINT | - |
-| R10 | - | VCCINT | - |
-| R12 | - | VCCINT | - |
-| R16 | - | VCCINT | - |
-| R18 | - | VCCINT | - |
-| T11 | - | VCCINT | - |
-| T17 | - | VCCINT | - |
-| U10 | - | VCCINT | - |
-| U12 | - | VCCINT | - |
-| U16 | - | VCCINT | - |
-| U18 | - | VCCINT | - |
-| V17 | - | VCCINT | - |
-| W16 | - | VCCINT | - |
-| W18 | - | VCCINT | - |
+| 注： PH1A400的HR IO不支持连接DDR3；7K325的HR IO支持连接DDR3。 | | | XC7K325TFFG900 | | | |
+| 引脚编号 | IO BANK | 引脚说明 | 引脚编号 | IO BANK | 引脚说明 | 差异备注 |
+|----------|---------|----------|----------|---------|----------|----------|
+| AA8 | 32 | IO_R2P_32,T0 | - | 8 | IO_L2P_T0_33 | - |
+| AA9 | 32 | VCCIO_32 | - | 9 | VCCO_33 | - |
+| AB8 | 32 | IO_R2N_32,T0 | - | 8 | IO_L2N_T0_33 | - |
+| AB9 | 32 | IO_R3P_32,T0_DQS_P_32 | - | 9 | IO_L3P_T0_DQS_33 | - |
+| AC9 | 32 | IO_R3N_32,T0_DQS_N_32 | - | 9 | IO_L3N_T0_DQS_33 | - |
+| AD8 | 32 | IO_R8P_32,T1 | - | 8 | IO_L8P_T1_33 | - |
+| AD9 | 32 | IO_R10P_32,T1 | - | 9 | IO_L10P_T1_33 | - |
+| AE8 | 32 | IO_R8N_32,T1 | - | 8 | IO_L8N_T1_33 | - |
+| AE9 | 32 | IO_R10N_32,T1 | - | 9 | IO_L10N_T1_33 | - |
+| AG9 | 32 | IO_R16P_32,GPLL0_32_OUTP,T2 | - | 9 | IO_L16P_T2_33 | - |
+| AH9 | 32 | IO_R16N_32,GPLL0_32_OUTN,T2 | - | 9 | IO_L16N_T2_33 | - |
+| AJ9 | 32 | IO_R15P_32,T2_DQS_P_32 | - | 9 | IO_L15P_T2_DQS_33 | - |
+| AK9 | 32 | IO_R15N_32,T2_DQS_N_32 | - | 9 | IO_L15N_T2_DQS_33 | - |
+| Y10 | 32 | IO_R4N_32,T0 | - | 10 | IO_L4N_T0_33 | - |
+| Y11 | 32 | IO_R4P_32,T0 | - | 11 | IO_L4P_T0_33 | - |
+| Y12 | 32 | VCCIO_32 | - | 12 | VCCO_33 | - |
+| Y13 | 32 | IO_R0_32 | - | 13 | IO_0_VRN_33 | - |
+| AA10 | 32 | IO_R5N_32,T0 | - | 10 | IO_L5N_T0_33 | - |
+| AA11 | 32 | IO_R5P_32,T0 | - | 11 | IO_L5P_T0_33 | - |
+| AA12 | 32 | IO_R1P_32,T0 | - | 12 | IO_L1P_T0_33 | - |
+| AA13 | 32 | IO_R6P_32,T0 | - | 13 | IO_L6P_T0_33 | - |
+| AB10 | 32 | IO_R7P_32,T1 | - | 10 | IO_L7P_T1_33 | - |
+| AB12 | 32 | IO_R1N_32,T0 | - | 12 | IO_L1N_T0_33 | - |
+| AB13 | 32 | IO_R6N_32,T0_VREF_32 | - | 13 | IO_L6N_T0_VREF_33 | - |
+| AC10 | 32 | IO_R7N_32,T1 | - | 10 | IO_L7N_T1_33 | - |
+| AC11 | 32 | IO_R9N_32,GPLL1_32_OUTN,T1_DQS_N_32 | - | 11 | IO_L9N_T1_DQS_33 | - |
+| AC12 | 32 | IO_R9P_32,GPLL1_32_OUTP,T1_DQS_P_32 | - | 12 | IO_L9P_T1_DQS_33 | - |
+| AC13 | 32 | VCCIO_32 | - | 13 | VCCO_33 | - |
+| AD10 | 32 | VCCIO_32 | - | 10 | VCCO_33 | - |
+| AD11 | 32 | IO_R12N_32,GCLKIOC2_32,T1 | - | 11 | IO_L12N_T1_MRCC_33 | - |
+| AD12 | 32 | IO_R12P_32,GCLKIOT2_32,T1 | - | 12 | IO_L12P_T1_MRCC_33 | - |
+| AD13 | 32 | IO_R25_32,VRP_32 | - | 13 | IO_25_VRP_33 | - |
+| AE10 | 32 | IO_R14P_32,GCLKIOT0_32,T2 | - | 10 | IO_L14P_T2_SRCC_33 | - |
+| AE11 | 32 | IO_R11P_32,GCLKIOT3_32,T1 | - | 11 | IO_L11P_T1_SRCC_33 | - |
+| AE13 | 32 | IO_R19P_32,T3 | - | 13 | IO_L19P_T3_33 | - |
+| AF10 | 32 | IO_R14N_32,GCLKIOC0_32,T2 | - | 10 | IO_L14N_T2_SRCC_33 | - |
+| AF11 | 32 | IO_R11N_32,GCLKIOC3_32,T1 | - | 11 | IO_L11N_T1_SRCC_33 | - |
+| AF12 | 32 | IO_R23P_32,T3 | - | 12 | IO_L23P_T3_33 | - |
+| AF13 | 32 | IO_R19N_32,T3_VREF_32 | - | 13 | IO_L19N_T3_VREF_33 | - |
+| AG10 | 32 | IO_R13P_32,GCLKIOT1_32,T2 | - | 10 | IO_L13P_T2_MRCC_33 | - |
+| AG11 | 32 | VCCIO_32 | - | 11 | VCCO_33 | - |
+| AG12 | 32 | IO_R23N_32,T3 | - | 12 | IO_L23N_T3_33 | - |
+| AG13 | 32 | IO_R24P_32,T3 | - | 13 | IO_L24P_T3_33 | - |
+| AH10 | 32 | IO_R13N_32,GCLKIOC1_32,T2 | - | 10 | IO_L13N_T2_MRCC_33 | - |
+| AH11 | 32 | IO_R18P_32,T2 | - | 11 | IO_L18P_T2_33 | - |
+| AH12 | 32 | IO_R24N_32,T3 | - | 12 | IO_L24N_T3_33 | - |
+| AH14 | 32 | IO_R21P_32,T3_DQS_P_32 | - | 14 | IO_L21P_T3_DQS_33 | - |
+| AJ11 | 32 | IO_R18N_32,T2 | - | 11 | IO_L18N_T2_33 | - |
+| AJ12 | 32 | IO_R22N_32,T3 | - | 12 | IO_L22N_T3_33 | - |
+| AJ13 | 32 | IO_R22P_32,T3 | - | 13 | IO_L22P_T3_33 | - |
+| AJ14 | 32 | IO_R21N_32,T3_DQS_N_32 | - | 14 | IO_L21N_T3_DQS_33 | - |
+| AK10 | 32 | IO_R17N_32,T2 | - | 10 | IO_L17N_T2_33 | - |
+| AK11 | 32 | IO_R17P_32,T2 | - | 11 | IO_L17P_T2_33 | - |
+| AK12 | 32 | VCCIO_32 | - | 12 | VCCO_33 | - |
+| AK13 | 32 | IO_R20N_32,T3 | - | 13 | IO_L20N_T3_33 | - |
+| AK14 | 32 | IO_R20P_32,T3 | - | 14 | IO_L20P_T3_33 | - |
+
+
+## IO BANK 1, 2, 3, 4, 5, 6, 7, 8, 33
+
+| 注： PH1A400的HR IO不支持连接DDR3；7K325的HR IO支持连接DDR3。 | | | XC7K325TFFG900 | | | |
+| 引脚编号 | IO BANK | 引脚说明 | 引脚编号 | IO BANK | 引脚说明 | 差异备注 |
+|----------|---------|----------|----------|---------|----------|----------|
+| AB7 | 33 | IO_R25_33,VRP_33 | - | 7 | IO_25_VRP_34 | - |
+| AC1 | 33 | IO_R2N_33,T0 | - | 1 | IO_L2N_T0_34 | - |
+| AC2 | 33 | IO_R2P_33,T0 | - | 2 | IO_L2P_T0_34 | - |
+| AC3 | 33 | VCCIO_33 | - | 3 | VCCO_34 | - |
+| AC4 | 33 | IO_R4N_33,T0 | - | 4 | IO_L4N_T0_34 | - |
+| AC5 | 33 | IO_R4P_33,T0 | - | 5 | IO_L4P_T0_34 | - |
+| AC6 | 33 | IO_R0_33 | - | 6 | IO_0_VRN_34 | - |
+| AC7 | 33 | IO_R6P_33,T0 | - | 7 | IO_L6P_T0_34 | - |
+| AD1 | 33 | IO_R3N_33,T0_DQS_N_33 | - | 1 | IO_L3N_T0_DQS_34 | - |
+| AD2 | 33 | IO_R3P_33,T0_DQS_P_33 | - | 2 | IO_L3P_T0_DQS_34 | - |
+| AD3 | 33 | IO_R1N_33,T0 | - | 3 | IO_L1N_T0_34 | - |
+| AD4 | 33 | IO_R1P_33,GPFUOUTEN,T0 | - | 4 | IO_L1P_T0_34 | - |
+| AD6 | 33 | IO_R5P_33,T0 | - | 6 | IO_L5P_T0_34 | - |
+| AD7 | 33 | IO_R6N_33,T0_VREF_33 | - | 7 | IO_L6N_T0_VREF_34 | - |
+| AE1 | 33 | IO_R8P_33,GPLL1_33_DIGOUT,T1 | - | 1 | IO_L8P_T1_34 | - |
+| AE3 | 33 | IO_R10N_33,T1 | - | 3 | IO_L10N_T1_34 | - |
+| AE4 | 33 | IO_R10P_33,T1 | - | 4 | IO_L10P_T1_34 | - |
+| AE5 | 33 | IO_R11P_33,GCLKIOT3_33,T1 | - | 5 | IO_L11P_T1_SRCC_34 | - |
+| AE6 | 33 | IO_R5N_33,T0 | - | 6 | IO_L5N_T0_34 | - |
+| AE7 | 33 | VCCIO_33 | - | 7 | VCCO_34 | - |
+| AF1 | 33 | IO_R8N_33,T1 | - | 1 | IO_L8N_T1_34 | - |
+| AF2 | 33 | IO_R7N_33,T1 | - | 2 | IO_L7N_T1_34 | - |
+| AF3 | 33 | IO_R7P_33,T1 | - | 3 | IO_L7P_T1_34 | - |
+| AF4 | 33 | VCCIO_33 | - | 4 | VCCO_34 | - |
+| AF5 | 33 | IO_R11N_33,GCLKIOC3_33,T1 | - | 5 | IO_L11N_T1_SRCC_34 | - |
+| AF6 | 33 | IO_R12P_33,GCLKIOT2_33,T1 | - | 6 | IO_L12P_T1_MRCC_34 | - |
+| AF7 | 33 | IO_R20P_33,T3 | - | 7 | IO_L20P_T3_34 | - |
+| AF8 | 33 | IO_R19P_33,T3 | - | 8 | IO_L19P_T3_34 | - |
+| AG1 | 33 | VCCIO_33 | - | 1 | VCCO_34 | - |
+| AG2 | 33 | IO_R15P_33,T2_DQS_P_33 | - | 2 | IO_L15P_T2_DQS_34 | - |
+| AG3 | 33 | IO_R9N_33,GPLL1_33_OUTN,T1_DQS_N_33 | - | 3 | IO_L9N_T1_DQS_34 | - |
+| AG4 | 33 | IO_R9P_33,GPLL1_33_OUTP,T1_DQS_P_33 | - | 4 | IO_L9P_T1_DQS_34 | - |
+| AG5 | 33 | IO_R12N_33,GCLKIOC2_33,T1 | - | 5 | IO_L12N_T1_MRCC_34 | - |
+| AG7 | 33 | IO_R20N_33,T3 | - | 7 | IO_L20N_T3_34 | - |
+| AG8 | 33 | IO_R19N_33,T3_VREF_33 | - | 8 | IO_L19N_T3_VREF_34 | - |
+| AH1 | 33 | IO_R15N_33,T2_DQS_N_33 | - | 1 | IO_L15N_T2_DQS_34 | - |
+| AH2 | 33 | IO_R16P_33,GPLL0_33_OUTP,T2 | - | 2 | IO_L16P_T2_34 | - |
+| AH4 | 33 | IO_R13P_33,GCLKIOT1_33,T2 | - | 4 | IO_L13P_T2_MRCC_34 | - |
+| AH5 | 33 | IO_R14N_33,GCLKIOC0_33,T2 | - | 5 | IO_L14N_T2_SRCC_34 | - |
+| AH6 | 33 | IO_R14P_33,GCLKIOT0_33,T2 | - | 6 | IO_L14P_T2_SRCC_34 | - |
+| AH7 | 33 | IO_R21P_33,T3_DQS_P_33 | - | 7 | IO_L21P_T3_DQS_34 | - |
+| AH8 | 33 | VCCIO_33 | - | 8 | VCCO_34 | - |
+| AJ1 | 33 | IO_R17P_33,T2 | - | 1 | IO_L17P_T2_34 | - |
+| AJ2 | 33 | IO_R16N_33,GPLL0_33_OUTN,T2 | - | 2 | IO_L16N_T2_34 | - |
+| AJ3 | 33 | IO_R18P_33,T2 | - | 3 | IO_L18P_T2_34 | - |
+| AJ4 | 33 | IO_R13N_33,GCLKIOC1_33,T2 | - | 4 | IO_L13N_T2_MRCC_34 | - |
+| AJ5 | 33 | VCCIO_33 | - | 5 | VCCO_34 | - |
+| AJ6 | 33 | IO_R22P_33,T3 | - | 6 | IO_L22P_T3_34 | - |
+| AJ7 | 33 | IO_R21N_33,T3_DQS_N_33 | - | 7 | IO_L21N_T3_DQS_34 | - |
+| AJ8 | 33 | IO_R23P_33,T3 | - | 8 | IO_L23P_T3_34 | - |
+| AK1 | 33 | IO_R17N_33,T2 | - | 1 | IO_L17N_T2_34 | - |
+| AK2 | 33 | VCCIO_33 | - | 2 | VCCO_34 | - |
+| AK3 | 33 | IO_R18N_33,T2 | - | 3 | IO_L18N_T2_34 | - |
+| AK4 | 33 | IO_R24N_33,T3 | - | 4 | IO_L24N_T3_34 | - |
+| AK5 | 33 | IO_R24P_33,T3 | - | 5 | IO_L24P_T3_34 | - |
+| AK6 | 33 | IO_R22N_33,T3 | - | 6 | IO_L22N_T3_34 | - |
+| AK8 | 33 | IO_R23N_33,T3 | - | 8 | IO_L23N_T3_34 | - |
+
+
+## IO BANK 1, 2, 3, 4, 5, 6, 7, 8, 80
+
+| 注： PH1A400的HR IO不支持连接DDR3；7K325的HR IO支持连接DDR3。 | | | XC7K325TFFG900 | | | |
+| 引脚编号 | IO BANK | 引脚说明 | 引脚编号 | IO BANK | 引脚说明 | 差异备注 |
+|----------|---------|----------|----------|---------|----------|----------|
+| R7 | 80 | REFCLKM_80 | - | 7 | MGTREFCLK0N_115 | Serdes参考时钟输入。PH1A400只支持从低序号DUAL(BANK)向高序号DUAL(BANK)的单方向时钟级联，且只支持级联一级；XC7K325T支持相邻Quad的级联，即支持Quad(n-1)\Quad(n)\Quad(n+1)之间的级联。 
+PH1A400的参考时钟输入需要外接100欧终端电阻；XC7K325T不用接100欧终端电阻。 |
+| R8 | 80 | REFCLKP_80 | - | 8 | MGTREFCLK0P_115 | - |
+| V1 | 80 | TXM1_80 | - | 1 | MGTXTXN1_115 | - |
+| V2 | 80 | TXP1_80 | - | 2 | MGTXTXP1_115 | - |
+| Y1 | 80 | TXM0_80 | - | 1 | MGTXTXN0_115 | - |
+| Y2 | 80 | TXP0_80 | - | 2 | MGTXTXP0_115 | - |
+| Y5 | 80 | RXM1_80 | - | 5 | MGTXRXN1_115 | - |
+| Y6 | 80 | RXP1_80 | - | 6 | MGTXRXP1_115 | - |
+| AA3 | 80 | RXM0_80 | - | 3 | MGTXRXN0_115 | - |
+| AA4 | 80 | RXP0_80 | - | 4 | MGTXRXP0_115 | - |
+
+
+## IO BANK 1, 2, 3, 4, 5, 6, 7, 8, 81
+
+| 注： PH1A400的HR IO不支持连接DDR3；7K325的HR IO支持连接DDR3。 | | | XC7K325TFFG900 | | | |
+| 引脚编号 | IO BANK | 引脚说明 | 引脚编号 | IO BANK | 引脚说明 | 差异备注 |
+|----------|---------|----------|----------|---------|----------|----------|
+| T1 | 81 | TXM1_81 | - | 1 | MGTXTXN3_115 | - |
+| T2 | 81 | TXP1_81 | - | 2 | MGTXTXP3_115 | - |
+| U3 | 81 | TXM0_81 | - | 3 | MGTXTXN2_115 | - |
+| U4 | 81 | TXP0_81 | - | 4 | MGTXTXP2_115 | - |
+| U7 | 81 | REFCLKM_81 | - | 7 | MGTREFCLK1N_115 | - |
+| U8 | 81 | REFCLKP_81 | - | 8 | MGTREFCLK1P_115 | - |
+| V5 | 81 | RXM1_81 | - | 5 | MGTXRXN3_115 | - |
+| V6 | 81 | RXP1_81 | - | 6 | MGTXRXP3_115 | - |
+| W3 | 81 | RXM0_81 | - | 3 | MGTXRXN2_115 | - |
+| W4 | 81 | RXP0_81 | - | 4 | MGTXRXP2_115 | - |
+
+
+## IO BANK 1, 2, 3, 4, 5, 6, 7, 8, 82
+
+| 注： PH1A400的HR IO不支持连接DDR3；7K325的HR IO支持连接DDR3。 | | | XC7K325TFFG900 | | | |
+| 引脚编号 | IO BANK | 引脚说明 | 引脚编号 | IO BANK | 引脚说明 | 差异备注 |
+|----------|---------|----------|----------|---------|----------|----------|
+| L7 | 82 | REFCLKM_82 | - | 7 | MGTREFCLK0N_116 | - |
+| L8 | 82 | REFCLKP_82 | - | 8 | MGTREFCLK0P_116 | - |
+| N3 | 82 | TXM1_82 | - | 3 | MGTXTXN1_116 | - |
+| N4 | 82 | TXP1_82 | - | 4 | MGTXTXP1_116 | - |
+| P1 | 82 | TXM0_82 | - | 1 | MGTXTXN0_116 | - |
+| P2 | 82 | TXP0_82 | - | 2 | MGTXTXP0_116 | - |
+| R3 | 82 | RXM1_82 | - | 3 | MGTXRXN1_116 | - |
+| R4 | 82 | RXP1_82 | - | 4 | MGTXRXP1_116 | - |
+| T5 | 82 | RXM0_82 | - | 5 | MGTXRXN0_116 | - |
+| T6 | 82 | RXP0_82 | - | 6 | MGTXRXP0_116 | - |
+
+
+## IO BANK 1, 2, 3, 4, 5, 6, 7, 8, 83
+
+| 注： PH1A400的HR IO不支持连接DDR3；7K325的HR IO支持连接DDR3。 | | | XC7K325TFFG900 | | | |
+| 引脚编号 | IO BANK | 引脚说明 | 引脚编号 | IO BANK | 引脚说明 | 差异备注 |
+|----------|---------|----------|----------|---------|----------|----------|
+| L3 | 83 | TXM1_83 | - | 3 | MGTXTXN3_116 | - |
+| L4 | 83 | TXP1_83 | - | 4 | MGTXTXP3_116 | - |
+| M1 | 83 | TXM0_83 | - | 1 | MGTXTXN2_116 | - |
+| M2 | 83 | TXP0_83 | - | 2 | MGTXTXP2_116 | - |
+| M5 | 83 | RXM1_83 | - | 5 | MGTXRXN3_116 | - |
+| M6 | 83 | RXP1_83 | - | 6 | MGTXRXP3_116 | - |
+| N7 | 83 | REFCLKM_83 | - | 7 | MGTREFCLK1N_116 | - |
+| N8 | 83 | REFCLKP_83 | - | 8 | MGTREFCLK1P_116 | - |
+| P5 | 83 | RXM0_83 | - | 5 | MGTXRXN2_116 | - |
+| P6 | 83 | RXP0_83 | - | 6 | MGTXRXP2_116 | - |
+
+
+## IO BANK 1, 2, 3, 4, 5, 6, 7, 8, 84
+
+| 注： PH1A400的HR IO不支持连接DDR3；7K325的HR IO支持连接DDR3。 | | | XC7K325TFFG900 | | | |
+| 引脚编号 | IO BANK | 引脚说明 | 引脚编号 | IO BANK | 引脚说明 | 差异备注 |
+|----------|---------|----------|----------|---------|----------|----------|
+| G7 | 84 | REFCLKM_84 | - | 7 | MGTREFCLK0N_117 | - |
+| G8 | 84 | REFCLKP_84 | - | 8 | MGTREFCLK0P_117 | - |
+| H5 | 84 | RXM1_84 | - | 5 | MGTXRXN1_117 | - |
+| H6 | 84 | RXP1_84 | - | 6 | MGTXRXP1_117 | - |
+| J3 | 84 | TXM1_84 | - | 3 | MGTXTXN1_117 | - |
+| J4 | 84 | TXP1_84 | - | 4 | MGTXTXP1_117 | - |
+| K1 | 84 | TXM0_84 | - | 1 | MGTXTXN0_117 | - |
+| K2 | 84 | TXP0_84 | - | 2 | MGTXTXP0_117 | - |
+| K5 | 84 | RXM0_84 | - | 5 | MGTXRXN0_117 | - |
+| K6 | 84 | RXP0_84 | - | 6 | MGTXRXP0_117 | - |
+
+
+## IO BANK 1, 2, 3, 4, 5, 6, 7, 8, 85
+
+| 注： PH1A400的HR IO不支持连接DDR3；7K325的HR IO支持连接DDR3。 | | | XC7K325TFFG900 | | | |
+| 引脚编号 | IO BANK | 引脚说明 | 引脚编号 | IO BANK | 引脚说明 | 差异备注 |
+|----------|---------|----------|----------|---------|----------|----------|
+| F1 | 85 | TXM1_85 | - | 1 | MGTXTXN3_117 | - |
+| F2 | 85 | TXP1_85 | - | 2 | MGTXTXP3_117 | - |
+| F5 | 85 | RXM1_85 | - | 5 | MGTXRXN3_117 | - |
+| F6 | 85 | RXP1_85 | - | 6 | MGTXRXP3_117 | - |
+| G3 | 85 | RXM0_85 | - | 3 | MGTXRXN2_117 | - |
+| G4 | 85 | RXP0_85 | - | 4 | MGTXRXP2_117 | - |
+| H1 | 85 | TXM0_85 | - | 1 | MGTXTXN2_117 | - |
+| H2 | 85 | TXP0_85 | - | 2 | MGTXTXP2_117 | - |
+| J7 | 85 | REFCLKM_85 | - | 7 | MGTREFCLK1N_117 | - |
+| J8 | 85 | REFCLKP_85 | - | 8 | MGTREFCLK1P_117 | - |
+
+
+## IO BANK 1, 2, 3, 4, 5, 6, 7, 8, 86
+
+| 注： PH1A400的HR IO不支持连接DDR3；7K325的HR IO支持连接DDR3。 | | | XC7K325TFFG900 | | | |
+| 引脚编号 | IO BANK | 引脚说明 | 引脚编号 | IO BANK | 引脚说明 | 差异备注 |
+|----------|---------|----------|----------|---------|----------|----------|
+| C3 | 86 | TXM1_86 | - | 3 | MGTXTXN1_118 | - |
+| C4 | 86 | TXP1_86 | - | 4 | MGTXTXP1_118 | - |
+| C7 | 86 | REFCLKM_86 | - | 7 | MGTREFCLK0N_118 | - |
+| C8 | 86 | REFCLKP_86 | - | 8 | MGTREFCLK0P_118 | - |
+| D1 | 86 | TXM0_86 | - | 1 | MGTXTXN0_118 | - |
+| D2 | 86 | TXP0_86 | - | 2 | MGTXTXP0_118 | - |
+| D5 | 86 | RXM1_86 | - | 5 | MGTXRXN1_118 | - |
+| D6 | 86 | RXP1_86 | - | 6 | MGTXRXP1_118 | - |
+| E3 | 86 | RXM0_86 | - | 3 | MGTXRXN0_118 | - |
+| E4 | 86 | RXP0_86 | - | 4 | MGTXRXP0_118 | - |
+
+
+## IO BANK 1, 2, 3, 4, 5, 6, 7, 8, 87
+
+| 注： PH1A400的HR IO不支持连接DDR3；7K325的HR IO支持连接DDR3。 | | | XC7K325TFFG900 | | | |
+| 引脚编号 | IO BANK | 引脚说明 | 引脚编号 | IO BANK | 引脚说明 | 差异备注 |
+|----------|---------|----------|----------|---------|----------|----------|
+| A3 | 87 | TXM1_87 | - | 3 | MGTXTXN3_118 | - |
+| A4 | 87 | TXP1_87 | - | 4 | MGTXTXP3_118 | - |
+| A7 | 87 | RXM1_87 | - | 7 | MGTXRXN3_118 | - |
+| A8 | 87 | RXP1_87 | - | 8 | MGTXRXP3_118 | - |
+| B1 | 87 | TXM0_87 | - | 1 | MGTXTXN2_118 | - |
+| B2 | 87 | TXP0_87 | - | 2 | MGTXTXP2_118 | - |
+| B5 | 87 | RXM0_87 | - | 5 | MGTXRXN2_118 | - |
+| B6 | 87 | RXP0_87 | - | 6 | MGTXRXP2_118 | - |
+| E7 | 87 | REFCLKM_87 | - | 7 | MGTREFCLK1N_118 | - |
+| E8 | 87 | REFCLKP_87 | - | 8 | MGTREFCLK1P_118 | - |
+
+
+## IO BANK 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30
+
+| 注： PH1A400的HR IO不支持连接DDR3；7K325的HR IO支持连接DDR3。 | | | XC7K325TFFG900 | | | |
+| 引脚编号 | IO BANK | 引脚说明 | 引脚编号 | IO BANK | 引脚说明 | 差异备注 |
+|----------|---------|----------|----------|---------|----------|----------|
+| A1 | - | GND | - | 1 | GND | - |
+| A2 | - | GND | - | 2 | GND | - |
+| A5 | - | GND | - | 5 | GND | - |
+| A6 | - | GND | - | 6 | GND | - |
+| A9 | - | GND | - | 9 | GND | - |
+| B3 | - | PHYVCCT_86 | - | 3 | MGTAVTT | - |
+| B4 | - | GND | - | 4 | GND | - |
+| B7 | - | PHYVCCA_86 | - | 7 | MGTAVCC | - |
+| B8 | - | GND | - | 8 | GND | - |
+| B9 | - | GND | - | 9 | GND | - |
+| C1 | - | GND | - | 1 | GND | - |
+| C2 | - | GND | - | 2 | GND | - |
+| C5 | - | PHYVCCT_86 | - | 5 | MGTAVTT | - |
+| C6 | - | GND | - | 6 | GND | - |
+| C9 | - | GND | - | 9 | GND | - |
+| D3 | - | PHYVCCT_86 | - | 3 | MGTAVTT | - |
+| D4 | - | GND | - | 4 | GND | - |
+| D7 | - | PHYVCCA_86 | - | 7 | MGTAVCC | - |
+| D8 | - | GND | - | 8 | GND | - |
+| D9 | - | GND | - | 9 | GND | - |
+| E1 | - | GND | - | 1 | GND | - |
+| E2 | - | GND | - | 2 | GND | - |
+| E5 | - | PHYVCCT_86 | - | 5 | MGTAVTT | - |
+| E6 | - | GND | - | 6 | GND | - |
+| E9 | - | GND | - | 9 | GND | - |
+| F3 | - | PHYVCCT_84 | - | 3 | MGTAVTT | - |
+| F4 | - | GND | - | 4 | GND | - |
+| F7 | - | PHYVCCA_86 | - | 7 | MGTAVCC | - |
+| F8 | - | GND | - | 8 | GND | - |
+| F9 | - | GND | - | 9 | GND | - |
+| G1 | - | GND | - | 1 | GND | - |
+| G2 | - | GND | - | 2 | GND | - |
+| G5 | - | PHYVCCT_84 | - | 5 | MGTAVTT | - |
+| G6 | - | GND | - | 6 | GND | - |
+| G9 | - | GND | - | 9 | GND | - |
+| H3 | - | PHYVCCT_84 | - | 3 | MGTAVTT | - |
+| H4 | - | GND | - | 4 | GND | - |
+| H7 | - | PHYVCCA_84 | - | 7 | MGTAVCC | - |
+| H8 | - | GND | - | 8 | GND | - |
+| H9 | - | GND | - | 9 | GND | - |
+| J1 | - | GND | - | 1 | GND | - |
+| J2 | - | GND | - | 2 | GND | - |
+| J5 | - | PHYVCCT_84 | - | 5 | MGTAVTT | - |
+| J6 | - | GND | - | 6 | GND | - |
+| J9 | - | GND | - | 9 | GND | - |
+| K3 | - | PHYVCCT_84 | - | 3 | MGTAVTT | - |
+| K4 | - | GND | - | 4 | GND | - |
+| K7 | - | PHYVCCA_84 | - | 7 | MGTAVCC | - |
+| K8 | - | GND | - | 8 | GND | - |
+| K9 | - | RESREF_2 | - | 9 | GND | PH1A400的SERDES参考电阻，需要通过1%精度200欧电阻下拉到地，7K325T的该引脚接GND。对于PH1A400，如果该引脚直接连接GND，Serdes功能受影响，同时会有漏电流，所以做板时必须预留电阻位置。 |
+| L1 | - | GND | - | 1 | GND | - |
+| L2 | - | GND | - | 2 | GND | - |
+| L5 | - | PHYVCCT_82 | - | 5 | MGTAVTT | - |
+| L6 | - | GND | - | 6 | GND | - |
+| L9 | - | GND | - | 9 | GND | - |
+| M3 | - | PHYVCCT_82 | - | 3 | MGTAVTT | - |
+| M4 | - | GND | - | 4 | GND | - |
+| M7 | - | PHYVCCA_82 | - | 7 | MGTAVCC | PH1A400的PHYVCCA供电电压为1.8V(1.746V-1.854V)，7K325T的MGTAVCC供电电压为1.0V(0.97V-1.03V) |
+| M8 | - | GND | - | 8 | GND | - |
+| M9 | - | GND | - | 9 | GND | - |
+| N1 | - | GND | - | 1 | GND | - |
+| N2 | - | GND | - | 2 | GND | - |
+| N5 | - | PHYVCCT_82 | - | 5 | MGTAVTT | - |
+| N6 | - | GND | - | 6 | GND | - |
+| N9 | - | GND | - | 9 | GND | - |
+| P3 | - | PHYVCCT_82 | - | 3 | MGTAVTT | - |
+| P4 | - | GND | - | 4 | GND | - |
+| P7 | - | PHYVCCA_82 | - | 7 | MGTAVCC | - |
+| P8 | - | GND | - | 8 | GND | - |
+| P9 | - | RXRECCLKM_84 | - | 9 | GND | Serdes恢复时钟输出引脚，对于PH1A400可以悬空或者直接接GND。
+而7K325该引脚接GND。如果使用PH1A400且外部接GND，则要求用户代码中不要使能恢复时钟输出功能。 |
+| R1 | - | GND | - | 1 | GND | - |
+| R2 | - | GND | - | 2 | GND | - |
+| R5 | - | PHYVCCT_82 | - | 5 | MGTAVTT | - |
+| R6 | - | GND | - | 6 | GND | - |
+| R9 | - | GND | - | 9 | GND | - |
+| T3 | - | PHYVCCT_80 | - | 3 | MGTAVTT | PH1A400的PHYVCCT供电电压为0.95V（0.92V-0.98V)，XC7K325T的MGTAVTT供电电压为1.2V(1.17V-1.23V) |
+| T4 | - | GND | - | 4 | GND | - |
+| T7 | - | PHYVCCA_80 | - | 7 | MGTVCCAUX | PH1A400无MGTVCCAUX电源，该引脚实际为PHYVCCA电源。
+PH1A400的PHYVCCA供电电压为1.8V(1.746V-1.854V)，7K325T的MGTVCCAUX供电电压为1.8V |
+| T8 | - | GND | - | 8 | GND | - |
+| U1 | - | GND | - | 1 | GND | - |
+| U2 | - | GND | - | 2 | GND | - |
+| U5 | - | PHYVCCT_80 | - | 5 | MGTAVTT | - |
+| U6 | - | GND | - | 6 | GND | - |
+| U9 | - | GND | - | 9 | GND | - |
+| V3 | - | PHYVCCT_80 | - | 3 | MGTAVTT | - |
+| V4 | - | GND | - | 4 | GND | - |
+| V7 | - | PHYVCCA_80 | - | 7 | MGTVCCAUX | - |
+| V8 | - | GND | - | 8 | GND | - |
+| V9 | - | RXRECCLKM_80 | - | 9 | GND | Serdes恢复时钟输出引脚，对于PH1A400可以悬空或者直接接GND。
+而7K325该引脚接GND。如果使用PH1A400且外部接GND，则要求用户代码中不要使能恢复时钟输出功能。 |
+| W1 | - | GND | - | 1 | GND | - |
+| W2 | - | GND | - | 2 | GND | - |
+| W5 | - | PHYVCCT_80 | - | 5 | MGTAVTT | - |
+| W6 | - | GND | - | 6 | GND | - |
+| W7 | - | NC | - | 7 | MGTAVTTRCAL_115 | - |
+| W8 | - | RESREF_1 | - | 8 | MGTRREF_115 | SERDES参考电阻，PH1A400需要通过1%精度200欧电阻下拉到地，7K325T需要通过1%精度100欧电阻上拉到电源。 |
+| W9 | - | GND | - | 9 | GND | - |
+| Y3 | - | GND | - | 3 | GND | - |
+| Y4 | - | GND | - | 4 | GND | - |
+| Y7 | - | GND | - | 7 | GND | - |
+| Y8 | - | GND | - | 8 | GND | - |
+| Y9 | - | GND | - | 9 | GND | - |
+| A14 | - | GND | - | 14 | GND | - |
+| A24 | - | GND | - | 24 | GND | - |
+| AA1 | - | GND | - | 1 | GND | - |
+| AA2 | - | GND | - | 2 | GND | - |
+| AA5 | - | GND | - | 5 | GND | - |
+| AA6 | - | GND | - | 6 | GND | - |
+| AA7 | - | GND | - | 7 | GND | - |
+| AB3 | - | GND | - | 3 | GND | - |
+| AB4 | - | GND | - | 4 | GND | - |
+| AC8 | - | GND | - | 8 | GND | - |
+| AD5 | - | GND | - | 5 | GND | - |
+| AE2 | - | GND | - | 2 | GND | - |
+| AF9 | - | GND | - | 9 | GND | - |
+| AG6 | - | GND | - | 6 | GND | - |
+| AH3 | - | GND | - | 3 | GND | - |
+| AK7 | - | GND | - | 7 | GND | - |
+| B11 | - | GND | - | 11 | GND | - |
+| B21 | - | GND | - | 21 | GND | - |
+| C10 | - | NC | - | 10 | VCCBATT_0 | PH1A400无电池引脚，ADC相关引脚,这些引脚在PH1A400封装上是NC，外部任意连接均无影响；7K325的这些引脚需要按照使用ADC的相关要求连接。 |
+| C18 | - | GND | - | 18 | GND | - |
+| C28 | - | GND | - | 28 | GND | - |
+| D15 | - | GND | - | 15 | GND | - |
+| D25 | - | GND | - | 25 | GND | - |
+| E12 | - | GND | - | 12 | GND | - |
+| E22 | - | GND | - | 22 | GND | - |
+| F19 | - | GND | - | 19 | GND | - |
+| F29 | - | GND | - | 29 | GND | - |
+| G16 | - | GND | - | 16 | GND | - |
+| G26 | - | GND | - | 26 | GND | - |
+| H13 | - | GND | - | 13 | GND | - |
+| H23 | - | GND | - | 23 | GND | - |
+| J10 | - | GND | - | 10 | GND | - |
+| J20 | - | GND | - | 20 | GND | - |
+| J30 | - | GND | - | 30 | GND | - |
+| K17 | - | GND | - | 17 | GND | - |
+| K27 | - | GND | - | 27 | GND | - |
+| L14 | - | GND | - | 14 | GND | - |
+| L24 | - | GND | - | 24 | GND | - |
+| M11 | - | VCCINT | - | 11 | VCCINT | PH1A400无VCCBRAM引脚，在封装上与VCCINT相连，供电为0.95V（0.93V-0.97V)；
+XC7K325T VCCINT/VCCBRAM供电为1.0V(0.97V-1.03V) |
+| M12 | - | GND | - | 12 | GND | - |
+| M13 | - | VCCINT | - | 13 | VCCINT | - |
+| M14 | - | GND | - | 14 | GND | - |
+| M15 | - | VCCINT | - | 15 | VCCINT | - |
+| M16 | - | GND | - | 16 | GND | - |
+| M17 | - | VCCINT | - | 17 | VCCINT | - |
+| M18 | - | GND | - | 18 | GND | - |
+| M21 | - | GND | - | 21 | GND | - |
+| N10 | - | VCCINT | - | 10 | VCCINT | - |
+| N11 | - | GND | - | 11 | GND | - |
+| N12 | - | VCCINT | - | 12 | VCCINT | - |
+| N13 | - | GND | - | 13 | GND | - |
+| N14 | - | VCCINT | - | 14 | VCCINT | - |
+| N15 | - | GND | - | 15 | GND | - |
+| N16 | - | VCCINT | - | 16 | VCCBRAM | - |
+| N17 | - | GND | - | 17 | GND | - |
+| N18 | - | VCCINT | - | 18 | VCCINT | - |
+| N28 | - | GND | - | 28 | GND | - |
+| P10 | - | RXRECCLKP_84 | - | 10 | GND | - |
+| P11 | - | VCCINT | - | 11 | VCCINT | - |
+| P12 | - | GND | - | 12 | GND | - |
+| P13 | - | VCCAUX | - | 13 | VCCAUX | PH1A400和7K325的VCCAUX供电为1.8V（1.71V-1.89V) |
+| P14 | - | NC | - | 14 | GNDADC_0 | - |
+| P15 | - | NC | - | 15 | VCCADC_0 | - |
+| P16 | - | GND | - | 16 | GND | - |
+| P17 | - | VCCINT | - | 17 | VCCINT | - |
+| P18 | - | GND | - | 18 | GND | - |
+| P25 | - | GND | - | 25 | GND | - |
+| R10 | - | VCCINT | - | 10 | VCCINT | - |
+| R11 | - | GND | - | 11 | GND | - |
+| R12 | - | VCCINT | - | 12 | VCCINT | - |
+| R13 | - | GND | - | 13 | GND | - |
+| R14 | - | NC | - | 14 | VREFN_0 | - |
+| R15 | - | NC | - | 15 | VP_0 | - |
+| R16 | - | VCCINT | - | 16 | VCCBRAM | - |
+| R17 | - | GND | - | 17 | GND | - |
+| R18 | - | VCCINT | - | 18 | VCCINT | - |
+| R22 | - | GND | - | 22 | GND | - |
+| T10 | - | GND | - | 10 | GND | - |
+| T11 | - | VCCINT | - | 11 | VCCINT | - |
+| T12 | - | GND | - | 12 | GND | - |
+| T13 | - | VCCAUX | - | 13 | VCCAUX | - |
+| T14 | - | NC | - | 14 | VN_0 | - |
+| T15 | - | NC | - | 15 | VREFP_0 | - |
+| T16 | - | GND | - | 16 | GND | - |
+| T17 | - | VCCINT | - | 17 | VCCINT | - |
+| T18 | - | GND | - | 18 | GND | - |
+| T19 | - | GND | - | 19 | GND | - |
+| T29 | - | GND | - | 29 | GND | - |
+| U10 | - | VCCINT | - | 10 | VCCINT | - |
+| U11 | - | GND | - | 11 | GND | - |
+| U12 | - | VCCINT | - | 12 | VCCINT | - |
+| U13 | - | GND | - | 13 | GND | - |
+| U14 | - | NC | - | 14 | DXN_0 | - |
+| U15 | - | NC | - | 15 | DXP_0 | - |
+| U16 | - | VCCINT | - | 16 | VCCBRAM | - |
+| U17 | - | GND | - | 17 | GND | - |
+| U18 | - | VCCINT | - | 18 | VCCINT | - |
+| U26 | - | GND | - | 26 | GND | - |
+| V10 | - | RXRECCLKP_80 | - | 10 | GND | - |
+| V11 | - | NC | - | 11 | VCCAUX_IO_G0 | PH1A400无此电源引脚，该引脚在PH1A400封装上是NC，外部任意连接均无影响; 
+7K325的该引脚需要连接电源。 |
+| V12 | - | GND | - | 12 | GND | - |
+| V13 | - | VCCAUX | - | 13 | VCCAUX | - |
+| V14 | - | GND | - | 14 | GND | - |
+| V15 | - | VCCAUX | - | 15 | VCCAUX | - |
+| V16 | - | GND | - | 16 | GND | - |
+| V17 | - | VCCINT | - | 17 | VCCINT | - |
+| V18 | - | GND | - | 18 | GND | - |
+| V23 | - | GND | - | 23 | GND | - |
+| W10 | - | NC | - | 10 | VCCAUX_IO_G0 | - |
+| W11 | - | GND | - | 11 | GND | - |
+| W12 | - | NC | - | 12 | VCCAUX_IO_G0 | - |
+| W13 | - | GND | - | 13 | GND | - |
+| W14 | - | VCCAUX | - | 14 | VCCAUX | - |
+| W15 | - | GND | - | 15 | GND | - |
+| W16 | - | VCCINT | - | 16 | VCCBRAM | - |
+| W17 | - | GND | - | 17 | GND | - |
+| W18 | - | VCCINT | - | 18 | VCCINT | - |
+| W20 | - | GND | - | 20 | GND | - |
+| W30 | - | GND | - | 30 | GND | - |
+| Y17 | - | GND | - | 17 | GND | - |
+| Y27 | - | GND | - | 27 | GND | - |
+| AA14 | - | GND | - | 14 | GND | - |
+| AA24 | - | GND | - | 24 | GND | - |
+| AB11 | - | GND | - | 11 | GND | - |
+| AB21 | - | GND | - | 21 | GND | - |
+| AC18 | - | GND | - | 18 | GND | - |
+| AC28 | - | GND | - | 28 | GND | - |
+| AD15 | - | GND | - | 15 | GND | - |
+| AD25 | - | GND | - | 25 | GND | - |
+| AE12 | - | GND | - | 12 | GND | - |
+| AE22 | - | GND | - | 22 | GND | - |
+| AF19 | - | GND | - | 19 | GND | - |
+| AF29 | - | GND | - | 29 | GND | - |
+| AG16 | - | GND | - | 16 | GND | - |
+| AG26 | - | GND | - | 26 | GND | - |
+| AH13 | - | GND | - | 13 | GND | - |
+| AH23 | - | GND | - | 23 | GND | - |
+| AJ10 | - | GND | - | 10 | GND | - |
+| AJ20 | - | GND | - | 20 | GND | - |
+| AJ30 | - | GND | - | 30 | GND | - |
+| AK17 | - | GND | - | 17 | GND | - |
+| AK27 | - | GND | - | 27 | GND | - |
