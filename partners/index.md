@@ -21,9 +21,9 @@ description: "CLDMT 合作伙伴与产品方案生态"
 
 <div class="card-grid">
   <a href="{% link partners/wtmec/index.md %}" class="card card--feature card--wtmec">
-    <div class="card-icon">🤝</div>
+    <div class="card-icon">🤲</div>
     <h3>WTMEC 产品方案</h3>
-    <p>电源管理、工业/汽车、连接/传感器、嵌入式/边缘 AI、存储/高速接口<br>全产品线方案支撑与技术协同</p>
+    <p>按 WT 文晔官网应用口径整理：工控／安防／家电、车用电子、医疗电子、电脑、网路／行动通讯、消费电子／影像／多媒体<br>面向系统设计的方案协同与选型支持</p>
     <span class="tag">了解更多 →</span>
   </a>
 </div>

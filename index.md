@@ -20,7 +20,7 @@ description: "聚焦 AI、大模型、机器人与芯片系统的工程化落地
     <span class="tag">运动控制 · 感知 · 边缘推理</span>
   </a>
   <a href="{% link core_block/chip.md %}" class="card card--feature card--chip">
-    <div class="card-icon">🔩</div>
+    <div class="card-icon">🧩</div>
     <h3>芯片系统方案</h3>
     <p>FPGA/SoC 方案设计、硬件选型、PCB 落地、安路主线合作技术支撑</p>
     <span class="tag">FPGA · SoC · PCB · 安路主线</span>
@@ -31,9 +31,9 @@ description: "聚焦 AI、大模型、机器人与芯片系统的工程化落地
 
 <div class="card-grid">
   <a href="{% link blog/index.md %}" class="card card--feature">
-    <div class="card-icon">📚</div>
+    <div class="card-icon">📝</div>
     <h3>CLDMT 技术博客</h3>
-    <p>FPGA 硬件设计、选型指南、开发工具、引脚对比<br>覆盖 Anlogic · Xilinx 技术专栏</p>
+    <p>FPGA 硬件设计、选型指南、开发工具、引脚对比<br>覆盖 Anlogic 与 Xilinx 技术专题</p>
     <span class="tag">进入博客 →</span>
   </a>
 </div>
@@ -42,9 +42,9 @@ description: "聚焦 AI、大模型、机器人与芯片系统的工程化落地
 
 <div class="card-grid">
   <a href="{% link partners/index.md %}" class="card card--feature card--wtmec">
-    <div class="card-icon">🤝</div>
+    <div class="card-icon">🤲</div>
     <h3>合作生态</h3>
-    <p>WTMEC 产品方案 — 电源管理、工业/汽车、连接/传感器、嵌入式/边缘 AI、存储/高速接口<br>全产品线方案支撑与技术协同</p>
+    <p>WTMEC 产品方案 — 工控／安防／家电、车用电子、医疗电子、电脑、网路／行动通讯、消费电子／影像／多媒体<br>面向终端应用的方案协同与器件选型支持</p>
     <span class="tag">了解更多 →</span>
   </a>
 </div>
@@ -53,15 +53,15 @@ description: "聚焦 AI、大模型、机器人与芯片系统的工程化落地
 
 <div class="card-grid">
   <div class="card card--accent-left">
-    <h3>🏗️ 从方案到量产</h3>
-    <p>覆盖芯片选型 → 原理图 → PCB → 固件 → 系统集成完整链路</p>
+    <h3>从方案到量产</h3>
+    <p>覆盖芯片选型、原理图、PCB、固件与系统集成的完整工程链路。</p>
   </div>
   <div class="card card--accent-left">
-    <h3>🧩 AI + 硬件深度融合</h3>
-    <p>大模型推理加速、FPGA 预处理、边缘端 AI 落地一体化</p>
+    <h3>AI + 硬件深度融合</h3>
+    <p>大模型推理加速、FPGA 预处理、边缘端 AI 落地一体化。</p>
   </div>
   <div class="card card--accent-left">
-    <h3>🔗 产业链协同</h3>
-    <p>安路主线合作 + WTMEC 产品方案 + Xilinx 生态，多线并行</p>
+    <h3>产业链协同</h3>
+    <p>安路主线合作、WTMEC 产品方案与 Xilinx 生态并行，支持多路线系统设计。</p>
   </div>
 </div>
