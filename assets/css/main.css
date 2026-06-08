@@ -215,6 +215,7 @@ ul, ol { padding-left: 1.5em; }
 .card--ai      { border-top: 4px solid #e040fb; border-left: none; }
 .card--robot   { border-top: 4px solid #00e5ff; border-left: none; }
 .card--chip    { border-top: 4px solid #ffab40; border-left: none; }
+.card--insurance { border-top: 4px solid #7bd389; border-left: none; }
 
 .card h3 {
   font-size: 1.1rem;
@@ -382,6 +383,27 @@ a.card:hover h3 { color: var(--c-accent); }
   border: none;
   border-top: 1px solid var(--c-border);
   margin: 2rem 0;
+}
+
+.button-link {
+  display: inline-block;
+  margin-top: .9rem;
+  padding: .55rem 1rem;
+  border-radius: 999px;
+  background: linear-gradient(135deg, #1f8f72 0%, #57c785 100%);
+  color: #fff !important;
+  font-size: .85rem;
+  font-weight: 700;
+  box-shadow: var(--shadow-s);
+}
+.button-link:hover {
+  color: #fff !important;
+  box-shadow: var(--shadow-m);
+}
+.insurance-tip {
+  font-size: .82rem;
+  color: var(--c-text-2);
+  margin-top: .65rem;
 }
 
 /* ========== Back Nav ========== */

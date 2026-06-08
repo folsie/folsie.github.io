@@ -25,6 +25,12 @@ description: "聚焦 AI、大模型、机器人与芯片系统的工程化落地
     <p>FPGA/SoC 方案设计、硬件选型、PCB 落地、安路主线合作技术支撑</p>
     <span class="tag">FPGA · SoC · PCB · 安路主线</span>
   </a>
+  <a href="{% link core_block/insurance.md %}" class="card card--feature card--insurance">
+    <div class="card-icon">🛡️</div>
+    <h3>保险保障规划</h3>
+    <p>家庭保障、医疗保障、定期寿险、重疾保障与长期配置咨询，帮助你先把风险底座搭稳</p>
+    <span class="tag">医疗险 · 意外险 · 定寿 · 重疾险</span>
+  </a>
 </div>
 
 <h2 class="section-title">技术博客</h2>
