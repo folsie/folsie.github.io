@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 900" role="img" aria-labelledby="title desc">
+  <title id="title">保险收益率主题图</title>
+  <desc id="desc">展示利率走势与保险配置主题的抽象插画</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#08151b"/>
+      <stop offset="55%" stop-color="#16352c"/>
+      <stop offset="100%" stop-color="#1d2440"/>
+    </linearGradient>
+    <linearGradient id="line1" x1="0" y1="1" x2="1" y2="0">
+      <stop offset="0%" stop-color="#7bd389"/>
+      <stop offset="100%" stop-color="#ffd166"/>
+    </linearGradient>
+  </defs>
+  <rect width="1600" height="900" fill="url(#bg)"/>
+  <circle cx="1280" cy="160" r="180" fill="#7bd389" opacity=".15"/>
+  <circle cx="280" cy="740" r="220" fill="#67c3ff" opacity=".10"/>
+  <rect x="110" y="130" width="1380" height="640" rx="36" fill="#0d1b23" opacity=".74" stroke="#5ed18a" stroke-opacity=".18"/>
+  <g opacity=".16">
+    <path d="M160 620H1440" stroke="#d7fff0" stroke-width="4"/>
+    <path d="M160 510H1440" stroke="#d7fff0" stroke-width="4"/>
+    <path d="M160 400H1440" stroke="#d7fff0" stroke-width="4"/>
+    <path d="M160 290H1440" stroke="#d7fff0" stroke-width="4"/>
+  </g>
+  <path d="M180 605 C320 520, 460 570, 620 455 S930 365, 1080 290 S1310 225, 1420 180" fill="none" stroke="url(#line1)" stroke-width="18" stroke-linecap="round"/>
+  <g fill="#7bd389">
+    <circle cx="180" cy="605" r="16"/>
+    <circle cx="620" cy="455" r="16"/>
+    <circle cx="1080" cy="290" r="16"/>
+    <circle cx="1420" cy="180" r="16"/>
+  </g>
+  <g>
+    <rect x="210" y="210" width="280" height="140" rx="24" fill="#0f2a24" stroke="#7bd389" stroke-opacity=".3"/>
+    <text x="250" y="270" fill="#f6fff8" font-size="36" font-family="Segoe UI, Microsoft YaHei, sans-serif">收益率观察</text>
+    <text x="250" y="315" fill="#ccefd5" font-size="24" font-family="Segoe UI, Microsoft YaHei, sans-serif">利率变化 · 定价环境 · 分红实现率</text>
+  </g>
+</svg>

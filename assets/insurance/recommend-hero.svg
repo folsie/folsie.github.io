@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 900" role="img" aria-labelledby="title desc">
+  <title id="title">保险推荐主题图</title>
+  <desc id="desc">展示四类推荐险种的抽象插画</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#1a0d1d"/>
+      <stop offset="55%" stop-color="#251432"/>
+      <stop offset="100%" stop-color="#0f3129"/>
+    </linearGradient>
+  </defs>
+  <rect width="1600" height="900" fill="url(#bg)"/>
+  <circle cx="1370" cy="180" r="170" fill="#ffd166" opacity=".14"/>
+  <circle cx="270" cy="780" r="210" fill="#ff80ab" opacity=".12"/>
+  <g transform="translate(200 180)">
+    <rect width="1220" height="520" rx="34" fill="#111825" opacity=".84" stroke="#7bd389" stroke-opacity=".2"/>
+    <g transform="translate(80 80)">
+      <rect width="220" height="150" rx="24" fill="#2b1a32" stroke="#ff80ab" stroke-opacity=".3"/>
+      <text x="52" y="88" fill="#fff2f7" font-size="34" font-family="Segoe UI, Microsoft YaHei, sans-serif">意外险</text>
+    </g>
+    <g transform="translate(350 80)">
+      <rect width="220" height="150" rx="24" fill="#163029" stroke="#7bd389" stroke-opacity=".3"/>
+      <text x="52" y="88" fill="#f0fff4" font-size="34" font-family="Segoe UI, Microsoft YaHei, sans-serif">医疗险</text>
+    </g>
+    <g transform="translate(620 80)">
+      <rect width="220" height="150" rx="24" fill="#1c243b" stroke="#67c3ff" stroke-opacity=".3"/>
+      <text x="40" y="88" fill="#eef7ff" font-size="34" font-family="Segoe UI, Microsoft YaHei, sans-serif">定期寿险</text>
+    </g>
+    <g transform="translate(890 80)">
+      <rect width="220" height="150" rx="24" fill="#312714" stroke="#ffd166" stroke-opacity=".34"/>
+      <text x="52" y="88" fill="#fff8e3" font-size="34" font-family="Segoe UI, Microsoft YaHei, sans-serif">重疾险</text>
+    </g>
+    <text x="80" y="330" fill="#ffffff" font-size="52" font-family="Segoe UI, Microsoft YaHei, sans-serif">从四个高频入口开始，搭你的保障底座</text>
+    <text x="80" y="390" fill="#d3ead8" font-size="30" font-family="Segoe UI, Microsoft YaHei, sans-serif">适合谁 · 解决什么问题 · 为什么值得先看</text>
+  </g>
+</svg>
