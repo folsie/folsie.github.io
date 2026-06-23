@@ -2,47 +2,12 @@
 title: "MIPI_Selection_Table_UG"
 subtitle: "2026.01.22"
 embed-resources: true
-toc: true
-toc-depth: 6
-toc-location: left
+sidebar_toc: mipi-selection
 ---
 
-# 基于Anlogic的MIPI使用教程
-
-
-<!-- TOC -->
-
-- [基于Anlogic的MIPI使用教程](#基于anlogic的mipi使用教程)
-  - [1. 概述总览](#1-概述总览)
-    - [TX\_CSI](#tx_csi)
-    - [TX\_DSI](#tx_dsi)
-    - [RX\_CSI](#rx_csi)
-    - [RX\_DSI](#rx_dsi)
-  - [电阻网络硬件设计](#电阻网络硬件设计)
-    - [TX：    HS：LVDS18/25--LP：LVCMOS12](#tx----hslvds1825--lplvcmos12)
-    - [TX：    HS：LVDS18/25--LP：LVCMOS15/18/25](#tx----hslvds1825--lplvcmos151825)
-    - [TX：    HS：SSTL12--LP：LVCMOS12](#tx----hssstl12--lplvcmos12)
-    - [TX：    HS：SSTL12-- LP：LVCMOS151825](#tx----hssstl12---lplvcmos151825)
-    - [RX：    HS：LVDS18/25--LP：LVCMOS12/15](#rx----hslvds1825--lplvcmos1215)
-  - [工程设置](#工程设置)
-    - [MIPI硬核](#mipi硬核)
-      - [时钟树设置](#时钟树设置)
-      - [MIPI硬核资源选择](#mipi硬核资源选择)
-      - [接口和引脚设置](#接口和引脚设置)
-      - [移植注意事项](#移植注意事项)
-    - [MIPI IO电平](#mipi-io电平)
-      - [时钟树设置](#时钟树设置-1)
-      - [接口和引脚设置](#接口和引脚设置-1)
-    - [MIPI LVDS电阻网络](#mipi-lvds电阻网络)
-      - [时钟树设置](#时钟树设置-2)
-      - [接口和引脚设置](#接口和引脚设置-2)
-      - [移植注意事项](#移植注意事项-1)
-- [技术支持](#技术支持)
-
-<!-- /TOC -->
-
-
 ## 1. 概述总览
+
+> 本文按传输方向、物理层实现方式和工程配置整理 Anlogic FPGA 的 MIPI 选型信息。可通过左侧目录在选型表、硬件连接和工程设置之间快速定位。
 
 
 - 总体来说,所有 Anlogic FPGA 系列均可实现 MIPI 传输功能。
@@ -122,9 +87,7 @@ toc-location: left
 
 ### TX_DSI
 
-- 凡是电阻网络去跑 当 LP接口设置 LVCMOS15/18/25 电平时,存在下面问题：
-	- PN之间有对地电阻,在进行LP反向传输的时候LP信号有可能异常,无法支持DSI协议中的LP反向数据传输
-	- CSI无影响
+> **兼容性提示：** 凡是电阻网络去跑，当 LP 接口设置 LVCMOS15/18/25 电平时，PN 之间有对地电阻；在进行 LP 反向传输时，LP 信号有可能异常，无法支持 DSI 协议中的 LP 反向数据传输。CSI 无影响。
 
 | 器件系列   		| 物理层类型   		| 电平类型                          	| 功能限制 	| 速率上限	| 外部电路  		|
 | ----------------	| ---------- 		| ----------------------------- 		| ---- 		| --------	| ----------- 		|
@@ -163,8 +126,7 @@ toc-location: left
 
 ### RX_CSI
 
-
-- 100欧端接无法动态开关,PN之间有100欧负载,LP信号在LP01/LP10时无法正常拉高或者拉低,LP数据接收异常,无法支持DSI协议中的LP数据传输,CSI协议无影响
+> **兼容性提示：** 100 欧端接无法动态开关，PN 之间有 100 欧负载；LP 信号在 LP01/LP10 时无法正常拉高或者拉低，LP 数据接收异常，无法支持 DSI 协议中的 LP 数据传输。CSI 协议无影响。
 
 | 器件系列   		| 物理层类型   		| 电平类型                          	| 功能限制 	| 速率上限	| 外部电路  		|
 | ----------------	| ---------- 		| ----------------------------- 		| ---- 		| --------	| ----------- 		|
@@ -218,40 +180,38 @@ toc-location: left
 
 ### TX：    HS：LVDS18/25--LP：LVCMOS12
 
+<figure class="mipi-figure">
+  <img src="../../../pic/MIPI/tx_hs_lvds1825_lp_lvcmos12.png" alt="TX：HS 为 LVDS18/25，LP 为 LVCMOS12 的连接示意图">
+  <figcaption>TX：HS 为 LVDS18/25，LP 为 LVCMOS12</figcaption>
+</figure>
 
-   - ![](../../pic/MIPI/tx_hs_lvds1825_lp_lvcmos12.png)
-   
-   
 ### TX：    HS：LVDS18/25--LP：LVCMOS15/18/25
 
-
-   - ![](../../pic/MIPI/tx_hs_lvds1825_lp_lvcmos151825.png)
-   
-   
-
+<figure class="mipi-figure">
+  <img src="../../../pic/MIPI/tx_hs_lvds1825_lp_lvcmos151825.png" alt="TX：HS 为 LVDS18/25，LP 为 LVCMOS15/18/25 的连接示意图">
+  <figcaption>TX：HS 为 LVDS18/25，LP 为 LVCMOS15/18/25</figcaption>
+</figure>
 
 ### TX：    HS：SSTL12--LP：LVCMOS12
 
-
-   - ![](../../pic/MIPI/tx_hs_sstl12_lp_lvcmos12.png)
-   
-   
-
+<figure class="mipi-figure">
+  <img src="../../../pic/MIPI/tx_hs_sstl12_lp_lvcmos12.png" alt="TX：HS 为 SSTL12，LP 为 LVCMOS12 的连接示意图">
+  <figcaption>TX：HS 为 SSTL12，LP 为 LVCMOS12</figcaption>
+</figure>
 
 ### TX：    HS：SSTL12-- LP：LVCMOS151825
 
-
-   - ![](../../pic/MIPI/tx_hs_sstl12_lp_lvcmos151825.png)
-
-
+<figure class="mipi-figure">
+  <img src="../../../pic/MIPI/tx_hs_sstl12_lp_lvcmos151825.png" alt="TX：HS 为 SSTL12，LP 为 LVCMOS15/18/25 的连接示意图">
+  <figcaption>TX：HS 为 SSTL12，LP 为 LVCMOS15/18/25</figcaption>
+</figure>
 
 ### RX：    HS：LVDS18/25--LP：LVCMOS12/15
 
-
-   - ![](../../pic/MIPI/rx_hs_lvds1825_lp_lvcmos1215.png)
-
-
-
+<figure class="mipi-figure">
+  <img src="../../../pic/MIPI/rx_hs_lvds1825_lp_lvcmos1215.png" alt="RX：HS 为 LVDS18/25，LP 为 LVCMOS12/15 的连接示意图">
+  <figcaption>RX：HS 为 LVDS18/25，LP 为 LVCMOS12/15</figcaption>
+</figure>
 
 
 ## 工程设置 
@@ -263,23 +223,25 @@ toc-location: left
 - 用到的原语 PH1P_LOGIC_DPHY_MIPI_TX 和 PH1P_LOGIC_DPHY_MIPI_RX 
 - UG1310 并没有对这两个原语做过多说明
 
-####  时钟树设置 
-
-
-
 ####  MIPI硬核资源选择
 
 - 以PH1P35举例 有两组MIPI硬核 ,硬核可以做RX或者TX,可做CSI或者DSI , 在原语的顶层设置 DPHY0 或者 DPHY1 进行配置
 
 
-    - ![](../../pic/MIPI/MIPI硬核资源选择.png)
+<figure class="mipi-figure">
+  <img src="../../../pic/MIPI/MIPI硬核资源选择.png" alt="MIPI 硬核资源选择示意图">
+  <figcaption>MIPI 硬核资源选择</figcaption>
+</figure>
 
 ####  接口和引脚设置
 
 - 在工程的top文件中,要对MIPI的5组信号进行声明
 - 在对应的adc引脚约束文件中,不需要对MIPI硬核管教进行定义
 
-    - ![](../../pic/MIPI/MIPI硬核引脚设置.png)
+<figure class="mipi-figure">
+  <img src="../../../pic/MIPI/MIPI硬核引脚设置.png" alt="MIPI 硬核引脚设置示意图">
+  <figcaption>MIPI 硬核引脚设置</figcaption>
+</figure>
 
 
 #### 移植注意事项
@@ -308,12 +270,12 @@ toc-location: left
   -  MIPI的 数据 P和N端都得声明
   -  本质上是芯片的pad内置了电阻网络
   
-- ![](../../pic/MIPI/MIPI_IO电平引脚设置.png)
+<figure class="mipi-figure">
+  <img src="../../../pic/MIPI/MIPI_IO电平引脚设置.png" alt="MIPI IO 电平引脚设置示意图">
+  <figcaption>MIPI IO 电平引脚设置</figcaption>
+</figure>
 
 ### MIPI LVDS电阻网络 
-
-####  时钟树设置 
-
 
 ####  接口和引脚设置
 
@@ -323,7 +285,10 @@ toc-location: left
 	- LVDS的接口只需设置P端，LVCMOS的接口PN端都得设置 一对MIPI得占用4个管脚
 	
 	
-    - ![](../../pic/MIPI/MIPI_LVDS引脚设置.png)
+<figure class="mipi-figure">
+  <img src="../../../pic/MIPI/MIPI_LVDS引脚设置.png" alt="MIPI LVDS 电阻网络引脚设置示意图">
+  <figcaption>MIPI LVDS 电阻网络引脚设置</figcaption>
+</figure>
 
 
 #### 移植注意事项
@@ -335,7 +300,7 @@ toc-location: left
 
 
 
-# 技术支持
+## 技术支持
 
 - 安路科技官网: https://www.anlogic.com
 - 技术支持邮箱: folsie.zhao@wtmec.com

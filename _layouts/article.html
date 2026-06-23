@@ -19,25 +19,32 @@ layout: default
     <span class="sep">/</span>
     <span>{{ page.title }}</span>
   </nav>
-  <article>
-    <header class="article-header">
-      <h1>{{ page.title }}</h1>
-      {% if page.subtitle or page.last_updated or page.tags %}
-      <div class="article-meta">
-        {% if page.subtitle %}<span>{{ page.subtitle }}</span>{% endif %}
-        {% if page.last_updated %}<span> · 更新于 {{ page.last_updated }}</span>{% endif %}
-        {% if page.tags %}
-        <div class="article-tags">
-          {% for tag in page.tags %}<span class="tag">{{ tag }}</span> {% endfor %}
+  <div class="article-layout{% if page.sidebar_toc == 'mipi-selection' %} article-layout--mipi{% endif %}">
+    {% if page.sidebar_toc == 'mipi-selection' %}
+    <aside class="mipi-toc-wrap">
+      {% include mipi-selection-toc.html %}
+    </aside>
+    {% endif %}
+    <article{% if page.sidebar_toc == 'mipi-selection' %} class="mipi-article"{% endif %}>
+      <header class="article-header">
+        <h1>{{ page.title }}</h1>
+        {% if page.subtitle or page.last_updated or page.tags %}
+        <div class="article-meta">
+          {% if page.subtitle %}<span>{{ page.subtitle }}</span>{% endif %}
+          {% if page.last_updated %}<span> · 更新于 {{ page.last_updated }}</span>{% endif %}
+          {% if page.tags %}
+          <div class="article-tags">
+            {% for tag in page.tags %}<span class="tag">{{ tag }}</span> {% endfor %}
+          </div>
+          {% endif %}
         </div>
         {% endif %}
+      </header>
+      <div class="article-content">
+        {{ content }}
       </div>
-      {% endif %}
-    </header>
-    <div class="article-content">
-      {{ content }}
-    </div>
-  </article>
+    </article>
+  </div>
   <nav class="back-nav">
     <a href="{{ '/' | relative_url }}">🏠 返回首页</a>
     {% if page.section == "partners" %}
