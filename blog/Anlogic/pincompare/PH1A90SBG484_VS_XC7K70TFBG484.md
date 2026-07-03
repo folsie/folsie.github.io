@@ -1,6 +1,6 @@
 ---
 title: "PH1A90SBG484  VS   XC7K70TFBG484 Pinout Table"
-subtitle: "2026.04.09"
+publish_date: "2026-04-09"
 embed-resources: true
 toc: true
 toc-depth: 6

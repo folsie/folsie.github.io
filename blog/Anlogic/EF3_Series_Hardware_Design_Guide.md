@@ -1,6 +1,6 @@
 ---
 title: "EF3系列硬件设计指导"
-subtitle: "2026.01.16"
+publish_date: "2026-01-16"
 embed-resources: true
 toc: true
 toc-depth: 6

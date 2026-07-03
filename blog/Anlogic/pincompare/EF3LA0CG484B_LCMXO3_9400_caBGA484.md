@@ -1,6 +1,6 @@
 ---
 title: "EF3LA0CG484B & LCMXO3 9400 caBGA484 Pinout Table"
-subtitle: "2026.04.09"
+publish_date: "2026-04-09"
 embed-resources: true
 toc: true
 toc-depth: 6

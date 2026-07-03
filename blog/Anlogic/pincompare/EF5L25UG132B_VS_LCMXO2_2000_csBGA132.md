@@ -1,6 +1,6 @@
 ---
 title: "EF5L25UG132B VS LCMXO2 2000 csBGA132 Pinout Table"
-subtitle: "2026.04.09"
+publish_date: "2026-04-09"
 embed-resources: true
 toc: true
 toc-depth: 6

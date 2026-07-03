@@ -1,6 +1,6 @@
 ---
 title: "EF3L40 VS XO2 4000 caBGA332 Pinout Table"
-subtitle: "2026.04.09"
+publish_date: "2026-04-09"
 embed-resources: true
 toc: true
 toc-depth: 6

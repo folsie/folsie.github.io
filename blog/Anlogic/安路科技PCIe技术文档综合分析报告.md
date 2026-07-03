@@ -1,4 +1,6 @@
 ---
+title: "安路科技PCIe技术文档综合分析报告"
+publish_date: "2026-04-20"
 marp: true
 theme: default
 paginate: true

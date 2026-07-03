@@ -1,6 +1,6 @@
 ---
 title: "EG4系列硬件设计指南"
-subtitle: "2026.01.22"
+publish_date: "2026-01-22"
 embed-resources: true
 toc: true
 toc-depth: 6

@@ -1,6 +1,6 @@
 ---
 title: "PH2A106FLG900  VS  XCKU5PFFVD900 Pinout Table"
-subtitle: "2026.04.09"
+publish_date: "2026-04-09"
 embed-resources: true
 toc: true
 toc-depth: 6

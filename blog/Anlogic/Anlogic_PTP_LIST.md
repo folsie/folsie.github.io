@@ -1,3 +1,8 @@
+---
+title: "Anlogic PTP 对比文档列表"
+publish_date: "2026-04-01"
+---
+
 # Anlogic PTP 对比文档列表
 
 - [AL3A10_VS_EP4CE10_BGA256](pincompare/AL3A10_VS_EP4CE10_BGA256.md)

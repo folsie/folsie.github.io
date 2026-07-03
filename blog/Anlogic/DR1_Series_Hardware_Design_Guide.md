@@ -1,5 +1,6 @@
 ---
 title: "DR1系列FPSoC硬件设计指南"
+publish_date: "2026-01-22"
 subtitle: "完整硬件设计规范"
 embed-resources: true
 toc: true

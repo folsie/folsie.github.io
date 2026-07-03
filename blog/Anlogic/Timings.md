@@ -1,6 +1,6 @@
 ---
 title: "安路时序约束及分析"
-subtitle: "2026.01.22"
+publish_date: "2026-01-22"
 embed-resources: true
 toc: true
 toc-depth: 6

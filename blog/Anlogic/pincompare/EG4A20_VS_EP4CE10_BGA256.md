@@ -1,6 +1,6 @@
 ---
 title: "EG4A20 VS EP4CE10 BGA256 Pinout Table"
-subtitle: "2026.04.09"
+publish_date: "2026-04-09"
 embed-resources: true
 toc: true
 toc-depth: 6

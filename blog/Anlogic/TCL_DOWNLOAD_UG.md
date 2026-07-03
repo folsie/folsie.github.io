@@ -1,5 +1,6 @@
 ---
 title: "TCL下载脚本使用指南"
+publish_date: "2026-02-04"
 subtitle: "自动化下载工具完整教程"
 date: "2026-02-04"
 version: "4.0"

@@ -1,6 +1,6 @@
 ---
 title: "Anlogic_Softwre_Error_warnings_summary"
-subtitle: "2026.03.01"
+publish_date: "2026-03-01"
 embed-resources: true
 toc: true
 toc-depth: 6

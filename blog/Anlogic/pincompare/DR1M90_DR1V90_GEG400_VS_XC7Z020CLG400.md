@@ -1,6 +1,6 @@
 ---
 title: "DR1M90(DR1V90 )GEG400 VS XC7Z020CLG400 Pinout Table"
-subtitle: "2026.04.09"
+publish_date: "2026-04-09"
 embed-resources: true
 toc: true
 toc-depth: 6

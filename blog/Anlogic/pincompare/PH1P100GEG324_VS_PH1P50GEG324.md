@@ -1,6 +1,6 @@
 ---
 title: "PH1P100GEG324 VS PH1P50GEG324 Pinout Table"
-subtitle: "2026.04.09"
+publish_date: "2026-04-09"
 embed-resources: true
 toc: true
 toc-depth: 6

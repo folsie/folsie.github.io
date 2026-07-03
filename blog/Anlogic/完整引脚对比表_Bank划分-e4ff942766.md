@@ -1,6 +1,6 @@
 ---
 title: "Anlogic_Complete_PartNumber_Selection_Table"
-subtitle: "2026.01.20"
+publish_date: "2026-01-20"
 embed-resources: true
 toc: true
 toc-depth: 6

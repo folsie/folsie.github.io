@@ -1,5 +1,6 @@
 ---
 title: "Flash选型指南"
+publish_date: "2026-02-05"
 subtitle: ""
 date: "2026-02-05"
 version: "5.0"

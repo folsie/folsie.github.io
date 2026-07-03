@@ -1,6 +1,6 @@
 ---
 title: "EF4系列硬件设计指导"
-subtitle: "2026.01.20"
+publish_date: "2026-01-20"
 embed-resources: true
 toc: true
 toc-depth: 6

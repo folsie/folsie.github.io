@@ -1,6 +1,6 @@
 ---
 title: "Anlogic_DownCable_UG"
-subtitle: "2026.03.28"
+publish_date: "2026-03-28"
 embed-resources: true
 toc: true
 toc-depth: 6

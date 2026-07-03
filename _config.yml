@@ -7,6 +7,7 @@ permalink: pretty
 blog_url: "/blog/"
 partners_url: "/partners/"
 core_url: "/core_block/"
+goatcounter_code: "cldmt"
 
 markdown: kramdown
 kramdown:

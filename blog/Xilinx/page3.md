@@ -1,6 +1,6 @@
 ---
 title: " 广告位待租 "
-subtitle:  "2026.01.01"
+publish_date: "2026-01-01"
 embed-resources: true
 ---
 
