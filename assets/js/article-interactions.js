@@ -74,7 +74,6 @@
   function initToc(articleRoot, content) {
     var tocPanel = articleRoot.querySelector("[data-article-toc-panel]");
     var tocNav = articleRoot.querySelector("[data-article-toc]");
-    var pinButton = articleRoot.querySelector("[data-toc-pin]");
     var closeButton = articleRoot.querySelector("[data-toc-close]");
     var reopenButton = articleRoot.parentElement.querySelector("[data-toc-reopen]");
     var sidebar = articleRoot.querySelector("[data-article-sidebar]");
@@ -151,15 +150,10 @@
       window.addEventListener("scroll", updateActiveHeading, { passive: true });
     }
 
-    function setPinned(pinned) {
-      tocPanel.classList.toggle("article-toc-panel--sticky", pinned);
-      pinButton.setAttribute("aria-pressed", pinned ? "true" : "false");
-      pinButton.textContent = pinned ? "\u53d6\u6d88\u56fa\u5b9a" : "\u56fa\u5b9a\u76ee\u5f55";
-    }
-
     function openPanel() {
       sidebar.hidden = false;
       tocPanel.hidden = false;
+      document.body.classList.remove("body--toc-closed");
       if (reopenButton) {
         reopenButton.hidden = true;
       }
@@ -168,18 +162,13 @@
     function closePanel() {
       sidebar.hidden = true;
       tocPanel.hidden = true;
+      document.body.classList.add("body--toc-closed");
       if (reopenButton) {
         reopenButton.hidden = false;
       }
     }
 
-    setPinned(true);
     setActiveHeading(headings[0].id);
-
-    pinButton.addEventListener("click", function () {
-      var isPinned = pinButton.getAttribute("aria-pressed") === "true";
-      setPinned(!isPinned);
-    });
 
     closeButton.addEventListener("click", closePanel);
 
@@ -271,7 +260,7 @@
     });
   }
 
-  function initStars(content) {
+  function initStars() {
     if (window.matchMedia("(prefers-reduced-motion: reduce)").matches) {
       return;
     }
@@ -283,35 +272,77 @@
     var layer = document.createElement("div");
     layer.className = "article-sparkle-layer";
     document.body.appendChild(layer);
+    var starCount = 8;
+    var centerX = window.innerWidth / 2;
+    var centerY = window.innerHeight / 2;
+    var targetX = centerX;
+    var targetY = centerY;
+    var visible = false;
+    var stars = [];
+    var orbitOffsets = [0, 0.78, 1.57, 2.35, 3.14, 3.92, 4.71, 5.49];
 
-    var activeCount = 0;
-    var maxStars = 24;
-    var lastTime = 0;
-
-    function spawnStar(event) {
-      var now = performance.now();
-      if (now - lastTime < 48 || activeCount >= maxStars) {
-        return;
-      }
-      lastTime = now;
-
+    for (var index = 0; index < starCount; index += 1) {
       var star = document.createElement("span");
-      star.className = "article-sparkle";
-      star.style.left = event.clientX + "px";
-      star.style.top = event.clientY + "px";
-      star.style.setProperty("--sparkle-x", (Math.random() * 32 - 16).toFixed(1) + "px");
-      star.style.setProperty("--sparkle-y", (-24 - Math.random() * 20).toFixed(1) + "px");
-      star.style.setProperty("--sparkle-rotate", (Math.random() * 50 - 25).toFixed(1) + "deg");
+      star.className = "article-sparkle article-sparkle--orbit";
+      star.style.setProperty("--orbit-scale", (0.8 + (index % 3) * 0.12).toFixed(2));
       layer.appendChild(star);
-      activeCount += 1;
-
-      star.addEventListener("animationend", function () {
-        star.remove();
-        activeCount -= 1;
-      });
+      stars.push(star);
     }
 
-    content.addEventListener("mousemove", spawnStar);
+    function setVisible(nextVisible) {
+      visible = nextVisible;
+      layer.classList.toggle("is-visible", nextVisible);
+    }
+
+    function updateTarget(clientX, clientY) {
+      targetX = clientX;
+      targetY = clientY;
+      if (!visible) {
+        centerX = clientX;
+        centerY = clientY;
+      }
+      setVisible(true);
+    }
+
+    function tick(time) {
+      centerX += (targetX - centerX) * 0.18;
+      centerY += (targetY - centerY) * 0.18;
+
+      for (var index = 0; index < stars.length; index += 1) {
+        var angle = time * 0.0018 + orbitOffsets[index];
+        var radiusX = 18 + (index % 2) * 8;
+        var radiusY = 12 + (index % 3) * 6;
+        var x = centerX + Math.cos(angle) * radiusX;
+        var y = centerY + Math.sin(angle * 1.15) * radiusY;
+        var rotation = angle * 90;
+        stars[index].style.transform = "translate3d(" + x.toFixed(1) + "px," + y.toFixed(1) + "px,0) rotate(" + rotation.toFixed(1) + "deg) scale(var(--orbit-scale))";
+      }
+
+      window.requestAnimationFrame(tick);
+    }
+
+    document.addEventListener("pointermove", function (event) {
+      updateTarget(event.clientX, event.clientY);
+    }, { passive: true });
+
+    document.addEventListener("pointerleave", function () {
+      setVisible(false);
+    });
+
+    window.addEventListener("blur", function () {
+      setVisible(false);
+    });
+
+    window.addEventListener("resize", function () {
+      if (!visible) {
+        centerX = window.innerWidth / 2;
+        centerY = window.innerHeight / 2;
+        targetX = centerX;
+        targetY = centerY;
+      }
+    });
+
+    window.requestAnimationFrame(tick);
   }
 
   function initVisitCount(articleRoot) {
@@ -390,7 +421,7 @@
 
     initToc(articleRoot, content);
     initLightbox(articleRoot, content);
-    initStars(content);
+    initStars();
     initVisitCount(articleRoot);
   });
 })();
