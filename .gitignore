@@ -1,0 +1,8 @@
+_site/
+.jekyll-cache/
+.sass-cache/
+.jekyll-metadata
+
+# Local preview output/logs
+cldmt-jekyll-preview/
+*.log
