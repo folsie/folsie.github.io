@@ -1,0 +1,97 @@
+{% assign is_blog_article = false %}
+{% if page.url contains '/blog/' and page.article_interactions != false %}
+  {% assign is_blog_article = true %}
+{% endif %}
+<div class="container">
+  <nav class="breadcrumb" aria-label="&#38754;&#21253;&#23665;&#23548;&#33322;">
+    <a href="{{ '/' | relative_url }}">&#39318;&#39029;</a>
+    <span class="sep">/</span>
+    {% if page.section == "partners" %}
+    <a href="{{ site.partners_url | default: '/partners/' | relative_url }}">&#21512;&#20316;&#29983;&#24577;</a>
+    {% elsif page.section == "core" %}
+    <a href="{{ site.core_url | default: '/core_block/' | relative_url }}">&#26680;&#24515;&#19994;&#21153;</a>
+    {% else %}
+    <a href="{{ site.blog_url | default: '/blog/' | relative_url }}">&#25216;&#26415;&#21338;&#23458;</a>
+    {% endif %}
+    {% if page.column_url %}
+    <span class="sep">/</span>
+    <a href="{{ page.column_url }}">{{ page.column }}</a>
+    {% endif %}
+    <span class="sep">/</span>
+    <span>{{ page.title }}</span>
+  </nav>
+  <div class="article-layout{% if is_blog_article %} article-layout--blog{% endif %}"{% if is_blog_article %} data-blog-article="true"{% if site.goatcounter_code %} data-goatcounter-code="{{ site.goatcounter_code | escape }}"{% endif %}{% endif %}>
+    {% if is_blog_article %}
+    <aside class="article-sidebar" data-article-sidebar>
+      <section class="article-toc-panel article-toc-panel--sticky" data-article-toc-panel>
+        <div class="article-toc-header">
+          <h2>&#25991;&#31456;&#30446;&#24405;</h2>
+          <div class="article-toc-actions">
+            <button type="button" class="article-toc-btn article-toc-btn--ghost" data-toc-close>&#20851;&#38381;</button>
+          </div>
+        </div>
+        <nav class="article-toc" aria-label="&#25991;&#31456;&#30446;&#24405;" data-article-toc></nav>
+      </section>
+    </aside>
+    {% endif %}
+    <article class="article-shell{% if is_blog_article %} article-shell--blog{% endif %}">
+      <header class="article-header">
+        <h1>{{ page.title }}</h1>
+        {% if is_blog_article %}
+        <div class="article-meta article-meta--blog">
+          <div class="article-meta__items">
+            {% if page.subtitle %}<span class="article-meta__item">{{ page.subtitle }}</span>{% endif %}
+            {% if page.publish_date %}<span class="article-meta__item">&#21457;&#24067;&#26102;&#38388; <time datetime="{{ page.publish_date }}">{{ page.publish_date }}</time></span>{% endif %}
+            {% if site.goatcounter_code %}<span class="article-meta__item">&#27983;&#35272;&#37327; <span class="article-views is-loading" data-article-views>&mdash;</span></span>{% endif %}
+            {% if page.last_updated %}<span class="article-meta__item">&#26356;&#26032;&#20110; {{ page.last_updated }}</span>{% endif %}
+          </div>
+          {% if page.tags %}
+          <div class="article-tags">
+            {% for tag in page.tags %}<span class="tag">{{ tag }}</span> {% endfor %}
+          </div>
+          {% endif %}
+        </div>
+        {% else %}
+        {% if page.subtitle or page.last_updated or page.tags %}
+        <div class="article-meta">
+          {% if page.subtitle %}<span>{{ page.subtitle }}</span>{% endif %}
+          {% if page.last_updated %}<span> &#183; &#26356;&#26032;&#20110; {{ page.last_updated }}</span>{% endif %}
+          {% if page.tags %}
+          <div class="article-tags">
+            {% for tag in page.tags %}<span class="tag">{{ tag }}</span> {% endfor %}
+          </div>
+          {% endif %}
+        </div>
+        {% endif %}
+        {% endif %}
+      </header>
+      <div class="article-content" data-article-content>
+        {{ include.article_content }}
+      </div>
+    </article>
+  </div>
+  {% if is_blog_article %}
+  <button type="button" class="article-toc-reopen" data-toc-reopen hidden>&#25171;&#24320;&#30446;&#24405;</button>
+  <div class="image-lightbox" data-image-lightbox hidden>
+    <button type="button" class="image-lightbox__close" data-lightbox-close aria-label="&#20851;&#38381;&#22270;&#29255;&#39044;&#35272;">&times;</button>
+    <div class="image-lightbox__backdrop" data-lightbox-backdrop></div>
+    <div class="image-lightbox__dialog">
+      <img src="" alt="" class="image-lightbox__image" data-lightbox-image>
+    </div>
+  </div>
+  {% if site.goatcounter_code %}
+  <script data-goatcounter="https://{{ site.goatcounter_code }}.goatcounter.com/count" async src="https://gc.zgo.at/count.js"></script>
+  {% endif %}
+  {% endif %}
+  <nav class="back-nav">
+    <a href="{{ '/' | relative_url }}">&#36820;&#22238;&#39318;&#39029;</a>
+    {% if page.section == "partners" %}
+    <a href="{{ site.partners_url | default: '/partners/' | relative_url }}">&#21512;&#20316;&#29983;&#24577;</a>
+    {% elsif page.section == "core" %}
+    <a href="{{ site.core_url | default: '/core_block/' | relative_url }}">&#26680;&#24515;&#19994;&#21153;</a>
+    {% else %}
+    <a href="{{ site.blog_url | default: '/blog/' | relative_url }}">Blog &#39318;&#39029;</a>
+    {% endif %}
+    {% if page.column_url %}<a href="{{ page.column_url }}">&#36820;&#22238;{{ page.column | default: "&#19987;&#26639;" }}</a>{% endif %}
+  </nav>
+</div>

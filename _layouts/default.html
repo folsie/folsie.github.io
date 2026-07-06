@@ -9,8 +9,22 @@
 </head>
 <body>
   {% include header.html %}
+  {% assign fallback_blog_article = false %}
+  {% unless content contains 'data-blog-article' %}
+    {% if page.article_interactions != false %}
+      {% if page.path contains 'blog/Anlogic/' %}
+        {% assign fallback_blog_article = true %}
+      {% elsif page.path contains 'blog/Xilinx/' %}
+        {% assign fallback_blog_article = true %}
+      {% endif %}
+    {% endif %}
+  {% endunless %}
   <main>
+    {% if fallback_blog_article %}
+    {% include article-frame.html article_content=content %}
+    {% else %}
     {{ content }}
+    {% endif %}
   </main>
   {% include footer.html %}
   <script src="{{ '/assets/js/article-interactions.js' | relative_url }}?v={{ asset_version }}" defer></script>
