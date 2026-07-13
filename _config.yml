@@ -40,6 +40,12 @@ defaults:
       column: "Xilinx 技术专栏"
       column_url: "/blog/Xilinx/"
   - scope:
+      path: "blog/Insurance/"
+    values:
+      layout: "article"
+      column: "保险保障专栏"
+      column_url: "/blog/Insurance/"
+  - scope:
       path: "partners/wtmec/"
     values:
       layout: "article"

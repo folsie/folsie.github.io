@@ -851,6 +851,228 @@ a.card:hover h3 { color: var(--c-accent); }
   margin-top: 1rem;
 }
 
+.insurance-insight-panel {
+  margin: 1.25rem 0 1.75rem;
+  padding: 1.2rem 1.25rem;
+  border: 1px solid rgba(123,211,137,.26);
+  border-radius: var(--r);
+  background:
+    radial-gradient(circle at top right, rgba(123,211,137,.14), transparent 34%),
+    linear-gradient(135deg, rgba(16,28,28,.92) 0%, rgba(18,18,36,.9) 100%);
+  box-shadow: var(--shadow-s);
+}
+.insurance-insight-panel p {
+  margin: 0 0 .85rem;
+  color: #effff2;
+  font-size: 1rem;
+}
+.insurance-insight-panel ul {
+  margin: 0;
+  padding-left: 1.2rem;
+}
+.insurance-insight-panel li {
+  margin: .38rem 0;
+  color: #d8eadc;
+}
+.card--insurance-list h3 {
+  color: #f2fff5;
+}
+.card--insurance-list p {
+  margin-top: .45rem;
+}
+.article-content > p:first-child img,
+.article-content > p:nth-child(2) img {
+  width: 100%;
+  border: 1px solid rgba(123,211,137,.2);
+}
+
+.insurance-quick-grid,
+.insurance-type-grid,
+.insurance-link-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 1rem;
+  margin: 1.25rem 0 1.75rem;
+}
+.insurance-quick-card,
+.insurance-type-grid > div,
+.insurance-link-card {
+  border: 1px solid rgba(123,211,137,.2);
+  border-radius: var(--r);
+  background: linear-gradient(180deg, rgba(18,30,25,.96) 0%, rgba(15,22,30,.96) 100%);
+  padding: 1rem;
+  box-shadow: var(--shadow-s);
+}
+.insurance-quick-card span,
+.insurance-type-grid span {
+  display: inline-block;
+  margin-bottom: .45rem;
+  color: #98f0a5;
+  font-size: .78rem;
+  font-weight: 700;
+}
+.insurance-quick-card h3,
+.insurance-link-card h3 {
+  margin: .1rem 0 .45rem;
+  color: #f2fff5;
+}
+.insurance-type-grid strong {
+  display: block;
+  color: #f2fff5;
+  font-size: 1.1rem;
+}
+.insurance-type-grid p,
+.insurance-quick-card p,
+.insurance-link-card p {
+  margin: .45rem 0 0;
+  color: #c7d8cc;
+}
+.insurance-flow-row {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+  gap: .75rem;
+  margin: 1.25rem 0 1.75rem;
+}
+.insurance-flow-row > div {
+  min-height: 96px;
+  padding: .9rem;
+  border: 1px solid rgba(123,211,137,.2);
+  border-radius: var(--r);
+  background: rgba(123,211,137,.08);
+}
+.insurance-flow-row strong,
+.insurance-flow-row span {
+  display: block;
+}
+.insurance-flow-row strong {
+  color: #f2fff5;
+}
+.insurance-flow-row span {
+  margin-top: .45rem;
+  color: #c7d8cc;
+  font-size: .86rem;
+}
+.insurance-step-ladder {
+  display: grid;
+  gap: .75rem;
+  margin: 1.25rem 0 1.75rem;
+  counter-reset: insurance-step;
+}
+.insurance-step-ladder > a,
+.insurance-step-ladder > div {
+  position: relative;
+  display: block;
+  padding: .95rem 1rem .95rem 3.2rem;
+  border: 1px solid rgba(123,211,137,.22);
+  border-radius: var(--r);
+  background: rgba(255,255,255,.035);
+}
+.insurance-step-ladder > a:before,
+.insurance-step-ladder > div:before {
+  counter-increment: insurance-step;
+  content: counter(insurance-step);
+  position: absolute;
+  left: 1rem;
+  top: .9rem;
+  display: grid;
+  place-items: center;
+  width: 1.6rem;
+  height: 1.6rem;
+  border-radius: 50%;
+  background: #57c785;
+  color: #06120d;
+  font-weight: 800;
+}
+.insurance-step-ladder strong,
+.insurance-step-ladder span {
+  display: block;
+}
+.insurance-step-ladder span {
+  margin-top: .25rem;
+  color: #c7d8cc;
+  font-size: .88rem;
+}
+.insurance-link-banner {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1rem;
+  margin: 1.5rem 0 2rem;
+  padding: 1.2rem;
+  border: 1px solid rgba(123,211,137,.26);
+  border-radius: var(--r);
+  background: linear-gradient(135deg, rgba(15,35,28,.96), rgba(15,22,30,.96));
+}
+.insurance-link-banner h3 {
+  margin: .1rem 0 .45rem;
+}
+.insurance-link-card ul {
+  margin: .85rem 0 0;
+  padding-left: 1.1rem;
+}
+.insurance-link-card li {
+  color: #dce6df;
+  margin: .35rem 0;
+}
+.insurance-formula {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: .65rem;
+  margin: 1.2rem 0 1.6rem;
+  padding: 1rem;
+  border: 1px solid rgba(123,211,137,.26);
+  border-radius: var(--r);
+  background: rgba(123,211,137,.08);
+}
+.insurance-formula span,
+.insurance-formula strong {
+  padding: .55rem .75rem;
+  border-radius: 10px;
+  background: rgba(255,255,255,.06);
+}
+.insurance-formula b {
+  color: #98f0a5;
+  font-size: 1.25rem;
+}
+.insurance-formula strong {
+  color: #f2fff5;
+}
+.insurance-priority-bar {
+  display: flex;
+  overflow: hidden;
+  min-height: 54px;
+  border: 1px solid rgba(123,211,137,.22);
+  border-radius: var(--r);
+  margin: 1.2rem 0 1.6rem;
+}
+.insurance-priority-bar span {
+  display: grid;
+  place-items: center;
+  min-width: 72px;
+  color: #06120d;
+  font-weight: 800;
+}
+.insurance-priority-bar span:nth-child(1) { background: #98f0a5; }
+.insurance-priority-bar span:nth-child(2) { background: #57c785; }
+.insurance-priority-bar span:nth-child(3) { background: #2fa36f; }
+.insurance-priority-bar span:nth-child(4) { background: #c7f06b; }
+.insurance-article-nav {
+  display: flex;
+  flex-wrap: wrap;
+  gap: .75rem;
+  margin-top: 2rem;
+  padding-top: 1rem;
+  border-top: 1px solid var(--c-border);
+}
+.insurance-article-nav a {
+  display: inline-block;
+  padding: .55rem .85rem;
+  border: 1px solid rgba(123,211,137,.22);
+  border-radius: 999px;
+  background: rgba(123,211,137,.08);
+}
+
 /* ========== Back Nav ========== */
 .back-nav {
   margin-top: 3rem;
@@ -887,6 +1109,12 @@ a.card:hover h3 { color: var(--c-accent); }
   .insurance-overview-grid { grid-template-columns: 1fr; }
   .insurance-hero-panel { grid-template-columns: 1fr; padding: 1.2rem; }
   .insurance-hero-panel h2 { font-size: 1.45rem !important; }
+  .insurance-quick-grid,
+  .insurance-type-grid,
+  .insurance-link-grid { grid-template-columns: 1fr; }
+  .insurance-link-banner { display: block; }
+  .insurance-priority-bar { flex-wrap: wrap; }
+  .insurance-priority-bar span { flex: 1 1 50%; width: auto !important; }
   .header-inner { height: 50px; }
   .site-nav a { margin-left: .75rem; font-size: .82rem; }
   .container { padding: 1.25rem 1rem; }

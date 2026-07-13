@@ -1,9 +1,10 @@
 ---
-title: "保险保障规划"
-subtitle: "四个核心模块，带你从利率、分类、平台到产品推荐，快速看懂保险"
-last_updated: "2026-06-08"
+title: "保险保障扫盲"
+subtitle: "给外行看的保险入门：先知道自己缺什么，再决定买什么"
+last_updated: "2026-07-12"
 tags:
   - 保险
+  - 家庭保障
   - 医疗险
   - 重疾险
   - 定期寿险
@@ -11,105 +12,95 @@ tags:
 
 <section class="insurance-hero-panel">
   <div>
-    <span class="insurance-kicker">保险专题入口</span>
-    <h2>先把风险结构看明白，再决定买什么</h2>
-    <p>这不是单一产品堆砌页，而是一个保险专题首页。你可以从收益率观察、险种分类、平台格局和我的推荐四个模块切入，快速找到自己最关心的方向。</p>
+    <span class="insurance-kicker">Insurance Starter</span>
+    <h2>保险不是先看产品，而是先看家庭怕什么风险</h2>
+    <p>这个板块只做一件事：把保险讲成外行能看懂的判断框架。你会先知道医疗险、意外险、重疾险、寿险分别解决什么问题，再按家庭责任、预算和健康情况决定下一步。</p>
     <div class="insurance-pill-row">
-      <span class="insurance-pill">家庭保障</span>
-      <span class="insurance-pill">医疗责任</span>
-      <span class="insurance-pill">长期配置</span>
-      <span class="insurance-pill">实用推荐</span>
+      <span class="insurance-pill">30 秒看懂</span>
+      <span class="insurance-pill">按场景判断</span>
+      <span class="insurance-pill">少术语</span>
+      <span class="insurance-pill">不替你拍脑袋</span>
     </div>
   </div>
   <div class="insurance-hero-note">
-    <strong>适合这样的人：</strong>
-    <p>想先看清行业变化，再决定怎么配；或者已经准备投保，但希望先建立一个不容易被营销话术带偏的判断框架。</p>
+    <strong>先记住一句话</strong>
+    <p>保险的核心不是返钱，也不是排名，而是把家庭扛不起的大风险转给保险公司。</p>
   </div>
 </section>
 
-<div class="insurance-overview-grid">
-  <a href="{% link core_block/insurance_yield.md %}" class="insurance-module-card">
-    <img src="{{ '/assets/insurance/yield-hero.svg' | relative_url }}" alt="保险收益率与利率观察">
-    <div class="insurance-module-body">
-      <span class="insurance-kicker">Module 01</span>
-      <h3>保险收益率</h3>
-      <p>看清 2018 年至今的银行存款利率变化、内地保险定价指标和香港保险分红实现率逻辑。</p>
-      <ul>
-        <li>低利率环境下，为什么保障配置更重要</li>
-        <li>内地与香港保险，不再用“平均收益率”误导判断</li>
-      </ul>
-      <span class="button-link">进入模块</span>
-    </div>
-  </a>
+![保险保障扫盲主视觉]({{ '/assets/insurance/education/insurance-basics/hero.png' | relative_url }})
 
-  <a href="{% link core_block/insurance_category.md %}" class="insurance-module-card">
-    <img src="{{ '/assets/insurance/category-hero.svg' | relative_url }}" alt="保险分类与保障结构">
-    <div class="insurance-module-body">
-      <span class="insurance-kicker">Module 02</span>
-      <h3>保险的分类</h3>
-      <p>从保障对象、风险场景和家庭责任三个角度拆解医疗险、重疾险、意外险、寿险与年金险。</p>
-      <ul>
-        <li>哪些险种是基础层，哪些适合后配</li>
-        <li>不同年龄、不同责任阶段如何看优先级</li>
-      </ul>
-      <span class="button-link">进入模块</span>
-    </div>
-  </a>
+## 先看这 4 个问题
 
-  <a href="{% link core_block/insurance_platform.md %}" class="insurance-module-card">
-    <img src="{{ '/assets/insurance/platform-hero.svg' | relative_url }}" alt="保险平台与市场格局">
-    <div class="insurance-module-body">
-      <span class="insurance-kicker">Module 03</span>
-      <h3>平台</h3>
-      <p>看上游保险公司、互联网保险平台、经代机构与线下渠道分别擅长什么，不盲目只看名气。</p>
-      <ul>
-        <li>保险公司看产品力、服务力和稳定性</li>
-        <li>平台更重要的是匹配效率和长期服务能力</li>
-      </ul>
-      <span class="button-link">进入模块</span>
-    </div>
-  </a>
-
-  <a href="{% link core_block/insurance_recommend.md %}" class="insurance-module-card">
-    <img src="{{ '/assets/insurance/recommend-hero.svg' | relative_url }}" alt="我的保险推荐">
-    <div class="insurance-module-body">
-      <span class="insurance-kicker">Module 04</span>
-      <h3>我的推荐</h3>
-      <p>把意外险、医疗险、定期寿险、重疾险四个常见入口拆开讲，方便你快速直达。</p>
-      <ul>
-        <li>适合谁、解决什么问题、为什么值得优先看</li>
-        <li>直接跳产品，也能先看我给你的判断建议</li>
-      </ul>
-      <span class="button-link">进入模块</span>
-    </div>
-  </a>
+<div class="insurance-quick-grid">
+  <div class="insurance-quick-card">
+    <span>01</span>
+    <h3>生病住院谁付钱？</h3>
+    <p>主要看医疗险，重点是能不能报销大额医疗费。</p>
+  </div>
+  <div class="insurance-quick-card">
+    <span>02</span>
+    <h3>大病期间收入断了怎么办？</h3>
+    <p>主要看重疾险，重点是一次性给付的钱够不够缓冲。</p>
+  </div>
+  <div class="insurance-quick-card">
+    <span>03</span>
+    <h3>家庭支柱出事，债务谁还？</h3>
+    <p>主要看定期寿险，重点是覆盖房贷、子女和父母责任。</p>
+  </div>
+  <div class="insurance-quick-card">
+    <span>04</span>
+    <h3>摔伤、交通事故怎么办？</h3>
+    <p>主要看意外险，重点是意外医疗和伤残责任。</p>
+  </div>
 </div>
 
-## 为什么这样设计
+## 推荐阅读顺序
 
-保险最怕两种情况：一种是只看单一收益数字，另一种是产品看了很多，但始终没建立自己的判断结构。这个专题页的目的，就是先帮你把结构搭起来，再决定是否深入某一个方向。
+<div class="insurance-step-ladder">
+  <a href="{% link blog/Insurance/insurance-basics.md %}"><strong>1. 保险到底是干什么的？</strong><span>先建立最基础的风险转移概念。</span></a>
+  <a href="{% link blog/Insurance/four-insurance-types.md %}"><strong>2. 四类保险怎么分？</strong><span>医疗、意外、重疾、寿险一眼看懂。</span></a>
+  <a href="{% link blog/Insurance/family-buying-order.md %}"><strong>3. 普通家庭先买什么？</strong><span>按预算和家庭责任排优先级。</span></a>
+  <a href="{% link blog/Insurance/coverage-amount.md %}"><strong>4. 保额怎么粗算？</strong><span>用简单公式估出缺口，不靠感觉。</span></a>
+  <a href="{% link blog/Insurance/health-underwriting.md %}"><strong>5. 健康告知和核保怎么理解？</strong><span>投保前最容易踩坑的地方。</span></a>
+  <a href="{% link blog/Insurance/claim-process.md %}"><strong>6. 理赔怎么走？</strong><span>知道要报案、交材料、等审核。</span></a>
+  <a href="{% link blog/Insurance/policy-review.md %}"><strong>7. 已有保单怎么看？</strong><span>判断该留、该补，还是先别动。</span></a>
+</div>
+
+## 我的链接单独放这里
+
+<div class="insurance-link-banner">
+  <div>
+    <span class="insurance-kicker">Product Links</span>
+    <h3>如果你只是想看产品入口，直接进“我的链接”</h3>
+    <p>链接页只放产品入口和基础判断，不和科普文章混在一起。进入前先确认：具体保障、价格、核保结论、等待期和免责条款，以投保页和合同条款为准。</p>
+  </div>
+  <a href="{% link core_block/insurance_links.md %}" class="button-link">查看我的链接</a>
+</div>
+
+## 不建议一上来就做的事
 
 <div class="card-grid card-grid--2">
   <div class="card card--insurance">
-    <h3>先看环境</h3>
-    <p>收益率模块帮你看清低利率背景下，保险该承担什么角色，不把演示利益错当确定收益。</p>
+    <h3>不要先问“哪个产品最好”</h3>
+    <p>同一个产品，对健康体、既往症人群、家庭支柱、单身人群的价值完全不同。先判断需求，再看产品。</p>
   </div>
   <div class="card card--insurance">
-    <h3>再看需求</h3>
-    <p>分类模块帮你知道不同险种分别解决什么问题，避免“买了很多，但关键责任没补齐”。</p>
+    <h3>不要把保险当理财收益比较</h3>
+    <p>扫盲阶段优先理解保障责任。分红、万能、储蓄型产品适合后面再单独判断。</p>
   </div>
   <div class="card card--insurance">
-    <h3>然后看渠道</h3>
-    <p>平台模块帮你理解保险公司、平台、代理服务各自的价值，不被“排名”牵着走。</p>
+    <h3>不要忽略健康告知</h3>
+    <p>保险不是买完就一定赔。健康告知、核保结论和免责条款会直接影响后续理赔。</p>
   </div>
   <div class="card card--insurance">
-    <h3>最后看推荐</h3>
-    <p>我的推荐模块直接给到产品入口，同时保留判断标准，方便你自己筛选。</p>
+    <h3>不要只看保费便宜</h3>
+    <p>便宜但保额低、责任缺、续保差，遇到风险时可能没有实际帮助。</p>
   </div>
 </div>
 
 ## 风险提示
 
-- 保险产品最终以条款、健康告知、核保结论和投保页面展示信息为准。
-- 分红演示、收益演示和利益说明，不等于未来实际回报。
-- 具体适配方案需结合年龄、预算、家庭责任、职业类别和健康情况判断。
+- 本板块只做保险知识科普，不构成个性化投保建议。
+- 产品是否适合，需要结合年龄、预算、职业、健康告知、家庭责任和已有保单判断。
+- 所有保险责任以产品条款、投保页面、核保结论和保险合同为准。
