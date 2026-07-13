@@ -1,1 +1,2 @@
 *.zip filter=lfs diff=lfs merge=lfs -text
+pic/PH_MCU/usbdrive.zip -filter -diff -merge -text

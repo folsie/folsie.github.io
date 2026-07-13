@@ -83,6 +83,10 @@ description: "安路科技 FPGA 技术文章入口"
 <h2 class="section-title">🛠️ 开发工具与资源</h2>
 
 <div class="card-grid">
+  <a href="{% link blog/Anlogic/MCU_DEBUG_PROCESS.md %}" class="card card--accent-left">
+    <h3>MCU 软件开发与调试流程</h3>
+    <p>RISC-V MCU 硬件平台导出、应用构建与在线调试</p>
+  </a>
   <a href="{% link blog/Anlogic/TCL_DOWNLOAD_UG.md %}" class="card card--accent-left">
     <h3>TCL 下载脚本指南</h3>
     <p>批量下载与自动化脚本使用说明</p>
