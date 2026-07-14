@@ -1,0 +1,96 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1400" height="860" viewBox="0 0 1400 860" role="img" aria-labelledby="title desc">
+  <title id="title">JESD204B 关键信号架构图</title>
+  <desc id="desc">PH1A400 JESD204B 参考工程中的顶层信号、JESD204B RX Core、SerDes、ADC、时钟芯片和 AXI-Lite 配置关系</desc>
+  <style>
+    .bg{fill:#f7f9fc}.frame{fill:#fff;stroke:#c7d1dc;stroke-width:2}.fpga{fill:#eaf3ff;stroke:#3f76ad;stroke-width:2}.core{fill:#eef8ef;stroke:#44a06a;stroke-width:2}.phy{fill:#fff4df;stroke:#c8872a;stroke-width:2}.conv{fill:#f1f3f8;stroke:#657084;stroke-width:2}.clk{fill:#f1ecff;stroke:#7657bf;stroke-width:2}.cfg{fill:#f9eef2;stroke:#c65d73;stroke-width:2}.lane{stroke:#0074a6;stroke-width:5;fill:none;marker-end:url(#arrowBlue)}.sync{stroke:#d45535;stroke-width:4;fill:none;marker-end:url(#arrowRed)}.clock{stroke:#7657bf;stroke-width:4;fill:none;stroke-dasharray:10 7;marker-end:url(#arrowPurple)}.bus{stroke:#2f4858;stroke-width:3;fill:none;marker-end:url(#arrowDark)}.status{stroke:#3e9b5f;stroke-width:3;fill:none;stroke-dasharray:7 6;marker-end:url(#arrowGreen)}.text{font-family:Arial,"Microsoft YaHei",sans-serif;fill:#1f2d3d}.title{font-size:30px;font-weight:700}.mid{font-size:23px;font-weight:700}.small{font-size:18px}.mono{font-family:Consolas,"Microsoft YaHei",monospace;font-size:17px;fill:#152536}.note{font-size:16px;fill:#536170}.white{fill:#fff}
+  </style>
+  <defs>
+    <marker id="arrowBlue" markerWidth="12" markerHeight="12" refX="10" refY="4" orient="auto"><path d="M0,0 L12,4 L0,8 Z" fill="#0074a6"/></marker>
+    <marker id="arrowRed" markerWidth="12" markerHeight="12" refX="10" refY="4" orient="auto"><path d="M0,0 L12,4 L0,8 Z" fill="#d45535"/></marker>
+    <marker id="arrowPurple" markerWidth="12" markerHeight="12" refX="10" refY="4" orient="auto"><path d="M0,0 L12,4 L0,8 Z" fill="#7657bf"/></marker>
+    <marker id="arrowDark" markerWidth="12" markerHeight="12" refX="10" refY="4" orient="auto"><path d="M0,0 L12,4 L0,8 Z" fill="#2f4858"/></marker>
+    <marker id="arrowGreen" markerWidth="12" markerHeight="12" refX="10" refY="4" orient="auto"><path d="M0,0 L12,4 L0,8 Z" fill="#3e9b5f"/></marker>
+  </defs>
+  <rect class="bg" width="1400" height="860"/>
+  <text x="700" y="55" text-anchor="middle" class="text title">JESD204B 关键信号架构图：先认清这些线，再看协议状态机</text>
+
+  <rect x="70" y="100" width="830" height="650" rx="12" class="frame"/>
+  <text x="485" y="135" text-anchor="middle" class="text mid">FPGA：PH1A400 参考工程</text>
+  <rect x="115" y="175" width="260" height="145" rx="8" class="fpga"/>
+  <text x="245" y="213" text-anchor="middle" class="text mid">serdes_jesd_case1</text>
+  <text x="245" y="245" text-anchor="middle" class="mono">top module</text>
+  <text x="245" y="275" text-anchor="middle" class="small">复位计数、SYSREF 输入</text>
+  <text x="245" y="302" text-anchor="middle" class="small">SYNC 输出、LED 状态</text>
+
+  <rect x="485" y="175" width="325" height="145" rx="8" class="core"/>
+  <text x="648" y="213" text-anchor="middle" class="text mid">serdes_jesd204b_rx_top</text>
+  <text x="648" y="245" text-anchor="middle" class="mono">LANES=4, RATE=1</text>
+  <text x="648" y="275" text-anchor="middle" class="small">Subclass 1, F=3, K=31</text>
+  <text x="648" y="302" text-anchor="middle" class="small">scrambling on, SYSREF_ALWAYS=1</text>
+
+  <rect x="485" y="390" width="325" height="155" rx="8" class="phy"/>
+  <text x="648" y="427" text-anchor="middle" class="text mid">serdes_top + 2 个 SerDes Dual</text>
+  <text x="648" y="460" text-anchor="middle" class="mono">rx_p/rx_m[3:0]</text>
+  <text x="648" y="490" text-anchor="middle" class="small">8b/10b decode、word align</text>
+  <text x="648" y="518" text-anchor="middle" class="small">rx_valid、codeerr、disperr</text>
+
+  <rect x="115" y="390" width="260" height="155" rx="8" class="cfg"/>
+  <text x="245" y="427" text-anchor="middle" class="text mid">AXI-Lite 配置</text>
+  <text x="245" y="460" text-anchor="middle" class="mono">s_axi_aclk=sys_clk_in</text>
+  <text x="245" y="490" text-anchor="middle" class="mono">s_axi_aresetn</text>
+  <text x="245" y="518" text-anchor="middle" class="small">写 0x004/008/00C/010/014/018/020/024</text>
+
+  <rect x="115" y="600" width="695" height="95" rx="8" class="frame"/>
+  <text x="462" y="634" text-anchor="middle" class="text mid">用户侧观测信号</text>
+  <text x="462" y="666" text-anchor="middle" class="mono">rx_tdata[32*LANES-1:0], rx_tvalid, rx_start_of_frame[3:0], rx_end_of_frame[3:0], rx_tdata_out_pass</text>
+
+  <rect x="990" y="145" width="310" height="150" rx="8" class="clk"/>
+  <text x="1145" y="185" text-anchor="middle" class="text mid">时钟芯片 / 板级时钟</text>
+  <text x="1145" y="218" text-anchor="middle" class="mono">ref_clkp/ref_clkn</text>
+  <text x="1145" y="247" text-anchor="middle" class="mono">FPGA_SYSREF</text>
+  <text x="1145" y="274" text-anchor="middle" class="mono">clk_double_rx=250MHz</text>
+
+  <rect x="990" y="410" width="310" height="170" rx="8" class="conv"/>
+  <text x="1145" y="450" text-anchor="middle" class="text mid">ADC / AD9009 类器件</text>
+  <text x="1145" y="484" text-anchor="middle" class="mono">JESD204B TX lanes</text>
+  <text x="1145" y="514" text-anchor="middle" class="mono">SYNCINB0_P</text>
+  <text x="1145" y="544" text-anchor="middle" class="small">SPI 先配置同样的 L/M/F/K/SCR/Subclass</text>
+
+  <path d="M375 247 L485 247" class="bus"/>
+  <text x="430" y="232" text-anchor="middle" class="mono">init_reset</text>
+  <text x="430" y="273" text-anchor="middle" class="mono">FPGA_SYSREF</text>
+
+  <path d="M375 468 L485 468" class="bus"/>
+  <text x="430" y="452" text-anchor="middle" class="mono">AXI-Lite</text>
+  <text x="430" y="493" text-anchor="middle" class="note">寄存器参数进入 JESD core</text>
+
+  <path d="M648 320 L648 390" class="bus"/>
+  <text x="670" y="359" class="mono">64-bit lane data</text>
+
+  <path d="M810 467 C900 455 930 455 990 470" class="lane"/>
+  <path d="M990 492 C930 505 900 505 810 492" class="lane"/>
+  <text x="900" y="444" text-anchor="middle" class="mono">rx_p/rx_m[3:0]</text>
+  <text x="900" y="525" text-anchor="middle" class="note">ADC TX → FPGA RX，高速差分 lane</text>
+
+  <path d="M990 514 C920 620 820 655 810 655" class="sync"/>
+  <text x="920" y="620" text-anchor="middle" class="mono">o_SYNCINB0_P</text>
+  <text x="920" y="646" text-anchor="middle" class="note">FPGA RX 反馈给 ADC</text>
+
+  <path d="M990 218 C920 218 875 218 810 218" class="clock"/>
+  <text x="900" y="203" text-anchor="middle" class="mono">ref_clkp/ref_clkn</text>
+  <path d="M990 247 C910 247 870 276 810 276" class="clock"/>
+  <text x="900" y="281" text-anchor="middle" class="mono">FPGA_SYSREF</text>
+  <path d="M990 274 C915 345 875 425 810 425" class="clock"/>
+  <text x="912" y="362" text-anchor="middle" class="mono">clk_double_rx</text>
+  <path d="M990 300 C890 595 810 638 810 638" class="clock"/>
+  <text x="930" y="330" text-anchor="middle" class="mono">rx_usr2clk_i=125MHz</text>
+
+  <path d="M648 545 L648 600" class="status"/>
+  <text x="670" y="580" class="mono">rx_tdata/rx_tvalid</text>
+
+  <rect x="965" y="645" width="350" height="82" rx="8" class="frame"/>
+  <text x="1140" y="676" text-anchor="middle" class="text mid">调试先后顺序</text>
+  <text x="1140" y="707" text-anchor="middle" class="small">refclk/SYSREF → SerDes lock → SYNC → ILAS → rx_tvalid/pass</text>
+
+  <text x="700" y="805" text-anchor="middle" class="note">实线蓝色为高速数据，紫色虚线为时钟/SYSREF，红色为同步反馈，深色为配置/复位，绿色虚线为用户侧状态。</text>
+</svg>

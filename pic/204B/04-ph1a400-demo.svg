@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="680" viewBox="0 0 1200 680" role="img" aria-labelledby="title desc">
+  <title id="title">PH1A400 参考工程结构</title>
+  <desc id="desc">参考工程中顶层、JESD204B RX、SerDes Dual、AXI 配置和约束关系</desc>
+  <style>
+    .bg{fill:#f9fbfd}.box{fill:#fff;stroke:#c3ced9;stroke-width:2}.top{fill:#eaf3ff;stroke:#4a7eb5;stroke-width:2}.core{fill:#eef8ef;stroke:#49a267;stroke-width:2}.phy{fill:#fff2dd;stroke:#c8872a;stroke-width:2}.cfg{fill:#f2edff;stroke:#7a62bf;stroke-width:2}.arrow{stroke:#34495e;stroke-width:3;fill:none;marker-end:url(#m)}.text{font-family:Arial,"Microsoft YaHei",sans-serif;fill:#1f2d3d}.mid{font-size:28px;font-weight:700}.small{font-size:21px}.label{font-size:18px}
+  </style>
+  <defs><marker id="m" markerWidth="10" markerHeight="10" refX="9" refY="3" orient="auto"><path d="M0,0 L10,3 L0,6 Z" fill="#34495e"/></marker></defs>
+  <rect class="bg" width="1200" height="680"/>
+  <text x="600" y="54" text-anchor="middle" class="text mid">PH1A400 参考工程：4 lane JESD204B RX，SerDes 与 AXI 配置分层清晰</text>
+  <rect x="80" y="105" width="1040" height="500" rx="12" class="box"/>
+  <rect x="145" y="145" width="300" height="85" rx="8" class="top"/>
+  <text x="295" y="184" text-anchor="middle" class="text small">serdes_jesd_case1</text>
+  <text x="295" y="212" text-anchor="middle" class="text label">顶层：复位、SYSREF、SYNC、LED</text>
+  <rect x="145" y="290" width="300" height="100" rx="8" class="core"/>
+  <text x="295" y="330" text-anchor="middle" class="text small">serdes_jesd204b_rx_top</text>
+  <text x="295" y="360" text-anchor="middle" class="text label">LANES=4, Subclass=1, F=3, K=31</text>
+  <rect x="145" y="450" width="300" height="95" rx="8" class="cfg"/>
+  <text x="295" y="489" text-anchor="middle" class="text small">serdes_jesd204b_rx_config</text>
+  <text x="295" y="518" text-anchor="middle" class="text label">AXI-Lite 写寄存器</text>
+  <rect x="650" y="145" width="300" height="95" rx="8" class="phy"/>
+  <text x="800" y="184" text-anchor="middle" class="text small">JESD204B RX enc core</text>
+  <text x="800" y="213" text-anchor="middle" class="text label">加密 IP：链路层、解扰、对齐</text>
+  <rect x="650" y="300" width="300" height="95" rx="8" class="phy"/>
+  <text x="800" y="339" text-anchor="middle" class="text small">serdes_top</text>
+  <text x="800" y="368" text-anchor="middle" class="text label">2 个 SerDes Dual，覆盖 4 lane</text>
+  <rect x="650" y="455" width="300" height="95" rx="8" class="box"/>
+  <text x="800" y="494" text-anchor="middle" class="text small">ADC/SDC 约束</text>
+  <text x="800" y="523" text-anchor="middle" class="text label">SYSREF、SYNCINB、时钟、bank 位置</text>
+  <path d="M295 230 L295 290" class="arrow"/>
+  <path d="M295 390 L295 450" class="arrow"/>
+  <path d="M445 340 L650 190" class="arrow"/>
+  <path d="M445 340 L650 345" class="arrow"/>
+  <path d="M800 395 L800 455" class="arrow"/>
+  <text x="530" y="110" class="text label">工程器件：PH1A400SFG900，TD 6.2.200067</text>
+  <text x="530" y="585" class="text label">验证线索：ModelSim 仿真曾观测到 rx_tdata_out_pass</text>
+</svg>

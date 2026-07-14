@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="620" viewBox="0 0 1200 620" role="img" aria-labelledby="title desc">
+  <title id="title">JESD204B 调试闭环</title>
+  <desc id="desc">从时钟复位到链路状态和数据一致性的调试流程</desc>
+  <style>
+    .bg{fill:#f8fafc}.node{fill:#fff;stroke:#c3ccd7;stroke-width:2}.ok{fill:#eaf7ee;stroke:#4da36b;stroke-width:2}.warn{fill:#fff4df;stroke:#c8872a;stroke-width:2}.arrow{stroke:#34495e;stroke-width:3;fill:none;marker-end:url(#m)}.text{font-family:Arial,"Microsoft YaHei",sans-serif;fill:#1f2d3d}.mid{font-size:28px;font-weight:700}.small{font-size:21px}.label{font-size:18px}
+  </style>
+  <defs><marker id="m" markerWidth="10" markerHeight="10" refX="9" refY="3" orient="auto"><path d="M0,0 L10,3 L0,6 Z" fill="#34495e"/></marker></defs>
+  <rect class="bg" width="1200" height="620"/>
+  <text x="600" y="58" text-anchor="middle" class="text mid">JESD204B 调试不要先看数据，先确认链路状态</text>
+  <rect x="90" y="130" width="230" height="110" rx="8" class="node"/>
+  <text x="205" y="172" text-anchor="middle" class="text small">1. 时钟</text>
+  <text x="205" y="204" text-anchor="middle" class="text label">refclk、SYSREF、用户时钟</text>
+  <rect x="370" y="130" width="230" height="110" rx="8" class="node"/>
+  <text x="485" y="172" text-anchor="middle" class="text small">2. 复位</text>
+  <text x="485" y="204" text-anchor="middle" class="text label">PLL lock、init_reset</text>
+  <rect x="650" y="130" width="230" height="110" rx="8" class="warn"/>
+  <text x="765" y="172" text-anchor="middle" class="text small">3. CGS/ILAS</text>
+  <text x="765" y="204" text-anchor="middle" class="text label">SYNC、K28.5、ILAS 参数</text>
+  <rect x="930" y="130" width="230" height="110" rx="8" class="ok"/>
+  <text x="1045" y="172" text-anchor="middle" class="text small">4. 用户数据</text>
+  <text x="1045" y="204" text-anchor="middle" class="text label">tvalid、帧边界、PRBS</text>
+  <path d="M320 185 L370 185" class="arrow"/><path d="M600 185 L650 185" class="arrow"/><path d="M880 185 L930 185" class="arrow"/>
+  <rect x="155" y="335" width="260" height="130" rx="8" class="node"/>
+  <text x="285" y="380" text-anchor="middle" class="text small">硬件检查</text>
+  <text x="285" y="412" text-anchor="middle" class="text label">差分极性、AC 耦合、长度</text>
+  <text x="285" y="440" text-anchor="middle" class="text label">SYNCINB 与 SYSREF 电平</text>
+  <rect x="470" y="335" width="260" height="130" rx="8" class="node"/>
+  <text x="600" y="380" text-anchor="middle" class="text small">软件检查</text>
+  <text x="600" y="412" text-anchor="middle" class="text label">F/K/L/M/N/S 两端一致</text>
+  <text x="600" y="440" text-anchor="middle" class="text label">scrambling 与 SYSREF 策略一致</text>
+  <rect x="785" y="335" width="260" height="130" rx="8" class="node"/>
+  <text x="915" y="380" text-anchor="middle" class="text small">观测点</text>
+  <text x="915" y="412" text-anchor="middle" class="text label">sync status、debug status</text>
+  <text x="915" y="440" text-anchor="middle" class="text label">rx_tdata_out_pass / error count</text>
+  <path d="M765 240 C760 300 680 315 600 335" class="arrow"/>
+  <path d="M765 240 C730 300 430 310 285 335" class="arrow"/>
+  <path d="M1045 240 C1030 300 960 315 915 335" class="arrow"/>
+  <text x="600" y="540" text-anchor="middle" class="text small">经验规则：时钟锁定、SYNC 状态、ILAS 参数三项没闭环前，不要把问题归因到业务数据。</text>
+</svg>

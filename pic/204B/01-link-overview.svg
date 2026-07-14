@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="620" viewBox="0 0 1200 620" role="img" aria-labelledby="title desc">
+  <title id="title">JESD204B 链路总览</title>
+  <desc id="desc">FPGA 与高速 ADC DAC 之间的 JESD204B 分层链路示意</desc>
+  <style>
+    .bg{fill:#f7f9fb}.panel{fill:#fff;stroke:#c9d3df;stroke-width:2}.chip{fill:#153243}.ip{fill:#eef6ff;stroke:#4c7fb5;stroke-width:2}.phy{fill:#fff7e8;stroke:#c8872a;stroke-width:2}.lane{stroke:#1d78b5;stroke-width:5;fill:none}.clk{stroke:#8a4bd0;stroke-width:3;stroke-dasharray:8 7;fill:none}.sync{stroke:#d45b3d;stroke-width:3;stroke-dasharray:10 8;fill:none}.text{font-family:Arial,"Microsoft YaHei",sans-serif;fill:#1f2d3d}.small{font-size:22px}.mid{font-size:28px;font-weight:700}.label{font-size:20px}.white{fill:#fff}
+  </style>
+  <rect class="bg" width="1200" height="620"/>
+  <text x="600" y="58" text-anchor="middle" class="text mid">JESD204B = 传输层 + 链路层 + SerDes 物理层</text>
+  <rect x="90" y="115" width="360" height="360" rx="8" class="panel"/>
+  <rect x="750" y="115" width="360" height="360" rx="8" class="panel"/>
+  <rect x="122" y="150" width="296" height="58" rx="6" class="chip"/>
+  <text x="270" y="187" text-anchor="middle" class="white small">FPGA / PH1A400</text>
+  <rect x="782" y="150" width="296" height="58" rx="6" class="chip"/>
+  <text x="930" y="187" text-anchor="middle" class="white small">ADC / DAC / RF Transceiver</text>
+  <rect x="135" y="245" width="270" height="62" rx="6" class="ip"/>
+  <text x="270" y="284" text-anchor="middle" class="text small">User Logic</text>
+  <rect x="135" y="327" width="270" height="62" rx="6" class="ip"/>
+  <text x="270" y="366" text-anchor="middle" class="text small">JESD204B TX/RX Core</text>
+  <rect x="135" y="409" width="270" height="62" rx="6" class="phy"/>
+  <text x="270" y="448" text-anchor="middle" class="text small">SerDes PCS/PMA</text>
+  <rect x="795" y="245" width="270" height="62" rx="6" class="ip"/>
+  <text x="930" y="284" text-anchor="middle" class="text small">Converter Samples</text>
+  <rect x="795" y="327" width="270" height="62" rx="6" class="ip"/>
+  <text x="930" y="366" text-anchor="middle" class="text small">JESD204B Link</text>
+  <rect x="795" y="409" width="270" height="62" rx="6" class="phy"/>
+  <text x="930" y="448" text-anchor="middle" class="text small">High-speed PHY</text>
+  <path d="M420 430 C520 395 680 395 780 430" class="lane"/>
+  <path d="M420 455 C520 490 680 490 780 455" class="lane"/>
+  <text x="600" y="397" text-anchor="middle" class="text label">差分 lane：串行数据，8b/10b 编码</text>
+  <path d="M600 125 L600 535" class="clk"/>
+  <text x="608" y="545" class="text label">refclk / device clock</text>
+  <path d="M930 520 C820 570 390 570 270 520" class="sync"/>
+  <text x="600" y="590" text-anchor="middle" class="text label">Subclass 1 通过 SYSREF 对齐 LMFC，实现确定性延迟</text>
+</svg>

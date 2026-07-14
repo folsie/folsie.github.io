@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="700" viewBox="0 0 1200 700" role="img" aria-labelledby="title desc">
+  <title id="title">JESD204B 硬件连接</title>
+  <desc id="desc">FPGA、转换器、时钟芯片、SYSREF、SYNC 和差分 lane 的硬件连接要点</desc>
+  <style>
+    .bg{fill:#f8fafb}.board{fill:#eef3f0;stroke:#b9c8bd;stroke-width:3}.chip{fill:#1e3b4d}.conv{fill:#4a5568}.clk{fill:#5b3f8c}.box{fill:#fff;stroke:#c2ccd6;stroke-width:2}.lane{stroke:#006da8;stroke-width:5;fill:none}.ctrl{stroke:#d15a3a;stroke-width:3;fill:none}.clock{stroke:#7a4fd1;stroke-width:4;stroke-dasharray:10 7;fill:none}.text{font-family:Arial,"Microsoft YaHei",sans-serif;fill:#1f2d3d}.white{fill:#fff}.mid{font-size:28px;font-weight:700}.small{font-size:21px}.label{font-size:19px}
+  </style>
+  <rect class="bg" width="1200" height="700"/>
+  <text x="600" y="54" text-anchor="middle" class="text mid">板级电路不是只连 lane：时钟、SYSREF、SYNC 同样决定链路稳定性</text>
+  <rect x="75" y="95" width="1050" height="520" rx="14" class="board"/>
+  <rect x="145" y="185" width="250" height="170" rx="8" class="chip"/>
+  <text x="270" y="270" text-anchor="middle" class="white mid">PH1A400</text>
+  <text x="270" y="305" text-anchor="middle" class="white small">JESD204B RX/TX</text>
+  <rect x="805" y="185" width="250" height="170" rx="8" class="conv"/>
+  <text x="930" y="270" text-anchor="middle" class="white mid">AD/DA 器件</text>
+  <text x="930" y="305" text-anchor="middle" class="white small">JESD204B Port</text>
+  <rect x="475" y="115" width="250" height="105" rx="8" class="clk"/>
+  <text x="600" y="158" text-anchor="middle" class="white mid">时钟芯片</text>
+  <text x="600" y="190" text-anchor="middle" class="white small">refclk + SYSREF</text>
+  <path d="M398 245 C520 210 680 210 802 245" class="lane"/>
+  <path d="M398 275 C520 310 680 310 802 275" class="lane"/>
+  <path d="M398 305 C520 365 680 365 802 305" class="lane"/>
+  <text x="600" y="405" text-anchor="middle" class="text label">高速差分 lane：阻抗、长度匹配、极性、AC 耦合按器件手册落实</text>
+  <path d="M600 220 L600 520 L270 520 L270 355" class="clock"/>
+  <path d="M600 220 L600 520 L930 520 L930 355" class="clock"/>
+  <text x="600" y="552" text-anchor="middle" class="text label">同源参考时钟和 SYSREF 让 FPGA 与转换器看到一致的多帧边界</text>
+  <path d="M805 355 C690 455 510 455 395 355" class="ctrl"/>
+  <text x="600" y="455" text-anchor="middle" class="text label">SYNC~ / SYNCINB：接收端反馈链路同步状态</text>
+  <rect x="140" y="455" width="250" height="70" rx="8" class="box"/>
+  <text x="265" y="499" text-anchor="middle" class="text small">复位、AXI-Lite、状态 LED</text>
+  <rect x="810" y="455" width="250" height="70" rx="8" class="box"/>
+  <text x="935" y="499" text-anchor="middle" class="text small">SPI 初始化、采样时钟</text>
+</svg>

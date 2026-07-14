@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="560" viewBox="0 0 1200 560" role="img" aria-labelledby="title desc">
+  <title id="title">JESD204B 建链顺序</title>
+  <desc id="desc">CGS、ILAS、用户数据三个阶段和 SYNC SYSREF 的关系</desc>
+  <style>
+    .bg{fill:#fbfcfd}.axis{stroke:#34495e;stroke-width:3}.box{fill:#fff;stroke:#bcc8d6;stroke-width:2}.cgs{fill:#e9f5ff}.ilas{fill:#fff4df}.data{fill:#eaf7ee}.pulse{stroke:#d04a36;stroke-width:4;fill:none}.sys{stroke:#7a4fd1;stroke-width:4;fill:none;stroke-dasharray:9 7}.text{font-family:Arial,"Microsoft YaHei",sans-serif;fill:#1f2d3d}.mid{font-size:28px;font-weight:700}.small{font-size:21px}.label{font-size:19px}
+  </style>
+  <rect class="bg" width="1200" height="560"/>
+  <text x="600" y="54" text-anchor="middle" class="text mid">JESD204B 建链：先对齐字符，再交换参数，最后进样本数据</text>
+  <line x1="100" y1="185" x2="1100" y2="185" class="axis"/>
+  <polygon points="1100,185 1078,174 1078,196" fill="#34495e"/>
+  <rect x="120" y="120" width="285" height="130" rx="8" class="box cgs"/>
+  <text x="262" y="162" text-anchor="middle" class="text mid">CGS</text>
+  <text x="262" y="202" text-anchor="middle" class="text small">Code Group Sync</text>
+  <text x="262" y="232" text-anchor="middle" class="text label">发送 K28.5，对齐 8b/10b 字符</text>
+  <rect x="458" y="120" width="285" height="130" rx="8" class="box ilas"/>
+  <text x="600" y="162" text-anchor="middle" class="text mid">ILAS</text>
+  <text x="600" y="202" text-anchor="middle" class="text small">Initial Lane Alignment</text>
+  <text x="600" y="232" text-anchor="middle" class="text label">交换 DID/BID/L/M/F/K/S 等参数</text>
+  <rect x="796" y="120" width="285" height="130" rx="8" class="box data"/>
+  <text x="938" y="162" text-anchor="middle" class="text mid">DATA</text>
+  <text x="938" y="202" text-anchor="middle" class="text small">User Sample Stream</text>
+  <text x="938" y="232" text-anchor="middle" class="text label">进入连续样本流和错误监控</text>
+  <text x="105" y="332" class="text small">SYNC~</text>
+  <path d="M200 315 L340 315 L340 372 L455 372 L455 315 L1080 315" class="pulse"/>
+  <text x="340" y="404" text-anchor="middle" class="text label">接收端拉低：要求同步</text>
+  <text x="515" y="304" class="text label">释放后进入 ILAS</text>
+  <text x="105" y="470" class="text small">SYSREF</text>
+  <path d="M205 455 L320 455 L320 415 L340 415 L340 455 L620 455 L620 415 L640 415 L640 455 L900 455 L900 415 L920 415 L920 455 L1080 455" class="sys"/>
+  <text x="720" y="503" text-anchor="middle" class="text label">Subclass 1：用 SYSREF 重置或对齐 LMFC 边界</text>
+</svg>

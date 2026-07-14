@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="700" viewBox="0 0 1200 700" role="img" aria-labelledby="title desc">
+  <title id="title">JESD204B AXI-Lite 配置寄存器</title>
+  <desc id="desc">常用配置寄存器地址和 PH1A400 示例写入值</desc>
+  <style>
+    .bg{fill:#fbfcfe}.head{fill:#17324d}.row1{fill:#fff}.row2{fill:#f2f6fa}.stroke{stroke:#cad3de;stroke-width:1}.text{font-family:Arial,"Microsoft YaHei",sans-serif;fill:#1f2d3d}.white{fill:#fff}.mid{font-size:28px;font-weight:700}.small{font-size:20px}.mono{font-family:Consolas,"Microsoft YaHei",monospace;font-size:19px;fill:#172b3a}
+  </style>
+  <rect class="bg" width="1200" height="700"/>
+  <text x="600" y="54" text-anchor="middle" class="text mid">AXI-Lite 配置抓住两类：链路行为寄存器 + ILAS 参数寄存器</text>
+  <rect x="90" y="95" width="1020" height="58" class="head"/>
+  <text x="135" y="131" class="white small">地址</text>
+  <text x="300" y="131" class="white small">作用</text>
+  <text x="650" y="131" class="white small">PH1A400 示例</text>
+  <text x="900" y="131" class="white small">注意点</text>
+  <g class="stroke">
+    <rect x="90" y="153" width="1020" height="55" class="row1"/>
+    <rect x="90" y="208" width="1020" height="55" class="row2"/>
+    <rect x="90" y="263" width="1020" height="55" class="row1"/>
+    <rect x="90" y="318" width="1020" height="55" class="row2"/>
+    <rect x="90" y="373" width="1020" height="55" class="row1"/>
+    <rect x="90" y="428" width="1020" height="55" class="row2"/>
+    <rect x="90" y="483" width="1020" height="55" class="row1"/>
+    <rect x="90" y="538" width="1020" height="55" class="row2"/>
+  </g>
+  <text x="135" y="187" class="mono">0x004</text><text x="300" y="187" class="text small">Lane sync / ILA support</text><text x="650" y="187" class="mono">SYNC_SUPPORT = 1</text><text x="900" y="187" class="text small">先打开链路同步能力</text>
+  <text x="135" y="242" class="mono">0x008</text><text x="300" y="242" class="text small">Scrambling enable</text><text x="650" y="242" class="mono">SRAMBLING_EN = 1</text><text x="900" y="242" class="text small">两端必须一致</text>
+  <text x="135" y="297" class="mono">0x00C</text><text x="300" y="297" class="text small">SYSREF mode</text><text x="650" y="297" class="mono">SYSREF_ALWAYS = 1</text><text x="900" y="297" class="text small">决定 LMFC 重对齐策略</text>
+  <text x="135" y="352" class="mono">0x010</text><text x="300" y="352" class="text small">Test mode</text><text x="650" y="352" class="mono">TEST_MODE = 0</text><text x="900" y="352" class="text small">正常工作或测试模式</text>
+  <text x="135" y="407" class="mono">0x014</text><text x="300" y="407" class="text small">F: Octets per frame</text><text x="650" y="407" class="mono">F = 3</text><text x="900" y="407" class="text small">来自链路参数</text>
+  <text x="135" y="462" class="mono">0x018</text><text x="300" y="462" class="text small">K: Frames per multiframe</text><text x="650" y="462" class="mono">K = 31</text><text x="900" y="462" class="text small">寄存器通常写 K-1</text>
+  <text x="135" y="517" class="mono">0x020</text><text x="300" y="517" class="text small">RX buffer delay / ILA count</text><text x="650" y="517" class="mono">BUFFER_DELAY = 20</text><text x="900" y="517" class="text small">RX 延迟调试关键</text>
+  <text x="135" y="572" class="mono">0x024</text><text x="300" y="572" class="text small">Error reporting</text><text x="650" y="572" class="mono">counters = 0</text><text x="900" y="572" class="text small">调试时可打开计数</text>
+  <text x="600" y="645" text-anchor="middle" class="text small">TX 还需写 0x400/0x404/0x408/0x40C 放入 ILAS 配置字段：DID、BID、L、M、N、N'、S、Subclass、JESDV 等。</text>
+</svg>
